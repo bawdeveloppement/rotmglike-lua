@@ -38,18 +38,30 @@ local charInterface = {
     show = false
 }
 
+local items = {
+    { name = "sword", rarity = 5 },
+    { name = "sword", rarity = 5 },
+    { name = "sword", rarity = 4 },
+    { name = "sword", rarity = 2 },
+    { name = "sword", rarity = 1 },
+    { name = "health_potion", rarity = 0 },
+    { name = "health_potion", rarity = 0 }
+}
+
 local bags = {};
 
 local bagTypes = {
     {
+        name = "white",
         texture = "",
         color = { 255, 255, 255, 255},
         itemRarity = 5
     },
     {
+        name = "purple",
         texture = "",
         color = { 133, 0, 133, 255},
-        itemRarity = 5
+        itemRarity = 4
     }
 }
 
@@ -183,7 +195,17 @@ function dropBag (type, x, y)
         x = x,
         y = y,
         type = bagTypes[type],
+        items = {
+            
+        }
     }
+
+    for i, v in ipairs(items) do
+        if items[i].rarity == 5 then
+            newBag.items[#newBag.items + 1] = items[i]
+        end
+    end
+
     table.insert(bags, #bags, newBag)
 end
 
@@ -238,16 +260,19 @@ local plus = {
     { x = 25, y = 485, name = "force" },
 }
 
+function bagsUpdate ()
+
+end
+
 local dpsTimer = 1
 local maxDps = 0
-
 local mx, my = 0, 0
 function love.update ( dt )
     mx, my = love.mouse.getPosition()
     playerUpdate();
     projectilesUpdate();
     monstersUpdate();
-
+    bagsUpdate();
     -- Reset DPS : 
     dpsTimer = dpsTimer - dt
     if dpsTimer <= 0 then
@@ -271,6 +296,11 @@ function drawPlus ( index )
         love.graphics.rectangle("fill", plus[index].x - 8, plus[index].y - 2, 16, 4)
         love.graphics.setColor(255,255,255,255)
     end
+end
+
+function drawBagInterface ( bagIndex )
+    local width = #bags[bagIndex].items * 42
+    love.graphics.rectangle("line", bags[bagIndex].x, bags[bagIndex].y, width, width)
 end
 
 function love.draw ()
@@ -304,8 +334,13 @@ function love.draw ()
         love.graphics.setColor(bags[i].type.color)
         love.graphics.rectangle("fill", bags[i].x, bags[i].y, 16, 16)
         love.graphics.setColor(255,255,255,255)
+        if bags[i].x + 16 > player.x and bags[i].x < player.x  + player.w 
+        and bags[i].y + 16 > player.y and bags[i].y < player.y + player.h then
+            drawBagInterface(i)
+        end    
     end
     
+
     -- Interface drawing
     -- Quick Item Interface
     love.graphics.rectangle("line", 250, 600 - 110, 32, 32)
