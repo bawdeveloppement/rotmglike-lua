@@ -1,7 +1,6 @@
 _G.baseDir      = (...):match("(.-)[^%.]+$")
 _G.engineDir      = _G.baseDir .. "engine."
 
-
 local player = {
     x = 0,
     y = 0,
@@ -50,16 +49,6 @@ function love.load ( config )
     end
 end
 
-local bags = {};
-
-local bagTypes = {
-    white = {
-        texture = "",
-        color = "white",
-        itemRarity = 5
-    }
-}
-
 function createMonster(x, y, damage)
     local rx = love.math.random(0, 800)
     return {
@@ -105,8 +94,10 @@ function monstersUpdate()
         -- body
         monsters[i].velocity.x = velx
         monsters[i].velocity.y = vely
-        monsters[i].x = monsters[i].x - monsters[i].velocity.x * 1
-        monsters[i].y = monsters[i].y - monsters[i].velocity.y * 1
+        if monsters[i].isInCollision == false then 
+            monsters[i].x = monsters[i].x - monsters[i].velocity.x * 1
+            monsters[i].y = monsters[i].y - monsters[i].velocity.y * 1
+        end
     end
     for i, v in ipairs(monsters) do
         monsters[i].attack.cooldown = monsters[i].attack.cooldown - 1;
@@ -320,9 +311,11 @@ function love.draw ()
         drawPlus(7)
         love.graphics.print("Force : "..player.stats.force, 40, 478)
         drawPlus(8)
+    else
+        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.print("C", 16, 600-32)
+        love.graphics.rectangle("line", 10, 600 - 32 - 10, 32, 32)
     end
-    love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 10, 600 - 32 - 10, 32, 32)
     -- BAG
     if bagInterface.show then
         -- Bag Icon
@@ -337,10 +330,14 @@ function love.draw ()
                 love.graphics.rectangle("line", 20 + (10 + 32) * (x - 1), (600 - 94 - 210 ) + 42 * y, 32, 32)
             end
         end
+        love.graphics.print("Bag : "..#player.bag.." items.", 10, 600-52-240)
+    else
+        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.print("B", 64, 600-32)
+        love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
     end
-    love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
 end
+
 local lshift = false
 function love.keypressed (key)
    if key == "lshift" then lshift = true end
