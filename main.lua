@@ -273,6 +273,7 @@ function love.update ( dt )
     projectilesUpdate();
     monstersUpdate();
     bagsUpdate();
+    
     -- Reset DPS : 
     dpsTimer = dpsTimer - dt
     if dpsTimer <= 0 then
