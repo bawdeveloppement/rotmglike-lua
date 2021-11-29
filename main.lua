@@ -1,6 +1,6 @@
--- EXP -> LEVEL UP -> POINT DE COMPETENCES 
--- INTERFACE -> BAGS, CHARACTERISTIC
--- BONUS: PETS / MOUNTS
+_G.baseDir      = (...):match("(.-)[^%.]+$")
+_G.engineDir      = _G.baseDir .. "engine."
+
 
 local player = {
     x = 0,
@@ -9,9 +9,21 @@ local player = {
     h = 64,
     mana = 100,
     speed = 5,
+    level = 1,
     exp = 10,
     maxExp = 100,
     life = 100,
+    statPoints = 0,
+    stats = {
+        max_life = 100,
+        max_mana = 100,
+        attack = 1,
+        wisdom = 1,
+        force = 1,
+        dexterity = 1,
+        speed = 1,
+        defense = 1
+    },
     attack = {
         cooldown = 100,
         damage = 10
@@ -35,7 +47,6 @@ function love.load ( config )
     config.title = "RPG"
     for k, v in pairs(love.audio) do
         -- body
-        print(k)
     end
 end
 
@@ -147,6 +158,13 @@ function playerUpdate ()
     if s then
         player.y = player.y + player.speed;
     end
+
+    local rest = player.exp - player.maxExp
+    if rest >= 0 then
+        player.exp = rest 
+        player.level = player.level + 1;
+        player.statPoints = player.statPoints + 1;
+    end
 end
 
 function dropBag (type, x, y)
@@ -193,11 +211,43 @@ function projectilesUpdate ()
     end
 end
 
+local plus = {
+    { x = 25, y = 345, name = "max_life" },
+    { x = 25, y = 365, name = "max_mana" },
+    { x = 25, y = 385, name = "attack" },
+    { x = 25, y = 405, name = "defense" },
+    { x = 25, y = 425, name = "wisdom" },
+    { x = 25, y = 445, name = "dexterity" },
+    { x = 25, y = 465, name = "speed" },
+    { x = 25, y = 485, name = "force" },
+}
+
+local mx, my = 0, 0
 function love.update ( dt )
+    mx, my = love.mouse.getPosition()
     playerUpdate();
     projectilesUpdate();
     monstersUpdate();
+
 end
+
+
+function updatePlus ()
+end
+
+function drawPlus ( index )
+    love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
+    if player.statPoints > 0 then
+        if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
+            love.graphics.setColor(255,255,0,255) 
+        end
+        love.graphics.rectangle("fill", plus[index].x - 2, plus[index].y - 8, 4, 16)
+        love.graphics.rectangle("fill", plus[index].x - 8, plus[index].y - 2, 16, 4)
+        love.graphics.setColor(255,255,255,255)
+    end
+end
+
+
 
 function love.draw ()
     love.graphics.print("PlayerLife : " ..player.life, 0, 0)
@@ -245,12 +295,34 @@ function love.draw ()
 
     -- PlAYER
     if charInterface.show then
+        -- Button
         love.graphics.setColor(128, 0, 128, 255);
         love.graphics.rectangle("fill", 10, 600 - 32 - 10, 32, 32)
+
+        -- INTERFACE
+        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.rectangle("line", 10, 600 - 272, 220, 220);
+        love.graphics.print("Player stats", 10, 308)
+        
+        love.graphics.print("Max life : "..player.stats.max_life, 40, 338)
+        drawPlus(1)
+        love.graphics.print("Max mana : "..player.stats.max_mana, 40, 358)
+        drawPlus(2)
+        love.graphics.print("Attack : "..player.stats.attack, 40, 378)
+        drawPlus(3)
+        love.graphics.print("Defense : "..player.stats.defense, 40, 398)
+        drawPlus(4)
+        love.graphics.print("Wisdom : "..player.stats.wisdom, 40, 418)
+        drawPlus(5)
+        love.graphics.print("Dexterity : "..player.stats.dexterity, 40, 438)
+        drawPlus(6)
+        love.graphics.print("Speed : "..player.stats.speed, 40, 458)
+        drawPlus(7)
+        love.graphics.print("Force : "..player.stats.force, 40, 478)
+        drawPlus(8)
     end
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", 10, 600 - 32 - 10, 32, 32)
-
     -- BAG
     if bagInterface.show then
         -- Bag Icon
@@ -268,13 +340,14 @@ function love.draw ()
     end
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
-
 end
-
+local lshift = false
 function love.keypressed (key)
+   if key == "lshift" then lshift = true end
     if key == "b" then 
         if bagInterface.show == false then
             bagInterface.show = true
+            charInterface.show = false
         else
             bagInterface.show = false
         end
@@ -284,6 +357,29 @@ function love.keypressed (key)
             charInterface.show = false
         else
             charInterface.show = true
+            bagInterface.show = false
+        end
+    end
+end
+
+function love.keyrelease (key)
+   if key == "lshift" then lshift = false end
+end
+
+function love.mousepressed (mx, my, button)
+    if player.statPoints > 0 then
+        for i, v in ipairs(plus) do
+            if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
+                if button == 1 then
+                    if lshift then
+                        player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints;
+                        player.statPoints = 0;
+                    else
+                        player.stats[plus[i].name] = player.stats[plus[i].name] + 1;
+                        player.statPoints = player.statPoints - 1;
+                    end
+                end
+            end
         end
     end
 end
