@@ -12,7 +12,7 @@ local player = {
     exp = 10,
     maxExp = 100,
     life = 100,
-    statPoints = 0,
+    statPoints = 10,
     stats = {
         max_life = 100,
         max_mana = 100,
@@ -24,7 +24,7 @@ local player = {
         defense = 1
     },
     attack = {
-        cooldown = 100,
+        cooldown = 20,
         damage = 10
     },
     bag = {}
@@ -38,9 +38,25 @@ local charInterface = {
     show = false
 }
 
+local bags = {};
+
+local bagTypes = {
+    {
+        texture = "",
+        color = { 255, 255, 255, 255},
+        itemRarity = 5
+    },
+    {
+        texture = "",
+        color = { 133, 0, 133, 255},
+        itemRarity = 5
+    }
+}
+
 local monsters = {}
 local projectiles = {}
 
+local levelUpSound = love.audio.newSource("sfx/level_up.mp3", "static")
 local windowWidth, windowHeight, t = love.window.getMode(); 
 function love.load ( config )
     config.title = "RPG"
@@ -106,7 +122,9 @@ function monstersUpdate()
         then
             monsters[i].isInCollision = true
             if monsters[i].attack.cooldown <= 0 then
-                player.life = player.life - monsters[i].attack.damage;
+                if player.life > 0 then
+                    player.life = player.life - monsters[i].attack.damage;
+                end
                 monsters[i].attack.cooldown = 100
             end
         else
@@ -135,26 +153,28 @@ function playerUpdate ()
     local d = love.keyboard.isDown("d");
     local s = love.keyboard.isDown("s");
     if z then
-        player.y = player.y - player.speed;
+        player.y = player.y - (player.speed + player.stats.speed * 0.1);
     end
 
     if q then
-        player.x = player.x - player.speed;
+        player.x = player.x - (player.speed + player.stats.speed * 0.1);
     end
 
     if d then
-        player.x = player.x + player.speed;
+        player.x = player.x + (player.speed + player.stats.speed * 0.1);
     end
 
     if s then
-        player.y = player.y + player.speed;
+        player.y = player.y + (player.speed + player.stats.speed * 0.1);
     end
 
-    local rest = player.exp - player.maxExp
-    if rest >= 0 then
-        player.exp = rest 
+    local restExp = player.exp - player.maxExp
+    if restExp >= 0 then
+        player.exp = restExp 
         player.level = player.level + 1;
+        player.life = player.stats.max_life;
         player.statPoints = player.statPoints + 1;
+        levelUpSound.play(levelUpSound)
     end
 end
 
@@ -162,17 +182,21 @@ function dropBag (type, x, y)
     local newBag = {
         x = x,
         y = y,
-        type = type,
+        type = bagTypes[type],
     }
     table.insert(bags, #bags, newBag)
 end
 
+local dps = 0
+
 function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local x, y = love.mouse.getPosition();
-    if player.attack.cooldown == 0 and mouseIsDown then
+    if player.attack.cooldown <= 0 and mouseIsDown then
+
         table.insert(projectiles, #projectiles + 1, createProjectiles(x, y))
-        player.attack.cooldown = 20
+        player.attack.cooldown = 20 - player.stats.dexterity * 0.5
+        print(player.attack.cooldown)
     end
     if player.attack.cooldown > 0 then
         player.attack.cooldown = player.attack.cooldown - 1;
@@ -189,12 +213,13 @@ function projectilesUpdate ()
             and monsters[mi].y + monsters[mi].h >= projectiles[bi].y and monsters[mi].y <= projectiles[bi].y + projectiles[bi].h
             then
                 monsters[mi].life = monsters[mi].life - projectiles[bi].damage;
+                dps = dps + projectiles[bi].damage;
                 monsters[mi].music.hitSound.play(monsters[mi].music.hitSound);
                 table.remove(projectiles, bi);
                 if monsters[mi].life <= 0 then
                     monsters[mi].music.deathSound.play(monsters[mi].music.deathSound);
                     player.exp = player.exp + monsters[mi].reward.exp
-                    dropBag(player.x, player.y)
+                    dropBag(math.random(1, 2), monsters[mi].x, monsters[mi].y)
                     table.remove(monsters, mi)
                 end
             end
@@ -213,6 +238,9 @@ local plus = {
     { x = 25, y = 485, name = "force" },
 }
 
+local dpsTimer = 1
+local maxDps = 0
+
 local mx, my = 0, 0
 function love.update ( dt )
     mx, my = love.mouse.getPosition()
@@ -220,11 +248,18 @@ function love.update ( dt )
     projectilesUpdate();
     monstersUpdate();
 
+    -- Reset DPS : 
+    dpsTimer = dpsTimer - dt
+    if dpsTimer <= 0 then
+        dps = 0
+        local leftover = math.abs(dpsTimer)
+        dpsTimer = 1 - leftover
+    end
+
+    -- Get Max DPS :
+    if dps > maxDps then maxDps = dps end
 end
 
-
-function updatePlus ()
-end
 
 function drawPlus ( index )
     love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
@@ -238,18 +273,15 @@ function drawPlus ( index )
     end
 end
 
-
-
 function love.draw ()
-    love.graphics.print("PlayerLife : " ..player.life, 0, 0)
-    love.graphics.print("PlayerAttackCooldown : " ..player.attack.cooldown, 0, 10)
-    love.graphics.print("NextMonster : " ..spawnMonsterTimer, 650, 0)
-
-    -- Player drawing
-    love.graphics.setColor(255,255,255,255);
-    love.graphics.rectangle("line", player.x, player.y - 32, player.w, player.w / 4)
-    love.graphics.setColor(0,255,200,255);
-    love.graphics.rectangle("fill", player.x, player.y - 32, player.w * ( player.life / 100 ), player.w / 4)
+    if p == true then
+        love.graphics.print("PlayerLife : " ..player.life, 0, 0)
+        love.graphics.print("PlayerAttackCooldown : " ..player.attack.cooldown, 0, 10)
+        love.graphics.print("NextMonster : " ..spawnMonsterTimer, 650, 0)
+        love.graphics.print("DamagePerSecond : "..dps, 0, 20)
+        love.graphics.print("Max dps : "..maxDps, 0, 30)
+    end
+    -- Player body drawing
     love.graphics.setColor(255,255,255,255);
     love.graphics.rectangle("fill", player.x, player.y, player.w, player.h)
 
@@ -267,7 +299,22 @@ function love.draw ()
         love.graphics.rectangle("fill", monsters[i].x, monsters[i].y, monsters[i].w, monsters[i].h);
     end
 
+    -- Draw bags
+    for i, v in ipairs(bags) do
+        love.graphics.setColor(bags[i].type.color)
+        love.graphics.rectangle("fill", bags[i].x, bags[i].y, 16, 16)
+        love.graphics.setColor(255,255,255,255)
+    end
+    
     -- Interface drawing
+    -- Quick Item Interface
+    love.graphics.rectangle("line", 250, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 292, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 334, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 376, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 418, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 460, 600 - 110, 32, 32)
+    love.graphics.rectangle("line", 502, 600 - 110, 32, 32)
     -- Life
     love.graphics.setColor(255, 0, 0, 255);
     love.graphics.rectangle("fill", 800 / 2 - 150, 600 - 68, 300 * ( player.life / 100 ), 32)
@@ -283,6 +330,7 @@ function love.draw ()
     love.graphics.rectangle("fill", 800 / 2 - 150, 600 - 26, 300 * ( player.exp / player.maxExp ), 16)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", 800 / 2 - 150, 600 - 26, 300, 16)
+
 
     -- PlAYER
     if charInterface.show then
@@ -357,10 +405,14 @@ function love.keypressed (key)
             bagInterface.show = false
         end
     end
+    if key == "p" then
+        p = true;
+    end
 end
 
 function love.keyrelease (key)
    if key == "lshift" then lshift = false end
+   if key == "p" then p = false end
 end
 
 function love.mousepressed (mx, my, button)
