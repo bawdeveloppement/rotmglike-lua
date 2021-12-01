@@ -1,15 +1,12 @@
-local Component = require("engine.middleclass")("Component")
+local Component = require(_G.engineDir .. "middleclass")("Component")
 
-Component.static.entities = {}
-
-function Component:initialize( name, data )
-    self.name = name
+function Component:initialize( entity )
+    self.entity = entity
+    self.active = true
 end
 
-function Component:update ()
-end
-
-function Component:draw ()
+function Component:setActive ( active )
+    self.active = active
 end
 
 return Component

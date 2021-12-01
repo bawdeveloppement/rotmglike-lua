@@ -395,6 +395,14 @@ function drawBagInterface ( bagIndex )
     end
 end
 
+local interfaces = {}
+
+function interfaceUpdate ()
+end
+
+function interfaceDraw ()
+end
+
 function love.draw ()
     if p == true then
         love.graphics.print("PlayerLife : " ..player.life, 0, 0)
