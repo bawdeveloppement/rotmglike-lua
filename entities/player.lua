@@ -1,9 +1,18 @@
 -- Components
-local Sprite = require(_G.engineDir.."components.sprite")
-local Transform = require(_G.engineDir.."components.transform")
+local Entity = require(_G.engineDir .. "entity")
+local TransformComponent = require(_G.engineDir.."components.transform")
+
+local MoveComponent = require(_G.baseDir.."components.move")
+local CharacterComponent = require(_G.baseDir.."components.character")
+
 
 local Player = require(_G.engineDir .. "middleclass")("Player", Entity)
 
-function Player:initialize ()
-    self.initialize()
-end
+return Entity:new(
+    "Player",
+    {
+        { class = TransformComponent },
+        { class = MoveComponent  },
+        { class = CharacterComponent}
+    }
+)

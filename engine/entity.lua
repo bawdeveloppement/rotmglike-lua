@@ -20,9 +20,8 @@ function Entity:getComponent ( name )
 end
 
 function Entity:addComponent ( component )
-    if self:getComponent( component.name ) == nil then
-        local instancied = component:new(self)
-        self.components[component.name] = instancied
+    if self:getComponent( component.class.name ) == nil then
+        self.components[component.class.name] = component.class:new(self, component.data)
     else 
         print(component.name .. " is already used.")
     end
