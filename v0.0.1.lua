@@ -3,6 +3,7 @@ _G.engineDir      = _G.baseDir .. "engine."
 
 love.graphics.setDefaultFilter("nearest")
 
+
 local player = {
     x = 0,
     y = 0,
@@ -19,7 +20,6 @@ local player = {
         current = "",
         cooldown = 20
     },
-    isDeath = false,
     stats = {
         max_life = 100,
         max_mana = 100,
@@ -29,10 +29,6 @@ local player = {
         dexterity = 1,
         speed = 1,
         defense = 1
-    },
-    sound = {
-        death = love.audio.newSource("assets/sfx/player/knight_death.mp3", "static"),
-        hit = love.audio.newSource("assets/sfx/player/knight_hit.mp3", "static")
     },
     attack = {
         cooldown = 20,
@@ -222,7 +218,6 @@ function monstersUpdate()
             if monsters[i].attack.cooldown <= 0 then
                 if player.life > 0 then
                     player.life = player.life - monsters[i].attack.damage;
-                    player.sound.hit.play(player.sound.hit)
                 end
                 monsters[i].attack.cooldown = 100
             end
@@ -280,20 +275,16 @@ function playerUpdate ()
     -- Level up
     local restExp = player.exp - player.maxExp
     if restExp >= 0 then
-        player.exp = restExp
+        player.exp = restExp 
         player.level = player.level + 1;
         player.life = player.stats.max_life;
         player.statPoints = player.statPoints + 1;
         levelUpSound.play(levelUpSound)
     end
-
-    if player.life < 1 then
-        -- player.sound.death.play(player.sound.death)
-    end
 end
 
 local dps = 0
-
+local autoAttack = true
 function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local mx, my = love.mouse.getPosition();
@@ -355,7 +346,6 @@ local plus = {
 local dpsTimer = 1
 local maxDps = 0
 local mx, my = 0, 0
-
 function love.update ( dt )
     mx, my = love.mouse.getPosition()
     playerUpdate();
@@ -374,6 +364,7 @@ function love.update ( dt )
     if dps > maxDps then maxDps = dps end
 end
 
+
 function drawPlus ( index )
     love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
     if player.statPoints > 0 then
@@ -386,16 +377,12 @@ function drawPlus ( index )
     end
 end
 
-local mouseButtonPressed = false
-local itemInMouse = nil
-
 function drawBagInterface ( bagIndex )
     local width = #bags[bagIndex].loots * 40
     local height = (#bags[bagIndex].loots % 2) * 42 + 42
     love.graphics.rectangle("line", bags[bagIndex].x, bags[bagIndex].y, width, height)
     for i = 1, #bags[bagIndex].loots, 1 do
-        bags[bagIndex].isShown = true
-        if mx > bags[bagIndex].x + (i - 1) * 32 + 4 * i and mx < bags[bagIndex].x + (32 * i) + 4 * i
+        if mx > bags[bagIndex].x + 4 * i and mx < (bags[bagIndex].x + (i - 1) * 32 + 4 * i)
         and my > bags[bagIndex].y and my < bags[bagIndex].y + 32
         then
             love.graphics.rectangle("fill", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
@@ -403,7 +390,6 @@ function drawBagInterface ( bagIndex )
             love.graphics.rectangle("line", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
         end
         if bags[bagIndex].loots[i].texture ~= nil then
-            local quad = love.graphics.newQuad( bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32, 20, 20)
             love.graphics.draw(bags[bagIndex].loots[i].texture, bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 0, 1, 1, 0, 0)
         end
     end
@@ -418,9 +404,6 @@ function interfaceDraw ()
 end
 
 function love.draw ()
-    if player.isDeath then
-        love.graphics.print("DEAD", 800/2, 600/2)
-    end
     if p == true then
         love.graphics.print("PlayerLife : " ..player.life, 0, 0)
         love.graphics.print("PlayerAttackCooldown : " ..player.attack.cooldown, 0, 10)
@@ -447,11 +430,10 @@ function love.draw ()
     end
 
     -- Draw bags
-    local moreShorter = nil
     for k, bag in pairs(bags) do
         love.graphics.setColor(bag.color[1] / 255, bag.color[2] / 255, bag.color[3] / 255, bag.color[4] / 255)
         love.graphics.rectangle("fill", bag.x, bag.y, 16, 16)
-        love.graphics.setColor(1,1,1,1)
+        love.graphics.setColor(255,255,255,255)
         if bag.x + 16 > player.x and bag.x < player.x  + player.w 
         and bag.y + 16 > player.y and bag.y < player.y + player.h then
             drawBagInterface(k)

@@ -22,9 +22,10 @@ end
 function Entity:addComponent ( component )
     if self:getComponent( component.class.name ) == nil then
         self.components[component.class.name] = component.class:new(self, component.data)
-    else 
+    else
         print(component.name .. " is already used.")
     end
+    print(self.components)
 end
 
 function Entity:removeComponent ( name )
@@ -36,7 +37,7 @@ function Entity:removeComponent ( name )
 end
 
 function Entity:update ()
-    if self.components ~= nil or #self.components > 0 then
+    if self.components ~= nil then
         for k, v in pairs (self.components) do
             if v.update ~= nil then
                 v:update()
@@ -46,9 +47,11 @@ function Entity:update ()
 end
 
 function Entity:draw ()
-    for k, v in pairs (self.components) do
-        if v.draw ~= nil then
-            v:draw()
+    if self.components ~= nil then
+        for k, v in pairs (self.components) do
+            if v.draw ~= nil then
+                v:draw()
+            end
         end
     end
 end
