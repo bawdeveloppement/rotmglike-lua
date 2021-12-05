@@ -21,9 +21,9 @@ end
 
 function Entity:addComponent ( component )
     if self:getComponent( component.class.name ) == nil then
-        self.components[component.class.name] = component.class:new(self, component.data)
+        self.components[component.class.name] = component.class:new(self, component.data or {})
     else
-        print(component.name .. " is already used.")
+        print(component.class.name .. " is already used.")
     end
     print(self.components)
 end

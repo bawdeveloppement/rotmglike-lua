@@ -37,10 +37,4 @@ function MoveComponent:update()
     end
 end
 
-function MoveComponent:draw()
-    local transform = self.entity:getComponent("Transform")
-
-    love.graphics.rectangle("fill", transform.position.x, transform.position.y, 32, 32)
-end
-
 return MoveComponent
