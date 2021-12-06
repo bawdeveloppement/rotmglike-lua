@@ -8,6 +8,8 @@ local Nexus = require(_G.libDir .. "middleclass")("Nexus", World);
 
 function Nexus:initialize()
     World.initialize(self);
+
+    self:addEntity()
 end
 
 return Nexus
