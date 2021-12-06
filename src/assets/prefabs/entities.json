@@ -1,0 +1,16 @@
+{
+    "Snow Bat Mama": {
+        "components": {
+            "Character": {
+                "attack": 8,
+                "defense": 10
+            },
+            "Monster": {
+
+            },
+            "Projectile": {
+
+            }
+        }
+    }
+}

@@ -5,7 +5,6 @@ local TransformComponent = require(_G.engineDir.."components.transform")
 local DrawableRectComponent = require(_G.srcDir.."components.drawablerect")
 local BagUIComponent = require(_G.srcDir.."components.bagui")
 
-
 return Entity:new(
     "Bag",
     {

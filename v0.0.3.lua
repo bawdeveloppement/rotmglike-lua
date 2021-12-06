@@ -295,7 +295,6 @@ end
 
 local dps = 0
 local autoAttack = false
-
 local function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local mx, my = love.mouse.getPosition();
@@ -358,6 +357,23 @@ local dpsTimer = 1
 local maxDps = 0
 local mx, my = 0, 0
 
+function love.update ( dt )
+    mx, my = love.mouse.getPosition()
+    playerUpdate();
+    projectilesUpdate();
+    monstersUpdate();
+    
+    -- Reset DPS : 
+    dpsTimer = dpsTimer - dt
+    if dpsTimer <= 0 then
+        dps = 0
+        local leftover = math.abs(dpsTimer)
+        dpsTimer = 1 - leftover
+    end
+
+    -- Get Max DPS :
+    if dps > maxDps then maxDps = dps end
+end
 
 local function drawPlus ( index )
     love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
@@ -394,27 +410,12 @@ local function drawBagInterface ( bagIndex )
     end
 end
 
-local lshift = false
-local p = false
---#region Callbacks
+local interfaces = {}
 
+local function interfaceUpdate ()
+end
 
-function love.update ( dt )
-    mx, my = love.mouse.getPosition()
-    playerUpdate();
-    projectilesUpdate();
-    monstersUpdate();
-    
-    -- Reset DPS : 
-    dpsTimer = dpsTimer - dt
-    if dpsTimer <= 0 then
-        dps = 0
-        local leftover = math.abs(dpsTimer)
-        dpsTimer = 1 - leftover
-    end
-
-    -- Get Max DPS :
-    if dps > maxDps then maxDps = dps end
+local function interfaceDraw ()
 end
 
 function love.draw ()
@@ -541,6 +542,7 @@ function love.draw ()
     end
 end
 
+local lshift = false
 function love.keypressed (key)
    if key == "lshift" then lshift = true end
     if key == "b" then 
@@ -563,7 +565,7 @@ function love.keypressed (key)
         local p = true;
     end
 end
-
+local p = false
 function love.keyrelease (key)
    if key == "lshift" then lshift = false end
    if key == "p" then p = false end
@@ -594,5 +596,3 @@ function love.mousepressed (mx, my, button)
         end
     end
 end
---#endregion
-
