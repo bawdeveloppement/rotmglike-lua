@@ -1,7 +1,7 @@
-local Component = require(_G.engineDir .. "component")
-local Tileset = require(_G.engineDir.."middleclass")("Tileset", Component);
+local Component = require(_G.libDir .. "component")
+local Tileset = require(_G.libDir.."middleclass")("Tileset", Component);
 
-local Vector2 = require(_G.engineDir.."utils.Vector2");
+local Vector2 = require(_G.libDir.."utils.Vector2");
 
 function Tileset:initialize( parent , data)
     Component.initialize(self, parent)

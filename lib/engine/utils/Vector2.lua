@@ -1,4 +1,4 @@
-local Vector2 = require(_G.engineDir .. "middleclass")("Vector2");
+local Vector2 = require(_G.libDir .. "middleclass")("Vector2");
 
 function Vector2:initialize(x, y)
     self.x, self.y = x or 0, y or 0

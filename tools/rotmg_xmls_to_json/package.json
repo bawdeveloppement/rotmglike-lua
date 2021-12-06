@@ -1,0 +1,24 @@
+{
+  "name": "rotmg_xmls_to_json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">12.8.6"
+  },
+  "author": {
+    "name": "Hermann Vincent",
+    "email": "vincent@hermann.life",
+    "url": "https://github.com/bawdevelopppement"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  }
+}

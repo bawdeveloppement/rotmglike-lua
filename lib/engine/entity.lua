@@ -1,4 +1,4 @@
-local Entity = require("engine.middleclass")("Entity")
+local Entity = require(_G.libDir .. "middleclass")("Entity")
 
 Entity.static.entities = {}
 
@@ -6,8 +6,10 @@ function Entity:initialize( name, cmpts )
     self.name = name
     self.components = {}
     
-    for component in ipairs(cmpts) do
-        self:addComponent(cmpts[component])
+    if type(cmpts) == "table"  then
+        for component in ipairs(cmpts) do
+            self:addComponent(cmpts[component])
+        end
     end
 end
 

@@ -1,14 +1,18 @@
 _G.baseDir      = (...):match("(.-)[^%.]+$")
-_G.engineDir    = _G.baseDir .. "engine."
+_G.libDir    = _G.baseDir .. "lib."
+_G.engineDir    = _G.libDir .. "engine."
+_G.srcDir    = _G.baseDir .. "src."
 
 love.graphics.setDefaultFilter("nearest")
 
 local world = {
     entities = {
-        require("entities.bag"),
-        require("entities.player"),
-        require("entities.bat"),
-        require("entities.monster_spawner")
+        require("src.entities.bag"),
+        require("src.entities.player"):new(),
+        require("src.entities.monster"):new({
+            position = { x = 50, y = 50 }
+        }),
+        require("src.entities.monster_spawner"):new()
     }
 }
 

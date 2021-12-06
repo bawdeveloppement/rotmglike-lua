@@ -1,7 +1,8 @@
 local Component = require(_G.engineDir .. "component")
-local Class = require(_G.engineDir .. "middleclass")
-local TransformComponent = Class("Transform", Component)
 local Vector2 = require(_G.engineDir .. "utils.Vector2")
+local Class = require(_G.libDir .. "middleclass")
+
+local TransformComponent = Class("Transform", Component)
 
 TransformComponent.static.name = "Transform"
 

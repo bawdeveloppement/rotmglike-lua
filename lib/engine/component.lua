@@ -1,4 +1,4 @@
-local Component = require(_G.engineDir .. "middleclass")("Component")
+local Component = require(_G.libDir .. "middleclass")("Component")
 
 function Component:initialize( entity )
     self.entity = entity
