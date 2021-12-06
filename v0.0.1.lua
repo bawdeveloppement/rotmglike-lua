@@ -3,7 +3,6 @@ _G.engineDir      = _G.baseDir .. "engine."
 
 love.graphics.setDefaultFilter("nearest")
 
-
 local player = {
     x = 0,
     y = 0,
@@ -54,8 +53,8 @@ local items = {
     { name = "sword_6", rarity = 4, texture = nil },
     { name = "sword_7", rarity = 2, texture = nil },
     { name = "sword_8", rarity = 1, texture = nil },
-    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/hp.png")},
-    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/mp.png")}
+    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/hp.png")},
+    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/mp.png")}
 }
 
 local bags = {};
@@ -93,11 +92,11 @@ local bagTypes = {
     }
 }
 
-function pack(...)
+local function pack(...)
     return { ... }, select("#", ...)
 end
 
-function dropBag (x, y, loots)
+local function dropBag (x, y, loots)
     local newBag = {
         x = x,
         y = y,
@@ -131,10 +130,6 @@ local projectiles = {}
 
 local levelUpSound = love.audio.newSource("assets/sfx/level_up.mp3", "static")
 local windowWidth, windowHeight, t = love.window.getMode(); 
-function love.load ( config )
-    config.title = "RPG"
-end
-
 local monstersTemplate = {
     {
         name = "bats",
@@ -162,7 +157,7 @@ local monstersTemplate = {
     }
 }
 
-function createMonster( monsterTemplate , x, y)
+local function createMonster( monsterTemplate , x, y)
     local rx = love.math.random(0, 800)
     return {
         x = x or rx,
@@ -189,7 +184,7 @@ function createMonster( monsterTemplate , x, y)
 end
 
 local spawnMonsterTimer = 100;
-function monstersUpdate()
+local function monstersUpdate()
     if #monsters < 5 then
         if spawnMonsterTimer < 1 then
             table.insert(monsters, #monsters + 1, createMonster(monstersTemplate[love.math.random(1, #monstersTemplate)]))
@@ -227,7 +222,7 @@ function monstersUpdate()
     end
 end
 
-function createProjectiles ( sx, sy, dx, dy, damage )
+local function createProjectiles ( sx, sy, dx, dy, damage )
     return {
         x = sx,
         y = sy,
@@ -250,7 +245,7 @@ function createProjectiles ( sx, sy, dx, dy, damage )
     }
 end
 
-function playerUpdate ()
+local function playerUpdate ()
     local z = love.keyboard.isDown("z");
     local q = love.keyboard.isDown("q");
     local d = love.keyboard.isDown("d");
@@ -285,7 +280,7 @@ end
 
 local dps = 0
 local autoAttack = true
-function projectilesUpdate ()
+local function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local mx, my = love.mouse.getPosition();
     if player.attack.cooldown <= 0 and ( mouseIsDown or autoAttack) then
@@ -346,26 +341,9 @@ local plus = {
 local dpsTimer = 1
 local maxDps = 0
 local mx, my = 0, 0
-function love.update ( dt )
-    mx, my = love.mouse.getPosition()
-    playerUpdate();
-    projectilesUpdate();
-    monstersUpdate();
-    
-    -- Reset DPS : 
-    dpsTimer = dpsTimer - dt
-    if dpsTimer <= 0 then
-        dps = 0
-        local leftover = math.abs(dpsTimer)
-        dpsTimer = 1 - leftover
-    end
-
-    -- Get Max DPS :
-    if dps > maxDps then maxDps = dps end
-end
 
 
-function drawPlus ( index )
+local function drawPlus ( index )
     love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
     if player.statPoints > 0 then
         if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
@@ -377,7 +355,7 @@ function drawPlus ( index )
     end
 end
 
-function drawBagInterface ( bagIndex )
+local function drawBagInterface ( bagIndex )
     local width = #bags[bagIndex].loots * 40
     local height = (#bags[bagIndex].loots % 2) * 42 + 42
     love.graphics.rectangle("line", bags[bagIndex].x, bags[bagIndex].y, width, height)
@@ -397,10 +375,36 @@ end
 
 local interfaces = {}
 
-function interfaceUpdate ()
+local function interfaceUpdate ()
 end
 
-function interfaceDraw ()
+local function interfaceDraw ()
+end
+
+local p = false
+local lshift = false
+
+--#region Bind callbacks
+function love.load ( config )
+    config.title = "RPG"
+end
+
+function love.update ( dt )
+    mx, my = love.mouse.getPosition()
+    playerUpdate();
+    projectilesUpdate();
+    monstersUpdate();
+    
+    -- Reset DPS : 
+    dpsTimer = dpsTimer - dt
+    if dpsTimer <= 0 then
+        dps = 0
+        local leftover = math.abs(dpsTimer)
+        dpsTimer = 1 - leftover
+    end
+
+    -- Get Max DPS :
+    if dps > maxDps then maxDps = dps end
 end
 
 function love.draw ()
@@ -523,57 +527,56 @@ function love.draw ()
     end
 end
 
-local lshift = false
 function love.keypressed (key)
-   if key == "lshift" then lshift = true end
-    if key == "b" then 
-        if bagInterface.show == false then
-            bagInterface.show = true
-            charInterface.show = false
-        else
-            bagInterface.show = false
-        end
-    end
-    if key == "c" then
-        if charInterface.show then
-            charInterface.show = false
-        else
-            charInterface.show = true
-            bagInterface.show = false
-        end
-    end
-    if key == "p" then
-        p = true;
-    end
+    if key == "lshift" then lshift = true end
+     if key == "b" then 
+         if bagInterface.show == false then
+             bagInterface.show = true
+             charInterface.show = false
+         else
+             bagInterface.show = false
+         end
+     end
+     if key == "c" then
+         if charInterface.show then
+             charInterface.show = false
+         else
+             charInterface.show = true
+             bagInterface.show = false
+         end
+     end
+     if key == "p" then p = true end
 end
 
 function love.keyrelease (key)
-   if key == "lshift" then lshift = false end
-   if key == "p" then p = false end
+    if key == "lshift" then lshift = false end
+    if key == "p" then p = false end
 end
 
 function love.mousepressed (mx, my, button)
-    if player.statPoints > 0 then
-        for i, v in ipairs(plus) do
-            if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
-                if button == 1 then
-                    if lshift ~= false then
-                        if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints * 5;
+        if player.statPoints > 0 then
+            for i, v in ipairs(plus) do
+                if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
+                    if button == 1 then
+                        if lshift ~= false then
+                            if plus[i].name == "max_life" or plus[i].name == "max_mana" then
+                                player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints * 5;
+                            else
+                                player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints;
+                            end
+                            player.statPoints = 0;
                         else
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints;
+                            if plus[i].name == "max_life" or plus[i].name == "max_mana" then
+                                player.stats[plus[i].name] = player.stats[plus[i].name] + 5;
+                            else
+                                player.stats[plus[i].name] = player.stats[plus[i].name] + 1;
+                            end
+                            player.statPoints = player.statPoints - 1;
                         end
-                        player.statPoints = 0;
-                    else
-                        if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + 5;
-                        else
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + 1;
-                        end
-                        player.statPoints = player.statPoints - 1;
                     end
                 end
             end
         end
-    end
 end
+--#endregion
+
