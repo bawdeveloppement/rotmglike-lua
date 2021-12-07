@@ -1,6 +1,33 @@
 _G.baseDir      = (...):match("(.-)[^%.]+$")
 _G.engineDir      = _G.baseDir .. "engine."
 
+local JSON = require("lib.json")
+
+local ok, err = love.filesystem.read("src/assets/prefabs/dat1.json")
+local dat = JSON:decode(ok).Object
+local loadedTextures = {}
+local validData = {}
+
+
+for index, value in ipairs(dat) do
+    --#region LOADING TEXTURES
+    for key, v in pairs(value) do
+        -- Load textures
+        if key == "Texture" then
+            if loadedTextures[v.File] == nil and v.File ~= "invisible" and v.File ~= "lofiChar8x8" and v.File ~= "lofiChar216x8" and v.File ~= "lofiChar216x16"  and v.File ~= "lofiChar16x16"  and v.File ~= "lofiChar16x8"  and v.File ~= "lofiChar28x8"  and v.File ~= "d1lofiObjBig" then
+                validData[#validData + 1] = dat[index]
+                if string.find(v.File, "Embed") then
+                    loadedTextures[v.File] = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "_.png", { mipmaps = false, linear = true })
+                else
+                    loadedTextures[v.File] = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "Embed_.png", { mipmaps = false, linear = true }) or nil
+                end
+            end
+        end
+        print(key)
+    end
+    --#endregion
+
+end
 love.graphics.setDefaultFilter("nearest")
 
 local player = {
@@ -19,6 +46,12 @@ local player = {
         current = "",
         cooldown = 20
     },
+    skin = {
+        animations = {
+            top = { 49, 50, 51 }
+        },
+        texture = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png")
+    },
     isDeath = false,
     stats = {
         max_life = 100,
@@ -31,12 +64,18 @@ local player = {
         defense = 1
     },
     sound = {
-        death = love.audio.newSource("assets/sfx/player/knight_death.mp3", "static"),
-        hit = love.audio.newSource("assets/sfx/player/knight_hit.mp3", "static")
+        death = love.audio.newSource("src/assets/sfx/player/knight_death.mp3", "static"),
+        hit = love.audio.newSource("src/assets/sfx/player/knight_hit.mp3", "static")
     },
     attack = {
         cooldown = 20,
         damage = 10
+    },
+    equipement = {
+        hat = nil,
+        chest = nil,
+        spell = nil,
+        ring = nil
     },
     bag = {},
 }
@@ -58,8 +97,8 @@ local items = {
     { name = "sword_6", rarity = 4, texture = nil },
     { name = "sword_7", rarity = 2, texture = nil },
     { name = "sword_8", rarity = 1, texture = nil },
-    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/hp.png")},
-    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/mp.png")}
+    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/hp.png")},
+    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/mp.png")}
 }
 
 local bags = {};
@@ -97,10 +136,52 @@ local bagTypes = {
     }
 }
 
-local function pack(...)
-    return { ... }, select("#", ...)
-end
 
+local monsters = {}
+local projectiles = {}
+
+local levelUpSound = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
+local windowWidth, windowHeight, t = love.window.getMode();
+
+local spawnMonsterTimer = 100;
+local dps = 0
+local autoAttack = false
+local p = false
+local lshift = false
+local mouseButtonPressed = false
+local itemInMouse = nil
+local dpsTimer = 1
+local maxDps = 0
+local mx, my = 0, 0
+
+local monstersTemplate = {
+    {
+        name = "bats",
+        damage = 50,
+        reward = {
+            exp = love.math.random(0, 20),
+            loots = { "health_potion", "mana_potion" }
+        },
+    },
+    {
+        name = "beholder",
+        damage = 50,
+        reward = {
+            exp = love.math.random(0, 20),
+            loots = { "health_potion", "mana_potion" }
+        },
+    },
+    {
+        name = "cyclops",
+        damage = 50,
+        reward = {
+            exp = love.math.random(0, 20),
+            loots = { "health_potion", "mana_potion" }
+        },
+    }
+}
+
+--#region Functions
 local function dropBag (x, y, loots)
     local newBag = {
         x = x,
@@ -130,43 +211,6 @@ local function dropBag (x, y, loots)
     table.insert(bags, #bags + 1, newBag)
 end
 
-local monsters = {}
-local projectiles = {}
-
-local levelUpSound = love.audio.newSource("assets/sfx/level_up.mp3", "static")
-local windowWidth, windowHeight, t = love.window.getMode(); 
-
-function love.load ( config )
-    config.title = "RPG"
-end
-
-local monstersTemplate = {
-    {
-        name = "bats",
-        damage = 50,
-        reward = {
-            exp = love.math.random(0, 20),
-            loots = { "health_potion", "mana_potion" }
-        },
-    },
-    {
-        name = "beholder",
-        damage = 50,
-        reward = {
-            exp = love.math.random(0, 20),
-            loots = { "health_potion", "mana_potion" }
-        },
-    },
-    {
-        name = "cyclops",
-        damage = 50,
-        reward = {
-            exp = love.math.random(0, 20),
-            loots = { "health_potion", "mana_potion" }
-        },
-    }
-}
-
 local function createMonster( monsterTemplate , x, y)
     local rx = love.math.random(0, 800)
     return {
@@ -182,8 +226,8 @@ local function createMonster( monsterTemplate , x, y)
         },
         reward = monsterTemplate.reward,
         sfx = {
-            deathSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
-            hitSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
+            deathSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
+            hitSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
         },
         attack = {
             cooldown = 50,
@@ -193,7 +237,6 @@ local function createMonster( monsterTemplate , x, y)
     }
 end
 
-local spawnMonsterTimer = 100;
 local function monstersUpdate()
     if #monsters < 5 then
         if spawnMonsterTimer < 1 then
@@ -293,8 +336,6 @@ local function playerUpdate ()
     end
 end
 
-local dps = 0
-local autoAttack = false
 local function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local mx, my = love.mouse.getPosition();
@@ -353,9 +394,56 @@ local plus = {
 }
 
 
-local dpsTimer = 1
-local maxDps = 0
-local mx, my = 0, 0
+local function drawPlus ( index )
+    love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
+    if player.statPoints > 0 then
+        if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
+            love.graphics.setColor(255,255,0,255) 
+        end
+        love.graphics.rectangle("fill", plus[index].x - 2, plus[index].y - 8, 4, 16)
+        love.graphics.rectangle("fill", plus[index].x - 8, plus[index].y - 2, 16, 4)
+        love.graphics.setColor(255,255,255,255)
+    end
+end
+
+local function drawBagInterface ( bagIndex )
+    local width = #bags[bagIndex].loots * 40
+    local height = (#bags[bagIndex].loots % 2) * 42 + 42
+    love.graphics.rectangle("line", bags[bagIndex].x, bags[bagIndex].y, width, height)
+    for i = 1, #bags[bagIndex].loots, 1 do
+        bags[bagIndex].isShown = true
+        if mx > bags[bagIndex].x + (i - 1) * 32 + 4 * i and mx < bags[bagIndex].x + (32 * i) + 4 * i
+        and my > bags[bagIndex].y and my < bags[bagIndex].y + 32
+        then
+            love.graphics.rectangle("fill", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
+        else
+            love.graphics.rectangle("line", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
+        end
+        if bags[bagIndex].loots[i].texture ~= nil then
+            local quad = love.graphics.newQuad(
+                0,
+                0,
+                64, 32,
+                bags[bagIndex].loots[i].texture:getDimensions()
+            )
+            love.graphics.draw(
+                bags[bagIndex].loots[i].texture,
+                quad,
+                bags[bagIndex].x + (i - 1) * 32 + 4 * i, 
+                bags[bagIndex].y + 5,
+                0,
+                1.5, 1.5,
+                0, 0,
+                0, 0
+            )
+        end
+    end
+end
+--#endregion
+
+function love.load ( config )
+    config.title = "RPG"
+end
 
 function love.update ( dt )
     mx, my = love.mouse.getPosition()
@@ -375,50 +463,24 @@ function love.update ( dt )
     if dps > maxDps then maxDps = dps end
 end
 
-local function drawPlus ( index )
-    love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
-    if player.statPoints > 0 then
-        if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
-            love.graphics.setColor(255,255,0,255) 
-        end
-        love.graphics.rectangle("fill", plus[index].x - 2, plus[index].y - 8, 4, 16)
-        love.graphics.rectangle("fill", plus[index].x - 8, plus[index].y - 2, 16, 4)
-        love.graphics.setColor(255,255,255,255)
-    end
-end
-
-local mouseButtonPressed = false
-local itemInMouse = nil
-
-local function drawBagInterface ( bagIndex )
-    local width = #bags[bagIndex].loots * 40
-    local height = (#bags[bagIndex].loots % 2) * 42 + 42
-    love.graphics.rectangle("line", bags[bagIndex].x, bags[bagIndex].y, width, height)
-    for i = 1, #bags[bagIndex].loots, 1 do
-        bags[bagIndex].isShown = true
-        if mx > bags[bagIndex].x + (i - 1) * 32 + 4 * i and mx < bags[bagIndex].x + (32 * i) + 4 * i
-        and my > bags[bagIndex].y and my < bags[bagIndex].y + 32
-        then
-            love.graphics.rectangle("fill", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
-        else
-            love.graphics.rectangle("line", bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32)
-        end
-        if bags[bagIndex].loots[i].texture ~= nil then
-            local quad = love.graphics.newQuad( bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 32, 32, 20, 20)
-            love.graphics.draw(bags[bagIndex].loots[i].texture, bags[bagIndex].x + (i - 1) * 32 + 4 * i, bags[bagIndex].y + 5, 0, 1, 1, 0, 0)
-        end
-    end
-end
-
-local interfaces = {}
-
-local function interfaceUpdate ()
-end
-
-local function interfaceDraw ()
-end
-
 function love.draw ()
+    for index, value in ipairs(validData) do
+        --#region LOADING TEXTURES
+        if index < 25 then
+            for key, v in pairs(value) do
+                -- Load textures
+                print(value["$"].id)
+                if key == "Texture" then
+                    local w, h = loadedTextures[v.File]:getDimensions()
+                    local ny = math.floor(tonumber(v.Index) / (w / 8))
+                    local nx = math.floor((tonumber(v.Index) * 8) - (w * ny))
+                    local quad = love.graphics.newQuad(nx, ny, 8, 8, loadedTextures[v.File]:getDimensions())
+                    love.graphics.draw(loadedTextures[v.File], quad, 32 * index, 32 * (index % 2), 0, 2,2,0,0,0,0)
+                end
+            end
+        end
+        --#endregion
+    end
     if player.isDeath then
         love.graphics.print("DEAD", 800/2, 600/2)
     end
@@ -431,7 +493,13 @@ function love.draw ()
     end
     -- Player body drawing
     love.graphics.setColor(255,255,255,255);
-    love.graphics.rectangle("fill", player.x, player.y, player.w, player.h)
+    -- love.graphics.rectangle("fill", player.x, player.y, player.w, player.h)
+
+    local w, h = player.skin.texture:getDimensions()
+    local ny = math.floor(65 * 16 / (w / 16))
+    local nx = math.floor(65 * 16 - (w * ny))
+    local quad = love.graphics.newQuad(0, 0, 16, 16, w, h)
+    love.graphics.draw(player.skin.texture, quad, player.x, player.y, 0, 2,2,0,0)
 
     -- projectiles drawing
     for i, v in ipairs(projectiles) do
@@ -542,7 +610,6 @@ function love.draw ()
     end
 end
 
-local lshift = false
 function love.keypressed (key)
    if key == "lshift" then lshift = true end
     if key == "b" then 
@@ -565,7 +632,7 @@ function love.keypressed (key)
         local p = true;
     end
 end
-local p = false
+
 function love.keyrelease (key)
    if key == "lshift" then lshift = false end
    if key == "p" then p = false end

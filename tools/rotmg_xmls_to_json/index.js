@@ -11,7 +11,31 @@ function xmlToJsonFile () {
         // const log = xml2json(data, { sanitize: true })
         parseString(data, (err, result) => {
             if (!err) {
-                fs.writeFile(__dirname + fileToParse + ".json", JSON.stringify(result), { encoding: "utf-8" }, (err) => {
+                let newObj = {
+                    Object: [
+
+                    ]
+                }
+                result.Objects.Object.forEach(ob => {
+                    let no = {}
+                    Object.keys(ob).forEach(o => {
+                        if (Array.isArray(ob[o])) {
+                            if (typeof ob[o][0] === "object") {
+                                let nx = {}
+                                Object.keys(ob[o][0]).forEach(x => {
+                                    if (Array.isArray(ob[o][0][x])) {
+                                        nx[x] = ob[o][0][x][0]
+                                    } else {
+                                        nx[x] = ob[o][0][x]
+                                    }
+                                })
+                                no[o] = nx
+                            } else no[o] = ob[o][0]
+                        } else no[o] = ob[o]
+                    })
+                    newObj.Object.push(no)
+                })
+                fs.writeFile(__dirname + fileToParse + ".json", JSON.stringify(newObj), { encoding: "utf-8" }, (err) => {
                     if (!err) {
                         console.log("No error")
                     }
@@ -20,3 +44,5 @@ function xmlToJsonFile () {
         })
     });
 }
+
+xmlToJsonFile()
