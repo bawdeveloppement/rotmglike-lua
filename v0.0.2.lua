@@ -31,8 +31,8 @@ local player = {
         defense = 1
     },
     sound = {
-        death = love.audio.newSource("assets/sfx/player/knight_death.mp3", "static"),
-        hit = love.audio.newSource("assets/sfx/player/knight_hit.mp3", "static")
+        death = love.audio.newSource("src/assets/sfx/player/knight_death.mp3", "static"),
+        hit = love.audio.newSource("src/assets/sfx/player/knight_hit.mp3", "static")
     },
     attack = {
         cooldown = 20,
@@ -58,8 +58,8 @@ local items = {
     { name = "sword_6", rarity = 4, texture = nil },
     { name = "sword_7", rarity = 2, texture = nil },
     { name = "sword_8", rarity = 1, texture = nil },
-    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/hp.png")},
-    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("assets/textures/mp.png")}
+    { name = "health_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/hp.png")},
+    { name = "mana_potion", rarity = 0, texture = love.graphics.newImage("src/assets/textures/mp.png")}
 }
 
 local bags = {};
@@ -133,7 +133,7 @@ end
 local monsters = {}
 local projectiles = {}
 
-local levelUpSound = love.audio.newSource("assets/sfx/level_up.mp3", "static")
+local levelUpSound = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
 local windowWidth, windowHeight, t = love.window.getMode(); 
 
 function love.load ( config )
@@ -182,8 +182,8 @@ local function createMonster( monsterTemplate , x, y)
         },
         reward = monsterTemplate.reward,
         sfx = {
-            deathSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
-            hitSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
+            deathSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
+            hitSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
         },
         attack = {
             cooldown = 50,
