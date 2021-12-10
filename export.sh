@@ -1,6 +1,10 @@
 #!/bin/bash
 gameName="rotmg"
-gameVersion=0.0.3
+gameVersion=0.0.4
+
+if [ $1 != "" ]; then
+    gameVersion=$1
+fi
 
 mkdir ./bin/v$gameVersion
 
