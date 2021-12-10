@@ -1,4 +1,5 @@
 local God = require(_G.libDir .. "middleclass")("God")
+local Screen = require(_G.engineDir .. "screen")
 
 function God:initialize()
     for _, v in ipairs(_G.callbacks.supported) do

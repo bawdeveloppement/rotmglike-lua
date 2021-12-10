@@ -13,7 +13,7 @@ function Sprite:initialize( parent , data)
     self.image = nil;
     self.transform = self.entity:getComponent("Transform");
 
-    self.scale = Vector2(55, 37);
+    self.scale = Vector2(data.size.w or 55, data.size.h or 37);
     
     if data.relativity ~= nil then self:setRelativity(data.relativity) else
         self.relativity = Vector2(0, 0);
@@ -51,7 +51,6 @@ function Sprite:draw()
 end
 
 function Sprite:getSpriteIndex(x)
-    print(self.scale.x)
     return love.graphics.newQuad(x, x, self.scale.x, self.scale.y, self.image:getDimensions())
 end
 

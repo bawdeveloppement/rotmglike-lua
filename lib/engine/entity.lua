@@ -18,7 +18,11 @@ function Entity:getName()
 end
 
 function Entity:getComponent ( name )
-    return self.components[name] or nil
+    if self.components[name] ~= nil then
+        return self.components[name]
+    else
+        return nil
+    end
 end
 
 function Entity:addComponent ( component )
