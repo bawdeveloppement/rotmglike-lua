@@ -1,8 +1,10 @@
 local Map = require(_G.libDir .. "middleclass")("Map")
 
-function Map:initialize( path, scale )
-    self.mapData = require(_G.baseDir .. path)
+function Map:initialize( mapname, scale )
+    print(_G.baseDir .."src.assets.worlds.".. mapname .. "." .. mapname)
+    self.mapData = require(_G.baseDir .."src.assets.worlds.".. mapname .. "." .. mapname)
     self.scale = scale or 4
+    
     for i, v in pairs(self.mapData.tilesets) do
         self.mapData.tilesets[i].image = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_"..v.name.."Embed_.png")
     end

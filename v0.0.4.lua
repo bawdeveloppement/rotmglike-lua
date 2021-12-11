@@ -429,17 +429,6 @@ local plus = {
 }
 
 
-local function drawPlus ( index )
-    love.graphics.rectangle("line", plus[index].x - 8, plus[index].y - 8, 16, 16)
-    if player.statPoints > 0 then
-        if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
-            love.graphics.setColor(255,255,0,255) 
-        end
-        love.graphics.rectangle("fill", plus[index].x - 2, plus[index].y - 8, 4, 16)
-        love.graphics.rectangle("fill", plus[index].x - 8, plus[index].y - 2, 16, 4)
-        love.graphics.setColor(255,255,255,255)
-    end
-end
 
 local function drawBagInterface ( bagIndex )
     local width = #bags[bagIndex].loots * 40
@@ -654,60 +643,6 @@ function love.draw ()
     end
     
 
-    -- Interface 
-    -- Quick Item Interface
-    drawQuickSlots()
-    -- Life
-    love.graphics.setColor(255, 0, 0, 255);
-    love.graphics.rectangle("fill", 800 / 2 - 150, 600 - 68, 300 * ( player.stats.life / player.stats.max_life ), 32)
-    love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 800 / 2 - 150, 600 - 68, 300, 32)
-    -- TODO: Find a font
-    love.graphics.print(player.stats.life .. " / " .. player.stats.max_life, 800 / 2 - 150, 600 - 68)
-    -- Mana   
-    love.graphics.setColor(0,255,200,255);
-    love.graphics.rectangle("fill", 564, 600 - 74, 64, 64)
-    love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 564, 600 - 74, 64, 64 * ( player.stats.mana / 100 ))
-    -- Experience
-    love.graphics.setColor(128, 0, 128, 255);
-    love.graphics.rectangle("fill", 800 / 2 - 150, 600 - 26, 300 * ( player.exp / player.maxExp ), 16)
-    love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 800 / 2 - 150, 600 - 26, 300, 16)
-
-
-    -- PlAYER
-    if charInterface.show then
-        -- Button
-        love.graphics.setColor(128, 0, 128, 255);
-        love.graphics.rectangle("fill", 10, 600 - 32 - 10, 32, 32)
-
-        -- INTERFACE
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.rectangle("line", 10, 600 - 272, 220, 220);
-        love.graphics.print("Player stats", 10, 308)
-        
-        love.graphics.print("Max life : "..player.stats.max_life, 40, 338)
-        drawPlus(1)
-        love.graphics.print("Max mana : "..player.stats.max_mana, 40, 358)
-        drawPlus(2)
-        love.graphics.print("Attack : "..player.stats.attack, 40, 378)
-        drawPlus(3)
-        love.graphics.print("Defense : "..player.stats.defense, 40, 398)
-        drawPlus(4)
-        love.graphics.print("Wisdom : "..player.stats.wisdom, 40, 418)
-        drawPlus(5)
-        love.graphics.print("Dexterity : "..player.stats.dexterity, 40, 438)
-        drawPlus(6)
-        love.graphics.print("Speed : "..player.stats.speed, 40, 458)
-        drawPlus(7)
-        love.graphics.print("Force : "..player.stats.force, 40, 478)
-        drawPlus(8)
-    else
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.print("C", 16, 600-32)
-        love.graphics.rectangle("line", 10, 600 - 32 - 10, 32, 32)
-    end
     -- BAG
     if bagInterface.show then
         -- Bag Icon
@@ -731,7 +666,7 @@ function love.draw ()
 end
 
 function love.keypressed (key)
-   if key == "lshift" then lshift = true end
+    if key == "lshift" then lshift = true end
     if key == "b" then
         if bagInterface.show == false then
             bagInterface.show = true
@@ -774,7 +709,7 @@ function love.keyrelease (key)
    if key == "p" then p = false end
 end
 
-function love.mousereleased (mx, my, button)
+function love.mousereleased (mousex, mousey, button)
     if button == 1 then
         lastLeftMouseClick = love.timer.getTime() - lastLeftMouseClick
         leftMouseButtonPressed = false
@@ -787,7 +722,7 @@ function love.mousereleased (mx, my, button)
         if itemInMouse ~= nil then
             local slotToDrop = nil
             for i, v in ipairs(quickSlots) do
-                if mx > 250 + (i - 1) * 42 and mx < 250 + (i - 1) * 42 + 32 and my > 600 - 110 and my < 600 - 110 + 32 then
+                if mousex > 250 + (i - 1) * 42 and mousex < 250 + (i - 1) * 42 + 32 and mousey > 600 - 110 and mousey < 600 - 110 + 32 then
                     slotToDrop = i
                 end
             end
@@ -842,7 +777,7 @@ function love.mousereleased (mx, my, button)
     end
 end
 
-function love.mousepressed (mx, my, button)
+function love.mousepressed (mousex, mousey, button)
     if button == 1 then
         leftClickCount = leftClickCount + 1
         leftMouseButtonPressed = true
@@ -855,8 +790,8 @@ function love.mousepressed (mx, my, button)
             bag.y + 16 > player.y and bag.y < player.y + player.h then
 
             for i = 1, #bags[bagIndex].loots, 1 do
-                if mx > bags[bagIndex].x + (i - 1) * 32 + 4 * i and mx < bags[bagIndex].x + (32 * i) + 4 * i
-                and my > bags[bagIndex].y and my < bags[bagIndex].y + 32
+                if mousex > bags[bagIndex].x + (i - 1) * 32 + 4 * i and mousex < bags[bagIndex].x + (32 * i) + 4 * i
+                and mousey > bags[bagIndex].y and mousey < bags[bagIndex].y + 32
                 then
                     if leftMouseButtonPressed then
                         if itemInMouse == nil then
@@ -867,29 +802,6 @@ function love.mousepressed (mx, my, button)
                             }
                             table.remove( bags[bagIndex].loots, i)
                         end
-                    end
-                end
-            end
-        end
-    end
-    if player.statPoints > 0 then
-        for i, v in ipairs(plus) do
-            if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
-                if button == 1 then
-                    if lshift ~= false then
-                        if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints * 5;
-                        else
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + player.statPoints;
-                        end
-                        player.statPoints = 0;
-                    else
-                        if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + 5;
-                        else
-                            player.stats[plus[i].name] = player.stats[plus[i].name] + 1;
-                        end
-                        player.statPoints = player.statPoints - 1;
                     end
                 end
             end

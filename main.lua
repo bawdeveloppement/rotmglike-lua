@@ -52,7 +52,7 @@ love.graphics.setDefaultFilter("nearest")
 
 
 local Map = require("lib.engine.tiledmap")
-local map = Map:new("src.assets.worlds.nexus")
+local map = Map:new("nexus")
 
 local player = require("src.entities.player"):new()
 local camera = {
@@ -60,7 +60,7 @@ local camera = {
     y = 0
 }
 
-local cam = require("lib.camera")()
+_G.cam = require("lib.camera")()
 
 function love.update ()
     player:update()
@@ -94,6 +94,14 @@ function love.update ()
 end
 
 function love.draw ()
+    cam:attach()
+        map:draw()
+        player:draw()
+    cam:detach()
+end
+
+
+function love.keypressed ()
     cam:attach()
         map:draw()
         player:draw()

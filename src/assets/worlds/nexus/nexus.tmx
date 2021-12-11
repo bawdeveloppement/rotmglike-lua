@@ -3,8 +3,8 @@
  <editorsettings>
   <export target="nexus." format="lua"/>
  </editorsettings>
- <tileset firstgid="1" source="lofiEnvironment2.tsx"/>
- <tileset firstgid="481" source="lofiEnvironment3.tsx"/>
+ <tileset firstgid="1" source="../../tileset/lofiEnvironment2.tsx"/>
+ <tileset firstgid="481" source="../../tileset/lofiEnvironment3.tsx"/>
  <layer id="1" name="under_ground" width="50" height="50">
   <data encoding="csv">
 301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,

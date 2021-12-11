@@ -11,6 +11,8 @@ function Entity:initialize( name, cmpts )
             self:addComponent(cmpts[component])
         end
     end
+
+    
 end
 
 function Entity:getName()
@@ -42,21 +44,59 @@ function Entity:removeComponent ( name )
     end
 end
 
-function Entity:update ()
+function Entity:update (...)
     if self.components ~= nil then
         for k, v in pairs (self.components) do
             if v.update ~= nil then
-                v:update()
+                v:update(...)
             end
         end
     end
 end
 
-function Entity:draw ()
+function Entity:draw (...)
     if self.components ~= nil then
         for k, v in pairs (self.components) do
             if v.draw ~= nil then
-                v:draw()
+                v:draw(...)
+            end
+        end
+    end
+end
+function Entity:mousereleased (...)
+    if self.components ~= nil then
+        for k, v in pairs (self.components) do
+            if v.mousereleased ~= nil then
+                v:mousereleased(...)
+            end
+        end
+    end
+end
+function Entity:mousepressed (...)
+    if self.components ~= nil then
+        for k, v in pairs (self.components) do
+            if v.mousepressed ~= nil then
+                v:mousepressed(...)
+            end
+        end
+    end
+end
+
+function Entity:keypressed (...)
+    if self.components ~= nil then
+        for k, v in pairs (self.components) do
+            if v.keypressed ~= nil then
+                v:keypressed(...)
+            end
+        end
+    end
+end
+
+function Entity:keyreleased (...)
+    if self.components ~= nil then
+        for k, v in pairs (self.components) do
+            if v.keyreleased ~= nil then
+                v:keyreleased(...)
             end
         end
     end

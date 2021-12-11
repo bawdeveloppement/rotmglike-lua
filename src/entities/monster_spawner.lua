@@ -5,10 +5,9 @@ local Entity = require(_G.engineDir.."entity")
 
 local MonsterSpawner = require(_G.libDir .. "middleclass")("MonsterSpawner", Entity)
 
-
 function MonsterSpawner:initialize ()
     Entity.initialize(self, "MonsterSpawner", {
-        { class = Transform, data = { x = 400 } },
+        { class = Transform, data = { x = 400 }},
         { class = Sprite, data = { width = 32, height = 32, center = true }},
     });
 end

@@ -1,6 +1,6 @@
 local World = require(_G.engineDir .. "middleclass")("World");
 
-function World:initialize()
+function World:initialize( name )
     self.entities = {}
 end
 
