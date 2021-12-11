@@ -16,6 +16,7 @@ function Player:initialize()
         { class = CharacterComponent },
     });
 
+    self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
 end
 
 local mx, my = 0, 0;
@@ -44,6 +45,7 @@ function Player:drawPlus ( index )
     local realCamX = _G.cam.x - w / 2
     local realCamY = _G.cam.y - h / 2
     love.graphics.rectangle("line", realCamX + plus[index].x - 8, realCamY + plus[index].y - 8, 16, 16)
+
     local character = self.components["CharacterComponent"]
     if character.statPoints > 0 then
         if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
@@ -118,28 +120,32 @@ function Player:draw()
         love.graphics.print("C", realCamX +16, realCamY + 600-32)
         love.graphics.rectangle("line", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
     end
-    
 end
 
-function Player:mousepresssed(mx, my, button)
-    if self.statPoints > 0 then
+local lshift = false
+
+function Player:mousepressed(mx, my, button)
+    local characterComponent = self.components["CharacterComponent"]
+    if characterComponent.statPoints > 0 then
         for i, v in ipairs(plus) do
             if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
                 if button == 1 then
                     if lshift ~= false then
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            self.stats[plus[i].name] = self.stats[plus[i].name] + self.statPoints * 5;
+                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + characterComponent.statPoints * 5;
                         else
-                            self.stats[plus[i].name] = self.stats[plus[i].name] + self.statPoints;
+                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + characterComponent.statPoints;
                         end
-                        self.statPoints = 0;
+                        characterComponent.statPoints = 0;
+                        self.buttonSound.play(self.buttonSound)
                     else
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            self.stats[plus[i].name] = self.stats[plus[i].name] + 5;
+                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + 5;
                         else
-                            self.stats[plus[i].name] = self.stats[plus[i].name] + 1;
+                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + 1;
                         end
-                        self.statPoints = self.statPoints - 1;
+                        characterComponent.statPoints = characterComponent.statPoints - 1;
+                        self.buttonSound.play(self.buttonSound)
                     end
                 end
             end
@@ -156,8 +162,6 @@ function Player:keypressed(key)
     --     else
     --         bagInterface.show = false
     --     end
-    -- end
-    print(key)
     if key == "c" then
         if charInterface.show then
             charInterface.show = false
@@ -168,4 +172,7 @@ function Player:keypressed(key)
     end
 end
 
+function Player:keyreleased(key)
+    if key == "lshift" then lshift = true end
+end
 return Player

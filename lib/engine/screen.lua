@@ -3,7 +3,7 @@ local Screen = require(_G.libDir .. "middleclass")("Screen")
 
 Screen.static.screensInstances = {}
 
-function Screen:initialize( name, active )
+function Screen:initialize( name, active, entities )
     self.active = active
     self.name = name
 
@@ -12,6 +12,7 @@ end
 
 function Screen:init()
     self.active = true
+
 end
 
 Screen.static.goToScreen = function ( name )

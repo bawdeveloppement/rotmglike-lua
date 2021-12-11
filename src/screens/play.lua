@@ -9,7 +9,6 @@ function GamePlayScreen:initialize (name, active)
     _G.xle.Screen.initialize(self, name, active)
 
     self.player = nil
-
 end
 
 function GamePlayScreen:init()
@@ -59,4 +58,27 @@ function GamePlayScreen:draw()
     cam:detach()
 end
 
+function GamePlayScreen:keyreleased(...)
+    if self.player ~= nil then
+        self.player:keyreleased(...)
+    end
+end
+
+function GamePlayScreen:keypressed(...)
+    if self.player ~= nil then
+        self.player:keypressed(...)
+    end
+end
+
+function GamePlayScreen:mousereleased(...)
+    if self.player ~= nil then
+        self.player:mousereleased(...)
+    end
+end
+
+function GamePlayScreen:mousepressed(...)
+    if self.player ~= nil then
+        self.player:mousepressed(...)
+    end
+end
 return GamePlayScreen;
