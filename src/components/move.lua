@@ -2,13 +2,13 @@ local Component = require(_G.engineDir .. "component")
 local Class = require(_G.libDir .. "middleclass")
 
 -- Create a class called "Move" and inherit of Component
-local MoveComponent = Class("Move", Component);
+local MoveComponent = Class("MoveComponent", Component);
 
-MoveComponent.static.name = "Move"
+MoveComponent.static.name = "MoveComponent"
 
 function MoveComponent:initialize( parent )
     Component.initialize(self, parent)
-    self.name = "Move";
+    self.name = "MoveComponent";
 end
 
 
@@ -18,8 +18,8 @@ function MoveComponent:update()
     local d = love.keyboard.isDown("d");
     local s = love.keyboard.isDown("s");
 
-    local transform = self.entity:getComponent("Transform")
-    local character = self.entity:getComponent("Character")
+    local transform = self.entity:getComponent("TransformComponent")
+    local character = self.entity:getComponent("CharacterComponent")
     if z then
         transform.position.y = transform.position.y - (5 + character.stats.speed * 0.1)
     end

@@ -2,13 +2,13 @@ local Component = require(_G.engineDir .. "component")
 local Class = require(_G.libDir .. "middleclass")
 
 -- Create a class called "CharacterComponent" and inherit of Component
-local CollisionComponent = Class("Collision", Component);
+local CollisionComponent = Class("CollisionComponent", Component);
 
-CollisionComponent.static.name = "Collision"
+CollisionComponent.static.name = "CollisionComponent"
 
 function CollisionComponent:initialize( parent )
     Component.initialize(self, parent)
-    self.name = "Collision"
+    self.name = "CollisionComponent"
     self.isInCollision = false
 end
 

@@ -56,7 +56,7 @@ end
 function Player:draw()
     Entity.draw(self);
 
-    love.graphics.rectangle("fill", self.components["Transform"].position.x, self.components["Transform"].position.y, 32, 8)
+    love.graphics.rectangle("fill", self.components["TransformComponent"].position.x, self.components["TransformComponent"].position.y, 32, 8)
 
     local w, h = love.window:getMode()
     local realCamX = _G.cam.x - w / 2
@@ -65,7 +65,7 @@ function Player:draw()
     -- Quick Item Interface
     -- drawQuickSlots()
     -- Life
-    local characterComponent = self.components["Character"]
+    local characterComponent = self.components["CharacterComponent"]
     local stats = characterComponent.stats
 
     love.graphics.setColor(255, 0, 0, 255);

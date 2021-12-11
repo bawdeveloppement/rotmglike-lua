@@ -33,7 +33,6 @@ function Entity:addComponent ( component )
     else
         print(component.class.name .. " is already used.")
     end
-    print(self.components)
 end
 
 function Entity:removeComponent ( name )

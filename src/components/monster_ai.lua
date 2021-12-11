@@ -1,40 +1,18 @@
 local Component = require(_G.engineDir .. "component")
 local Class = require(_G.libDir .. "middleclass")
 
--- Create a class called "Move" and inherit of Component
-local MoveComponent = Class("Move", Component);
+-- Create a class called "MonsterAI" and inherit of Component
+local MonsterAIComponent = Class("MonsterAIComponent", Component);
 
-MoveComponent.static.name = "Move"
+MonsterAIComponent.static.name = "MonsterAIComponent"
 
-function MoveComponent:initialize( parent )
+function MonsterAIComponent:initialize( parent )
     Component.initialize(self, parent)
-    self.name = "Move";
+    self.name = "MonsterAIComponent";
 end
 
 
-function MoveComponent:update()
-    local z = love.keyboard.isDown("z");
-    local q = love.keyboard.isDown("q");
-    local d = love.keyboard.isDown("d");
-    local s = love.keyboard.isDown("s");
-
-    local transform = self.entity:getComponent("Transform")
-    local character = self.entity:getComponent("Character")
-    if z then
-        transform.position.y = transform.position.y - (5 + character.stats.speed * 0.1)
-    end
-
-    if q then
-        transform.position.x = transform.position.x - (5 + character.stats.speed * 0.1)
-    end
-
-    if d then
-        transform.position.x = transform.position.x + (5 + character.stats.speed * 0.1)
-    end
-
-    if s then
-        transform.position.y = transform.position.y + (5 + character.stats.speed * 0.1)
-    end
+function MonsterAIComponent:update()
 end
 
-return MoveComponent
+return MonsterAIComponent
