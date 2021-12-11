@@ -8,17 +8,30 @@ local World = require(_G.engineDir .. "world")
 function XLE:initialize( screens )
     -- require and initialise
     for i, v in ipairs(screens) do
-        -- if Screen.screensInstances[v.name] == nil then
-            print(v.name)
-            require("src.screens."..v.name):new(v.name, v.buildIndex == 1)
-        -- end
+        require("src.screens."..v.name):new(v.name, v.buildIndex == 1 )
     end
-    print(#screens)
+
+    self:load()
+end
+
+function XLE:load()
     for k, v in ipairs(Screen.screensInstances) do
-        print(v)
-        -- require("src.screens."..v.name)(v.name, v.buildIndex == 1)
+        if v.active then
+            v:init()
+        end
+    end
+    
+    for _, v in ipairs(_G.callbacks.supported) do
+        love[v] = function (...)
+            for _, screen in pairs(Screen.screensInstances) do
+                if screen[v] ~= nil and type(screen[v]) == "function" and screen.active then
+                    screen[v](screen, ...)
+                end
+            end
+        end
     end
 end
+
 
 return {
     Init = XLE,

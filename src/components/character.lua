@@ -2,9 +2,7 @@ local Component = require(_G.engineDir .. "component")
 local Class = require(_G.libDir .. "middleclass")
 
 -- Create a class called "CharacterComponent" and inherit of Component
-local CharacterComponent = Class("Character", Component);
-
-CharacterComponent.static.name = "Character"
+local CharacterComponent = Class("CharacterComponent", Component);
 
 function CharacterComponent:initialize( parent )
     Component.initialize(self, parent)

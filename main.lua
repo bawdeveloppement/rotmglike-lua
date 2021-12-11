@@ -6,7 +6,6 @@ _G.callbacks = {
     all = {
         "directorydropped",
         "displayrotated",
-        "draw",
         "errhand",
         "errorhandler",
         "filedropped",
@@ -20,14 +19,8 @@ _G.callbacks = {
         "joystickpresse",
         "joystickrelease",
         "joystickremove",
-        "keypressed",
-        "keyreleased",
         "load",
         "lowmemory",
-        "mousefocus",
-        "mousemoved",
-        "mousepressed",
-        "mousereleased",
         "quit",
         "resize",
         "textedited",
@@ -36,15 +29,19 @@ _G.callbacks = {
         "touchmoved",
         "touchpressed",
         "touchreleased",
-        "update",
         "visible",
-        "wheelmoved",
     },
     supported = {
+        "wheelmoved",
+        "mousefocus",
+        "mousemoved",
+        "mousepressed",
+        "mousereleased",
         "update",
         "load",
         "draw",
-        "keypressed"
+        "keypressed",
+        "keyreleased",
     }
 }
 
@@ -57,5 +54,4 @@ local screens = {
 }
 
 _G.xle = require(_G.engineDir .. "xle")
-
-_G.xle.Init:new(screens)
+_G.xleInstance = _G.xle.Init:new(screens)

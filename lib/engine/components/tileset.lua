@@ -8,7 +8,7 @@ function Tileset:initialize( parent , data)
     
     self.relativity = nil
     self.image = nil;
-    self.transform = self.entity:getComponent("Transform");
+    self.transform = self.entity:getComponent("TransformComponent");
 
     self.scale = Vector2(55, 37);
     

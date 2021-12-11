@@ -2,17 +2,15 @@ local Component = require(_G.engineDir .. "component");
 local Vector2 = require(_G.engineDir.."utils.Vector2");
 
 
-local Sprite = require(_G.libDir.."middleclass")("Sprite", Component);
-
-Sprite.static.name = "Sprite"
+local Sprite = require(_G.libDir.."middleclass")("SpriteComponent", Component);
 
 function Sprite:initialize( parent , data)
     Component.initialize(self, parent)
     
     self.relativity = nil
     self.image = nil;
-    self.transform = self.entity:getComponent("Transform");
-
+    self.transform = self.entity:getComponent("TransformComponent");
+    
     self.scale = Vector2(data.size.w or 55, data.size.h or 37);
     
     if data.relativity ~= nil then self:setRelativity(data.relativity) else
@@ -37,7 +35,7 @@ function Sprite:draw()
     -- Soon draw all image on GameObject.layer
     -- & Insert the referrence of the methods in GameObject.layer {}
     love.graphics.setColor(1,1,1,1);
-    self.transform = self.entity:getComponent("Transform");
+    self.transform = self.entity:getComponent("TransformComponent");
     if self.image ~= nil then
         love.graphics.draw(self.image, self:getSpriteIndex(0), self.transform.position.x, self.transform.position.y, 0, 2);
     else

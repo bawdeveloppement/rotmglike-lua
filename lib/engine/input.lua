@@ -4,7 +4,6 @@ function Input:initialize()
 end
 
 Input.static.getButton = function ()
-    
 end
 
 return Input

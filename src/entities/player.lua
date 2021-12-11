@@ -15,7 +15,9 @@ function Player:initialize()
         { class = MoveComponent },
         { class = CharacterComponent },
     });
+
 end
+
 local mx, my = 0, 0;
 function Player:update(dt)
     Entity.update(self, dt);
@@ -42,7 +44,7 @@ function Player:drawPlus ( index )
     local realCamX = _G.cam.x - w / 2
     local realCamY = _G.cam.y - h / 2
     love.graphics.rectangle("line", realCamX + plus[index].x - 8, realCamY + plus[index].y - 8, 16, 16)
-    local character = self.components["Character"]
+    local character = self.components["CharacterComponent"]
     if character.statPoints > 0 then
         if mx > plus[index].x - 8 and mx < plus[index].x + 8 and my > plus[index].y - 8 and my < plus[index].y + 8 then
             love.graphics.setColor(255,255,0,255)

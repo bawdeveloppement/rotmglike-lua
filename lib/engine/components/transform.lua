@@ -2,13 +2,11 @@ local Component = require(_G.engineDir .. "component")
 local Vector2 = require(_G.engineDir .. "utils.Vector2")
 local Class = require(_G.libDir .. "middleclass")
 
-local TransformComponent = Class("Transform", Component)
+local TransformComponent = Class("TransformComponent", Component)
 
-TransformComponent.static.name = "Transform"
 
 function TransformComponent:initialize( parent, data)
     Component.initialize(self, parent );
-    self.name = "Transform";
 
     local position = data.position or {}
     local scale = data.scale or {}

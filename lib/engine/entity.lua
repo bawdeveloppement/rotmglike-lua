@@ -28,6 +28,7 @@ function Entity:getComponent ( name )
 end
 
 function Entity:addComponent ( component )
+    print(component.class.name)
     if self:getComponent( component.class.name ) == nil then
         self.components[component.class.name] = component.class:new(self, component.data or {})
     else

@@ -5,19 +5,25 @@ _G.cam = require("lib.camera")()
 local Map = require(_G.engineDir .. "tiledmap")
 local map = Map:new("nexus")
 
-local player = require("src.entities.player"):new()
-local camera = {
-    x = 0,
-    y = 0
-}
 function GamePlayScreen:initialize (name, active)
     _G.xle.Screen.initialize(self, name, active)
+
+    self.player = nil
+
 end
 
-function GamePlayScreen:update()
-    player:update()
-    cam:lookAt(player:getComponent("Transform").position.x, player:getComponent("Transform").position.y)
+function GamePlayScreen:init()
+    _G.xle.Screen.init(self)
+    
+    self.player = require(_G.srcDir .. "entities.player"):new()
+end
 
+function GamePlayScreen:update(...)
+    if self.player ~= nil then
+        self.player:update(...)
+        cam:lookAt(self.player:getComponent("TransformComponent").position.x, self.player:getComponent("TransformComponent").position.y)
+    end
+    
     local w = love.graphics.getWidth()
     local h = love.graphics.getHeight()
 
@@ -47,7 +53,9 @@ end
 function GamePlayScreen:draw()
     cam:attach()
         map:draw()
-        player:draw()
+        if self.player ~= nil then
+            self.player:draw()
+        end
     cam:detach()
 end
 

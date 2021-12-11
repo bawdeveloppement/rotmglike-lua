@@ -551,9 +551,6 @@ function love.update ( dt )
             table.remove(bags, i)
         end
     end
-
-    
-
 end
 
 function love.draw ()

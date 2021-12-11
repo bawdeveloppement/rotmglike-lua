@@ -4,11 +4,8 @@ local Class = require(_G.libDir .. "middleclass")
 -- Create a class called "Move" and inherit of Component
 local MoveComponent = Class("MoveComponent", Component);
 
-MoveComponent.static.name = "MoveComponent"
-
 function MoveComponent:initialize( parent )
     Component.initialize(self, parent)
-    self.name = "MoveComponent";
 end
 
 
