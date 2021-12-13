@@ -11,7 +11,7 @@ function Sprite:initialize( parent , data)
     self.image = nil;
     self.transform = self.entity:getComponent("TransformComponent");
     
-    self.scale = Vector2(data.size.w or 55, data.size.h or 37);
+    self.scale = Vector2(data.width or 55, data.height or 37);
     
     if data.relativity ~= nil then self:setRelativity(data.relativity) else
         self.relativity = Vector2(0, 0);

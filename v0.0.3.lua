@@ -280,6 +280,7 @@ local function monstersUpdate()
             spawnMonsterTimer = spawnMonsterTimer - 1
         end
     end
+
     for i, v in ipairs(monsters) do
         local velx = math.cos(math.atan2(monsters[i].y - player.y, monsters[i].x - player.x))
         local vely = math.sin(math.atan2(monsters[i].y - player.y, monsters[i].x - player.x));
@@ -291,6 +292,7 @@ local function monstersUpdate()
             monsters[i].y = monsters[i].y - monsters[i].velocity.y * 1
         end
     end
+    
     for i, v in ipairs(monsters) do
         monsters[i].attack.cooldown = monsters[i].attack.cooldown - 1;
         if monsters[i].x + monsters[i].w >= player.x and monsters[i].x <= player.x + player.w

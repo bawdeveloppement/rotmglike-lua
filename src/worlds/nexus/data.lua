@@ -9,7 +9,7 @@ return {
   tilewidth = 8,
   tileheight = 8,
   nextlayerid = 8,
-  nextobjectid = 13,
+  nextobjectid = 34,
   properties = {},
   tilesets = {
     {
@@ -20,7 +20,7 @@ return {
       spacing = 0,
       margin = 0,
       columns = 16,
-      image = "lofiEnvironment2",
+      image = "../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironment2Embed_.png",
       imagewidth = 128,
       imageheight = 240,
       objectalignment = "unspecified",
@@ -41,7 +41,33 @@ return {
     {
       name = "lofiEnvironment3",
       firstgid = 481,
-      filename = "../../tileset/lofiEnvironment3.tsx"
+      filename = "../../assets/tileset/lofiEnvironment3.tsx"
+    },
+    {
+      name = "lofiEnvironment",
+      firstgid = 897,
+      tilewidth = 8,
+      tileheight = 8,
+      spacing = 0,
+      margin = 0,
+      columns = 16,
+      image = "../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironmentEmbed_.png",
+      imagewidth = 128,
+      imageheight = 128,
+      objectalignment = "unspecified",
+      tileoffset = {
+        x = 0,
+        y = 0
+      },
+      grid = {
+        orientation = "orthogonal",
+        width = 8,
+        height = 8
+      },
+      properties = {},
+      wangsets = {},
+      tilecount = 256,
+      tiles = {}
     }
   },
   layers = {
@@ -295,7 +321,7 @@ return {
         },
         {
           id = 12,
-          name = "Egg",
+          name = "egg",
           type = "",
           shape = "rectangle",
           x = 160,
@@ -306,6 +332,138 @@ return {
           gid = 535,
           visible = true,
           properties = {}
+        },
+        {
+          id = 13,
+          name = "player",
+          type = "spawner",
+          shape = "rectangle",
+          x = 51.25,
+          y = 29.75,
+          width = 29.75,
+          height = 28.75,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["entityId"] = ""
+          }
+        },
+        {
+          id = 15,
+          name = "monster_spawner",
+          type = "spawner",
+          shape = "rectangle",
+          x = 92.5,
+          y = 111.5,
+          width = 28.75,
+          height = 28.25,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["entityId"] = "bat"
+          }
+        },
+        {
+          id = 18,
+          name = "portal",
+          type = "",
+          shape = "rectangle",
+          x = 192,
+          y = 48,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 991,
+          visible = true,
+          properties = {
+            ["portalId"] = "nexus"
+          }
+        },
+        {
+          id = 19,
+          name = "tree",
+          type = "",
+          shape = "rectangle",
+          x = 184,
+          y = 48,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 970,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 20,
+          name = "tree",
+          type = "",
+          shape = "rectangle",
+          x = 184,
+          y = 40,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 970,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 21,
+          name = "tree",
+          type = "",
+          shape = "rectangle",
+          x = 192,
+          y = 40,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 970,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 22,
+          name = "tree",
+          type = "",
+          shape = "rectangle",
+          x = 200,
+          y = 40,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 970,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 23,
+          name = "tree",
+          type = "",
+          shape = "rectangle",
+          x = 200,
+          y = 48,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 970,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 28,
+          name = "portal",
+          type = "",
+          shape = "rectangle",
+          x = 152,
+          y = 48,
+          width = 8,
+          height = 8,
+          rotation = 0,
+          gid = 56,
+          visible = true,
+          properties = {
+            ["portalId"] = "vault"
+          }
         }
       }
     }

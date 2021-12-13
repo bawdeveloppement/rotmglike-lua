@@ -6,13 +6,12 @@ Screen.static.screensInstances = {}
 function Screen:initialize( name, active, entities )
     self.active = active
     self.name = name
-
+    
     table.insert(Screen.screensInstances, #Screen.screensInstances + 1, self)
 end
 
 function Screen:init()
     self.active = true
-
 end
 
 Screen.static.goToScreen = function ( name )

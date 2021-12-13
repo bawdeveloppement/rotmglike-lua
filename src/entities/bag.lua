@@ -5,11 +5,18 @@ local SpriteComponent = require(_G.engineDir.."components.sprite")
 
 local BagUIComponent = require(_G.srcDir.."components.bagui")
 
-return Entity:new(
-    "Bag",
-    {
-        { class = TransformComponent },
-        { class = SpriteComponent, data = { width = 32, height = 32, center = true }},
-        { class = BagUIComponent }
-    }
-)
+local BagEntity = require(_G.libDir .. "middleclass")("BagEntity", Entity)
+
+function BagEntity:initialize( parent, data )
+    Entity.initialize(
+        parent,
+        "Bag",
+        {
+            { class = TransformComponent },
+            { class = SpriteComponent, data = { width = 32, height = 32, center = true }},
+            { class = BagUIComponent }
+        }
+    )
+end
+
+return BagEntity

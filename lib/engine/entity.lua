@@ -2,21 +2,24 @@ local Entity = require(_G.libDir .. "middleclass")("Entity")
 
 Entity.static.entities = {}
 
-function Entity:initialize( name, cmpts )
+function Entity:initialize( world, name, cmpts, children )
+    self.world = world
     self.name = name
     self.components = {}
-    
-    if type(cmpts) == "table"  then
+    self.children = {}
+
+    if type(cmpts) == "table" then
         for component in ipairs(cmpts) do
             self:addComponent(cmpts[component])
         end
     end
-
-    
 end
 
-function Entity:getName()
+function Entity:getName ()
     return self.name
+end
+
+function Entity:addChild ()
 end
 
 function Entity:getComponent ( name )
@@ -28,7 +31,6 @@ function Entity:getComponent ( name )
 end
 
 function Entity:addComponent ( component )
-    print(component.class.name)
     if self:getComponent( component.class.name ) == nil then
         self.components[component.class.name] = component.class:new(self, component.data or {})
     else
@@ -46,6 +48,7 @@ end
 
 function Entity:update (...)
     if self.components ~= nil then
+        
         for k, v in pairs (self.components) do
             if v.update ~= nil then
                 v:update(...)
@@ -63,6 +66,7 @@ function Entity:draw (...)
         end
     end
 end
+
 function Entity:mousereleased (...)
     if self.components ~= nil then
         for k, v in pairs (self.components) do
@@ -72,6 +76,7 @@ function Entity:mousereleased (...)
         end
     end
 end
+
 function Entity:mousepressed (...)
     if self.components ~= nil then
         for k, v in pairs (self.components) do

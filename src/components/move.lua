@@ -14,7 +14,6 @@ function MoveComponent:update()
     local q = love.keyboard.isDown("q");
     local d = love.keyboard.isDown("d");
     local s = love.keyboard.isDown("s");
-
     local transform = self.entity:getComponent("TransformComponent")
     local character = self.entity:getComponent("CharacterComponent")
     if z then

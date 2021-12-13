@@ -5,17 +5,25 @@ local SpriteComponent = require(_G.engineDir.."components.sprite")
 
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
+local CollisionComponent = require(_G.srcDir.."components.collision")
+
+local function pack(...)
+    return { ... }, select("#", ...)
+end
 
 local Player = require(_G.libDir .. "middleclass")("Player", Entity)
 
-function Player:initialize()
-    Entity.initialize( self, "Player", {
-        { class = TransformComponent, data = { position = { x = 50, y = 60 }} },
+function Player:initialize( world, data )
+    Entity.initialize( self, world, "Player", {
+        { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
         { class = SpriteComponent, data = { size={ w = 16, h=16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
-        { class = MoveComponent },
         { class = CharacterComponent },
+        { class = MoveComponent },
+        { class = CollisionComponent }
     });
 
+
+    print(self.components["TransformComponent"].position.x)
     self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
 end
 
@@ -42,8 +50,8 @@ local charInterface = {
 
 function Player:drawPlus ( index )
     local w, h = love.window:getMode()
-    local realCamX = _G.cam.x - w / 2
-    local realCamY = _G.cam.y - h / 2
+    local realCamX = 0
+    local realCamY = 0
     love.graphics.rectangle("line", realCamX + plus[index].x - 8, realCamY + plus[index].y - 8, 16, 16)
 
     local character = self.components["CharacterComponent"]
@@ -60,11 +68,9 @@ end
 function Player:draw()
     Entity.draw(self);
 
-    love.graphics.rectangle("fill", self.components["TransformComponent"].position.x, self.components["TransformComponent"].position.y, 32, 8)
-
     local w, h = love.window:getMode()
-    local realCamX = _G.cam.x - w / 2
-    local realCamY = _G.cam.y - h / 2
+    local realCamX = 0
+    local realCamY = 0
     -- Interface 
     -- Quick Item Interface
     -- drawQuickSlots()
@@ -77,7 +83,7 @@ function Player:draw()
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 800 / 2 - 150, realCamY + 600 - 68, 300, 32)
     -- TODO: Find a font
-    love.graphics.print(stats.life .. " / " .. stats.max_life,realCamX + 800 / 2 - 150, realCamY + 600 - 68)
+    love.graphics.print(stats.life .. " / " .. stats.max_life, realCamX + 800 / 2 - 150, realCamY + 600 - 68)
     -- Mana   
     love.graphics.setColor(0,255,200,255);
     love.graphics.rectangle("fill", realCamX + 564, realCamY + 600 - 74, 64, 64)
@@ -123,12 +129,13 @@ function Player:draw()
 end
 
 local lshift = false
+function Player:mousepressed(mousex, mousey, button)
+    Entity.mousepressed(self, mousex, mousey, button)
 
-function Player:mousepressed(mx, my, button)
     local characterComponent = self.components["CharacterComponent"]
     if characterComponent.statPoints > 0 then
         for i, v in ipairs(plus) do
-            if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > plus[i].y - 8 and my < plus[i].y + 8 then
+            if mousex > plus[i].x - 8 and mousex < plus[i].x + 8 and mousey > plus[i].y - 8 and mousey < plus[i].y + 8 then
                 if button == 1 then
                     if lshift ~= false then
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
@@ -154,6 +161,7 @@ function Player:mousepressed(mx, my, button)
 end
 
 function Player:keypressed(key)
+    Entity.keypressed(self, key)
     if key == "lshift" then lshift = true end
     -- if key == "b" then
     --     if bagInterface.show == false then
@@ -172,7 +180,10 @@ function Player:keypressed(key)
     end
 end
 
-function Player:keyreleased(key)
-    if key == "lshift" then lshift = true end
+function Player:keyreleased(...)
+    Entity.keyreleased(self, ...)
+    local t = pack(...)
+    if t.key == "lshift" then lshift = true end
 end
+
 return Player

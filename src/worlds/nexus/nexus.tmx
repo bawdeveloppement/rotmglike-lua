@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="8" tileheight="8" infinite="0" nextlayerid="8" nextobjectid="13">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="8" tileheight="8" infinite="0" nextlayerid="8" nextobjectid="34">
  <editorsettings>
-  <export target="nexus." format="lua"/>
+  <export target="data.lua" format="lua"/>
  </editorsettings>
  <tileset firstgid="1" name="lofiEnvironment2" tilewidth="8" tileheight="8" tilecount="480" columns="16">
-  <image source="../../textures/rotmg/EmbeddedAssets_lofiEnvironment2Embed_.png" width="128" height="240"/>
+  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironment2Embed_.png" width="128" height="240"/>
  </tileset>
- <tileset firstgid="481" source="../../tileset/lofiEnvironment3.tsx"/>
+ <tileset firstgid="481" source="../../assets/tileset/lofiEnvironment3.tsx"/>
+ <tileset firstgid="897" name="lofiEnvironment" tilewidth="8" tileheight="8" tilecount="256" columns="16">
+  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironmentEmbed_.png" width="128" height="128"/>
+ </tileset>
  <layer id="1" name="under_ground" width="50" height="50">
   <data encoding="csv">
 301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,301,
@@ -172,6 +175,31 @@
  <objectgroup id="5" name="hover_ground_object">
   <object id="10" name="Barrel" gid="599" x="184" y="104" width="8" height="8"/>
   <object id="11" name="Barrel" gid="599" x="184" y="112" width="8" height="8"/>
-  <object id="12" name="Egg" gid="535" x="160" y="88" width="8" height="8"/>
+  <object id="12" name="egg" gid="535" x="160" y="88" width="8" height="8"/>
+  <object id="13" name="player" type="spawner" x="51.25" y="29.75" width="29.75" height="28.75">
+   <properties>
+    <property name="entityId" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="monster_spawner" type="spawner" x="92.5" y="111.5" width="28.75" height="28.25">
+   <properties>
+    <property name="entityId" value="bat"/>
+   </properties>
+  </object>
+  <object id="18" name="portal" gid="991" x="192" y="48" width="8" height="8">
+   <properties>
+    <property name="portalId" value="nexus"/>
+   </properties>
+  </object>
+  <object id="19" name="tree" gid="970" x="184" y="48" width="8" height="8"/>
+  <object id="20" name="tree" gid="970" x="184" y="40" width="8" height="8"/>
+  <object id="21" name="tree" gid="970" x="192" y="40" width="8" height="8"/>
+  <object id="22" name="tree" gid="970" x="200" y="40" width="8" height="8"/>
+  <object id="23" name="tree" gid="970" x="200" y="48" width="8" height="8"/>
+  <object id="28" name="portal" gid="56" x="152" y="48" width="8" height="8">
+   <properties>
+    <property name="portalId" value="vault"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
