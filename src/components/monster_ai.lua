@@ -52,7 +52,7 @@ function MonsterAIComponent:update()
     --     monsters[i].isInCollision = true
         if self.attack.cooldown <= 0 then
             -- player.stats.life = player.stats.life - monsters[i].attack.damage;
-            self.world:addEntity( Projectile:new(self.world, { name = self.entityToSpawn, position = position }) )
+            self.world:addEntity( Projectile:new(self.world, { x = position.x, y = position.y, dx, dy}))
             self.sound.fire.play(self.sound.fire)
             self.attack.cooldown = love.math.random(80, 100)
         end
@@ -60,11 +60,6 @@ function MonsterAIComponent:update()
     --     monsters[i].isInCollision = false
     -- end
 end
-
-function MonsterAIComponent:fire()
-    
-end
-
 
 
 return MonsterAIComponent
