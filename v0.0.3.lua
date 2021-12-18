@@ -407,16 +407,6 @@ local function projectilesUpdate ()
             end
         end
     end
-
-    -- Remove projectiles after distance
-    for i, proj in pairs(projectiles) do
-        local longAB = function ( field ) return (proj[field] - proj.start[field]) * (proj[field] - proj.start[field]) end
-        local longueur = math.sqrt(longAB("x") + longAB("y"))
-        -- TODO: Projectiles distance
-        if longueur > proj.distance then
-            table.remove(projectiles, i);
-        end
-    end
 end
 
 local plus = {

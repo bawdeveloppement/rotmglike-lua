@@ -11,6 +11,7 @@ function BagEntity:initialize( parent, data )
     Entity.initialize(
         parent,
         "Bag",
+        "Bag",
         {
             { class = TransformComponent },
             { class = SpriteComponent, data = { width = 32, height = 32, center = true }},

@@ -2,11 +2,13 @@ local Entity = require(_G.libDir .. "middleclass")("Entity")
 
 Entity.static.entities = {}
 
-function Entity:initialize( world, name, cmpts, children )
+function Entity:initialize( world, id, name, cmpts, children )
     self.world = world
+    self.id = id
     self.name = name
     self.components = {}
     self.children = {}
+    self.markDestroy = false
 
     if type(cmpts) == "table" then
         for component in ipairs(cmpts) do

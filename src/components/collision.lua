@@ -8,16 +8,24 @@ local CollisionComponent = Class("CollisionComponent", Component);
 function CollisionComponent:initialize( entity, data )
     Component.initialize(self, entity)
 
-    local transform = self.entity:getComponent("TransformComponent");
-    self.position = {
-        x = transform.position.x + (data.x or 0) - 4,
-        y = transform.position.y + (data.y or 0) - 2
+    local position = self.entity:getComponent("TransformComponent").position;
+
+    position = {
+        x = position.x + (data.x or 0) - 4,
+        y = position.y + (data.y or 0) - 2
     }
 
-    self.size = {
-        width = data.width or 36,
-        height = data.height or 36
+    self.rect = {
+        width = 36,
+        height = 36
     }
+    
+    if data.rect ~= nil then
+        self.rect = {
+            width = data.rect.width + 4 or 36,
+            height = data.rect.height + 4 or 36
+        }
+    end
 
     self.isInCollision = {
         with = nil
@@ -25,14 +33,12 @@ function CollisionComponent:initialize( entity, data )
 end
 
 function CollisionComponent:update()
-    local transform = self.entity:getComponent("TransformComponent");
-    self.position.x = transform.position.x - 2;
-    self.position.y = transform.position.y - 2;
 end
 
 function CollisionComponent:draw()
+    local transform = self.entity:getComponent("TransformComponent");
     love.graphics.setColor(0,1,0,1)
-    love.graphics.rectangle("line", self.position.x, self.position.y, self.size.width, self.size.height)
+    love.graphics.rectangle("line", transform.position.x, transform.position.y, self.rect.width, self.rect.height)
     love.graphics.setColor(1,1,1,1)
 end
 

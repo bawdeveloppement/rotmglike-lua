@@ -14,7 +14,7 @@ end
 local Player = require(_G.libDir .. "middleclass")("Player", Entity)
 
 function Player:initialize( world, data )
-    Entity.initialize( self, world, "Player", {
+    Entity.initialize( self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
         { class = SpriteComponent, data = { size={ w = 16, h=16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
         { class = CharacterComponent },
@@ -22,8 +22,6 @@ function Player:initialize( world, data )
         { class = CollisionComponent }
     });
 
-
-    print(self.components["TransformComponent"].position.x)
     self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
 end
 

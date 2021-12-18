@@ -60,29 +60,15 @@ function World:initialize( mapname, scale )
     end
 end
 
+
+--#region Callbacks
 function World:update()
     for i, entity in ipairs(self.entities) do
-        entity:update()
-    end
-end
-
-function World:addEntity( entity )
-    if entity ~= nil then
-        table.insert(self.entities, #self.entities + 1, entity);
-    end
-end
-
-function World:getEntity (  )
-    
-end
-
-function World:removeTile( layerId, dataId )
-    if self.mapData.layers[layerId] ~= nil then
-        -- local dataId = 0
-        -- for i, v in ipairs (self.mapData.layers[layerId].data) do
-        --     if i == 
-        -- end
-        table.remove(self.mapData.layers[layerId].data, dataId)
+        if entity.markDestroy ~= true then
+            entity:update()
+        else
+            table.remove(self.entities, i);
+        end
     end
 end
 
@@ -179,7 +165,27 @@ function World:mousepressed(...)
         end
     end
 end
+--#endregion
 
+function World:addEntity( entity )
+    if entity ~= nil then
+        table.insert(self.entities, #self.entities + 1, entity);
+    end
+end
+
+function World:removeTile( layerId, dataId )
+    if self.mapData.layers[layerId] ~= nil then
+        -- local dataId = 0
+        -- for i, v in ipairs (self.mapData.layers[layerId].data) do
+        --     if i == 
+        -- end
+        table.remove(self.mapData.layers[layerId].data, dataId)
+    end
+end
+
+function World:getEntityByName ()
+    
+end
 
 -- Return the entity by id or nil
 function World:getEntityById( entityId )
@@ -196,7 +202,7 @@ function World:getEntitiesByClassName ( className )
     end
     return foundEntities
 end
-function World:getEntitiesByComponent ( componentName )
+function World:getEntitiesByComponentName ( componentName )
     local foundEntities = {}
     for i, v in ipairs(self.entities) do
         if v:getComponent(componentName) ~= nil then
@@ -220,16 +226,22 @@ function World:getEntitiesWithOneOf ( componentList )
 end
 
 -- Return a table with entities which have a strict list of components equals to fn arg
-function World:getEntitiesWithExact ( componentList )
+function World:getEntitiesWithAtLeast ( componentList )
     local foundEntities = {}
     for ei, entity in ipairs(self.entities) do
-        for ci, component in ipairs( componentList ) do
-            if entity:getComponent( component.name ) ~= nil and foundEntities[entity] == nil then
-                table.insert(foundEntities, #foundEntities + 1, entity);
+        local componentMatchedCount = 0
+        for ci, componentName in ipairs( componentList ) do
+            if entity:getComponent( componentName ) ~= nil and foundEntities[entity] == nil then
+                componentMatchedCount = componentMatchedCount + 1
             end
+        end
+        if componentMatchedCount == #componentList then
+            table.insert(foundEntities, #foundEntities + 1, entity);
         end
     end
     return foundEntities
 end
-
+function World:getEntitiesCount()
+    return #self.entities
+end
 return World

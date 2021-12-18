@@ -24,13 +24,15 @@ function MonsterAIComponent:initialize( entity )
     }
 
     self.attack = {
-        cooldown = love.math.random(80, 100)
+        cooldown = love.math.random(80, 100),
+        distance = 100,
+        damage = love.math.random(10, 30)
     }
 end
 
 function MonsterAIComponent:update()
     local position = self:getComponent("TransformComponent").position
-    local characters = self.entity.world:getEntitiesByComponent("CharacterComponent")
+    local characters = self.entity.world:getEntitiesByComponentName("CharacterComponent")
 
     if characters[1] ~= nil then
         local playerPos = characters[1]:getComponent("TransformComponent").position
@@ -52,7 +54,7 @@ function MonsterAIComponent:update()
     --     monsters[i].isInCollision = true
         if self.attack.cooldown <= 0 then
             -- player.stats.life = player.stats.life - monsters[i].attack.damage;
-            self.world:addEntity( Projectile:new(self.world, { x = position.x, y = position.y, dx, dy}))
+            self.entity.world:addEntity( Projectile:new(self.entity.world, { ownerId = self.entity.id, x = position.x, y = position.y, dx = self.velocity.x, dy = self.velocity.y}))
             self.sound.fire.play(self.sound.fire)
             self.attack.cooldown = love.math.random(80, 100)
         end

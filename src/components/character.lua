@@ -25,43 +25,20 @@ function CharacterComponent:initialize( parent )
     }
 
     self.statPoints = 10
+
+    self.skin = {
+        texture = "",
+    }
+
+    self.audio = {
+        hit = love.audio.newSource("src/assets/sfx/player/archer_hit.mp3", "static"),
+        death = love.audio.newSource("src/assets/sfx/player/archer_death.mp3", "static")
+    }
 end
 
--- local lshift = true
--- function CharacterComponent:keypressed(key)
---    if key == "lshift" then lshift = true end
---     if key == "b" then
---         if bagInterface.show == false then
---             bagInterface.show = true
---             charInterface.show = false
---         else
---             bagInterface.show = false
---         end
---     end
---     if key == "c" then
---         if charInterface.show then
---             charInterface.show = false
---         else
---             charInterface.show = true
---             bagInterface.show = false
---         end
---     end
---     for i, v in ipairs(quickSlots) do
---         if v.key ~= nil then
---             if key == v.key then
---                 if v.item ~= nil then
---                     if v.item.use ~= nil then
---                         if v.item.use.destroy == true then
---                             print(quickSlots[i].quantity )
---                             quickSlots[i].quantity = quickSlots[i].quantity - 1
---                             print(quickSlots[i].quantity )
---                         end
---                         v.item.use.handler()
---                     end
---                 end
---             end
---         end
---     end
--- end
+function CharacterComponent:getDamage( damage )
+    self.stats.life = self.stats.life - damage
+    self.audio.hit.play(self.audio.hit);
+end
 
 return CharacterComponent

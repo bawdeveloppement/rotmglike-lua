@@ -7,7 +7,7 @@ local Monster = require(_G.srcDir .. "entities.monster")
 local MonsterSpawner = require(_G.libDir .. "middleclass")("MonsterSpawner", Entity)
 
 function MonsterSpawner:initialize ( world, data )
-    Entity.initialize(self, world, "MonsterSpawner", {
+    Entity.initialize(self, world, "MonsterSpawner1", "MonsterSpawner", {
         { class = Transform, data = { position = data.position  }},
         { class = Sprite, data = { width = 32, height = 32, center = true }},
     });
@@ -19,7 +19,7 @@ end
 function MonsterSpawner:update(dt)
     Entity.update(self, dt)
     
-    local monsters = self.world:getEntitiesByComponent("MonsterAIComponent")
+    local monsters = self.world:getEntitiesByComponentName("MonsterAIComponent")
 
     if #monsters < 5 and self.monsterKilled < 3 then
         if self.spawnMonsterTimer < 1 then
