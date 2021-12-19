@@ -45,7 +45,7 @@ _G.callbacks = {
     }
 }
 
-love.graphidcs.setDefaultFilter("nearest")
+love.graphics.setDefaultFilter("nearest")
 
 local screens = {
     { name = "main_menu", buildIndex = 1 },
