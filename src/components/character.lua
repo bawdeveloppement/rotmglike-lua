@@ -94,11 +94,9 @@ end
 function CharacterComponent:getDamage( damage, enemyId )
     self.stats.life = self.stats.life - damage
     table.insert(self.attacksLog, #self.attacksLog + 1, { name = enemyId or "unknown", damage = damage })
-    -- print(self.attacksLog[#self.attacksLog].name .. " attack " .. self.entity.id .. " -" .. self.attacksLog[#self.attacksLog].damage)
     self.audio.hit.play(self.audio.hit);
+    -- print(self.attacksLog[#self.attacksLog].name .. " attack " .. self.entity.id .. " -" .. self.attacksLog[#self.attacksLog].damage)
 end
 
-function CharacterComponent:draw()
-end
 
 return CharacterComponent

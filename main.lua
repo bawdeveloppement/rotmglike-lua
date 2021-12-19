@@ -45,13 +45,14 @@ _G.callbacks = {
     }
 }
 
-love.graphics.setDefaultFilter("nearest")
+love.graphidcs.setDefaultFilter("nearest")
 
 local screens = {
     { name = "main_menu", buildIndex = 1 },
     { name = "option", buildIndex = 2 },
     { name = "play", buildIndex = 3 },
 }
+love.audio.setVolume(0.1)
 
 _G.xle = require(_G.engineDir .. "xle")
 _G.xleInstance = _G.xle.Init:new(screens)
