@@ -333,43 +333,6 @@ local function createProjectiles ( sx, sy, dx, dy, damage )
     }
 end
 
-local function playerUpdate ()
-    local z = love.keyboard.isDown("z");
-    local q = love.keyboard.isDown("q");
-    local d = love.keyboard.isDown("d");
-    local s = love.keyboard.isDown("s");
-    if z then
-        player.y = player.y - (player.speed + player.stats.speed * 0.1);
-    end
-
-    if q then
-        player.x = player.x - (player.speed + player.stats.speed * 0.1);
-    end
-
-    if d then
-        player.x = player.x + (player.speed + player.stats.speed * 0.1);
-    end
-
-    if s then
-        player.y = player.y + (player.speed + player.stats.speed * 0.1);
-    end
-
-
-    -- Level up
-    local restExp = player.exp - player.maxExp
-    if restExp >= 0 then
-        player.exp = restExp
-        player.level = player.level + 1;
-        player.stats.life = player.stats.max_life;
-        player.statPoints = player.statPoints + 1;
-        levelUpSound.play(levelUpSound)
-    end
-
-    if player.stats.life < 1 then
-        -- player.sound.death.play(player.sound.death)
-    end
-end
-
 local function projectilesUpdate ()
     local mouseIsDown = love.mouse.isDown(1);
     local mx, my = love.mouse.getPosition();

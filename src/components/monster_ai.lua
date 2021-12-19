@@ -11,12 +11,11 @@ function MonsterAIComponent:initialize( entity )
     Component.initialize(self, entity)
     self.name = "MonsterAIComponent";
 
-
     self.velocity = {
         x = 0,
         y = 0
     }
-    
+
     self.sound = {
         death = love.audio.newSource("src/assets/sfx/monster/".. self.entity.name .."s_death.mp3", "static"),
         hit = love.audio.newSource("src/assets/sfx/monster/".. self.entity.name .."s_hit.mp3", "static"),
@@ -24,9 +23,9 @@ function MonsterAIComponent:initialize( entity )
     }
 
     self.attack = {
-        cooldown = love.math.random(80, 100),
+        cooldown = love.math.random(80, 100) - ( self.entity:getComponent("CharacterComponent").stats.dexterity * 2 or 0 ),
         distance = 100,
-        damage = love.math.random(10, 30)
+        damage = love.math.random(10, 30) + ( self.entity:getComponent("CharacterComponent").stats.attack or 0 )
     }
 end
 
@@ -48,19 +47,11 @@ function MonsterAIComponent:update()
     end
 
     self.attack.cooldown = self.attack.cooldown - 1;
-    -- if monsters[i].x + monsters[i].w >= player.x and monsters[i].x <= player.x + player.w
-    -- and monsters[i].y + monsters[i].h >= player.y and monsters[i].y <= player.y + player.h
-    -- then
-    --     monsters[i].isInCollision = true
-        if self.attack.cooldown <= 0 then
-            -- player.stats.life = player.stats.life - monsters[i].attack.damage;
-            self.entity.world:addEntity( Projectile:new(self.entity.world, { ownerId = self.entity.id, x = position.x, y = position.y, dx = self.velocity.x, dy = self.velocity.y}))
-            self.sound.fire.play(self.sound.fire)
-            self.attack.cooldown = love.math.random(80, 100)
-        end
-    -- else
-    --     monsters[i].isInCollision = false
-    -- end
+    if self.attack.cooldown <= 0 then
+        self.entity.world:addEntity( Projectile:new(self.entity.world, { ownerId = self.entity.id, x = position.x, y = position.y, dx = self.velocity.x, dy = self.velocity.y}))
+        self.sound.fire.play(self.sound.fire)
+        self.attack.cooldown = love.math.random(80, 100)
+    end
 end
 
 

@@ -6,6 +6,7 @@ local SpriteComponent = require(_G.engineDir.."components.sprite")
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
 local CollisionComponent = require(_G.srcDir.."components.collision")
+local Projectile = require(_G.srcDir .. "entities.projectile");
 
 local function pack(...)
     return { ... }, select("#", ...)
@@ -29,6 +30,13 @@ local mx, my = 0, 0;
 function Player:update(dt)
     Entity.update(self, dt);
     mx, my = love.mouse.getPosition()
+
+    local position = self:getComponent("TransformComponent").position
+    if love.mouse.isDown(1) then
+        local velx = math.cos(math.atan2(position.y - my, position.x - mx))
+        local vely = math.sin(math.atan2(position.y - my, position.x - mx));
+        self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
+    end
 end
 
 local plus = {
@@ -43,7 +51,7 @@ local plus = {
 }
 
 local charInterface = {
-    show = true
+    show = false
 }
 
 function Player:drawPlus ( index )

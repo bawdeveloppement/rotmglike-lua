@@ -2,17 +2,12 @@
 	"folders": [
 		{
 			"name": "rpg",
-			"path": ".."
+			"path": "."
 		}
 	],
 	"settings": {
 		"Lua.diagnostics.globals": [
-			"love",
-			"lshift"
-		],
-		"Lua.workspace.library": [
-			"${3rd}/love2d/library"
-		],
-		"Lua.workspace.checkThirdParty": false
+			"love"
+		]
 	}
 }

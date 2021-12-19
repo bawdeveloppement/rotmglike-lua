@@ -8,7 +8,7 @@ function GamePlayScreen:init()
     _G.xle.Screen.init(self)
 
     local World = require(_G.engineDir .. "world")
-    local nexus = World:new("nexus", 4)
+    local nexus = World:new("realm", 4)
     
     self.nodes = {
         nexus,

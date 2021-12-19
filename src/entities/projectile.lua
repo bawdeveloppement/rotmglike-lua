@@ -8,7 +8,7 @@ function Projectile:initialize( world, data )
     Entity.initialize(self, world, "Projectile"..world:getEntitiesCount(), "Projectile", {
         { class = TransformComponent, data = { position = { x = data.x, y = data.y }}},
         { class = Sprite, data = { width = 32, height = 32 }},
-        { class = CollisionComponent, data = { rect = { width = 32, height = 32 }}}
+        { class = CollisionComponent, data = { solid = true, rect = { width = 32, height = 32 }}}
     });
 
     self.ownerId = data.ownerId or nil
@@ -33,22 +33,20 @@ function Projectile:update()
     position.x = position.x - self.dx * 10
     position.y = position.y - self.dy * 10
 
-    local searchPlayerResult = self.world:getEntitiesWithAtLeast({ "TransformComponent", "CharacterComponent" })
-    if searchPlayerResult[1] ~= nil then
-        local playerPosition = searchPlayerResult[1]:getComponent("TransformComponent").position
-        local playerRect = searchPlayerResult[1]:getComponent("SpriteComponent").rect
-        if position.x + rect.width > playerPosition.x and position.x < playerPosition.x + playerRect.width and
-        position.y + rect.height > playerPosition.y and position.y < playerPosition.y + playerRect.height then
-            searchPlayerResult[1]:getComponent("CharacterComponent"):getDamage(10)
-            self.markDestroy = true
+    local searchPlayerResult = self.world:getEntitiesWithAtLeast({ "CollisionComponent", "CharacterComponent" })
+    for i, v in ipairs(searchPlayerResult) do
+        local vPosition = v:getComponent("TransformComponent").position
+        local vRect = v:getComponent("SpriteComponent").rect
+        if (position.x + rect.width > vPosition.x and position.x < vPosition.x + vRect.width and
+            position.y + rect.height > vPosition.y and position.y < vPosition.y + vRect.height) and v.id ~= self.ownerId then
+                v:getComponent("CharacterComponent"):getDamage(10, self.ownerId)
+                self.markDestroy = true
         end
     end
-
-    -- TODO:Remove projectiles after distance
+    -- Remove projectiles after distance
     local longAB = function ( field ) return (position[field] - self.start[field]) * (position[field] - self.start[field]) end
     local longueur = math.sqrt(longAB("x") + longAB("y"))
     if longueur > self.attack.distance then
-        print("dazdaz")
         self.markDestroy = true
     end
 end

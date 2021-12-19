@@ -1,84 +1,12 @@
 {
-    "Map/SizeTest": {
-        "height": 4300,
-        "width": 2
-    },
-    "activeFile": "nexus.tmx",
+    "activeFile": "",
     "expandedProjectPaths": [
-        "."
     ],
-    "file.lastUsedOpenFilter": "Tous les Fichiers (*)",
     "fileStates": {
-        "/home/opx/Documents/love/rpg/src/assets/tileset/lofiEnvironment2.tsx": {
-            "scaleInDock": 1
-        },
-        "/home/opx/Documents/love/rpg/src/assets/tileset/lofiEnvironment3.tsx": {
-            "scaleInDock": 1
-        },
-        "/home/opx/Documents/love/rpg/src/assets/worlds/EmbeddedAssets_lofiEnvironment2Embed_.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "/home/opx/Documents/love/rpg/src/tileset/lofiEnvironment3.tsx": {
-            "dynamicWrapping": true,
-            "scaleInDock": 1
-        },
-        "nexus.tmx": {
-            "scale": 1.5,
-            "selectedLayer": 3,
-            "viewCenter": {
-                "x": 149,
-                "y": 190.66666666666663
-            }
-        },
-        "nexus.tmx#lofiEnvironment": {
-            "scaleInDock": 3
-        },
-        "nexus.tmx#lofiEnvironment2": {
-            "dynamicWrapping": false,
-            "scaleInDock": 3,
-            "scaleInEditor": 1
-        },
-        "vault.tmx": {
-            "scale": 2,
-            "selectedLayer": 1,
-            "viewCenter": {
-                "x": 245.25,
-                "y": 86
-            }
-        },
-        "vault.tmx#lofiEnvironment": {
-            "scaleInDock": 3
-        },
-        "vault.tmx#lofiObj2": {
-            "scaleInDock": 4
-        }
     },
-    "last.exportedFilePath": "/home/opx/Documents/love/rpg/src/worlds/nexus",
-    "last.externalTilesetPath": "/home/opx/Documents/love/rpg/src/assets/tileset",
-    "last.imagePath": "/home/opx/Documents/love/rpg/src/assets/textures/rotmg",
-    "map.height": 50,
-    "map.lastUsedExportFilter": "Fichiers Lua (*.lua)",
-    "map.lastUsedFormat": "tmx",
-    "map.layerDataFormat": null,
-    "map.renderOrder": null,
-    "map.tileHeight": 8,
-    "map.tileWidth": 8,
-    "map.width": 50,
     "openFiles": [
-        "nexus.tmx",
-        "vault.tmx"
     ],
-    "project": "rotmg.tiled-project",
+    "project": "",
     "recentFiles": [
-        "vault.tmx",
-        "nexus.tmx",
-        "/home/opx/Documents/love/rpg/src/assets/worlds/EmbeddedAssets_lofiEnvironment2Embed_.tsx"
-    ],
-    "tileset.embedInMap": true,
-    "tileset.lastUsedFormat": "tsx",
-    "tileset.tileSize": {
-        "height": 8,
-        "width": 8
-    }
+    ]
 }
