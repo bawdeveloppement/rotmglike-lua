@@ -6,6 +6,8 @@ local SpriteComponent = require(_G.engineDir.."components.sprite")
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
 local CollisionComponent = require(_G.srcDir.."components.collision")
+local PlayerComponent = require(_G.srcDir.."components.player")
+
 local Projectile = require(_G.srcDir .. "entities.projectile");
 
 local function pack(...)
@@ -18,9 +20,10 @@ function Player:initialize( world, data )
     Entity.initialize( self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
         { class = SpriteComponent, data = { size={ w = 16, h=16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
+        { class = CollisionComponent },
         { class = CharacterComponent },
         { class = MoveComponent },
-        { class = CollisionComponent }
+        { class = PlayerComponent },
     });
 
     self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
@@ -186,10 +189,10 @@ function Player:keypressed(key)
     end
 end
 
-function Player:keyreleased(...)
-    Entity.keyreleased(self, ...)
-    local t = pack(...)
-    if t.key == "lshift" then lshift = true end
+function Player:keyreleased(key)
+    Entity.keyreleased(self, key)
+
+    if key  == "lshift" then lshift = false end
 end
 
 return Player

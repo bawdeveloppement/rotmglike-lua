@@ -9,13 +9,14 @@ function CollisionComponent:initialize( entity, data )
     Component.initialize(self, entity)
 
     local position = self.entity:getComponent("TransformComponent").position;
+    local rect = self.entity:getComponent("SpriteComponent").rect;
 
     position = {
         x = position.x + (data.x or 0) - 4,
         y = position.y + (data.y or 0) - 2
     }
 
-    self.rect = {
+    self.rect = rect or {
         width = 36,
         height = 36
     }

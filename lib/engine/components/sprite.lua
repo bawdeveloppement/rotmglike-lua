@@ -1,7 +1,6 @@
 local Component = require(_G.engineDir .. "component");
 local Vector2 = require(_G.engineDir.."utils.Vector2");
 
-
 local Sprite = require(_G.libDir.."middleclass")("SpriteComponent", Component);
 
 function Sprite:initialize(parent, data)

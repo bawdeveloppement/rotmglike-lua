@@ -31,10 +31,10 @@ end
 
 function MonsterAIComponent:update()
     local position = self:getComponent("TransformComponent").position
-    local characters = self.entity.world:getEntitiesByComponentName("CharacterComponent")
+    local characters = self.entity.world:getEntitiesByComponentName("PlayerComponent")
 
-    if characters[1] ~= nil then
-        local playerPos = characters[1]:getComponent("TransformComponent").position
+    for i, v in ipairs(characters) do
+        local playerPos = v:getComponent("TransformComponent").position
         local velx = math.cos(math.atan2(position.y - playerPos.y, position.x - playerPos.x))
         local vely = math.sin(math.atan2(position.y - playerPos.y, position.x - playerPos.x));
         -- body

@@ -55,31 +55,46 @@ end
 local mx, my = 0, 0;
 function CharacterComponent:update()
     mx, my = love.mouse.getPosition()
-    
+
     local restExp = self.exp - self.maxExp
     if restExp >= 0 then
         self.exp = restExp
         self.level = self.level + 1;
         self.stats.life = self.stats.max_life;
         self.statPoints = self.statPoints + 1;
-        self.audio.level_up.play(self.audio.level_up)
+        if self.audio.level_up:isPlaying() then
+            self.audio.level_up:stop()
+            self.audio.level_up:play()
+        else
+            self.audio.level_up:play()
+        end
     end
 
     if self.stats.life <= 0 then
-        for _, v in ipairs(self.onDeath) do if type(v) == "function" then v() end end
+        for k, v in pairs(self.onDeath) do
+            if type(v) == "function" then
+                v(self)
+            end
+        end
         self.entity.markDestroy = true
     end
 end
 
 
 function CharacterComponent:addOnDeath( fnName, func )
-    
+    if self.onDeath[fnName] == nil then
+        self.onDeath[fnName] = func
+    end
+end
+
+function CharacterComponent:getExp ( xp )
+    self.exp = self.exp + xp
 end
 
 function CharacterComponent:getDamage( damage, enemyId )
     self.stats.life = self.stats.life - damage
     table.insert(self.attacksLog, #self.attacksLog + 1, { name = enemyId or "unknown", damage = damage })
-    print(self.attacksLog[#self.attacksLog].name .. " attack " .. self.entity.id .. " -" .. self.attacksLog[#self.attacksLog].damage)
+    -- print(self.attacksLog[#self.attacksLog].name .. " attack " .. self.entity.id .. " -" .. self.attacksLog[#self.attacksLog].damage)
     self.audio.hit.play(self.audio.hit);
 end
 

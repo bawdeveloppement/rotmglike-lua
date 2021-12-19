@@ -202,6 +202,7 @@ function World:getEntitiesByClassName ( className )
     end
     return foundEntities
 end
+
 function World:getEntitiesByComponentName ( componentName )
     local foundEntities = {}
     for i, v in ipairs(self.entities) do

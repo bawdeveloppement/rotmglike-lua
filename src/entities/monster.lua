@@ -12,12 +12,28 @@ local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 function Monster:initialize ( world, data)
     Entity.initialize(self, world, "Monster#"..world:getEntitiesCount(), data.name, {
         { class = Transform, data = data },
-        { class = Sprite, data = { rect = { width = 32, height = 32 }, center = true }},
+        { class = Sprite, data = { rect = { width = 16, height = 16 }, center = true }},
         { class = CharacterComponent },
         { class = CollisionComponent },
         { class = MonsterAIComponent }
     });
 
+    self:dropExp()
+end
+
+function Monster:dropExp()
+    self:getComponent("CharacterComponent"):addOnDeath("dropxp", function ( m )
+        local entities = self.world:getEntitiesByComponentName("CharacterComponent")
+        local sPos = self:getComponent("TransformComponent").position -- self pos
+        for i, v in ipairs(entities) do
+            local vPos = v:getComponent("TransformComponent").position
+            if vPos ~= nil and sPos ~= nil then
+                if vPos.x > sPos.x - 100 and vPos.x < sPos.x + 100 and vPos.y > sPos.y - 100 and vPos.y < sPos.y + 100 then
+                    v:getComponent("CharacterComponent"):getExp(100)
+                end
+            end
+        end
+    end)
 end
 
 function Monster:draw()
