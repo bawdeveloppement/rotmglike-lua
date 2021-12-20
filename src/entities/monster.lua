@@ -1,10 +1,10 @@
 -- Components
 local Sprite = require(_G.engineDir.."components.sprite")
 local Transform = require(_G.engineDir.."components.transform")
+local CollisionComponent = require(_G.engineDir .. "components.collision")
 local Entity = require(_G.engineDir.."entity")
 
 local MonsterAIComponent = require(_G.srcDir .. "components.monster_ai")
-local CollisionComponent = require(_G.srcDir .. "components.collision")
 local CharacterComponent = require(_G.srcDir .. "components.character")
 
 local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
@@ -38,6 +38,13 @@ function Monster:bindDropExp()
                 end
             end
         end
+    end)
+end
+
+function Monster:bindDropBag()
+    self:getComponent("CharacterComponent"):addOnDeath("dropbag", function ( m )
+        local sPos = self:getComponent("TransformComponent").position -- self pos
+        local entities = self.world:addEntity("CharacterComponent")
     end)
 end
 

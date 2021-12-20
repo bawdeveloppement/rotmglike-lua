@@ -1,10 +1,15 @@
-# v0.0.6
+# v0.0.5 - Engine / Game update
 - Better world entities
-- Item
 - Monster Drop System
-- Bag
+- Interface - Slot system
+  - Item
+  - Bag
 
-# v0.0.7
+# v0.0.6 - Game Update
 - Craft system
 - Forge system
 - Enchant system
+
+# v0.0.7 - Engine
+- Screen contain (gameObject - component)
+- World contain (entities - component) / system

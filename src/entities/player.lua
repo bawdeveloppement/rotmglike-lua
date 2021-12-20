@@ -2,10 +2,10 @@
 local Entity = require(_G.engineDir .. "entity")
 local TransformComponent = require(_G.engineDir.."components.transform")
 local SpriteComponent = require(_G.engineDir.."components.sprite")
+local CollisionComponent = require(_G.engineDir.."components.collision")
 
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
-local CollisionComponent = require(_G.srcDir.."components.collision")
 local PlayerComponent = require(_G.srcDir.."components.player")
 
 local Projectile = require(_G.srcDir .. "entities.projectile");
@@ -75,7 +75,7 @@ function Player:update(dt)
         local velx = math.cos(math.atan2(position.y - my, position.x - mx))
         local vely = math.sin(math.atan2(position.y - my, position.x - mx));
         self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
-        self.sound.fire.play(self.sound.fire)
+        -- self.sound.fire.play(self.sound.fire)
     end
 end
 

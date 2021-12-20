@@ -557,15 +557,6 @@ function love.draw ()
         love.graphics.circle("fill", projectiles[i].x, projectiles[i].y, 2);
     end
 
-    -- Monsters drawing
-    for i, v in ipairs(monsters) do
-        love.graphics.setColor(255,0,0,255);
-        love.graphics.rectangle("fill", monsters[i].x, monsters[i].y - 16, monsters[i].w * ( monsters[i].life / 100 ), 8)
-        love.graphics.setColor(255,255,255,255);
-        love.graphics.rectangle("line", monsters[i].x, monsters[i].y, monsters[i].w, 8)
-        love.graphics.rectangle("fill", monsters[i].x, monsters[i].y, monsters[i].w, monsters[i].h);
-    end
-
     -- Draw bags
     local moreShorter = nil
     for bagIndex, bag in ipairs(bags) do

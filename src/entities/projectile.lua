@@ -1,7 +1,8 @@
 local Entity = require(_G.engineDir .. "entity")
 local TransformComponent = require(_G.engineDir .. "components.transform")
-local CollisionComponent = require(_G.srcDir .. "components.collision")
+local CollisionComponent = require(_G.engineDir .. "components.collision")
 local Sprite = require(_G.engineDir .. "components.sprite")
+
 local Projectile = require(_G.libDir .. "middleclass")("Projectile", Entity);
 
 function Projectile:initialize( world, data )

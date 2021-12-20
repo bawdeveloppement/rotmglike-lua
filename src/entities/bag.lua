@@ -2,6 +2,7 @@
 local Entity = require(_G.engineDir .. "entity")
 local TransformComponent = require(_G.engineDir.."components.transform")
 local SpriteComponent = require(_G.engineDir.."components.sprite")
+local CollisionComponent = require(_G.engineDir.."components.collision")
 
 local BagUIComponent = require(_G.srcDir.."components.bagui")
 
@@ -15,7 +16,8 @@ function BagEntity:initialize( parent, data )
         {
             { class = TransformComponent },
             { class = SpriteComponent, data = { width = 32, height = 32, center = true }},
-            { class = BagUIComponent }
+            { class = BagUIComponent },
+            { class = CollisionComponent }
         }
     )
 end
