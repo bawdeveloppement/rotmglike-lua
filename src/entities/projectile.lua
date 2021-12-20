@@ -7,8 +7,8 @@ local Projectile = require(_G.libDir .. "middleclass")("Projectile", Entity);
 function Projectile:initialize( world, data )
     Entity.initialize(self, world, "Projectile"..world:getEntitiesCount(), "Projectile", {
         { class = TransformComponent, data = { position = { x = data.x, y = data.y }}},
-        { class = Sprite, data = { width = 32, height = 32 }},
-        { class = CollisionComponent, data = { solid = true, rect = { width = 32, height = 32 }}}
+        { class = Sprite, data = { rect = { width = 16, height = 16 }}},
+        { class = CollisionComponent, data = { solid = true, rect = { width = 16, height = 16 }}}
     });
 
     self.ownerId = data.ownerId or nil
@@ -37,10 +37,18 @@ function Projectile:update()
     for i, v in ipairs(searchPlayerResult) do
         local vPosition = v:getComponent("TransformComponent").position
         local vRect = v:getComponent("SpriteComponent").rect
+        local vChar = v:getComponent("SpriteComponent").rect
+        local sChar = v:getComponent("SpriteComponent").rect
         if (position.x + rect.width > vPosition.x and position.x < vPosition.x + vRect.width and
-            position.y + rect.height > vPosition.y and position.y < vPosition.y + vRect.height) and v.id ~= self.ownerId then
-                v:getComponent("CharacterComponent"):getDamage(10, self.ownerId)
-                self.markDestroy = true
+            position.y + rect.height > vPosition.y and position.y < vPosition.y + vRect.height) and v.id ~= self.ownerId
+            then
+                local owner = self.world:getEntityById(self.ownerId);
+                if owner ~= nil then
+                    if v.name ~= owner.name then
+                        v:getComponent("CharacterComponent"):getDamage(10, self.ownerId)
+                        self.markDestroy = true
+                    end
+                end
         end
     end
     -- Remove projectiles after distance

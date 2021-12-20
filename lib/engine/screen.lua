@@ -9,13 +9,11 @@ function Screen:initialize( name, active, entities )
     
     table.insert(Screen.screensInstances, #Screen.screensInstances + 1, self)
 
-    self.enter_realm_sound = love.audio.newSource("src/assets/sfx/enter_realm.mp3", "static")
 end
 
 function Screen:init()
     self.active = true
-
-    self.enter_realm_sound.play(self.enter_realm_sound)
+    love.window.setTitle(self.name)
 end
 
 Screen.static.goToScreen = function ( name )

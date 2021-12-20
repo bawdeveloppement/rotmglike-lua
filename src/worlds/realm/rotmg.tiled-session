@@ -23,12 +23,15 @@
             "dynamicWrapping": true,
             "scaleInDock": 1
         },
+        "/home/opx/Documents/love/rpg/src/worlds/nexus/nexus.tmx#lofiEnvironment3": {
+            "scaleInEditor": 1
+        },
         "realm.tmx": {
             "scale": 1.5,
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 232,
-                "y": 189.33333333333331
+                "y": 179
             }
         },
         "realm.tmx#lofiEnvironment": {
@@ -54,7 +57,7 @@
             "scaleInDock": 4
         }
     },
-    "last.exportedFilePath": "/home/opx/Documents/love/rpg/src/worlds/realm",
+    "last.exportedFilePath": "/home/opx/Documents/love/rpg/src/worlds/nexus",
     "last.externalTilesetPath": "/home/opx/Documents/love/rpg/src/assets/tileset",
     "last.imagePath": "/home/opx/Documents/love/rpg/src/assets/textures/rotmg",
     "map.height": 50,

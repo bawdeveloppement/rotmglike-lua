@@ -391,8 +391,6 @@ local plus = {
     { x = 25, y = 485, name = "force" },
 }
 
-
-
 local function drawBagInterface ( bagIndex )
     local width = #bags[bagIndex].loots * 40
     local height = #bags[bagIndex].loots % 2 * 42 + 42
@@ -480,6 +478,7 @@ local function drawQuickSlots ()
         end
     end
 end
+
 function love.load ( config )
     config.title = "RPG"
 end
@@ -600,28 +599,6 @@ function love.draw ()
                 0, 0,
                 0, 0
             )
-    end
-    
-
-    -- BAG
-    if bagInterface.show then
-        -- Bag Icon
-        love.graphics.setColor(128, 0, 128, 255);
-        love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
-        -- Bag Interface
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.rectangle("line", 10, 600- 52 - 220, 220, 220);
-        love.graphics.print("Bag : "..#player.bag.." items.", 10, 600-52-240)
-        for y = 1, 5, 1 do
-            for x = 1, 5, 1 do
-                love.graphics.rectangle("line", 20 + (10 + 32) * (x - 1), (600 - 94 - 210 ) + 42 * y, 32, 32)
-            end
-        end
-        love.graphics.print("Bag : "..#player.bag.." items.", 10, 600-52-240)
-    else
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.print("B", 64, 600-32)
-        love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
     end
 end
 

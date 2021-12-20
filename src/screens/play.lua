@@ -2,18 +2,21 @@ local GamePlayScreen = require(_G.libDir .. "middleclass")("GamePlayScreen", _G.
 
 function GamePlayScreen:initialize (name, active)
     _G.xle.Screen.initialize(self, name, active)
+    self.enter_realm_sound = love.audio.newSource("src/assets/sfx/enter_realm.mp3", "static")
 end
 
 function GamePlayScreen:init()
     _G.xle.Screen.init(self)
 
-    local World = require(_G.engineDir .. "world")
-    local nexus = World:new("realm", 4)
+    local Realm = require(_G.srcDir .. "worlds.realm.realm"):new()
     
     self.nodes = {
-        nexus,
+        Realm,
     }
+
+    self.enter_realm_sound.play(self.enter_realm_sound)
 end
+
 
 function GamePlayScreen:update(...)
     for i, v in ipairs(self.nodes) do

@@ -21,23 +21,26 @@ function Player:initialize( world, data )
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
         { class = SpriteComponent, data = { size={ w = 16, h=16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
         { class = CollisionComponent },
-        { class = CharacterComponent },
+        { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
         { class = PlayerComponent },
     });
 
+    self.bag = {}
 
     self.audio = {
         level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
     }
 
     self:bindPlaySoundOnLevelUp()
-    
+    self:bindPlaySoundOnDeath()
+
     local characterComponent = self:getComponent("CharacterComponent")
     self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
     self.healthText = love.graphics.newText(_G.font, ""..characterComponent.stats.life .. " / " .. characterComponent.stats.max_life)
     self.manaText = love.graphics.newText(_G.font, ""..characterComponent.stats.mana .. " / " .. characterComponent.stats.max_mana)
     self.expText = love.graphics.newText(_G.font, ""..characterComponent.exp .. " / " .. characterComponent.max_exp)
+    
 end
 
 function Player:bindPlaySoundOnLevelUp()
@@ -50,6 +53,18 @@ function Player:bindPlaySoundOnLevelUp()
         end
     end)
 end
+
+function Player:bindPlaySoundOnDeath()
+    self:getComponent("CharacterComponent"):addOnDeath("ondeath", function ( m )
+        if m.audio.death:isPlaying() then
+            m.audio.death:stop()
+            m.audio.death:play()
+        else
+            m.audio.death:play()
+        end
+    end)
+end
+
 local mx, my = 0, 0;
 function Player:update(dt)
     Entity.update(self, dt);
@@ -60,6 +75,7 @@ function Player:update(dt)
         local velx = math.cos(math.atan2(position.y - my, position.x - mx))
         local vely = math.sin(math.atan2(position.y - my, position.x - mx));
         self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
+        self.sound.fire.play(self.sound.fire)
     end
 end
 
@@ -78,6 +94,9 @@ local charInterface = {
     show = false
 }
 
+local bagInterface = {
+    show = false
+}
 function Player:drawPlus ( index )
     local w, h = love.window:getMode()
     local realCamX = 0
@@ -139,8 +158,11 @@ function Player:draw()
         love.graphics.rectangle("fill", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
 
         -- INTERFACE
-        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.setColor(1, 1, 1, 1);
         love.graphics.rectangle("line", realCamX + 10, realCamY + 600 - 272, 220, 220);
+        love.graphics.setColor(0, 0, 0, 0.4);
+        love.graphics.rectangle("fill", realCamX + 10, realCamY + 600 - 272, 220, 220);
+        love.graphics.setColor(1, 1, 1, 1);
         love.graphics.print("Player stats", realCamX + 10, realCamY + 308)
         love.graphics.print("Max life : "..stats.max_life, realCamX + 40, realCamY + 338)
         self:drawPlus(1)
@@ -162,6 +184,30 @@ function Player:draw()
         love.graphics.setColor(255, 255, 255, 255);
         love.graphics.print("C", realCamX +16, realCamY + 600-32)
         love.graphics.rectangle("line", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
+    end
+
+    -- BAG
+    if bagInterface.show then
+        -- Bag Icon
+        love.graphics.setColor(128, 0, 128, 255);
+        love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
+        -- Bag Interface
+        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.rectangle("line", 10, 600- 52 - 220, 220, 220);
+        love.graphics.setColor(0, 0, 0, 0.4);
+        love.graphics.rectangle("fill", 10, 600- 52 - 220, 220, 220);
+        love.graphics.setColor(1, 1, 1, 1);
+        love.graphics.print("Bag : "..#self.bag.." items.", 10, 600-52-240)
+        for y = 1, 5, 1 do
+            for x = 1, 5, 1 do
+                love.graphics.rectangle("line", 20 + (10 + 32) * (x - 1), (600 - 94 - 210 ) + 42 * y, 32, 32)
+            end
+        end
+        love.graphics.print("Bag : "..#self.bag.." items.", 10, 600-52-240)
+    else
+        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.print("B", 64, 600-32)
+        love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
     end
 end
 
@@ -200,19 +246,21 @@ end
 function Player:keypressed(key)
     Entity.keypressed(self, key)
     if key == "lshift" then lshift = true end
-    -- if key == "b" then
-    --     if bagInterface.show == false then
-    --         bagInterface.show = true
-    --         charInterface.show = false
-    --     else
-    --         bagInterface.show = false
-    --     end
+    if key == "b" then
+        if bagInterface.show == false then
+            bagInterface.show = true
+            charInterface.show = false
+        else
+            bagInterface.show = false
+        end
+    end
     if key == "c" then
         if charInterface.show then
             charInterface.show = false
+            bagInterface.show = true
         else
             charInterface.show = true
-            -- bagInterface.show = false
+            bagInterface.show = false
         end
     end
 end

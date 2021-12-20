@@ -4,7 +4,7 @@ local Class = require(_G.libDir .. "middleclass")
 -- Create a class called "CharacterComponent" and inherit of Component
 local CharacterComponent = Class("CharacterComponent", Component);
 
-function CharacterComponent:initialize( parent )
+function CharacterComponent:initialize( parent, data )
     Component.initialize(self, parent)
 
     self.level = 1
@@ -21,18 +21,29 @@ function CharacterComponent:initialize( parent )
         force = 1,
         dexterity = 1,
         speed = 1,
-        defense = 1
+        defense = 1,
+        vitality = 1
     }
 
     self.statPoints = 10
+
+    self.class = "archer"
 
     self.skin = {
         texture = "",
     }
 
+    local soundPath = ""
+    
+    if data.isPlayer == true then
+        soundPath = "player/"..self.class
+    else
+        soundPath = "monster/"..self.entity.name.."s"
+    end
+    
     self.audio = {
-        hit = love.audio.newSource("src/assets/sfx/player/archer_hit.mp3", "static"),
-        death = love.audio.newSource("src/assets/sfx/player/archer_death.mp3", "static")
+        hit = love.audio.newSource("src/assets/sfx/".. soundPath .."_hit.mp3", "static"),
+        death = love.audio.newSource("src/assets/sfx/".. soundPath .."_death.mp3", "static")
     }
 
     self.attacksLog = {}
@@ -43,13 +54,29 @@ function CharacterComponent:initialize( parent )
     self.onDeath = {}
     self.onLevelUp = {}
 
-    local enemyList = {
-        "player"
+    self.friendList = {
+        self.entity.name
     }
 end
 
-function CharacterComponent:isEnemyOf( entity )
-    return false
+function CharacterComponent:isFriendOfById( entityId )
+    local found = false
+    for i, v in ipairs(self.friendList) do
+        if v == self.world:getEntityById(entityId).name then
+            found = true
+        end
+    end
+    return found
+end
+
+function CharacterComponent:isFriendOfByName( entityName )
+    local found = false
+    for i, v in ipairs(self.friendList) do
+        if v == entityName then
+            found = true
+        end
+    end
+    return found
 end
 
 local mx, my = 0, 0;
@@ -108,7 +135,12 @@ end
 function CharacterComponent:getDamage( damage, enemyId )
     self.stats.life = self.stats.life - damage
     table.insert(self.attacksLog, #self.attacksLog + 1, { name = enemyId or "unknown", damage = damage })
-    self.audio.hit.play(self.audio.hit);
+    if self.audio.hit:isPlaying() then
+        self.audio.hit:stop();
+        self.audio.hit:play();
+    else
+        self.audio.hit:play();
+    end
     -- print(self.attacksLog[#self.attacksLog].name .. " attack " .. self.entity.id .. " -" .. self.attacksLog[#self.attacksLog].damage)
 end
 

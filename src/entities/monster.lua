@@ -10,7 +10,7 @@ local CharacterComponent = require(_G.srcDir .. "components.character")
 local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
 function Monster:initialize ( world, data)
-    Entity.initialize(self, world, "Monster#"..world:getEntitiesCount(), data.name, {
+    Entity.initialize(self, world, data.name.."#"..world:getEntitiesCount(), data.name, {
         { class = Transform, data = data },
         { class = Sprite, data = { rect = { width = 16, height = 16 }, center = true }},
         { class = CharacterComponent },
@@ -32,7 +32,7 @@ function Monster:bindDropExp()
             local vPos = v:getComponent("TransformComponent").position
             if vPos ~= nil and sPos ~= nil then
                 if vPos.x > sPos.x - self.zoneRadius and vPos.x < sPos.x + self.zoneRadius and vPos.y > sPos.y - self.zoneRadius and vPos.y < sPos.y + self.zoneRadius then
-                    if v.name ~= self.name then
+                    if m:isFriendOfByName(v.name) == false then
                         v:getComponent("CharacterComponent"):getExp(m.max_exp)
                     end
                 end

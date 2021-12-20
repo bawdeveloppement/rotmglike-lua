@@ -32,22 +32,28 @@ end
 function MonsterAIComponent:update()
     local position = self:getComponent("TransformComponent").position
     local characters = self.entity.world:getEntitiesByComponentName("PlayerComponent")
-
+    local target = nil
     for i, v in ipairs(characters) do
-        local playerPos = v:getComponent("TransformComponent").position
-        local velx = math.cos(math.atan2(position.y - playerPos.y, position.x - playerPos.x))
-        local vely = math.sin(math.atan2(position.y - playerPos.y, position.x - playerPos.x));
-        -- body
-        self.velocity.x = velx
-        self.velocity.y = vely
-        -- if position.isInCollision == false then 
+        local vPos = v:getComponent("TransformComponent").position
+        if vPos.x > position.x - 200 and vPos.x < position.x + 200 and vPos.y > position.y - 200 and vPos.y < position.y + 200 then
+            local velx = math.cos(math.atan2(position.y - vPos.y, position.x - vPos.x))
+            local vely = math.sin(math.atan2(position.y - vPos.y, position.x - vPos.x));
+            -- body
+            self.velocity.x = velx
+            self.velocity.y = vely
+            -- target velx
+            target = {
+                x = velx,
+                y = vely
+            }
+            -- if position.isInCollision == false then 
             position.x = position.x - self.velocity.x * 1
             position.y = position.y - self.velocity.y * 1
-        -- end
+        end
     end
 
     self.attack.cooldown = self.attack.cooldown - 1;
-    if self.attack.cooldown <= 0 then
+    if self.attack.cooldown <= 0 and target ~= nil then
         self.entity.world:addEntity( Projectile:new(self.entity.world, { ownerId = self.entity.id, x = position.x, y = position.y, dx = self.velocity.x, dy = self.velocity.y}))
         self.sound.fire.play(self.sound.fire)
         self.attack.cooldown = love.math.random(80, 100)
