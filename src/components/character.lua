@@ -9,7 +9,7 @@ function CharacterComponent:initialize( parent )
 
     self.level = 1
     self.exp = 0
-    self.maxExp = 100
+    self.max_exp = 100
 
     self.stats = {
         life = 100,
@@ -31,7 +31,6 @@ function CharacterComponent:initialize( parent )
     }
 
     self.audio = {
-        level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static"),
         hit = love.audio.newSource("src/assets/sfx/player/archer_hit.mp3", "static"),
         death = love.audio.newSource("src/assets/sfx/player/archer_death.mp3", "static")
     }
@@ -42,6 +41,7 @@ function CharacterComponent:initialize( parent )
 
     -- events listeners
     self.onDeath = {}
+    self.onLevelUp = {}
 
     local enemyList = {
         "player"
@@ -56,25 +56,21 @@ local mx, my = 0, 0;
 function CharacterComponent:update()
     mx, my = love.mouse.getPosition()
 
-    local restExp = self.exp - self.maxExp
+    local restExp = self.exp - self.max_exp
     if restExp >= 0 then
         self.exp = restExp
         self.level = self.level + 1;
+        self.max_exp = self.max_exp * 2
         self.stats.life = self.stats.max_life;
         self.statPoints = self.statPoints + 1;
-        if self.audio.level_up:isPlaying() then
-            self.audio.level_up:stop()
-            self.audio.level_up:play()
-        else
-            self.audio.level_up:play()
+        for _, v in pairs(self.onLevelUp) do
+            v.func(self)
         end
     end
 
     if self.stats.life <= 0 then
         for k, v in pairs(self.onDeath) do
-            if type(v) == "function" then
-                v(self)
-            end
+            v.func(self)
         end
         self.entity.markDestroy = true
     end
@@ -82,8 +78,26 @@ end
 
 
 function CharacterComponent:addOnDeath( fnName, func )
-    if self.onDeath[fnName] == nil then
-        self.onDeath[fnName] = func
+    local found = nil
+    for i, v in ipairs(self.onDeath) do
+        if v.name == fnName then
+            found = v
+        end
+    end
+    if found == nil then
+        table.insert(self.onDeath, #self.onDeath + 1, { name = fnName, func = func } )
+    end
+end
+
+function CharacterComponent:addOnLevelUp( fnName, func )
+    local found = nil
+    for i, v in ipairs(self.onLevelUp) do
+        if v.name == fnName then
+            found = v
+        end
+    end
+    if found == nil then
+        table.insert(self.onLevelUp, #self.onLevelUp + 1, { name = fnName, func = func } )
     end
 end
 

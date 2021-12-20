@@ -26,9 +26,30 @@ function Player:initialize( world, data )
         { class = PlayerComponent },
     });
 
+
+    self.audio = {
+        level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
+    }
+
+    self:bindPlaySoundOnLevelUp()
+    
+    local characterComponent = self:getComponent("CharacterComponent")
     self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
+    self.healthText = love.graphics.newText(_G.font, ""..characterComponent.stats.life .. " / " .. characterComponent.stats.max_life)
+    self.manaText = love.graphics.newText(_G.font, ""..characterComponent.stats.mana .. " / " .. characterComponent.stats.max_mana)
+    self.expText = love.graphics.newText(_G.font, ""..characterComponent.exp .. " / " .. characterComponent.max_exp)
 end
 
+function Player:bindPlaySoundOnLevelUp()
+    self:getComponent("CharacterComponent"):addOnLevelUp("playsound", function ( m )
+        if self.audio.level_up:isPlaying() then
+            self.audio.level_up:stop()
+            self.audio.level_up:play()
+        else
+            self.audio.level_up:play()
+        end
+    end)
+end
 local mx, my = 0, 0;
 function Player:update(dt)
     Entity.update(self, dt);
@@ -85,24 +106,31 @@ function Player:draw()
     -- drawQuickSlots()
     -- Life
     local characterComponent = self.components["CharacterComponent"]
+    local selfPosition = self.components["TransformComponent"].position
     local stats = characterComponent.stats
+
+    local ww, wh = love.window.getMode()
+    self.healthText:set(""..characterComponent.stats.life .. " / " .. characterComponent.stats.max_life)
+    self.manaText:set(""..characterComponent.stats.mana .. "\n / \n" .. characterComponent.stats.max_mana)
+    self.expText:set(""..characterComponent.exp .. " / " .. characterComponent.max_exp)
 
     love.graphics.setColor(255, 0, 0, 255);
     love.graphics.rectangle("fill", realCamX + 800 / 2 - 150, realCamY + 600 - 68, 300 * ( stats.life / stats.max_life ), 32)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 800 / 2 - 150, realCamY + 600 - 68, 300, 32)
-    -- TODO: Find a font
-    love.graphics.print(stats.life .. " / " .. stats.max_life, realCamX + 800 / 2 - 150, realCamY + 600 - 68)
+    love.graphics.draw(self.healthText,  ww / 2 - self.healthText:getWidth() / 2, 532 + (self.healthText:getHeight() / 2))
     -- Mana   
     love.graphics.setColor(0,255,200,255);
     love.graphics.rectangle("fill", realCamX + 564, realCamY + 600 - 74, 64, 64)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 564, realCamY + 600 - 74, 64, 64 * ( stats.mana / 100 ))
+    love.graphics.draw(self.manaText,  564 + 32 - self.manaText:getWidth(), 526 + (self.manaText:getHeight() / 2))
     -- Experience
     love.graphics.setColor(128, 0, 128, 255);
-    love.graphics.rectangle("fill", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300 * ( characterComponent.exp / characterComponent.maxExp ), 16)
+    love.graphics.rectangle("fill", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300 * ( characterComponent.exp / characterComponent.max_exp ), 16)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300, 16)
+    love.graphics.draw(self.expText,  ww / 2 - self.expText:getWidth() / 2, 576)
 
     -- PlAYER
     if charInterface.show then
