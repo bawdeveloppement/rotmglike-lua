@@ -54,5 +54,7 @@ local screens = {
 }
 love.audio.setVolume(0.1)
 
+_G.font = love.graphics.newFont("src/assets/fonts/yoster.ttf")
+
 _G.xle = require(_G.engineDir .. "xle")
 _G.xleInstance = _G.xle.Init:new(screens)
