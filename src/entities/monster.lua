@@ -48,22 +48,24 @@ function Monster:bindDropBag()
     end)
 end
 
+local timerToShowFoundTarget = 50
+
 function Monster:draw()
     Entity.draw(self)local mx, my = love.mouse.getPosition()
     local position = self:getComponent("TransformComponent").position
     local rect = self:getComponent("SpriteComponent").rect
     local character = self:getComponent("CharacterComponent")
 
-    -- if mx > position.x and mx < position.x + rect.width and my > position.y and my < position.y + rect.height then
-        -- local defaultFont = love.graphics.getFont()
-        -- love.graphics.setFont(self.font)
-        love.graphics.setColor(1,0,0,1)
-        love.graphics.rectangle("fill", position.x, position.y - 8, 32, 8)
-        love.graphics.setColor(1,1,1,1)
-        local text = love.graphics.newText(self.font, ""..character.level)
-        love.graphics.draw(text, position.x - text:getWidth() - 2, position.y - text:getHeight())
-        -- love.graphics.setFont(defaultFont)
-    -- end
+    -- love.graphics.setColor(0,0,0,0.4)
+    -- love.graphics.rectangle("fill", position.x - 12, position.y - 16, 50, 16)
+    love.graphics.setColor(1,0,0,1)
+    love.graphics.rectangle("fill", position.x, position.y - 12, 32 * ( character.stats.life / character.stats.max_life ), 8)
+    love.graphics.setColor(1,1,1,1)
+    love.graphics.rectangle("line", position.x, position.y - 12, 32 * ( character.stats.life / character.stats.max_life ), 8)
+    local text = love.graphics.newText(self.font, ""..character.level)
+    love.graphics.draw(text, position.x - text:getWidth() - 2, position.y - text:getHeight())
+
+
 end
 
 return Monster

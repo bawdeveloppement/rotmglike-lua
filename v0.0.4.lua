@@ -443,41 +443,6 @@ local buttonsForSlots = {
     ["ring"] = "4",
 }
 
-local quickSlots = {
-    { type = "quick_slot", key="f", item = nil },
-    { type = "quick_slot", key="a", item = nil },
-    { type = "quick_slot", key="e", item  = nil },
-    { type = "head", item = nil },
-    { type = "spell", item = nil },
-    { type = "chest", item = nil },
-    { type = "ring", item = nil },
-}
---#endregion
-local function drawQuickSlots ()
-    for i, v in ipairs(quickSlots) do
-        love.graphics.setColor(1,1,1,1)
-        love.graphics.rectangle("line", 250 + (i - 1) * 42, 600 - 110, 32, 32)
-        if quickSlots[i].item ~= nil and quickSlots[i].quantity ~= 0 and quickSlots[i].quantity ~= nil then
-            love.graphics.print(""..quickSlots[i].quantity, 250 + (i - 1) * 42, 600 - 110)
-            local quad = love.graphics.newQuad(
-                0,
-                0,
-                64, 32,
-                quickSlots[i].item.texture:getDimensions()
-            )
-            love.graphics.draw(
-                quickSlots[i].item.texture,
-                quad,
-                250 + (i - 1) * 42,
-                600 - 110,
-                0,
-                1.5, 1.5,
-                0, 0,
-                0, 0
-            )
-        end
-    end
-end
 
 function love.load ( config )
     config.title = "RPG"

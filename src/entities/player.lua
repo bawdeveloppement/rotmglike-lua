@@ -114,15 +114,53 @@ function Player:drawPlus ( index )
     end
 end
 
+local quickSlots = {
+    { type = "quick_slot", key="f", item = nil },
+    { type = "quick_slot", key="a", item = nil },
+    { type = "quick_slot", key="e", item  = nil },
+    { type = "head", item = nil },
+    { type = "spell", item = nil },
+    { type = "chest", item = nil },
+    { type = "ring", item = nil },
+}
+--#endregion
+local function drawQuickSlots ()
+    for i, v in ipairs(quickSlots) do
+        love.graphics.setColor(1,1,1,1)
+        love.graphics.rectangle("line", 250 + (i - 1) * 42, 600 - 110, 32, 32)
+        love.graphics.setColor(0,0,0,0.4)
+        love.graphics.rectangle("fill", 250 + (i - 1) * 42, 600 - 110, 32, 32)
+        love.graphics.setColor(1,1,1,1)
+        if quickSlots[i].item ~= nil and quickSlots[i].quantity ~= 0 and quickSlots[i].quantity ~= nil then
+            love.graphics.print(""..quickSlots[i].quantity, 250 + (i - 1) * 42, 600 - 110)
+            local quad = love.graphics.newQuad(
+                0,
+                0,
+                64, 32,
+                quickSlots[i].item.texture:getDimensions()
+            )
+            love.graphics.draw(
+                quickSlots[i].item.texture,
+                quad,
+                250 + (i - 1) * 42,
+                600 - 110,
+                0,
+                1.5, 1.5,
+                0, 0,
+                0, 0
+            )
+        end
+    end
+end
 function Player:draw()
     Entity.draw(self);
 
     local w, h = love.window:getMode()
     local realCamX = 0
     local realCamY = 0
-    -- Interface 
+    -- Interface
     -- Quick Item Interface
-    -- drawQuickSlots()
+    drawQuickSlots()
     -- Life
     local characterComponent = self.components["CharacterComponent"]
     local selfPosition = self.components["TransformComponent"].position
@@ -138,14 +176,16 @@ function Player:draw()
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 800 / 2 - 150, realCamY + 600 - 68, 300, 32)
     love.graphics.draw(self.healthText,  ww / 2 - self.healthText:getWidth() / 2, 532 + (self.healthText:getHeight() / 2))
-    -- Mana   
+    -- Mana
     love.graphics.setColor(0,255,200,255);
     love.graphics.rectangle("fill", realCamX + 564, realCamY + 600 - 74, 64, 64)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 564, realCamY + 600 - 74, 64, 64 * ( stats.mana / 100 ))
     love.graphics.draw(self.manaText,  564 + 32 - self.manaText:getWidth(), 526 + (self.manaText:getHeight() / 2))
     -- Experience
-    love.graphics.setColor(128, 0, 128, 255);
+    love.graphics.setColor(0, 0, 0, 0.4);
+    love.graphics.rectangle("fill", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300, 16)
+    love.graphics.setColor(128/255, 0, 128/255, 1);
     love.graphics.rectangle("fill", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300 * ( characterComponent.exp / characterComponent.max_exp ), 16)
     love.graphics.setColor(255, 255, 255, 255);
     love.graphics.rectangle("line", realCamX + 800 / 2 - 150, realCamY + 600 - 26, 300, 16)
@@ -154,8 +194,11 @@ function Player:draw()
     -- PlAYER
     if charInterface.show then
         -- Button
-        love.graphics.setColor(128, 0, 128, 255);
+        love.graphics.setColor(128 / 255, 0, 128 / 255, 255);
         love.graphics.rectangle("fill", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
+        love.graphics.setColor(1, 1, 1, 1);
+        love.graphics.print("C", realCamX +16, realCamY + 600-32)
+        love.graphics.rectangle("line", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
 
         -- INTERFACE
         love.graphics.setColor(1, 1, 1, 1);
@@ -181,7 +224,9 @@ function Player:draw()
         love.graphics.print("Force : "..stats.force, realCamX + 40, realCamY + 478)
         self:drawPlus(8)
     else
-        love.graphics.setColor(255, 255, 255, 255);
+        love.graphics.setColor(0, 0, 0, 0.4);
+        love.graphics.rectangle("fill", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
+        love.graphics.setColor(1, 1, 1, 1);
         love.graphics.print("C", realCamX +16, realCamY + 600-32)
         love.graphics.rectangle("line", realCamX + 10, realCamY + 600 - 32 - 10, 32, 32)
     end
@@ -191,6 +236,9 @@ function Player:draw()
         -- Bag Icon
         love.graphics.setColor(128, 0, 128, 255);
         love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
+        love.graphics.setColor(1, 1, 1, 1);
+        love.graphics.print("B", 65, 600-32)
+        love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
         -- Bag Interface
         love.graphics.setColor(255, 255, 255, 255);
         love.graphics.rectangle("line", 10, 600- 52 - 220, 220, 220);
@@ -205,8 +253,10 @@ function Player:draw()
         end
         love.graphics.print("Bag : "..#self.bag.." items.", 10, 600-52-240)
     else
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.print("B", 64, 600-32)
+        love.graphics.setColor(0, 0, 0, 0.4);
+        love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
+        love.graphics.setColor(1, 1, 1, 1);
+        love.graphics.print("B", 65, 600-32)
         love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
     end
 end
@@ -245,6 +295,7 @@ end
 
 function Player:keypressed(key)
     Entity.keypressed(self, key)
+
     if key == "lshift" then lshift = true end
     if key == "b" then
         if bagInterface.show == false then
@@ -255,12 +306,11 @@ function Player:keypressed(key)
         end
     end
     if key == "c" then
-        if charInterface.show then
-            charInterface.show = false
-            bagInterface.show = true
-        else
+        if charInterface.show == false then
             charInterface.show = true
             bagInterface.show = false
+        else
+            charInterface.show = false
         end
     end
 end

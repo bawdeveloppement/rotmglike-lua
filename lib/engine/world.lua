@@ -40,7 +40,7 @@ function World:initialize( world_name, world_data, world_worldScale )
                                 self,
                                 {
                                     name = obj.properties["entityId"],
-                                    position = { x = obj.x, y = obj.y }
+                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
                                 }
                             );
                             table.insert(self.entities, ent)
@@ -48,7 +48,7 @@ function World:initialize( world_name, world_data, world_worldScale )
                             local ent = require(_G.srcDir .. "entities.".. k):new(
                                 self,
                                 {
-                                    position = { x = obj.x, y = obj.y }
+                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
                                 }
                             );
                             table.insert(self.entities, ent)
