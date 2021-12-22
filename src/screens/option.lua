@@ -1,4 +1,7 @@
 local GameOptionScreen = require(_G.libDir .. "middleclass")("GameOptionScreen", _G.xle.Screen)
+
+local SelectElement = require(_G.engineDir .. "game_objects.interface_elements.main").SelectElement
+
 local VolumeControllerObject = require(_G.srcDir .. "go.volume_controller")
 local DimensionControllerObject = require(_G.srcDir .. "go.dimension_controller")
 
@@ -19,7 +22,15 @@ function GameOptionScreen:init()
 
     self.nodes = {
         volumeController = VolumeControllerObject:new(20, 25),
-        dimensionController = DimensionControllerObject:new(10, 100)
+        dimensionController = DimensionControllerObject:new(10, 100),
+        screenTypeController = SelectElement:new(
+            { x = 10, y = 150},
+            {
+                { id="fullscreen", text="Fullscreen", value="exclusive"},
+                { id="windowedfullscreen", text="Windowed fullscreen", value="desktop" },
+                { id="windowed", text="Windowed", value="window" }
+            }
+        )
     }
 
     self.nodes.volumeController:addOnChangeEvent("mastervolume", function ( volume )
@@ -28,6 +39,15 @@ function GameOptionScreen:init()
 
     self.nodes.dimensionController:addOnChangeEvent("changedimension", function ( newDimension )
         love.window.setMode(newDimension.value.width, newDimension.value.height, newDimension.value.flags)
+    end)
+
+    self.nodes.screenTypeController:addOnChangeEvent("changedimension", function ( newDimension )
+        local w, h = love.window.getMode()
+        if newDimension.value ~= "window" then
+            love.window.setMode(w, h, { fullscreen = true,  fullscreentype = newDimension.value })
+        else
+            love.window.setMode(w, h, { fullscreen = false })
+        end
     end)
 end
 
@@ -67,6 +87,9 @@ function GameOptionScreen:keypressed (...)
     local key = ...
     if key == "escape" then
         _G.xle.Screen.goToScreen("main_menu");
+    end
+    if key == "f" then
+        love.window.setMode(1680, 1050, { fullscreen = true, fullscreentype = "desktop" })
     end
     for k in pairs(self.nodes) do
         if self.nodes[k].keypressed ~= nil then
