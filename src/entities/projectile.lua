@@ -28,7 +28,8 @@ function Projectile:initialize( world, data )
     self.dy = data.dy
 end
 
-function Projectile:update()
+function Projectile:update(...)
+    Entity.update(self, ...)
     local position = self.components["TransformComponent"].position
     local rect = self.components["CollisionComponent"].rect
     position.x = position.x - self.dx * 10

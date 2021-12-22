@@ -38,7 +38,7 @@ function BagEntity:initialize( world, data )
 end
 
 
-function BagEntity:update()
+function BagEntity:update(...)
     Entity.draw(self)
 
     self.lifeTimer = self.lifeTimer - 1

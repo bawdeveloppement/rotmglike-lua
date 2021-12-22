@@ -16,8 +16,9 @@ function MonsterSpawner:initialize ( world, data )
     self.monsterKilled = 0;
 end
 
-function MonsterSpawner:update(dt)
-    Entity.update(self, dt)
+function MonsterSpawner:update(...)
+    local dt = ...
+    Entity.update(self, ...)
     
     local monsters = self.world:getEntitiesByComponentName("MonsterAIComponent")
 

@@ -66,10 +66,10 @@ end
 
 
 --#region Callbacks
-function World:update()
+function World:update(...)
     for i, entity in ipairs(self.entities) do
         if entity.markDestroy ~= true then
-            entity:update()
+            entity:update(...)
         else
             table.remove(self.entities, i);
         end

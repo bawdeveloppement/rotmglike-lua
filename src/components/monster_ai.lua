@@ -29,7 +29,7 @@ function MonsterAIComponent:initialize( entity )
     }
 end
 
-function MonsterAIComponent:update()
+function MonsterAIComponent:update(...)
     local position = self:getComponent("TransformComponent").position
     local characters = self.entity.world:getEntitiesByComponentName("PlayerComponent")
     local target = nil

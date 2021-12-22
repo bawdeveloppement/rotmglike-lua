@@ -9,7 +9,7 @@ function MoveComponent:initialize( parent )
 end
 
 
-function MoveComponent:update()
+function MoveComponent:update(...)
     local z = love.keyboard.isDown("z");
     local q = love.keyboard.isDown("q");
     local d = love.keyboard.isDown("d");

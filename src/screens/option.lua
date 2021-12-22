@@ -21,13 +21,13 @@ function GameOptionScreen:init()
     end)
 end
 
-function GameOptionScreen:draw()
+function GameOptionScreen:draw(...)
     if self.volumeController ~= nil then
         self.volumeController:draw()
     end
 end
 
-function GameOptionScreen:update()
+function GameOptionScreen:update(...)
     if self.volumeController ~= nil then
         self.volumeController:update()
     end
@@ -40,9 +40,6 @@ function GameOptionScreen:mousepressed (mx, my, button)
 end
 
 function GameOptionScreen:keypressed (key)
-    if key == "f" then
-        love.window.setFullscreen(true)
-    end
     if key == "escape" then
         _G.xle.Screen.goToScreen("main_menu");
     end

@@ -89,7 +89,7 @@ function CharacterComponent:isFriendOfByName( entityName )
 end
 
 local mx, my = 0, 0;
-function CharacterComponent:update()
+function CharacterComponent:update(...)
     mx, my = love.mouse.getPosition()
 
     local restExp = self.exp - self.max_exp
