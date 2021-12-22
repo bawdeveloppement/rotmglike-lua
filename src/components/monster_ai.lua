@@ -17,9 +17,9 @@ function MonsterAIComponent:initialize( entity )
     }
 
     self.sound = {
-        death = love.audio.newSource("src/assets/sfx/monster/".. self.entity.name .."s_death.mp3", "static"),
-        hit = love.audio.newSource("src/assets/sfx/monster/".. self.entity.name .."s_hit.mp3", "static"),
-        fire = love.audio.newSource("src/assets/sfx/arrowShoot.mp3", "static")
+        death = _G.xle.ResourcesManager:getOrAddSound("monster/".. self.entity.name .."s_death.mp3"),
+        hit =   _G.xle.ResourcesManager:getOrAddSound("monster/".. self.entity.name .."s_hit.mp3"),
+        fire =  _G.xle.ResourcesManager:getOrAddSound("arrowShoot.mp3")
     }
 
     self.attack = {

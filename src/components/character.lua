@@ -4,6 +4,15 @@ local Class = require(_G.libDir .. "middleclass")
 -- Create a class called "CharacterComponent" and inherit of Component
 local CharacterComponent = Class("CharacterComponent", Component);
 
+CharacterComponent.static.statOffToHere = {
+    ["21"] = "Defense",
+    ["22"] = "Speed",
+    ["20"] = "Attack",
+    ["26"] = "Vitality",
+    ["27"] = "Wisdom",
+    ["28"] = "Dexterity"
+}
+
 function CharacterComponent:initialize( parent, data )
     Component.initialize(self, parent)
 
@@ -42,13 +51,13 @@ function CharacterComponent:initialize( parent, data )
     end
     
     self.audio = {
-        hit = love.audio.newSource("src/assets/sfx/".. soundPath .."_hit.mp3", "static"),
-        death = love.audio.newSource("src/assets/sfx/".. soundPath .."_death.mp3", "static")
+        hit = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_hit.mp3"),
+        death = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_death.mp3")
     }
 
     self.attacksLog = {}
 
-    self.buttonSound = love.audio.newSource("src/assets/sfx/button_click.mp3", "static");
+    self.buttonSound = _G.xle.ResourcesManager:getOrAddSound("button_click.mp3");
 
     -- events listeners
     self.onDeath = {}
