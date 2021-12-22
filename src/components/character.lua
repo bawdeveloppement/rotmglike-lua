@@ -66,6 +66,8 @@ function CharacterComponent:initialize( parent, data )
     self.friendList = {
         self.entity.name
     }
+
+    self.isPlayer = data.isPlayer or false
 end
 
 function CharacterComponent:isFriendOfById( entityId )
@@ -109,6 +111,10 @@ function CharacterComponent:update(...)
             v.func(self)
         end
         self.entity.markDestroy = true
+    end
+
+    if self.stats.life < self.stats.max_life then
+        self.stats.life = self.stats.life + self.stats.vitality / 10 
     end
 end
 
