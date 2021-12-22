@@ -10,6 +10,8 @@ local PlayerComponent = require(_G.srcDir.."components.player")
 
 local Projectile = require(_G.srcDir .. "entities.projectile");
 
+local Container = require(_G.srcDir .. "go.container");
+
 local function pack(...)
     return { ... }, select("#", ...)
 end
@@ -17,16 +19,21 @@ end
 local Player = require(_G.libDir .. "middleclass")("Player", Entity)
 
 function Player:initialize( world, data )
-    Entity.initialize( self, world, "Player#1", "Player", {
+    Entity.initialize(self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
-        { class = SpriteComponent, data = { size={ w = 16, h=16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
+        { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
         { class = CollisionComponent },
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
         { class = PlayerComponent },
     });
 
-    self.bag = {}
+    self.bag = Container:new(20)
+
+    for i = 1, 9, 1 do
+        local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
+        self.bag:addItem(_G.dbObject.Equipments[itemToLoot])
+    end
 
     self.audio = {
         level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
@@ -97,6 +104,7 @@ local charInterface = {
 local bagInterface = {
     show = false
 }
+
 function Player:drawPlus ( index )
     local w, h = love.window:getMode()
     local realCamX = 0
@@ -152,6 +160,9 @@ local function drawQuickSlots ()
         end
     end
 end
+
+
+
 function Player:draw()
     Entity.draw(self);
 
@@ -234,24 +245,12 @@ function Player:draw()
     -- BAG
     if bagInterface.show then
         -- Bag Icon
-        love.graphics.setColor(128, 0, 128, 255);
+        self.bag:draw()
+        love.graphics.setColor(128/255, 0, 128/255, 255);
         love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
         love.graphics.setColor(1, 1, 1, 1);
         love.graphics.print("B", 65, 600-32)
         love.graphics.rectangle("line", 20 + 32, 600 - 32 - 10, 32, 32)
-        -- Bag Interface
-        love.graphics.setColor(255, 255, 255, 255);
-        love.graphics.rectangle("line", 10, 600- 52 - 220, 220, 220);
-        love.graphics.setColor(0, 0, 0, 0.4);
-        love.graphics.rectangle("fill", 10, 600- 52 - 220, 220, 220);
-        love.graphics.setColor(1, 1, 1, 1);
-        love.graphics.print("Bag : "..#self.bag.." items.", 10, 600-52-240)
-        for y = 1, 5, 1 do
-            for x = 1, 5, 1 do
-                love.graphics.rectangle("line", 20 + (10 + 32) * (x - 1), (600 - 94 - 210 ) + 42 * y, 32, 32)
-            end
-        end
-        love.graphics.print("Bag : "..#self.bag.." items.", 10, 600-52-240)
     else
         love.graphics.setColor(0, 0, 0, 0.4);
         love.graphics.rectangle("fill", 20 + 32, 600 - 32 - 10, 32, 32)
@@ -264,7 +263,7 @@ end
 local lshift = false
 function Player:mousepressed(mousex, mousey, button)
     Entity.mousepressed(self, mousex, mousey, button)
-
+    self.bag:mousepressed(mousex, mousey, button)
     local characterComponent = self.components["CharacterComponent"]
     if characterComponent.statPoints > 0 then
         for i, v in ipairs(plus) do
@@ -296,6 +295,13 @@ end
 function Player:keypressed(key)
     Entity.keypressed(self, key)
 
+    if key == "k" then
+        local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
+        self.bag:addItem(_G.dbObject.Equipments[itemToLoot])
+    end
+    if key == "j" then
+        self.bag:removeFirstItem()
+    end
     if key == "lshift" then lshift = true end
     if key == "b" then
         if bagInterface.show == false then
@@ -317,7 +323,6 @@ end
 
 function Player:keyreleased(key)
     Entity.keyreleased(self, key)
-
     if key  == "lshift" then lshift = false end
 end
 

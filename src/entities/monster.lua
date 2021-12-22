@@ -6,6 +6,7 @@ local Entity = require(_G.engineDir.."entity")
 
 local MonsterAIComponent = require(_G.srcDir .. "components.monster_ai")
 local CharacterComponent = require(_G.srcDir .. "components.character")
+local BagEntity = require(_G.srcDir .. "entities.bag")
 
 local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
@@ -20,8 +21,10 @@ function Monster:initialize ( world, data)
 
     self.zoneRadius = 200
     self:bindDropExp()
+    self:bindDropBag()
     
     self.font = love.graphics.newFont("src/assets/fonts/yoster.ttf")
+    self.dropBagSound = _G.xle.ResourcesManager:getOrAddSound("loot_appears.mp3")
 end
 
 function Monster:bindDropExp()
@@ -44,7 +47,14 @@ end
 function Monster:bindDropBag()
     self:getComponent("CharacterComponent"):addOnDeath("dropbag", function ( m )
         local sPos = self:getComponent("TransformComponent").position -- self pos
-        local entities = self.world:addEntity("CharacterComponent")
+        if self.dropBagSound:isPlaying() then
+            self.dropBagSound:stop()
+            self.dropBagSound:play()
+        else
+            self.dropBagSound:play()
+        end
+        local randomBag = love.math.random(1, 18)
+        self.world:addEntity(BagEntity:new(self.world, { position = sPos, name = _G.dbObject.Containers[randomBag]["$"].id }))
     end)
 end
 
