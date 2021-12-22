@@ -1,9 +1,9 @@
 local VolumeControllerObject = require(_G.libDir .. "middleclass")("VolumeControllerObject")
 
-function VolumeControllerObject:initialize()
+function VolumeControllerObject:initialize(x, y)
     self.rect = {
-        x = 50,
-        y = 200,
+        x = x,
+        y = y,
         width = 128,
         height = 32
     }
@@ -16,9 +16,6 @@ function VolumeControllerObject:initialize()
     self.scale = 1
 
     self.onChange = {}
-end
-
-function VolumeControllerObject:update(...)
 end
 
 function VolumeControllerObject:draw(...)
@@ -34,7 +31,7 @@ function VolumeControllerObject:draw(...)
             love.graphics.rectangle("line", self.rect.x + i * ( barWidth + padding ), self.rect.y, self.bar.width, self.bar.height)
         end
         if (
-            mx > self.rect.x and self.rect.x + (i * 12) < mx and my > self.rect.y and my < self.rect.y + barHeight
+            mx > self.rect.x and self.rect.x + (i * 12) < mx and mx < self.rect.x + self.rect.width and my > self.rect.y and my < self.rect.y + barHeight
         ) then
             love.graphics.rectangle("fill", self.rect.x + i * ( barWidth + padding ), self.rect.y, self.bar.width, self.bar.height)
         else
