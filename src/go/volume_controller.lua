@@ -21,6 +21,8 @@ function VolumeControllerObject:initialize()
     }
 
     self.scale = 1
+
+    self.onChange = {}
 end
 
 function VolumeControllerObject:update(dt)
@@ -90,11 +92,28 @@ function VolumeControllerObject:mousepressed (mx, my, button)
         for i = 0, 10, 1 do
             if mx > self.other.x + i * (barWidth + padding) and mx < self.other.x + i * (barWidth + padding) + barWidth
             and my > self.other.y + 0 and my < self.other.y + self.bar.height then
-                print(i / 10)
-                love.audio.setVolume(i / 10 + 0.01)
+                self:setVolume(i / 10 + 0.01)
             end
         end
     end
+end
+
+function VolumeControllerObject:setVolume ( volume )
+    for i, v in ipairs(self.onChange) do
+        v.func(volume)
+    end
+end
+
+function VolumeControllerObject:deleteOnChangeEvent( eventName )
+    for i, v in ipairs(self.onChange) do
+        if v.name == eventName then
+            table.remove(self.onChange, i)
+        end
+    end
+end
+
+function VolumeControllerObject:addOnChangeEvent( eventName, eventFunc )
+    table.insert(self.onChange, { name = eventName, func = eventFunc })
 end
 
 return VolumeControllerObject

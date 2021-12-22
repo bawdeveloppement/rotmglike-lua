@@ -48,6 +48,10 @@ function GamePlayScreen:keypressed(...)
             v:keypressed(...)
         end
     end
+    local key = ...
+    if key == "escape" then
+        _G.xle.Screen.goToScreen("main_menu");
+    end
 end
 
 function GamePlayScreen:mousereleased(...)
