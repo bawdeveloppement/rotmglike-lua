@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x01e5",
+    "id": "Guild Chronicle",
+    "Class": "GuildChronicle",
+    "OccupySquare": true,
+    "ShadowSize": "0",
+    "Size": "120",
+    "Static": true
+  }
+]

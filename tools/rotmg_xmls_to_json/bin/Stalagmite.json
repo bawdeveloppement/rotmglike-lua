@@ -1,0 +1,10 @@
+[
+  {
+    "type": "0x01cd",
+    "id": "Stalagmite",
+    "Class": "Stalagmite",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  }
+]

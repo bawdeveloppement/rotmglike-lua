@@ -1,0 +1,17 @@
+[
+  {
+    "type": "0x1912",
+    "id": "Armoire",
+    "Class": "ReskinVendor",
+    "ShadowSize": "55",
+    "Z": "-0.1",
+    "OccupySquare": true,
+    "Static": true
+  },
+  {
+    "type": "0x1913",
+    "id": "Tailor",
+    "Class": "ReskinVendor",
+    "Static": true
+  }
+]

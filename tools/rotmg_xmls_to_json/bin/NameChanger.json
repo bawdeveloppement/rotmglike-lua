@@ -1,0 +1,13 @@
+[
+  {
+    "type": "0x01dc",
+    "id": "Name Changer",
+    "Class": "NameChanger",
+    "Static": true
+  },
+  {
+    "type": "0x18c9",
+    "id": "Name Changer NonStatic",
+    "Class": "NameChanger"
+  }
+]

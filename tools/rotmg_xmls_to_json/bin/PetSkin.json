@@ -1,0 +1,945 @@
+[
+  {
+    "type": "0x8000",
+    "id": "Black Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Black_Cat_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8001",
+    "id": "Grey Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grey_Cat_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8002",
+    "id": "Orange Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Orange_Cat_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8003",
+    "id": "Tan Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Tan_Cat_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8004",
+    "id": "Yellow Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Yellow_Cat_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8005",
+    "id": "White Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.White_Cat_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8006",
+    "id": "Brown Pup Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Brown_Pup_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8007",
+    "id": "Grey Pup Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grey_Pup_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8008",
+    "id": "Golden Pup Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Golden_Pup_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8009",
+    "id": "Grey Wolf Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grey_Wolf_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x800a",
+    "id": "Brown Fox Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Brown_Fox_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x800b",
+    "id": "Sheepdog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Sheepdog_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x800c",
+    "id": "Grey Fox Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grey_Fox_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x800d",
+    "id": "Blue Parrot Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Blue_Parrot_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x800e",
+    "id": "Oriole Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Oriole_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x800f",
+    "id": "Goldfinch Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Goldfinch_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8010",
+    "id": "Bluebird Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Bluebird_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8011",
+    "id": "Cardinal Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Cardinal_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8012",
+    "id": "Elephant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Elephant_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8013",
+    "id": "Koala Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Koala_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8014",
+    "id": "Monkey Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Monkey_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8015",
+    "id": "Chick Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Chick_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8016",
+    "id": "Pig Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Pig_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8017",
+    "id": "Duck Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Duck_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8018",
+    "id": "Squirrel Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Squirrel_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8019",
+    "id": "Hamster Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Hamster_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x801a",
+    "id": "Raccoon Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Raccoon_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x801b",
+    "id": "Dino Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Dino_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x801c",
+    "id": "Tomb Snake Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Tomb_Snake_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x801d",
+    "id": "Chameleon Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Chameleon_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x801e",
+    "id": "Dragonfly Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Dragonfly_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x801f",
+    "id": "Black Ant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Black_Ant_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8020",
+    "id": "Blue Ant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Blue_Ant_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8021",
+    "id": "Green Ant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Green_Ant_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8022",
+    "id": "Red Ant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Red_Ant_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8023",
+    "id": "Purple Ant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Purple_Ant_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8024",
+    "id": "Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Penguin_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8025",
+    "id": "Green Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Green_Penguin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8026",
+    "id": "Grape Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grape_Penguin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8027",
+    "id": "Grass Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Grass_Penguin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8028",
+    "id": "Blue Snail Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Blue_Snail_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8029",
+    "id": "Green Frog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Green_Frog_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x802a",
+    "id": "Purple Snail Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Purple_Snail_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x802b",
+    "id": "Purple Frog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Purple_Frog_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x802c",
+    "id": "Sea Slurp Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Sea_Slurp_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x802d",
+    "id": "Turtle Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Turtle_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x802e",
+    "id": "Crab Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Crab_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8030",
+    "id": "Bat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Bat_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8031",
+    "id": "Lil' Ghost Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.LilAPOS_Ghost_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8032",
+    "id": "Spirit Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Spirit_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8033",
+    "id": "Baby Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Baby_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x8035",
+    "id": "Dreidel Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Dreidel_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8036",
+    "id": "Sprite Star Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Sprite_Star_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8037",
+    "id": "Blue Thing Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Blue_Thing_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8038",
+    "id": "Robobuddy Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Robobuddy_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8039",
+    "id": "Helmbot Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Helmbot_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803a",
+    "id": "Lion Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Lion_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803b",
+    "id": "White Lion Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.White_Lion_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803c",
+    "id": "Ninja Cat Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Ninja_Cat_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803d",
+    "id": "Golden Sheepdog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Golden_Sheepdog_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803e",
+    "id": "Black Wolf Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Black_Wolf_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x803f",
+    "id": "Gold Bulldog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Gold_Bulldog_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8040",
+    "id": "Eagle Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Eagle_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8041",
+    "id": "Raven Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Raven_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8042",
+    "id": "USA Eagle Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.USA_Eagle_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8043",
+    "id": "Pigeon Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Pigeon_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8044",
+    "id": "Panda Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Panda_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8045",
+    "id": "Toucan Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Toucan_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8046",
+    "id": "Orangutan Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Orangutan_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8047",
+    "id": "Mallard Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Mallard_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8048",
+    "id": "Turkey Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Turkey_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8049",
+    "id": "Skunk Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Skunk_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x804a",
+    "id": "Snowy Owl Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Snowy_Owl_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x804b",
+    "id": "Reindeer Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Reindeer_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x804c",
+    "id": "Baby Dragon Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Baby_Dragon_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  },
+  {
+    "type": "0x804e",
+    "id": "Bee Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Bee_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x804f",
+    "id": "Praying Mantis Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Praying_Mantis_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8050",
+    "id": "Karate Red Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Karate_Red_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8051",
+    "id": "Karate Blue Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Karate_Blue_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8052",
+    "id": "Karate Yellow Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Karate_Yellow_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8053",
+    "id": "Karate Purple Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Karate_Purple_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8054",
+    "id": "Demon Frog Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Demon_Frog_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8055",
+    "id": "Peppermint Snail Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Peppermint_Snail_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8056",
+    "id": "Gargoyle Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Gargoyle_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8057",
+    "id": "Lil' Cyclops Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.LilAPOS_Cyclops_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8058",
+    "id": "Werewolf Cub Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Werewolf_Cub_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8059",
+    "id": "Monster Eye Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Monster_Eye_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805a",
+    "id": "Skull Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Skull_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805b",
+    "id": "Leprechaun Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Leprechaun_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805c",
+    "id": "Elf Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Elf_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805d",
+    "id": "Mermaid Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Mermaid_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805e",
+    "id": "Jelly Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Jelly_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x805f",
+    "id": "Gummy Bear Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Gummy_Bear_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8060",
+    "id": "Snowman Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Snowman_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8061",
+    "id": "Jalapeno Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Jalapeno_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8062",
+    "id": "Redbot Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Redbot_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8063",
+    "id": "Funkatron Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Funkatron_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8064",
+    "id": "Tiger Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Tiger_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8065",
+    "id": "Pink Lion Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Pink_Lion_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8066",
+    "id": "Midnight Wolf Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Midnight_Wolf_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8067",
+    "id": "Golden Hyena Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Golden_Hyena_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8068",
+    "id": "Phoenix Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Phoenix_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8069",
+    "id": "Griffin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Griffin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806a",
+    "id": "War Elephant Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.War_Elephant_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806b",
+    "id": "King Gorilla Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.King_Gorilla_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806c",
+    "id": "Enraged Yack Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Enraged_Yack_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806d",
+    "id": "Night Mare Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Night_Mare_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806e",
+    "id": "Silver Doe Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Silver_Doe_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x806f",
+    "id": "Solar Owl Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Solar_Owl_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8070",
+    "id": "Tandem Cobra Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Tandem_Cobra_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8071",
+    "id": "Poison Drake Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Poison_Drake_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8072",
+    "id": "Beetleman Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Beetleman_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8073",
+    "id": "Ultrawasp Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Ultrawasp_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8074",
+    "id": "Battle Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Battle_Penguin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8075",
+    "id": "Tank Penguin Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Tank_Penguin_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8076",
+    "id": "Golden Crab Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Golden_Crab_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8077",
+    "id": "Great Shark Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Great_Shark_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8078",
+    "id": "Blue Landfish Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Blue_Landfish_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8079",
+    "id": "Glowing Skull Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Glowing_Skull_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807a",
+    "id": "Monkey Head Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Monkey_Head_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807b",
+    "id": "Reaper Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Reaper_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807c",
+    "id": "Battle God Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Battle_God_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807d",
+    "id": "Centaur Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Centaur_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807e",
+    "id": "Forest Fairy Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Forest_Fairy_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8084",
+    "id": "Lil' Oryx Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.LilAPOS_Oryx_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x807f",
+    "id": "Shroom Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Shroom_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8080",
+    "id": "Great Jelly Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Great_Jelly_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8081",
+    "id": "Spiderbot Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Spiderbot_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8082",
+    "id": "Cylindron Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Cylindron_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8083",
+    "id": "Gutsbot Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Gutsbot_Skin}",
+    "Class": "PetSkin"
+  },
+  {
+    "type": "0x8090",
+    "id": "Disabled Pet Skin",
+    "PetSkin": true,
+    "DisplayId": "{pets.Disabled_Pet_Skin}",
+    "Class": "PetSkin",
+    "Group": "Hexable"
+  }
+]

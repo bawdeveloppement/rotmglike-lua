@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x0744",
+    "id": "Gift Chest",
+    "Class": "OneWayContainer",
+    "Container": true,
+    "Size": "120",
+    "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
+    "DisplayId": "{objects.Gift_Chest}"
+  }
+]

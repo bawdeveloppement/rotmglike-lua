@@ -1,0 +1,9 @@
+[
+  {
+    "type": "0x01cb",
+    "id": "Money Changer",
+    "Class": "MoneyChanger",
+    "Static": true,
+    "Size": "60"
+  }
+]

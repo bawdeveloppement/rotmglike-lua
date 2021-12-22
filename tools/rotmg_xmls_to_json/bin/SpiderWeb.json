@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x0732",
+    "id": "Spider Web",
+    "Class": "SpiderWeb",
+    "Model": "Web",
+    "Static": true,
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Spider_Web}"
+  }
+]

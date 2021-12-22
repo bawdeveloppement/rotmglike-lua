@@ -1,0 +1,76 @@
+[
+  {
+    "type": "0x01c8",
+    "id": "White Bench",
+    "Class": "ConnectedWall",
+    "BaseIndent": "0.25",
+    "TopIndent": "0.25",
+    "Height": "0.5",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x01dd",
+    "id": "Tomb Wall",
+    "Class": "ConnectedWall",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true,
+    "Connects": true,
+    "NoWallTextureRepeat": true
+  },
+  {
+    "type": "0x18d0",
+    "id": "Retro Tomb Rock Wall",
+    "Class": "ConnectedWall",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true,
+    "Connects": true
+  },
+  {
+    "type": "0x1911",
+    "id": "Wooden Bench",
+    "Class": "ConnectedWall",
+    "BaseIndent": "0",
+    "TopIndent": "0",
+    "Height": "0.4",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x1921",
+    "id": "White Bench Low",
+    "Class": "ConnectedWall",
+    "BaseIndent": "0.25",
+    "TopIndent": "0.25",
+    "Height": "0.25",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x193c",
+    "id": "Wood Fence",
+    "Class": "ConnectedWall",
+    "BaseIndent": "0.4",
+    "TopIndent": "0.4",
+    "Height": "0.75",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  }
+]

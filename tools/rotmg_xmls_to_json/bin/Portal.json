@@ -1,0 +1,475 @@
+[
+  {
+    "type": "0x753E",
+    "id": "Lair of Draconis Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Lair of Draconis",
+    "Size": "60",
+    "DisplayId": "{lairOfDraconis.Lair_of_Draconis_Portal}"
+  },
+  {
+    "type": "0x754e",
+    "id": "Ivory Wyvern Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "The Ivory Wyvern",
+    "Size": "60",
+    "DisplayId": "{lairOfDraconis.Ivory_Wyvern_Portal}"
+  },
+  {
+    "type": "0x5f34",
+    "id": "Forest Maze Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Forest Maze",
+    "ShadowSize": "0",
+    "DisplayId": "{forestMaze.Forest_Maze_Portal}"
+  },
+  {
+    "type": "0x5e2e",
+    "id": "Treasure Cave Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Cave of A Thousand Treasures",
+    "DisplayId": "{cave.Treasure_Cave_Portal}"
+  },
+  {
+    "type": "0x0727e",
+    "id": "The Shatters",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "The Shatters",
+    "DisplayId": "{shatters.The_Shatters}"
+  },
+  {
+    "type": "0x0d7b",
+    "id": "Oryx's Chamber Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Oryx's Chamber",
+    "DisplayId": "{oryxCastle.OryxAPOSs_Chamber_Portal}"
+  },
+  {
+    "type": "0x075d",
+    "id": "Deadwater Docks",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Deadwater Docks",
+    "DisplayId": "{epicpirateCave.Deadwater_Docks}"
+  },
+  {
+    "type": "0x708b",
+    "id": "Bilgewater's Grotto Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Bilgewater's Grotto",
+    "DisplayId": "{epicpirateCave.BilgewaterAPOSs_Grotto_Portal}"
+  },
+  {
+    "type": "0x0890",
+    "id": "Mad Lab Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Mad Lab",
+    "DisplayId": "{madLab.Mad_Lab_Portal}"
+  },
+  {
+    "type": "0x0700",
+    "id": "Dungeon Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Dungeon_Portal}"
+  },
+  {
+    "type": "0x0703",
+    "id": "Portal of Cowardice",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "SpawnPoint": true,
+    "DisplayId": "{objects.Portal_of_Cowardice}"
+  },
+  {
+    "type": "0x0704",
+    "id": "Realm Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Realm_Portal}"
+  },
+  {
+    "type": "0x070c",
+    "id": "Glowing Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Sprite World",
+    "DisplayId": "{objects.Glowing_Portal}"
+  },
+  {
+    "type": "0x070d",
+    "id": "Glowing Portal of Cowardice",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "SpawnPoint": true,
+    "DisplayId": "{objects.Glowing_Portal_of_Cowardice}"
+  },
+  {
+    "type": "0x070e",
+    "id": "Glowing Realm Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Glowing_Realm_Portal}"
+  },
+  {
+    "type": "0x0712",
+    "id": "Nexus Portal",
+    "Class": "Portal",
+    "Size": "80",
+    "IntergamePortal": true,
+    "NexusPortal": true,
+    "DisplayId": "{objects.Nexus_Portal}"
+  },
+  {
+    "type": "0x0717",
+    "id": "Pirate Cave Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Pirate Cave",
+    "DisplayId": "{objects.Pirate_Cave_Portal}"
+  },
+  {
+    "type": "0x0718",
+    "id": "Snake Pit Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Snake Pit",
+    "DisplayId": "{objects.Snake_Pit_Portal}"
+  },
+  {
+    "type": "0x0719",
+    "id": "Spider Den Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Spider Den",
+    "DisplayId": "{objects.Spider_Den_Portal}"
+  },
+  {
+    "type": "0x071a",
+    "id": "Undead Lair Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Undead Lair",
+    "DisplayId": "{objects.Undead_Lair_Portal}"
+  },
+  {
+    "type": "0x071b",
+    "id": "Abyss of Demons Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Abyss of Demons",
+    "DisplayId": "{objects.Abyss_of_Demons_Portal}"
+  },
+  {
+    "type": "0x071c",
+    "id": "Random Realm Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Random Realm",
+    "DisplayId": "{objects.Random_Realm_Portal}"
+  },
+  {
+    "type": "0x071d",
+    "id": "Portal to Nexus",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Nexus",
+    "DisplayId": "{objects.Portal_to_Nexus}"
+  },
+  {
+    "type": "0x071e",
+    "id": "Kitchen Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Kitchen",
+    "Size": "120",
+    "DisplayId": "{objects.Kitchen_Portal}"
+  },
+  {
+    "type": "0x0720",
+    "id": "Vault Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Vault",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Vault_Portal}"
+  },
+  {
+    "type": "0x0721",
+    "id": "Locked Wine Cellar Portal",
+    "Class": "Portal",
+    "LockedPortal": true,
+    "DisplayId": "{objects.Locked_Wine_Cellar_Portal}"
+  },
+  {
+    "type": "0x075e",
+    "id": "Battle Nexus Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Battle for the Nexus",
+    "DisplayId": "{objects.Battle_Nexus_Portal}"
+  },
+  {
+    "type": "0x072c",
+    "id": "Tomb of the Ancients Portal",
+    "DisplayId": "{objects.Tomb_of_the_Ancients_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Tomb of the Ancients"
+  },
+  {
+    "type": "0x2291",
+    "id": "Belladonna's Garden Portal",
+    "DisplayId": "{objects.BelladonnaAPOSs_Garden_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Belladonna's Garden"
+  },
+  {
+    "type": "0x2295",
+    "id": "Lair of Shaitan Portal",
+    "DisplayId": "{objects.Lair_of_Shaitan_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Lair of Shaitan"
+  },
+  {
+    "type": "0x2001",
+    "id": "Court of Oryx Portal",
+    "DisplayId": "{objects.Court_of_Oryx_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Court of Oryx"
+  },
+  {
+    "type": "0x072d",
+    "id": "Dreamscape Labyrinth Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Dreamscape Labyrinth",
+    "DisplayId": "{objects.Dreamscape_Labyrinth_Portal}"
+  },
+  {
+    "type": "0x0730",
+    "id": "Ocean Trench Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Ocean Trench",
+    "DisplayId": "{objects.Ocean_Trench_Portal}"
+  },
+  {
+    "type": "0x0733",
+    "id": "Forbidden Jungle Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Forbidden Jungle",
+    "DisplayId": "{objects.Forbidden_Jungle_Portal}"
+  },
+  {
+    "type": "0x0739",
+    "id": "Manor of the Immortals Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Manor of the Immortals",
+    "DisplayId": "{objects.Manor_of_the_Immortals_Portal}"
+  },
+  {
+    "type": "0x0741",
+    "id": "Davy Jones' Locker Portal",
+    "Class": "Portal",
+    "DisplayId": "{objects.Davy_JonesAPOS_Locker_Portal}",
+    "IntergamePortal": true,
+    "DungeonName": "Davy Jones' Locker"
+  },
+  {
+    "type": "0x0742",
+    "id": "Beachzone Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Beachzone",
+    "DisplayId": "{objects.Beachzone_Portal}"
+  },
+  {
+    "type": "0x0746",
+    "id": "Nexus Explanation Portal",
+    "Class": "Portal",
+    "DisplayId": "{objects.Nexus_Explanation_Portal}",
+    "DungeonName": "Nexus Explanation",
+    "IntergamePortal": true
+  },
+  {
+    "type": "0x0747",
+    "id": "Vault Explanation Portal",
+    "Class": "Portal",
+    "DisplayId": "{objects.Vault_Explanation_Portal}",
+    "DungeonName": "Vault Explanation",
+    "IntergamePortal": true
+  },
+  {
+    "type": "0x0748",
+    "id": "Guild Explanation Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Guild_Explanation_Portal}",
+    "DungeonName": "Guild Explanation",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x074a",
+    "id": "Candyland Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Candyland Hunting Grounds",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Candyland_Portal}"
+  },
+  {
+    "type": "0x074b",
+    "id": "Haunted Cemetery Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Haunted Cemetery",
+    "DisplayId": "{objects.Haunted_Cemetery_Portal}"
+  },
+  {
+    "type": "0x0750",
+    "id": "Cloth Bazaar Portal",
+    "Class": "Portal",
+    "DungeonName": "Cloth Bazaar",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Cloth_Bazaar_Portal}"
+  },
+  {
+    "type": "0x0753",
+    "id": "Pet Yard Portal",
+    "Class": "Portal",
+    "DungeonName": "Pet Yard",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Pet_Yard_Portal}",
+    "Size": "100",
+    "ShadowSize": "100"
+  },
+  {
+    "type": "0x1756",
+    "id": "Daily Quest Portal",
+    "Class": "Portal",
+    "DungeonName": "Daily Quest Room",
+    "IntergamePortal": true,
+    "DisplayId": "{objects.Daily_Quest_Portal}"
+  },
+  {
+    "type": "0x2353",
+    "id": "Puppet Theatre Portal",
+    "DisplayId": "{objects.Puppet_Theatre_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Puppet Master's Theatre"
+  },
+  {
+    "type": "0x7466",
+    "id": "Puppet Encore Portal",
+    "DisplayId": "{objects.Puppet_Encore_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Puppet Master's Encore"
+  },
+  {
+    "type": "0x748b",
+    "id": "Ice Cave Portal",
+    "DisplayId": "{objects.Ice_Cave_Portal}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Ice Cave"
+  },
+  {
+    "type": "0x748d",
+    "id": "Inner Sanctum Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "The Inner Sanctum",
+    "DisplayId": "{objects.Inner_Sanctum_Portal}"
+  },
+  {
+    "type": "0x075c",
+    "id": "Woodland Labyrinth",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Woodland Labyrinth",
+    "DisplayId": "{epicforestMaze.Woodland_Labyrinth}"
+  },
+  {
+    "type": "0x072e",
+    "id": "The Crawling Depths",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "The Crawling Depths",
+    "DisplayId": "The Crawling Depths"
+  },
+  {
+    "type": "0x5e9b",
+    "id": "Area1 Portal",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Haunted Cemetery",
+    "DisplayId": "{hauntedCemetery.Area1_Portal}"
+  },
+  {
+    "type": "0x5f25",
+    "id": "Haunted Cemetery Gates Portal",
+    "Class": "Portal",
+    "Size": "120",
+    "IntergamePortal": true,
+    "DungeonName": "Haunted Cemetery Gates",
+    "DisplayId": "{hauntedCemetery.Haunted_Cemetery_Gates_Portal}"
+  },
+  {
+    "type": "0x5f26",
+    "id": "Haunted Cemetery Graves Portal",
+    "Class": "Portal",
+    "Size": "130",
+    "IntergamePortal": true,
+    "DungeonName": "Haunted Cemetery Graves",
+    "DisplayId": "{hauntedCemetery.Haunted_Cemetery_Graves_Portal}"
+  },
+  {
+    "type": "0x5f29",
+    "id": "Haunted Cemetery Final Rest Portal",
+    "Class": "Portal",
+    "Size": "140",
+    "IntergamePortal": true,
+    "DungeonName": "Haunted Cemetery Final Battle",
+    "DisplayId": "{hauntedCemetery.Haunted_Cemetery_Final_Rest_Portal}"
+  },
+  {
+    "type": "0x0d40",
+    "id": "Tomb Portal of Cowardice",
+    "DisplayId": "{tombOfTheAncients.Tomb_Portal_of_Cowardice}",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "SpawnPoint": true
+  },
+  {
+    "type": "0x5176",
+    "id": "The Ether",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "The Ether",
+    "DisplayId": "The Ether"
+  },
+  {
+    "type": "0x5186",
+    "id": "Elder Mountains",
+    "Class": "Portal",
+    "IntergamePortal": true,
+    "DungeonName": "Elder Mountains Beholder",
+    "DisplayId": "Elder Mountains"
+  }
+]

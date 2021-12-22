@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Heal",
+    "type": "0x164",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.Heal}"
+  },
+  {
+    "id": "MagicHeal",
+    "type": "0x170",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.MagicHeal}"
+  },
+  {
+    "id": "AttackClose",
+    "type": "0x17f",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.AttackClose}"
+  },
+  {
+    "id": "AttackMid",
+    "type": "0x180",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.AttackMid}"
+  },
+  {
+    "id": "AttackFar",
+    "type": "0x181",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.AttackFar}"
+  },
+  {
+    "id": "ElectricZap",
+    "type": "0x182",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.ElectricZap}"
+  },
+  {
+    "id": "PetSavage",
+    "type": "0x183",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.PetSavage}"
+  },
+  {
+    "id": "PetDecoy",
+    "type": "0x184",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.PetDecoy}"
+  },
+  {
+    "id": "PetRisingFury",
+    "type": "0x185",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "DisplayId": "{pets.PetRisingFury}"
+  }
+]

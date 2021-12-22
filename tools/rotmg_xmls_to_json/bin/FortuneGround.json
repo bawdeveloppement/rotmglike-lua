@@ -1,0 +1,12 @@
+[
+  {
+    "type": "0x22f0",
+    "id": "Fortune Ground Object",
+    "Class": "FortuneGround",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "StasisImmune": true,
+    "DisplayId": "{objects.Fortune_Ground_Object}"
+  }
+]

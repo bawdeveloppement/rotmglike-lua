@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x01df",
+    "id": "Guild Register",
+    "Class": "GuildRegister",
+    "OccupySquare": true,
+    "ShadowSize": "0",
+    "Size": "110",
+    "Static": true
+  }
+]

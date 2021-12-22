@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x01e7",
+    "id": "Guild Board",
+    "Class": "GuildBoard",
+    "Model": "Sign",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "75"
+  }
+]

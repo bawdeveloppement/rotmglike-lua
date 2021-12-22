@@ -1,0 +1,38 @@
+[
+  {
+    "type": "0x198a",
+    "id": "Arena Stone High Wall",
+    "Class": "DoubleWall",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true
+  },
+  {
+    "type": "0x198b",
+    "id": "Arena Stone High Stands",
+    "Class": "DoubleWall",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true
+  },
+  {
+    "type": "0x1993",
+    "id": "0ADouble",
+    "Class": "DoubleWall",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true
+  }
+]

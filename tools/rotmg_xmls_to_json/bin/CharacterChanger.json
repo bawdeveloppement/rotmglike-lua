@@ -1,0 +1,14 @@
+[
+  {
+    "type": "0x01cc",
+    "id": "Character Changer",
+    "Class": "CharacterChanger",
+    "Static": true
+  },
+  {
+    "type": "0x1946",
+    "id": "Character Changer LF",
+    "Class": "CharacterChanger",
+    "Static": true
+  }
+]

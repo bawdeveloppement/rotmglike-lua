@@ -1,0 +1,23 @@
+[
+  {
+    "type": "0x1943",
+    "id": "Pet Upgrader Backup",
+    "Class": "PetUpgrader",
+    "Model": "Pet Upgrader Obj",
+    "Rotation": "180",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "80",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death"
+  },
+  {
+    "type": "0x0754",
+    "id": "Pet Upgrader",
+    "Class": "PetUpgrader",
+    "Size": "0",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Pet_Upgrader}"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "0x0736",
+    "id": "Guild Hall Upgrade 1",
+    "DisplayId": "{objects.Guild_Hall_Upgrade_1}",
+    "Class": "GuildMerchant",
+    "Price": "10000",
+    "GuildItem": "GuildHallUpgrade",
+    "GuildItemParam": "Guild Hall 2",
+    "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "OccupySquare": true,
+    "Static": true
+  },
+  {
+    "type": "0x0737",
+    "id": "Guild Hall Upgrade 2",
+    "DisplayId": "{objects.Guild_Hall_Upgrade_2}",
+    "Class": "GuildMerchant",
+    "Price": "100000",
+    "GuildItem": "GuildHallUpgrade",
+    "GuildItemParam": "Guild Hall 3",
+    "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "OccupySquare": true,
+    "Static": true
+  },
+  {
+    "type": "0x0738",
+    "id": "Guild Hall Upgrade 3",
+    "DisplayId": "{objects.Guild_Hall_Upgrade_3}",
+    "Class": "GuildMerchant",
+    "Price": "250000",
+    "GuildItem": "GuildHallUpgrade",
+    "GuildItemParam": "Guild Hall 4",
+    "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "OccupySquare": true,
+    "Static": true
+  }
+]

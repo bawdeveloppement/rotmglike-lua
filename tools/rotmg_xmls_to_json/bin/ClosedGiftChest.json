@@ -1,0 +1,9 @@
+[
+  {
+    "type": "0x0743",
+    "id": "Gift Chest Closed",
+    "Class": "ClosedGiftChest",
+    "Size": "120",
+    "DisplayId": "{objects.Gift_Chest_Closed}"
+  }
+]

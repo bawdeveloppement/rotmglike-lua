@@ -1,0 +1,10 @@
+[
+  {
+    "type": "0x075b",
+    "id": "Arena Portal",
+    "Class": "ArenaPortal",
+    "IntergamePortal": true,
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Arena_Portal}"
+  }
+]

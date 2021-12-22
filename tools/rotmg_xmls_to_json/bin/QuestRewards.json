@@ -1,0 +1,20 @@
+[
+  {
+    "type": "0x1754",
+    "id": "Quest Rewards",
+    "Class": "QuestRewards",
+    "DisplayId": "{objects.Quest_Rewards}",
+    "ShadowSize": "50",
+    "Size": "120",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x1755",
+    "id": "Quest Rewards Inv Object",
+    "Class": "QuestRewards",
+    "ShadowSize": "0",
+    "Size": "0",
+    "StasisImmune": true,
+    "DisplayId": "{objects.Quest_Rewards_Inv_Object}"
+  }
+]

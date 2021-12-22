@@ -1,0 +1,19 @@
+[
+  {
+    "type": "0x01c9",
+    "id": "Sign",
+    "Class": "Sign",
+    "Size": "20",
+    "ShadowSize": "0",
+    "Static": true
+  },
+  {
+    "type": "0x18c7",
+    "id": "High Sign",
+    "Class": "Sign",
+    "Size": "20",
+    "ShadowSize": "0",
+    "Static": true,
+    "Z": "0.95"
+  }
+]

@@ -1,0 +1,4150 @@
+[
+  {
+    "type": "0x7540",
+    "id": "NM Blue Dragon Spawner",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "OccupySquare": true,
+    "StasisImmune": true,
+    "DisplayId": "{lairOfDraconis.NM_Blue_Dragon_Spawner}"
+  },
+  {
+    "type": "0x7536",
+    "id": "NM Blue Minion Spawner",
+    "DisplayId": "{lairOfDraconis.NM_Blue_Minion_Spawner}",
+    "Class": "GameObject",
+    "ShadowSize": "80",
+    "Size": "140",
+    "Z": "-0.30",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x7544",
+    "id": "NM Red Dragon Spawner",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "OccupySquare": true,
+    "StasisImmune": true,
+    "DisplayId": "{lairOfDraconis.NM_Red_Dragon_Spawner}"
+  },
+  {
+    "type": "0x7549",
+    "id": "NM Red Minion Spawner",
+    "DisplayId": "{lairOfDraconis.NM_Red_Minion_Spawner}",
+    "Class": "GameObject",
+    "ShadowSize": "80",
+    "Size": "140",
+    "Z": "-0.20",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x7550",
+    "id": "NM Red Fake Egg",
+    "DisplayId": "{lairOfDraconis.NM_Red_Fake_Egg}",
+    "Class": "GameObject",
+    "ShadowSize": "80",
+    "Size": "140",
+    "Z": "-0.20",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x7542",
+    "id": "NM Green Dragon Spawner",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "OccupySquare": true,
+    "StasisImmune": true,
+    "DisplayId": "{lairOfDraconis.NM_Green_Dragon_Spawner}"
+  },
+  {
+    "type": "0x751c",
+    "id": "NM Black Dragon Spawner",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "OccupySquare": true,
+    "StasisImmune": true,
+    "DisplayId": "{lairOfDraconis.NM_Black_Dragon_Spawner}"
+  },
+  {
+    "type": "0x5e5f",
+    "id": "Forrest Shady Floor",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Floor}"
+  },
+  {
+    "type": "0x5e5e",
+    "id": "Forrest Shady Corner DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Corner_DL}"
+  },
+  {
+    "type": "0x5e5d",
+    "id": "Forrest Shady Corner DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Corner_DR}"
+  },
+  {
+    "type": "0x5e5c",
+    "id": "Forrest Shady Corner UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Corner_UL}"
+  },
+  {
+    "type": "0x5e5b",
+    "id": "Forrest Shady Corner UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Corner_UR}"
+  },
+  {
+    "type": "0x5e5a",
+    "id": "Forrest Shady OCorner DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_OCorner_DL}"
+  },
+  {
+    "type": "0x5e59",
+    "id": "Forrest Shady OCorner DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_OCorner_DR}"
+  },
+  {
+    "type": "0x5e58",
+    "id": "Forrest Shady OCorner UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_OCorner_UL}"
+  },
+  {
+    "type": "0x5e57",
+    "id": "Forrest Shady OCorner UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_OCorner_UR}"
+  },
+  {
+    "type": "0x5e56",
+    "id": "Forrest Shady Edge UP",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Edge_UP}"
+  },
+  {
+    "type": "0x5e55",
+    "id": "Forrest Shady Edge DN",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Edge_DN}"
+  },
+  {
+    "type": "0x5e54",
+    "id": "Forrest Shady Edge LF",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Edge_LF}"
+  },
+  {
+    "type": "0x5e53",
+    "id": "Forrest Shady Edge RT",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Edge_RT}"
+  },
+  {
+    "type": "0x5e52",
+    "id": "Forrest Shady Floor DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Floor_DR}"
+  },
+  {
+    "type": "0x5e51",
+    "id": "Forrest Shady Floor DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Floor_DL}"
+  },
+  {
+    "type": "0x5e50",
+    "id": "Forrest Shady Floor UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Floor_UR}"
+  },
+  {
+    "type": "0x5e4f",
+    "id": "Forrest Shady Floor UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forestMaze.Forrest_Shady_Floor_UL}"
+  },
+  {
+    "type": "0x0dc4",
+    "id": "Boss Totem",
+    "Enemy": true,
+    "Class": "GameObject",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Size": "120",
+    "ShadowSize": "80",
+    "OccupySquare": true,
+    "DisplayId": "{forbiddenJungle.Boss_Totem}"
+  },
+  {
+    "type": "0x0dc5",
+    "id": "Jungle Spear",
+    "Class": "GameObject",
+    "Static": true,
+    "Size": "80",
+    "ShadowSize": "60",
+    "DisplayId": "{forbiddenJungle.Jungle_Spear}"
+  },
+  {
+    "type": "0x0dc6",
+    "id": "Jungle Brazier",
+    "Class": "GameObject",
+    "Size": "100",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "80",
+    "DisplayId": "{forbiddenJungle.Jungle_Brazier}"
+  },
+  {
+    "type": "0x0dc8",
+    "id": "Jungle Invisible Solid",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "NoMiniMap": true,
+    "Size": "0",
+    "ShadowSize": "0",
+    "DisplayId": "{forbiddenJungle.Jungle_Invisible_Solid}"
+  },
+  {
+    "type": "0x0dc9",
+    "id": "Jungle Grass Solid",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Grass_Solid}"
+  },
+  {
+    "type": "0x0dca",
+    "id": "Jungle Flowers Solid",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "OccupySquare": true,
+    "NoMiniMap": true,
+    "Static": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Flowers_Solid}"
+  },
+  {
+    "type": "0x0dcb",
+    "id": "Jungle Plant Unbreakable",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "DisplayId": "{forbiddenJungle.Jungle_Plant_Unbreakable}"
+  },
+  {
+    "type": "0x0dd4",
+    "id": "Jungle Ground Flowers",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Ground_Flowers}"
+  },
+  {
+    "type": "0x0dd5",
+    "id": "Jungle Grass",
+    "Class": "GameObject",
+    "Static": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Grass}"
+  },
+  {
+    "type": "0x0dd6",
+    "id": "Jungle Flower Bright",
+    "Class": "GameObject",
+    "Static": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Flower_Bright}"
+  },
+  {
+    "type": "0x0dd7",
+    "id": "Jungle Plant",
+    "Class": "GameObject",
+    "Static": true,
+    "DisplayId": "{forbiddenJungle.Jungle_Plant}"
+  },
+  {
+    "type": "0x0dd8",
+    "id": "Jungle Plant Solid",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "MaxHitPoints": "500",
+    "StasisImmune": true,
+    "Enemy": true,
+    "XpMulty": "0.0",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "DisplayId": "{forbiddenJungle.Jungle_Plant_Solid}"
+  },
+  {
+    "type": "0x0dd9",
+    "id": "Jungle Rock",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "DisplayId": "{forbiddenJungle.Jungle_Rock}"
+  },
+  {
+    "type": "0x0dda",
+    "id": "Jungle Tree Big",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "DisplayId": "{forbiddenJungle.Jungle_Tree_Big}"
+  },
+  {
+    "type": "0x1e40",
+    "id": "Treasure Pile",
+    "Class": "GameObject",
+    "Z": "-.2",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "NoMiniMap": true,
+    "Static": true,
+    "DisplayId": "{cave.Treasure_Pile}"
+  },
+  {
+    "type": "0x1e41",
+    "id": "Treasure Chests",
+    "Class": "GameObject",
+    "Z": "-.2",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "NoMiniMap": true,
+    "Static": true,
+    "DisplayId": "{cave.Treasure_Chests}"
+  },
+  {
+    "type": "0x5e1e",
+    "id": "Treasure Flame Trap 1.2 Sec",
+    "DisplayId": "{cave.Treasure_Flame_Trap_1.2_Sec}",
+    "Class": "GameObject",
+    "Enemy": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x5e3b",
+    "id": "Treasure Flame Trap 1.7 Sec",
+    "DisplayId": "{cave.Treasure_Flame_Trap_1.7_Sec}",
+    "Class": "GameObject",
+    "Enemy": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x5e4e",
+    "id": "Treasure Rocks",
+    "Class": "GameObject",
+    "Z": "-.2",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "NoMiniMap": true,
+    "Static": true,
+    "DisplayId": "{cave.Treasure_Rocks}"
+  },
+  {
+    "type": "0x717e",
+    "id": "shtrs Abandoned Switch 1",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_1}"
+  },
+  {
+    "type": "0x724a",
+    "id": "shtrs Abandoned Switch 2",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_2}"
+  },
+  {
+    "type": "0x724b",
+    "id": "shtrs Abandoned Switch 3",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_3}"
+  },
+  {
+    "type": "0x724c",
+    "id": "shtrs Abandoned Switch 4",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_4}"
+  },
+  {
+    "type": "0x724d",
+    "id": "shtrs Abandoned Switch 5",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_5}"
+  },
+  {
+    "type": "0x724e",
+    "id": "shtrs Abandoned Switch 6",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_6}"
+  },
+  {
+    "type": "0x727c",
+    "id": "shtrs Abandoned Switch 7",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_7}"
+  },
+  {
+    "type": "0x727d",
+    "id": "shtrs Abandoned Switch 8",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_8}"
+  },
+  {
+    "type": "0x736e",
+    "id": "shtrs Abandoned Switch 10",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_10}"
+  },
+  {
+    "type": "0x736f",
+    "id": "shtrs Abandoned Switch 9",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Abandoned_Switch_9}"
+  },
+  {
+    "type": "0x717d",
+    "id": "shtrs Unborken Column",
+    "Class": "GameObject",
+    "Enemy": true,
+    "MaxHitPoints": "5000",
+    "Defense": "200",
+    "XpMulty": "0.0",
+    "DisplayId": "{shatters.shtrs_Unborken_Column}"
+  },
+  {
+    "type": "0x0d72",
+    "id": "Suit of Armor Sm",
+    "DisplayId": "{oryxCastle.Suit_of_Armor_Sm}",
+    "Class": "GameObject",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "4000",
+    "Size": "120",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0d85",
+    "id": "Oryx's Living Floor Fire Down",
+    "DisplayId": "{oryxCastle.OryxAPOSs_Living_Floor_Fire_Down}",
+    "Group": "Oryx's Minions",
+    "Class": "GameObject",
+    "Enemy": true,
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "2600",
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x0d87",
+    "id": "Oryx's Living Floor",
+    "Group": "Oryx's Minions",
+    "Class": "GameObject",
+    "Enemy": true,
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "2600",
+    "DrawOnGround": true,
+    "DisplayId": "{oryxCastle.OryxAPOSs_Living_Floor}"
+  },
+  {
+    "type": "0x5e19",
+    "id": "SampleGenerator",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Effect": "CustomParticles"
+  },
+  {
+    "type": "0x5e20",
+    "id": "MadLabGreenBubbles",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Effect": {
+      "CustomParticles": {
+        "color": "0x00FF00",
+        "rate": "70",
+        "life": ".3",
+        "lifeVariance": ".1",
+        "speed": "0",
+        "speedVariance": ".5",
+        "size": "3",
+        "rise": "2",
+        "riseVariance": ".1",
+        "rangeX": "3.5",
+        "rangeY": "1.5"
+      }
+    }
+  },
+  {
+    "type": "0x5e21",
+    "id": "MadLabBlueBubbles",
+    "Class": "GameObject",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Effect": {
+      "CustomParticles": {
+        "color": "0x0000FF",
+        "rate": "70",
+        "life": ".3",
+        "lifeVariance": ".1",
+        "speed": "0",
+        "speedVariance": "1",
+        "size": "3",
+        "rise": "3",
+        "riseVariance": ".1",
+        "rangeX": "3.5",
+        "rangeY": "1.5"
+      }
+    }
+  },
+  {
+    "type": "0x705d",
+    "id": "Parrot Cage",
+    "Class": "GameObject",
+    "ShadowSize": "0",
+    "Size": "80",
+    "Z": "0.40",
+    "StasisImmune": true,
+    "XpMulty": "0.0",
+    "DisplayId": "{epicpirateCave.Parrot_Cage}"
+  },
+  {
+    "type": "0x705f",
+    "id": "Bottled Evil Water",
+    "Class": "GameObject",
+    "DisplayId": "{epicpirateCave.Bottled_Evil_Water}"
+  },
+  {
+    "type": "0x0802",
+    "id": "South Tutorial Gun",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "Enemy": true,
+    "DisplayId": "{tutorial_objects.South_Tutorial_Gun}"
+  },
+  {
+    "type": "0x0803",
+    "id": "North Tutorial Gun",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "Enemy": true,
+    "DisplayId": "{tutorial_objects.North_Tutorial_Gun}"
+  },
+  {
+    "type": "0x0804",
+    "id": "East Tutorial Gun",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "Enemy": true,
+    "DisplayId": "{tutorial_objects.East_Tutorial_Gun}"
+  },
+  {
+    "type": "0x0805",
+    "id": "West Tutorial Gun",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "Enemy": true,
+    "DisplayId": "{tutorial_objects.West_Tutorial_Gun}"
+  },
+  {
+    "type": "0x0808",
+    "id": "Up Arrow",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "DisplayId": "{tutorial_objects.Up_Arrow}"
+  },
+  {
+    "type": "0x0809",
+    "id": "UpLeft Arrow",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "DisplayId": "{tutorial_objects.UpLeft_Arrow}"
+  },
+  {
+    "type": "0x080a",
+    "id": "UpRight Arrow",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "DisplayId": "{tutorial_objects.UpRight_Arrow}"
+  },
+  {
+    "type": "0x080b",
+    "id": "Grey Up Arrow",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "DisplayId": "{tutorial_objects.Grey_Up_Arrow}"
+  },
+  {
+    "type": "0x0100",
+    "id": "Tree A",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0101",
+    "id": "Tree B",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0102",
+    "id": "Tree Leafless",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0103",
+    "id": "Tree Dead",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0104",
+    "id": "Tree Jungle",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0105",
+    "id": "Bush",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x0106",
+    "id": "Shrub",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x0107",
+    "id": "Rock Grey",
+    "Class": "GameObject",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0108",
+    "id": "Rock Brown",
+    "Class": "GameObject",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0109",
+    "id": "Small Mushroom",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x010a",
+    "id": "Tree Stump",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x010b",
+    "id": "Black Tree Stump",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x010c",
+    "id": "Jungle Tree Stump",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x0110",
+    "id": "Large Mushroom",
+    "Class": "GameObject",
+    "Static": true
+  },
+  {
+    "type": "0x0111",
+    "id": "White Flowers",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x0112",
+    "id": "Pink Flowers",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x0113",
+    "id": "Large Lilypads",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x0114",
+    "id": "Small Lilypads",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x0153",
+    "id": "Partial Red Floor",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "ProtectFromGroundDamage": true,
+    "ProtectFromSink": true
+  },
+  {
+    "type": "0x0173",
+    "id": "Snake Grate",
+    "Class": "GameObject",
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x0174",
+    "id": "White Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0175",
+    "id": "Purple Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0176",
+    "id": "Red Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0177",
+    "id": "Blue Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0178",
+    "id": "Green Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x0179",
+    "id": "Yellow Sprite Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x017a",
+    "id": "Pandora's Box",
+    "Class": "GameObject",
+    "Model": "Cube"
+  },
+  {
+    "type": "0x017b",
+    "id": "Grey Pillar",
+    "Class": "GameObject",
+    "Model": "Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x017c",
+    "id": "Purple Pillar",
+    "Class": "GameObject",
+    "Model": "Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x017d",
+    "id": "Blue Pillar",
+    "Class": "GameObject",
+    "Model": "Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x017e",
+    "id": "Red Pillar",
+    "Class": "GameObject",
+    "Model": "Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x0180",
+    "id": "Broken Grey Pillar",
+    "Class": "GameObject",
+    "Model": "Broken Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x0181",
+    "id": "Broken Purple Pillar",
+    "Class": "GameObject",
+    "Model": "Broken Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x0182",
+    "id": "Broken Blue Pillar",
+    "Class": "GameObject",
+    "Model": "Broken Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x0183",
+    "id": "Broken Red Pillar",
+    "Class": "GameObject",
+    "Model": "Broken Pillar",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x0184",
+    "id": "Cross",
+    "Class": "GameObject",
+    "Static": true
+  },
+  {
+    "type": "0x0185",
+    "id": "Fir Tree 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0186",
+    "id": "Fir Tree 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0187",
+    "id": "Fir Tree 3",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0188",
+    "id": "Small Fir Tree 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0189",
+    "id": "Small Fir Tree 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x018a",
+    "id": "Dead Fir Tree 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x018b",
+    "id": "Dead Fir Tree 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x018c",
+    "id": "Dead Fir Tree 3",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x018d",
+    "id": "Dead Fir Tree 4",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x018e",
+    "id": "Palm Tree",
+    "Class": "GameObject",
+    "MinSize": "140",
+    "MaxSize": "160",
+    "SizeStep": "20",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0191",
+    "id": "Apple Tree",
+    "Class": "GameObject",
+    "Static": true,
+    "MinSize": "120",
+    "MaxSize": "160",
+    "SizeStep": "20",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0194",
+    "id": "Cherry Tree",
+    "Class": "GameObject",
+    "Static": true,
+    "MinSize": "120",
+    "MaxSize": "140",
+    "SizeStep": "20",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0197",
+    "id": "Saguaro Cactus 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0198",
+    "id": "Saguaro Cactus 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x0199",
+    "id": "Saguaro Cactus 3",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019a",
+    "id": "Small Saguaro Cactus 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "50",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019b",
+    "id": "Small Saguaro Cactus 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "ShadowSize": "50",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019c",
+    "id": "Prickly Pear Cactus 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019d",
+    "id": "Prickly Pear Cactus 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019e",
+    "id": "Succulent Plant 1",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x019f",
+    "id": "Succulent Plant 2",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x01a0",
+    "id": "Large Green Bush",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x01a1",
+    "id": "Green Bush 1",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a2",
+    "id": "Green Bush 2",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a3",
+    "id": "Green Bush 3",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a4",
+    "id": "Green Bush 4",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a5",
+    "id": "Green Bush 5",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a6",
+    "id": "Green Bush 6",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a7",
+    "id": "Green Bush 7",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a8",
+    "id": "Green Bush 8",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01a9",
+    "id": "Large Light Green Bush",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x01aa",
+    "id": "Light Green Bush 1",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01ab",
+    "id": "Light Green Bush 2",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01ac",
+    "id": "Light Green Bush 3",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01ad",
+    "id": "Light Green Bush 4",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01ae",
+    "id": "Light Green Bush 5",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01af",
+    "id": "Light Green Bush 6",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b0",
+    "id": "Light Green Bush 7",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b1",
+    "id": "Light Green Bush 8",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b2",
+    "id": "Large Yellow Bush",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x01b3",
+    "id": "Yellow Bush 1",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b4",
+    "id": "Yellow Bush 2",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b5",
+    "id": "Yellow Bush 3",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b6",
+    "id": "Yellow Bush 4",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b7",
+    "id": "Yellow Bush 5",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b8",
+    "id": "Yellow Bush 6",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01b9",
+    "id": "Yellow Bush 7",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01ba",
+    "id": "Yellow Bush 8",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01bb",
+    "id": "Large Dead Bush",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x01bc",
+    "id": "Dead Bush 1",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01bd",
+    "id": "Dead Bush 2",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01be",
+    "id": "Dead Bush 3",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01bf",
+    "id": "Dead Bush 4",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01c0",
+    "id": "Dead Bush 5",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01c1",
+    "id": "Dead Bush 6",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01c2",
+    "id": "Dead Bush 7",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01c3",
+    "id": "Dead Bush 8",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x01c4",
+    "id": "Road Marker",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x01da",
+    "id": "Statue of Oryx",
+    "Class": "GameObject",
+    "Static": true,
+    "Size": "200",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x01db",
+    "id": "Statue of Oryx Base",
+    "Class": "GameObject",
+    "Static": true,
+    "Size": "100",
+    "ShadowSize": "0",
+    "OccupySquare": true,
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x01de",
+    "id": "Landscaped Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Size": "175",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x01e0",
+    "id": "Weapon Rack",
+    "Class": "GameObject",
+    "Size": "100",
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/wooden_walls_death",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x01e3",
+    "id": "Table",
+    "Class": "GameObject",
+    "Model": "Table",
+    "Color": "0x9E5D21",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x01e6",
+    "id": "BulletinBoard",
+    "Class": "GameObject",
+    "Model": "Sign",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x01f8",
+    "id": "Dark Brown Tile",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Size": "85",
+    "Static": true
+  },
+  {
+    "type": "0x01f9",
+    "id": "Rags",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Size": "85",
+    "Static": true
+  },
+  {
+    "type": "0x01fa",
+    "id": "Abyss Bones",
+    "Class": "GameObject",
+    "Size": "85",
+    "Static": true
+  },
+  {
+    "type": "0x01fc",
+    "id": "Spider Ground Rocks",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Size": "75",
+    "Static": true
+  },
+  {
+    "type": "0x01fd",
+    "id": "Spider Junk",
+    "Class": "GameObject",
+    "Size": "100",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x01fe",
+    "id": "Spider Egg Prop",
+    "Class": "GameObject",
+    "Size": "80",
+    "Static": true
+  },
+  {
+    "type": "0x1800",
+    "id": "Spider Silk",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Size": "85",
+    "Static": true
+  },
+  {
+    "type": "0x1801",
+    "id": "Big Candle",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x1802",
+    "id": "Small Candle",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x1803",
+    "id": "Pool of Blood",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Size": "100",
+    "Static": true
+  },
+  {
+    "type": "0x1804",
+    "id": "Target",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x1805",
+    "id": "Dummy",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x1806",
+    "id": "Target Strong",
+    "Class": "GameObject",
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "700",
+    "StasisImmune": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x1807",
+    "id": "Dummy Strong",
+    "Class": "GameObject",
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "700",
+    "StasisImmune": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x1808",
+    "id": "Target Spawner",
+    "Class": "GameObject",
+    "Size": "0",
+    "ShadowSize": "0",
+    "NoMiniMap": true,
+    "StasisImmune": true
+  },
+  {
+    "type": "0x1809",
+    "id": "Dummy Spawner",
+    "Class": "GameObject",
+    "Size": "0",
+    "ShadowSize": "0",
+    "NoMiniMap": true,
+    "StasisImmune": true
+  },
+  {
+    "type": "0x180d",
+    "id": "Gothic Candelabra",
+    "Class": "GameObject",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x180f",
+    "id": "Gothic Window Light Da",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1810",
+    "id": "Gothic Window Light Db",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1811",
+    "id": "Gothic Window Light Ua",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1812",
+    "id": "Gothic Window Light Ub",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1815",
+    "id": "Gothic Window Light La",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1814",
+    "id": "Gothic Window Light Lb",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1813",
+    "id": "Gothic Window Light Ra",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x1816",
+    "id": "Gothic Window Light Rb",
+    "Class": "GameObject",
+    "Static": true,
+    "DrawOnGround": true
+  },
+  {
+    "type": "0x181b",
+    "id": "Death Grass",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "0",
+    "Static": true
+  },
+  {
+    "type": "0x181c",
+    "id": "Death Flower",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "0",
+    "Static": true
+  },
+  {
+    "type": "0x181d",
+    "id": "Rock Path",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x181e",
+    "id": "Death Tree",
+    "Class": "GameObject",
+    "Size": "120",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death"
+  },
+  {
+    "type": "0x181f",
+    "id": "Tombstone",
+    "Class": "GameObject",
+    "ShadowSize": "100",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death",
+    "MaxHitPoints": "1000",
+    "Size": "100",
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x1820",
+    "id": "Egypt Plant",
+    "Class": "GameObject",
+    "Size": "100",
+    "ShadowSize": "80",
+    "Static": true
+  },
+  {
+    "type": "0x182b",
+    "id": "GhostShip Stairs",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "OccupySquare": true,
+    "NoMiniMap": true,
+    "Static": true
+  },
+  {
+    "type": "0x182e",
+    "id": "GhostShip Barrel",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "2200",
+    "StasisImmune": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x1831",
+    "id": "Ghost Small Candle",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "100",
+    "ShadowColor": "0x404d75",
+    "Static": true
+  },
+  {
+    "type": "0x1832",
+    "id": "GhostShip Stool",
+    "Class": "GameObject",
+    "ShadowSize": "80",
+    "Static": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death"
+  },
+  {
+    "type": "0x1833",
+    "id": "GhostShip Weapons",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death"
+  },
+  {
+    "type": "0x1834",
+    "id": "GhostShip Bones",
+    "Class": "GameObject",
+    "Static": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x1835",
+    "id": "Ghost Table",
+    "Class": "GameObject",
+    "Model": "Table",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "180"
+  },
+  {
+    "type": "0x1837",
+    "id": "Castle Pot",
+    "Class": "GameObject",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "400",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1863",
+    "id": "Magic Blue Flame",
+    "Class": "GameObject",
+    "Static": true
+  },
+  {
+    "type": "0x1865",
+    "id": "Big Trees",
+    "Class": "GameObject",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1867",
+    "id": "Ghost Ship Crate",
+    "Class": "GameObject",
+    "Model": "Crate",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1870",
+    "id": "Ghost Puddle",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1871",
+    "id": "GP Center",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1872",
+    "id": "GP Rt",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1873",
+    "id": "GP Lf",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1874",
+    "id": "GP Up",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1875",
+    "id": "GP Dn",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1876",
+    "id": "GP Cur",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1877",
+    "id": "GP Cul",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1878",
+    "id": "GP Cdr",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1879",
+    "id": "GP Cdl",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x187a",
+    "id": "Table Edge UL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x9E5D21",
+    "Rotation": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x187b",
+    "id": "Table Edge UR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x9E5D21",
+    "Rotation": "90",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x187c",
+    "id": "Table Edge LR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x9E5D21",
+    "Rotation": "180",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x187d",
+    "id": "Table Edge LL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x9E5D21",
+    "Rotation": "270",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x187e",
+    "id": "Ghost Table Edge UL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x302048",
+    "Rotation": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x187f",
+    "id": "Ghost Table Edge UR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x302048",
+    "Rotation": "90",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1880",
+    "id": "Ghost Table Edge LR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x302048",
+    "Rotation": "180",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1881",
+    "id": "Ghost Table Edge LL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x302048",
+    "Rotation": "270",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x188a",
+    "id": "Tesla Coil",
+    "Class": "GameObject",
+    "Model": "Tesla",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "600",
+    "Size": "100",
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0",
+    "StasisImmune": true
+  },
+  {
+    "type": "0x188b",
+    "id": "Lab Table",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "100",
+    "Size": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x189a",
+    "id": "Cloning Vat",
+    "Class": "GameObject",
+    "Model": "CloningVat",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "MaxHitPoints": "600",
+    "Size": "400",
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "Enemy": true,
+    "Static": true,
+    "XpMulty": "0.0"
+  },
+  {
+    "type": "0x189c",
+    "id": "Monster Tank1",
+    "Class": "GameObject",
+    "Model": "Monster Tank1",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "Size": "100",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x189d",
+    "id": "Monster Tank2",
+    "Class": "GameObject",
+    "Model": "Monster Tank2",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "Size": "100",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x189e",
+    "id": "Monster Tank3",
+    "Class": "GameObject",
+    "Model": "Monster Tank3",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "Size": "100",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x189f",
+    "id": "Monster Tank4",
+    "Class": "GameObject",
+    "Model": "Monster Tank4",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/trees_death",
+    "Size": "100",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x18a0",
+    "id": "Partial Horizontal Catwalk",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "ProtectFromGroundDamage": true,
+    "ProtectFromSink": true
+  },
+  {
+    "type": "0x18a1",
+    "id": "Partial Vertical Catwalk",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "ProtectFromGroundDamage": true,
+    "ProtectFromSink": true
+  },
+  {
+    "type": "0x18a2",
+    "id": "Partial Catwalk",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "ProtectFromGroundDamage": true,
+    "ProtectFromSink": true
+  },
+  {
+    "type": "0x18a3",
+    "id": "Mad Lab Bones",
+    "Class": "GameObject",
+    "Size": "85",
+    "Static": true,
+    "Z": ".04"
+  },
+  {
+    "type": "0x18a4",
+    "id": "Iron Brick",
+    "Class": "GameObject",
+    "Model": "Cube",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x18a6",
+    "id": "Iron Deathspike",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "Static": true,
+    "ShadowSize": "55"
+  },
+  {
+    "type": "0x18a7",
+    "id": "Beach Umbrella",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "Static": true,
+    "NoMiniMap": true,
+    "Size": "140"
+  },
+  {
+    "type": "0x18a9",
+    "id": "Ice Crystal Tree",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "Static": true,
+    "NoMiniMap": true,
+    "Size": "120",
+    "ShadowSize": "60"
+  },
+  {
+    "type": "0x18aa",
+    "id": "Ice Crystal Rock",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "Static": true,
+    "NoMiniMap": true,
+    "Size": "100",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18ab",
+    "id": "Ice Flower",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18ae",
+    "id": "MadLab Warning R",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18af",
+    "id": "MadLab Warning L",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b0",
+    "id": "MadLab Warning U",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b1",
+    "id": "MadLab Warning D",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b2",
+    "id": "MadLab Warning UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b3",
+    "id": "MadLab Warning UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b4",
+    "id": "MadLab Warning DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b5",
+    "id": "MadLab Warning DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b6",
+    "id": "MadLab Cables Hor",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b7",
+    "id": "MadLab Cables Vert",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b8",
+    "id": "MadLab Cables UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18b9",
+    "id": "MadLab Cables UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18ba",
+    "id": "MadLab Cables DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18bb",
+    "id": "MadLab Cables DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18bc",
+    "id": "MadLab Warning Inner UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18bd",
+    "id": "MadLab Warning Inner UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18be",
+    "id": "MadLab Warning Inner DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18bf",
+    "id": "MadLab Warning Inner DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18ac",
+    "id": "Lab Table Plain",
+    "Class": "GameObject",
+    "Model": "Table",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "180"
+  },
+  {
+    "type": "0x18ad",
+    "id": "Lab Table Beaker",
+    "Class": "GameObject",
+    "Z": "0.6",
+    "Size": "40"
+  },
+  {
+    "type": "0x18c8",
+    "id": "Character Changer NonStatic",
+    "Class": "GameObject"
+  },
+  {
+    "type": "0x5f13",
+    "id": "Decal Dye",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f14",
+    "id": "Decal Cloth",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f15",
+    "id": "Decal Key",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f16",
+    "id": "Decal Pet",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f17",
+    "id": "Decal Fame",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f18",
+    "id": "Decal Special",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f19",
+    "id": "Decal Support",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f1c",
+    "id": "Decal Small Dye",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f1d",
+    "id": "Decal Small Cloth",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18cf",
+    "id": "Candy Happy Flower 1",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x18ce",
+    "id": "Candy Happy Flower 2",
+    "Class": "GameObject",
+    "Size": "80",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x18d1",
+    "id": "Candy Small Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "80"
+  },
+  {
+    "type": "0x18d2",
+    "id": "Candy Jelly Bean",
+    "Class": "GameObject",
+    "HitSound": "monster/blobs_hit",
+    "DeathSound": "monster/blobs_death",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "OccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18d3",
+    "id": "Candy Peppermint Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "ShadowSize": "80",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18d4",
+    "id": "Candy Ground Flowers",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x18d5",
+    "id": "Candy Marshmallo",
+    "Class": "GameObject",
+    "HitSound": "monster/blobs_hit",
+    "DeathSound": "monster/blobs_death",
+    "MaxHitPoints": "1000",
+    "XpMulty": "0.0",
+    "MinSize": "120",
+    "MaxSize": "160",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "0",
+    "Z": "-0.1"
+  },
+  {
+    "type": "0x18dc",
+    "id": "Candy RockCandy",
+    "Class": "GameObject",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death",
+    "MaxHitPoints": "2000",
+    "XpMulty": "0.0",
+    "MinSize": "120",
+    "MaxSize": "140",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18dd",
+    "id": "Candy Choc Column Broken",
+    "Class": "GameObject",
+    "Model": "Candy Col Broken",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x18df",
+    "id": "Candy Choc Column Whole",
+    "Class": "GameObject",
+    "Model": "Candy Col Whole",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x18e0",
+    "id": "Candy Straw Column Broken",
+    "Class": "GameObject",
+    "Model": "Candy Col Broken",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x18e2",
+    "id": "Candy Straw Column Whole",
+    "Class": "GameObject",
+    "Model": "Candy Col Whole",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x18e3",
+    "id": "Candy Doughnut Sm Flat Choc",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 1",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "50"
+  },
+  {
+    "type": "0x18e4",
+    "id": "Candy Doughnut Sm Flat Straw",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 1",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "50"
+  },
+  {
+    "type": "0x18e5",
+    "id": "Candy Doughnut Big Flat Choc",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 2",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18e6",
+    "id": "Candy Doughnut Big Flat Straw",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 2",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18e7",
+    "id": "Candy Doughnut Big Vert Choc",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 3",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18e8",
+    "id": "Candy Doughnut Big Vert Straw",
+    "Class": "GameObject",
+    "Model": "Candy Doughnut 3",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18e9",
+    "id": "Candy Peppermint Tree Big",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MinSize": "130",
+    "MaxSize": "160",
+    "ShadowSize": "80",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x18f0",
+    "id": "Gate",
+    "Class": "GameObject",
+    "Model": "Gate",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f1",
+    "id": "Gate Entry",
+    "Class": "GameObject",
+    "Model": "Gate Entry",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f2",
+    "id": "Gate End 1",
+    "Class": "GameObject",
+    "Model": "Gate End 1",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f3",
+    "id": "Gate End 2",
+    "Class": "GameObject",
+    "Model": "Gate End 2",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f5",
+    "id": "Monument 1",
+    "Class": "GameObject",
+    "Model": "Monument 1",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "Rotation": "90",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f6",
+    "id": "Monument 2",
+    "Class": "GameObject",
+    "Model": "Monument 2",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "Rotation": "90",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f7",
+    "id": "Monument 3",
+    "Class": "GameObject",
+    "Model": "Monument 3",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "Rotation": "90",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f8",
+    "id": "Gate 2",
+    "Class": "GameObject",
+    "Model": "Gate",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Rotation": "90",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18f9",
+    "id": "Holloween Big Jacko",
+    "Class": "GameObject",
+    "Model": "Jacko",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18fb",
+    "id": "Arena Large Monument 1",
+    "Class": "GameObject",
+    "Model": "Large Monument 1",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "50"
+  },
+  {
+    "type": "0x18fc",
+    "id": "Arena Large Monument 2",
+    "Class": "GameObject",
+    "Model": "Large Monument 2",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "50"
+  },
+  {
+    "type": "0x18fd",
+    "id": "Arena Large Monument 3",
+    "Class": "GameObject",
+    "Model": "Large Monument 3",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "50"
+  },
+  {
+    "type": "0x18fe",
+    "id": "Gate Entry 2",
+    "Class": "GameObject",
+    "Model": "Gate Entry 2",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x18ff",
+    "id": "Holloween Gravestone",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "ShadowSize": "0",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Enemy": true,
+    "XpMulty": "0.0",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death"
+  },
+  {
+    "type": "0x1900",
+    "id": "Holloween Leaves",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1901",
+    "id": "Holloween Leaves Sm",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x5f08",
+    "id": "Arena Spell Table",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x5f00",
+    "id": "Arena Cauldron",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x5f11",
+    "id": "Arena Grave Stones",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1904",
+    "id": "Gate Entry 2 Rotated",
+    "Class": "GameObject",
+    "Model": "Gate Entry 2",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0",
+    "Rotation": "90"
+  },
+  {
+    "type": "0x1905",
+    "id": "Gate Entry Rotated",
+    "Class": "GameObject",
+    "Model": "Gate Entry",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0",
+    "Rotation": "90"
+  },
+  {
+    "type": "0x1906",
+    "id": "Gate Entry LF Rotated",
+    "Class": "GameObject",
+    "Model": "Gate Entry",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0",
+    "Rotation": "270"
+  },
+  {
+    "type": "0x1907",
+    "id": "Gate Entry LF 2 Rotated",
+    "Class": "GameObject",
+    "Model": "Gate Entry 2",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Rotation": "270",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x1908",
+    "id": "Gate Entry Side",
+    "Class": "GameObject",
+    "Model": "Gate Entry",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0",
+    "Rotation": "180"
+  },
+  {
+    "type": "0x1909",
+    "id": "Gate Entry Side 2",
+    "Class": "GameObject",
+    "Model": "Gate Entry 2",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "0",
+    "Rotation": "180"
+  },
+  {
+    "type": "0x190a",
+    "id": "Dark Table",
+    "Class": "GameObject",
+    "Model": "Table",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "180"
+  },
+  {
+    "type": "0x190b",
+    "id": "Dark Table Edge UL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x643011",
+    "Rotation": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x190c",
+    "id": "Dark Table Edge UR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x643011",
+    "Rotation": "90",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x190d",
+    "id": "Dark Table Edge LR",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x643011",
+    "Rotation": "180",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x190e",
+    "id": "Dark Table Edge LL",
+    "Class": "GameObject",
+    "Model": "Table Edge",
+    "Color": "0x643011",
+    "Rotation": "270",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x190f",
+    "id": "Corn",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "110",
+    "SizeStep": "5",
+    "ShadowSize": "60",
+    "Static": true
+  },
+  {
+    "type": "0x1910",
+    "id": "Pumpkin",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "110",
+    "SizeStep": "5",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1914",
+    "id": "Winter Tree Small",
+    "Class": "GameObject",
+    "MinSize": "100",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1915",
+    "id": "Winter Tree Big",
+    "Class": "GameObject",
+    "Size": "120",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death"
+  },
+  {
+    "type": "0x1916",
+    "id": "Winter Rock",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "110",
+    "SizeStep": "5",
+    "ShadowSize": "0",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1917",
+    "id": "Winter Snowman Big",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "80"
+  },
+  {
+    "type": "0x1918",
+    "id": "Winter Snowman Small",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "ShadowSize": "80"
+  },
+  {
+    "type": "0x1919",
+    "id": "Winter Drift",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-0.15",
+    "ShadowSize": "0"
+  },
+  {
+    "type": "0x191d",
+    "id": "Japanese Rocks",
+    "Class": "GameObject",
+    "ShadowSize": "0",
+    "MinSize": "100",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Static": true
+  },
+  {
+    "type": "0x191e",
+    "id": "Japanese Shrine",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "80",
+    "MinSize": "120",
+    "MaxSize": "140",
+    "SizeStep": "5",
+    "Static": true
+  },
+  {
+    "type": "0x191f",
+    "id": "Japanese Trees",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "80",
+    "MinSize": "110",
+    "MaxSize": "140",
+    "SizeStep": "5",
+    "Static": true
+  },
+  {
+    "type": "0x1920",
+    "id": "Japanese Sticks",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "ShadowSize": "60",
+    "MinSize": "90",
+    "MaxSize": "110",
+    "SizeStep": "5",
+    "Static": true
+  },
+  {
+    "type": "0x1927",
+    "id": "Dragon Temple Gold Brick",
+    "Class": "GameObject",
+    "Model": "Cube",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1930",
+    "id": "Dragon Totem",
+    "Class": "GameObject",
+    "Model": "Candy Col Whole",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1931",
+    "id": "Big Box",
+    "Class": "GameObject",
+    "Model": "ThreeSideCube"
+  },
+  {
+    "type": "0x1932",
+    "id": "Dragon Candelabra",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "HitSound": "monster/stone_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x1933",
+    "id": "Dragon Table LL",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1934",
+    "id": "Dragon Table LM",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1935",
+    "id": "Dragon Table LR",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1936",
+    "id": "Dragon Table ML",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1937",
+    "id": "Dragon Table MM",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1938",
+    "id": "Dragon Table MR",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1939",
+    "id": "Dragon Table UL",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x193a",
+    "id": "Dragon Table UM",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x193b",
+    "id": "Dragon Table UR",
+    "Class": "GameObject",
+    "Model": "Squatty3Side",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1882",
+    "id": "Fortune Pillar",
+    "Class": "GameObject",
+    "Model": "Pillar2",
+    "Rotation": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1883",
+    "id": "Fortune Platform",
+    "Class": "GameObject",
+    "Model": "Platform",
+    "Color": "0x9E5D21",
+    "Rotation": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1942",
+    "id": "Pet Upgrader Terminal",
+    "Class": "GameObject",
+    "Model": "Pet Upgrader Obj",
+    "Rotation": "180",
+    "Static": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "ShadowSize": "80",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death"
+  },
+  {
+    "type": "0x1944",
+    "id": "White Flowers NoWalk",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "EnemyOccupySquare": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x1945",
+    "id": "Iinvisible NoWalk",
+    "Class": "GameObject",
+    "Static": true,
+    "EnemyOccupySquare": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "Size": "0",
+    "ShadowSize": "80",
+    "NoMiniMap": true
+  },
+  {
+    "type": "0x1949",
+    "id": "Earth Gash Small",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194a",
+    "id": "Earth Big Gash TL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194b",
+    "id": "Earth Big Gash TR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194c",
+    "id": "Earth Big Gash BL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194d",
+    "id": "Earth Big Gash BR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194e",
+    "id": "Earth Tile Down",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x194f",
+    "id": "Earth Tile Right",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1950",
+    "id": "Earth Tile Up",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1951",
+    "id": "Earth Tile Left",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1952",
+    "id": "Earth Tile LU",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1953",
+    "id": "Earth Tile LD",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1954",
+    "id": "Earth Tile RD",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1955",
+    "id": "Earth Tile RU",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1956",
+    "id": "Arena Column Short",
+    "Class": "GameObject",
+    "Model": "Candy Col Broken",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1957",
+    "id": "Arena Column",
+    "Class": "GameObject",
+    "Model": "Candy Col Whole",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1959",
+    "id": "Arena Rug 1",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195a",
+    "id": "Arena Rug 2",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195b",
+    "id": "Arena Rug 3",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195c",
+    "id": "Arena Rug 4",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195d",
+    "id": "Arena Rug 5",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195e",
+    "id": "Arena Rug 6",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x195f",
+    "id": "Arena Rug 7",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1960",
+    "id": "Arena Rug 8",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1961",
+    "id": "Arena Rug 9",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1962",
+    "id": "Earthy Bush Large",
+    "Class": "GameObject",
+    "ShadowSize": "75",
+    "Static": true
+  },
+  {
+    "type": "0x1963",
+    "id": "Earthy Bush Small",
+    "Class": "GameObject",
+    "ShadowSize": "50",
+    "Static": true
+  },
+  {
+    "type": "0x1964",
+    "id": "Earth Huge Gash 1",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1965",
+    "id": "Earth Huge Gash 2",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1966",
+    "id": "Earth Huge Gash 3",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1967",
+    "id": "Earth Huge Gash 4",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1968",
+    "id": "Earth Huge Gash 5",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x1969",
+    "id": "Earth Huge Gash 6",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x196a",
+    "id": "Earth Blue Flowers",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true
+  },
+  {
+    "type": "0x196b",
+    "id": "Earthy Red Rock",
+    "Class": "GameObject",
+    "Size": "120",
+    "ShadowSize": "100",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x196c",
+    "id": "Earthy Red Rock Lighter",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "ShadowSize": "100",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x197d",
+    "id": "Arena Discarded Sword",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "ShadowSize": "75",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x197e",
+    "id": "Arena Discarded Lance",
+    "Class": "GameObject",
+    "MinSize": "90",
+    "MaxSize": "120",
+    "SizeStep": "5",
+    "ShadowSize": "40",
+    "Static": true,
+    "OccupySquare": true
+  },
+  {
+    "type": "0x197f",
+    "id": "Arena Stone Column",
+    "Class": "GameObject",
+    "Model": "Column One and a Half",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x1991",
+    "id": "Arena Stone Mid Stands",
+    "Class": "GameObject",
+    "Model": "Candy Col Broken",
+    "Static": true,
+    "OccupySquare": true,
+    "FullOccupy": true,
+    "EnemyOccupySquare": true
+  },
+  {
+    "type": "0x170f",
+    "id": "OceanRock",
+    "Class": "GameObject",
+    "Size": "80",
+    "Static": true,
+    "DisplayId": "{oceanTrench.OceanRock}"
+  },
+  {
+    "type": "0x1710",
+    "id": "Seaweed",
+    "Class": "GameObject",
+    "Size": "80",
+    "Static": true,
+    "DisplayId": "{oceanTrench.Seaweed}"
+  },
+  {
+    "type": "0x1711",
+    "id": "Coral",
+    "Class": "GameObject",
+    "Size": "80",
+    "Static": true,
+    "DisplayId": "{oceanTrench.Coral}"
+  },
+  {
+    "type": "0x0892",
+    "id": "Monster Cage",
+    "Class": "GameObject",
+    "OccupySquare": true,
+    "ShadowSize": "0",
+    "Z": "-0.40",
+    "StasisImmune": true,
+    "DisplayId": "{madLab.Monster_Cage}"
+  },
+  {
+    "type": "0x0990",
+    "id": "West Automated Defense Turret",
+    "Class": "GameObject",
+    "Enemy": true,
+    "Model": "Tower",
+    "StasisImmune": true,
+    "DisplayId": "{madLab.West_Automated_Defense_Turret}"
+  },
+  {
+    "type": "0x0991",
+    "id": "East Automated Defense Turret",
+    "Class": "GameObject",
+    "Enemy": true,
+    "Model": "Tower",
+    "StasisImmune": true,
+    "DisplayId": "{madLab.East_Automated_Defense_Turret}"
+  },
+  {
+    "type": "0x1e22",
+    "id": "Dr Terrible Bubble",
+    "Class": "GameObject",
+    "Enemy": true,
+    "Size": "125",
+    "HitSound": "monster/djinn_hit",
+    "StasisImmune": true,
+    "DisplayId": "{madLab.Dr_Terrible_Bubble}"
+  },
+  {
+    "type": "0x0723",
+    "id": "Gravestone 1",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_1}"
+  },
+  {
+    "type": "0x0724",
+    "id": "Gravestone 2",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_2}"
+  },
+  {
+    "type": "0x0725",
+    "id": "Gravestone 3",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_3}"
+  },
+  {
+    "type": "0x0726",
+    "id": "Gravestone 4",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_4}"
+  },
+  {
+    "type": "0x0727",
+    "id": "Gravestone 5",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_5}"
+  },
+  {
+    "type": "0x0728",
+    "id": "Gravestone 6",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_6}"
+  },
+  {
+    "type": "0x0729",
+    "id": "Gravestone 7",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_7}"
+  },
+  {
+    "type": "0x072a",
+    "id": "Gravestone 8",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_8}"
+  },
+  {
+    "type": "0x072b",
+    "id": "Gravestone 9",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_9}"
+  },
+  {
+    "type": "0x0734",
+    "id": "Gravestone 10",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_10}"
+  },
+  {
+    "type": "0x0735",
+    "id": "Gravestone 11",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.Gravestone_11}"
+  },
+  {
+    "type": "0x01c7",
+    "id": "White Fountain",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "Effect": "Fountain",
+    "DisplayId": "{objects.White_Fountain}"
+  },
+  {
+    "type": "0x0731",
+    "id": "Ocean Vent",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Effect": "Vent",
+    "DisplayId": "{objects.Ocean_Vent}"
+  },
+  {
+    "type": "0x073a",
+    "id": "Cube",
+    "Class": "GameObject",
+    "Model": "Cube",
+    "DisplayId": "{objects.Cube}"
+  },
+  {
+    "type": "0x073b",
+    "id": "Big Cube",
+    "Class": "GameObject",
+    "Model": "Big Cube",
+    "DisplayId": "{objects.Big_Cube}"
+  },
+  {
+    "type": "0x073c",
+    "id": "Ico",
+    "Class": "GameObject",
+    "Model": "Ico",
+    "DisplayId": "{objects.Ico}"
+  },
+  {
+    "type": "0x073d",
+    "id": "Octa",
+    "Class": "GameObject",
+    "Model": "Octa",
+    "DisplayId": "{objects.Octa}"
+  },
+  {
+    "type": "0x073e",
+    "id": "Pyramid",
+    "Class": "GameObject",
+    "Model": "Pyramid",
+    "DisplayId": "{objects.Pyramid}"
+  },
+  {
+    "type": "0x073f",
+    "id": "Tetra",
+    "Class": "GameObject",
+    "Model": "Tetra",
+    "DisplayId": "{objects.Tetra}"
+  },
+  {
+    "type": "0x0740",
+    "id": "Dodec",
+    "Class": "GameObject",
+    "Model": "Dodec",
+    "DisplayId": "{objects.Dodec}"
+  },
+  {
+    "type": "0x0749",
+    "id": "G Door Opener",
+    "Class": "GameObject",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.G_Door_Opener}"
+  },
+  {
+    "type": "0x074f",
+    "id": "Winter Fountain Frozen",
+    "Class": "GameObject",
+    "Model": "Tower",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Winter_Fountain_Frozen}"
+  },
+  {
+    "type": "0x2230",
+    "id": "lod Golden Statue",
+    "Class": "GameObject",
+    "ShowName": true,
+    "Size": "140",
+    "DisplayId": "{objects.lod_Golden_Statue}"
+  },
+  {
+    "type": "0x2231",
+    "id": "lod Golden Loot",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.lod_Golden_Loot}"
+  },
+  {
+    "type": "0x2232",
+    "id": "lod Large Golden Loot",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.lod_Large_Golden_Loot}"
+  },
+  {
+    "type": "0x2234",
+    "id": "lod Abnormal Treasure Pile",
+    "Class": "GameObject",
+    "ShowName": true,
+    "DisplayId": "{objects.lod_Abnormal_Treasure_Pile}"
+  },
+  {
+    "type": "0x1757",
+    "id": "ft Vases with rug",
+    "Class": "GameObject",
+    "ShowName": true,
+    "Size": "100",
+    "DisplayId": "{objects.ft_Vases_with_rug}"
+  },
+  {
+    "type": "0x1758",
+    "id": "ft Vases",
+    "Class": "GameObject",
+    "ShowName": true,
+    "Size": "100",
+    "DisplayId": "{objects.ft_Vases}"
+  },
+  {
+    "type": "0x719f",
+    "id": "destnex Paladin Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Paladin_Grave}"
+  },
+  {
+    "type": "0x720a",
+    "id": "destnex Warrior Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Warrior_Grave}"
+  },
+  {
+    "type": "0x720b",
+    "id": "destnex Priest Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Priest_Grave}"
+  },
+  {
+    "type": "0x720c",
+    "id": "destnex Knight Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Knight_Grave}"
+  },
+  {
+    "type": "0x720d",
+    "id": "destnex Necromancer Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Necromancer_Grave}"
+  },
+  {
+    "type": "0x720e",
+    "id": "destnex Assassin Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Assassin_Grave}"
+  },
+  {
+    "type": "0x720f",
+    "id": "destnex Sorcerer Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Sorcerer_Grave}"
+  },
+  {
+    "type": "0x721a",
+    "id": "destnex Trickster Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Trickster_Grave}"
+  },
+  {
+    "type": "0x721b",
+    "id": "destnex Wizard Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Wizard_Grave}"
+  },
+  {
+    "type": "0x721c",
+    "id": "destnex Rogue Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Rogue_Grave}"
+  },
+  {
+    "type": "0x721d",
+    "id": "destnex Mystic Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Mystic_Grave}"
+  },
+  {
+    "type": "0x721e",
+    "id": "destnex Huntress Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Huntress_Grave}"
+  },
+  {
+    "type": "0x721f",
+    "id": "destnex Archer Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Archer_Grave}"
+  },
+  {
+    "type": "0x722a",
+    "id": "destnex Ninja Grave",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "DisplayId": "{nexusDestroyed.destnex_Ninja_Grave}"
+  },
+  {
+    "type": "0x0de5",
+    "id": "Wine Barrel",
+    "Class": "GameObject",
+    "Static": true,
+    "OccupySquare": true,
+    "HitSound": "monster/wooden_walls_hit",
+    "DeathSound": "monster/stone_walls_death",
+    "MaxHitPoints": "3000",
+    "StasisImmune": true,
+    "Enemy": true,
+    "XpMulty": "0.0",
+    "DisplayId": "{oryxWineCellar.Wine_Barrel}"
+  },
+  {
+    "type": "0x0de6",
+    "id": "WineSpill Puddle",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_Puddle}"
+  },
+  {
+    "type": "0x0de7",
+    "id": "WineSpill DL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_DL}"
+  },
+  {
+    "type": "0x0de8",
+    "id": "WineSpill DR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_DR}"
+  },
+  {
+    "type": "0x0de9",
+    "id": "WineSpill UR",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_UR}"
+  },
+  {
+    "type": "0x0dea",
+    "id": "WineSpill UL",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_UL}"
+  },
+  {
+    "type": "0x0deb",
+    "id": "WineSpill L",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_L}"
+  },
+  {
+    "type": "0x0dec",
+    "id": "WineSpill R",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_R}"
+  },
+  {
+    "type": "0x0ded",
+    "id": "WineSpill U",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_U}"
+  },
+  {
+    "type": "0x0dee",
+    "id": "WineSpill D",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_D}"
+  },
+  {
+    "type": "0x0def",
+    "id": "WineSpill C",
+    "Class": "GameObject",
+    "DrawOnGround": true,
+    "Static": true,
+    "DisplayId": "{oryxWineCellar.WineSpill_C}"
+  },
+  {
+    "type": "0x5f09",
+    "id": "Arena Hay Stack",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true,
+    "DisplayId": "{hauntedCemetery.Arena_Hay_Stack}"
+  },
+  {
+    "type": "0x5f1a",
+    "id": "Arena Dead Tree",
+    "Class": "GameObject",
+    "HitSound": "monster/trees_hit",
+    "DeathSound": "monster/tress_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "DisplayId": "{hauntedCemetery.Arena_Dead_Tree}"
+  },
+  {
+    "type": "0x5f1b",
+    "id": "Arena Statue",
+    "Class": "GameObject",
+    "HitSound": "monster/rocks_hit",
+    "DeathSound": "monster/rocks_death",
+    "MaxHitPoints": "1000",
+    "Static": true,
+    "XpMulty": "0.0",
+    "OccupySquare": true,
+    "DisplayId": "{hauntedCemetery.Arena_Statue}"
+  },
+  {
+    "type": "0x0d31",
+    "id": "Tomb Fire Turret",
+    "Group": "Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true,
+    "DisplayId": "{tombOfTheAncients.Tomb_Fire_Turret}"
+  },
+  {
+    "type": "0x0d32",
+    "id": "Tomb Thunder Turret",
+    "Group": "Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true,
+    "DisplayId": "{tombOfTheAncients.Tomb_Thunder_Turret}"
+  },
+  {
+    "type": "0x0d33",
+    "id": "Tomb Frost Turret",
+    "Group": "Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true,
+    "DisplayId": "{tombOfTheAncients.Tomb_Frost_Turret}"
+  },
+  {
+    "type": "0x0d34",
+    "id": "Center Tomb Fire Turret",
+    "DisplayId": "{tombOfTheAncients.Center_Tomb_Fire_Turret}",
+    "Group": "Center Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true
+  },
+  {
+    "type": "0x0d35",
+    "id": "Center Tomb Thunder Turret",
+    "DisplayId": "{tombOfTheAncients.Center_Tomb_Thunder_Turret}",
+    "Group": "Center Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true
+  },
+  {
+    "type": "0x0d36",
+    "id": "Center Tomb Frost Turret",
+    "DisplayId": "{tombOfTheAncients.Center_Tomb_Frost_Turret}",
+    "Group": "Center Tomb Turrets",
+    "Class": "GameObject",
+    "Model": "Obelisk",
+    "Enemy": true
+  }
+]

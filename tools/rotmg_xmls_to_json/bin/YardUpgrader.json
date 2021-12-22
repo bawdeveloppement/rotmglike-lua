@@ -1,0 +1,59 @@
+[
+  {
+    "type": "0x193d",
+    "id": "Yard Upgrader 1",
+    "Class": "YardUpgrader",
+    "PetYardType": "2",
+    "ShadowSize": "50",
+    "Price": "150",
+    "Fame": "500",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-.01"
+  },
+  {
+    "type": "0x193e",
+    "id": "Yard Upgrader 2",
+    "Class": "YardUpgrader",
+    "PetYardType": "3",
+    "ShadowSize": "50",
+    "Price": "400",
+    "Fame": "2000",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-.01"
+  },
+  {
+    "type": "0x193f",
+    "id": "Yard Upgrader 3",
+    "Class": "YardUpgrader",
+    "PetYardType": "4",
+    "ShadowSize": "50",
+    "Price": "1200",
+    "Fame": "25000",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-.01"
+  },
+  {
+    "type": "0x1940",
+    "id": "Yard Upgrader 4",
+    "Class": "YardUpgrader",
+    "PetYardType": "5",
+    "ShadowSize": "50",
+    "Price": "2000",
+    "Fame": "50000",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-.01"
+  },
+  {
+    "type": "0x1941",
+    "id": "Yard Upgrader 5",
+    "Class": "YardUpgrader",
+    "ShadowSize": "50",
+    "Static": true,
+    "OccupySquare": true,
+    "Z": "-.01"
+  }
+]

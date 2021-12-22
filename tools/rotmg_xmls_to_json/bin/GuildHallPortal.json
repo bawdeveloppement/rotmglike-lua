@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x072f",
+    "id": "Guild Hall Portal",
+    "Class": "GuildHallPortal",
+    "IntergamePortal": true,
+    "DungeonName": "Guild Hall",
+    "ShadowSize": "0",
+    "DisplayId": "{objects.Guild_Hall_Portal}"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "type": "0x01ce",
+    "id": "Cave Wall",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "BlocksSight": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18a8",
+    "id": "Ice Cave Wall",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18d6",
+    "id": "Candy Rock Wall",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18d7",
+    "id": "Candy Rock Wall Blue",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18d8",
+    "id": "Candy Rock Wall Green",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18d9",
+    "id": "Candy Rock Wall Pink",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18da",
+    "id": "Candy Rock Wall Yellow",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x18db",
+    "id": "Candy Rock Wall Blue Basic",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "EnemyOccupySquare": true,
+    "Connects": true
+  },
+  {
+    "type": "0x1947",
+    "id": "Earth Walls",
+    "Class": "CaveWall",
+    "ShadowSize": "0",
+    "Static": true,
+    "FullOccupy": true,
+    "OccupySquare": true,
+    "Connects": true
+  }
+]

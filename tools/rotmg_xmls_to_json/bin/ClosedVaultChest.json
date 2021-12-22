@@ -1,0 +1,8 @@
+[
+  {
+    "type": "0x0505",
+    "id": "Closed Vault Chest",
+    "Class": "ClosedVaultChest",
+    "DisplayId": "{objects.Closed_Vault_Chest}"
+  }
+]

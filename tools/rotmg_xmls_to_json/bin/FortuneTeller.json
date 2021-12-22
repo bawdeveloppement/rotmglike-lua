@@ -1,0 +1,11 @@
+[
+  {
+    "type": "0x22f1",
+    "id": "ft shopkeep",
+    "DisplayId": "{objects.ft_shopkeep}",
+    "Class": "FortuneTeller",
+    "ShadowSize": "50",
+    "Size": "100",
+    "StasisImmune": true
+  }
+]

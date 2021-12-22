@@ -1,0 +1,18 @@
+[
+  {
+    "type": "0x0511",
+    "id": "Mystery Box",
+    "Class": "MysteryBoxGround",
+    "DisplayId": "{objects.Mystery_Box}"
+  },
+  {
+    "type": "0x222b",
+    "id": "Mystery Box Ground Object",
+    "Class": "MysteryBoxGround",
+    "NoMiniMap": true,
+    "ShadowSize": "0",
+    "Size": "0",
+    "StasisImmune": true,
+    "DisplayId": "{objects.Mystery_Box_Ground_Object}"
+  }
+]
