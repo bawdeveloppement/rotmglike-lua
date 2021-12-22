@@ -1,1 +1,0 @@
-- When instancing a prefab entity, let the possibility to overwrite default value of components
