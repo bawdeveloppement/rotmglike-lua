@@ -3,7 +3,49 @@ local XLE = require(_G.libDir .. "middleclass")("God")
 local Screen = require(_G.engineDir .. "screen")
 local Entity = require(_G.engineDir .. "entity")
 local World = require(_G.engineDir .. "world")
-
+local ResourcesManager = require(_G.engineDir .. "resources_manager")
+local callbacks = {
+    all = {
+        "directorydropped",
+        "displayrotated",
+        "errhand",
+        "errorhandler",
+        "filedropped",
+        "focus",
+        "gamepadaxis",
+        "gamepadpressed",
+        "gamepadrelease",
+        "joystickadded",
+        "joystickaxis",
+        "joystickhat",
+        "joystickpresse",
+        "joystickrelease",
+        "joystickremove",
+        "load",
+        "lowmemory",
+        "quit",
+        "resize",
+        "textedited",
+        "textinput",
+        "threaderror",
+        "touchmoved",
+        "touchpressed",
+        "touchreleased",
+        "visible",
+    },
+    supported = {
+        "wheelmoved",
+        "mousefocus",
+        "mousemoved",
+        "mousepressed",
+        "mousereleased",
+        "update",
+        "load",
+        "draw",
+        "keypressed",
+        "keyreleased",
+    }
+}
 
 function XLE:initialize( screens )
     -- require and initialise
@@ -21,7 +63,7 @@ function XLE:load()
         end
     end
     
-    for _, v in ipairs(_G.callbacks.supported) do
+    for _, v in ipairs(callbacks.supported) do
         love[v] = function (...)
             for _, screen in pairs(Screen.screensInstances) do
                 if screen[v] ~= nil and type(screen[v]) == "function" and screen.active then
@@ -38,4 +80,6 @@ return {
     Entity = Entity,
     Screen = Screen,
     World = World,
+    callbacks = callbacks,
+    ResourcesManager = ResourcesManager:new(),
 }
