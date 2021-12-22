@@ -1,6 +1,6 @@
-local Button = require(_G.libDir .. "middleclass")("Button")
+local ButtonElement = require(_G.libDir .. "middleclass")("ButtonElement")
 
-function Button:initialize( text, x, y )
+function ButtonElement:initialize( text, x, y )
     self.text = love.graphics.newText(love.graphics.getFont(), text)
 
     self.rect = {
@@ -11,7 +11,7 @@ function Button:initialize( text, x, y )
     self.onClick = {}
 end
 
-function Button:addOnClickEvent( eventId, eventHandler )
+function ButtonElement:addOnClickEvent( eventId, eventHandler )
     local found = false
     for i, event in ipairs(self.onClick) do
         if event.id == eventId then
@@ -22,7 +22,7 @@ function Button:addOnClickEvent( eventId, eventHandler )
         table.insert(self.onClick, #self.onClick + 1, { id = eventId, handler = eventHandler})
     end
 end
-function Button:removeOnClickEvent( eventId, eventHandler )
+function ButtonElement:removeOnClickEvent( eventId, eventHandler )
     for i, event in ipairs(self.onClick) do
         if event.id == eventId then
             table.remove(self.onClick, i)
@@ -30,13 +30,13 @@ function Button:removeOnClickEvent( eventId, eventHandler )
     end
 end
 
-function Button:click()
+function ButtonElement:click()
     for i in ipairs(self.onClick) do
         self.onClick[i].handler()
     end
 end
 
-function Button:draw ()
+function ButtonElement:draw ()
     local mx, my = love.mouse.getPosition()
     if mx > self.rect.x and mx < self.rect.x + self.text:getWidth() + 8
     and my > self.rect.y and my < self.rect.y + self.text:getHeight() + 8 then
@@ -50,7 +50,7 @@ function Button:draw ()
     end
 end
 
-function Button:mousepressed(mx, my, button)
+function ButtonElement:mousepressed(mx, my, button)
     if button == 1 then
         if mx > self.rect.x and mx < self.rect.x + self.text:getWidth() + 8
         and my > self.rect.y and my < self.rect.y + self.text:getHeight() + 8 then
@@ -58,4 +58,4 @@ function Button:mousepressed(mx, my, button)
         end
     end
 end
-return Button
+return ButtonElement

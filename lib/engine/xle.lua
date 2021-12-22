@@ -47,6 +47,8 @@ local callbacks = {
     }
 }
 
+XLE.static.optionsCached = {}
+
 function XLE:initialize( screens )
     -- require and initialise
     for i, v in ipairs(screens) do
@@ -71,19 +73,9 @@ function XLE:load()
     }
     for _, v in ipairs(callbacks.supported) do
         love[v] = function (...)
-            if v == "keypressed" then
-                local key = ...
-                if key == "f" then
-                    local w, h, flags = love.window.getMode()
-                    self.old.screen.w = w
-                    self.old.screen.h = h
-                    -- print(love.window.getDesktopDimensions())
-                    for i, modes in ipairs(love.window.getFullscreenModes()) do
-                        print(i)
-                        for k, mode in pairs(modes) do
-                            print(k .. mode)
-                        end
-                    end
+            if v == "load" then
+                for i, mode in ipairs(love.window.getFullscreenModes()) do
+                    table.insert(XLE.optionsCached, #XLE.optionsCached + 1, {id = mode.height.. "x".. mode.width, text =  mode.height.. "x".. mode.width, value = mode  })
                 end
             end
             for _, screen in pairs(Screen.screensInstances) do
