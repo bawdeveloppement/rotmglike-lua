@@ -3,12 +3,20 @@
     "type": "0x01cc",
     "id": "Character Changer",
     "Class": "CharacterChanger",
+    "Texture": {
+      "File": "lofiChar8x8",
+      "Index": "0x08"
+    },
     "Static": true
   },
   {
     "type": "0x1946",
     "id": "Character Changer LF",
     "Class": "CharacterChanger",
+    "Texture": {
+      "File": "lofiChar8x8",
+      "Index": "0x18"
+    },
     "Static": true
   }
 ]

@@ -3,6 +3,10 @@
     "type": "0x01ca",
     "id": "Merchant",
     "Class": "Merchant",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x77"
+    },
     "DisplayId": "{objects.Merchant}"
   }
 ]

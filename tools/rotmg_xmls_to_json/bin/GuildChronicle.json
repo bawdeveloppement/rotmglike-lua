@@ -3,6 +3,10 @@
     "type": "0x01e5",
     "id": "Guild Chronicle",
     "Class": "GuildChronicle",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5c"
+    },
     "OccupySquare": true,
     "ShadowSize": "0",
     "Size": "120",

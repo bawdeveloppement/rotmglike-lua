@@ -4,6 +4,10 @@
     "id": "Guild Board",
     "Class": "GuildBoard",
     "Model": "Sign",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5e"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "75"

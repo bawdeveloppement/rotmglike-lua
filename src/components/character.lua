@@ -27,7 +27,6 @@ function CharacterComponent:initialize( parent, data )
         max_mana = 100,
         attack = 1,
         wisdom = 1,
-        force = 1,
         dexterity = 1,
         speed = 1,
         defense = 1,
@@ -114,7 +113,7 @@ function CharacterComponent:update(...)
     end
 
     if self.stats.life < self.stats.max_life then
-        self.stats.life = self.stats.life + self.stats.vitality / 10 
+        self.stats.life = self.stats.life + (self.stats.vitality / 300)
     end
 end
 

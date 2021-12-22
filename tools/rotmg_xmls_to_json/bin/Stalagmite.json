@@ -3,6 +3,10 @@
     "type": "0x01cd",
     "id": "Stalagmite",
     "Class": "Stalagmite",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0xc0"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true

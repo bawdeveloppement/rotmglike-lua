@@ -7,6 +7,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x115"
+    },
     "Size": "100",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -18,6 +22,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x5c"
+    },
     "Size": "95",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -29,6 +37,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x5b"
+    },
     "Size": "95",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -38,6 +50,10 @@
     "Class": "Container",
     "Container": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x08"
+    },
     "Size": "75",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "Equipment": "0x0a4f, -1, -1, -1, -1, -1, -1, -1",
@@ -49,6 +65,10 @@
     "Class": "Container",
     "Container": true,
     "CanPutNormalObjects": true,
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x02"
+    },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Treasure_Chest}"
   },
@@ -59,6 +79,10 @@
     "Container": true,
     "ShowName": true,
     "CanPutNormalObjects": true,
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x13"
+    },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Gravestone}"
   },
@@ -69,6 +93,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "CanPutSoulboundObjects": true,
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x0e"
+    },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Vault_Chest}"
   },
@@ -78,6 +106,10 @@
     "Class": "Container",
     "Container": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x76"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Soulbound_Loot_Bag}"
@@ -89,6 +121,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x08"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Loot_Bag}"
@@ -101,6 +137,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x9D"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -112,6 +152,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x91"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -124,6 +168,10 @@
     "CanPutNormalObjects": true,
     "CanPutSoulboundObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x9C"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -135,6 +183,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x92"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -146,6 +198,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x93"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -157,6 +213,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x94"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -168,6 +228,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x94"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -179,6 +243,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x94"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   },
@@ -190,6 +258,10 @@
     "Container": true,
     "CanPutNormalObjects": true,
     "Loot": true,
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x95"
+    },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
   }

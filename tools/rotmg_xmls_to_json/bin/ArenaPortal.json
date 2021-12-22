@@ -4,6 +4,10 @@
     "id": "Arena Portal",
     "Class": "ArenaPortal",
     "IntergamePortal": true,
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe9"
+    },
     "ShadowSize": "0",
     "DisplayId": "{objects.Arena_Portal}"
   }

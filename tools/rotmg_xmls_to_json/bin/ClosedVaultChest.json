@@ -3,6 +3,10 @@
     "type": "0x0505",
     "id": "Closed Vault Chest",
     "Class": "ClosedVaultChest",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x0f"
+    },
     "DisplayId": "{objects.Closed_Vault_Chest}"
   }
 ]

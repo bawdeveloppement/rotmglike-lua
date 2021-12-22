@@ -3,11 +3,19 @@
     "type": "0x01dc",
     "id": "Name Changer",
     "Class": "NameChanger",
+    "Texture": {
+      "File": "lofiChar8x8",
+      "Index": "0x0a"
+    },
     "Static": true
   },
   {
     "type": "0x18c9",
     "id": "Name Changer NonStatic",
-    "Class": "NameChanger"
+    "Class": "NameChanger",
+    "Texture": {
+      "File": "lofiChar8x8",
+      "Index": "0x0a"
+    }
   }
 ]

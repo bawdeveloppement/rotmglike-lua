@@ -3,6 +3,10 @@
     "type": "0x01df",
     "id": "Guild Register",
     "Class": "GuildRegister",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x55"
+    },
     "OccupySquare": true,
     "ShadowSize": "0",
     "Size": "110",

@@ -4,6 +4,10 @@
     "id": "Spider Web",
     "Class": "SpiderWeb",
     "Model": "Web",
+    "RandomTexture": {
+      "File": "lofiEnvironment2",
+      "Index": "0xa4"
+    },
     "Static": true,
     "ShadowSize": "0",
     "DisplayId": "{objects.Spider_Web}"

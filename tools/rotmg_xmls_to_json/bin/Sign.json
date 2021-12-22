@@ -3,6 +3,10 @@
     "type": "0x01c9",
     "id": "Sign",
     "Class": "Sign",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xdd"
+    },
     "Size": "20",
     "ShadowSize": "0",
     "Static": true
@@ -11,6 +15,10 @@
     "type": "0x18c7",
     "id": "High Sign",
     "Class": "Sign",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xdd"
+    },
     "Size": "20",
     "ShadowSize": "0",
     "Static": true,

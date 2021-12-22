@@ -3,30 +3,50 @@
     "type": "0x5103",
     "id": "l dblade prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x106"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5104",
     "id": "l dbow prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf0"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5105",
     "id": "l ep prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf1"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5106",
     "id": "l cwand prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5107",
     "id": "l cdirk prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf4"
+    },
     "AngleCorrection": "1",
     "Rotation": "185"
   },
@@ -34,36 +54,60 @@
     "type": "0x5108",
     "id": "l cbow prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf3"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5109",
     "id": "inf cwhole prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x100"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x510a",
     "id": "inf acclaim prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x101"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x510b",
     "id": "inf covert prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x102"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x510c",
     "id": "inf foul prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x103"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x510d",
     "id": "inf masa prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x104"
+    },
     "AngleCorrection": "1",
     "Rotation": "185"
   },
@@ -71,18 +115,30 @@
     "type": "0x510e",
     "id": "inf recomp prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x105"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x510f",
     "id": "l ass prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf6"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5110",
     "id": "l bulwark prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf7"
+    },
     "AngleCorrection": "1",
     "Rotation": "185"
   },
@@ -90,12 +146,20 @@
     "type": "0x5111",
     "id": "l csword prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xf5"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5113",
     "id": "slvrdllr prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x107"
+    },
     "AngleCorrection": "1",
     "Rotation": "185"
   },
@@ -103,30 +167,50 @@
     "type": "0x511a",
     "id": "l star prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x111"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x511b",
     "id": "l pixie prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x110"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x511c",
     "id": "l ilumi prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x112"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x512a",
     "id": "l mg prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x113"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x512b",
     "id": "srt mg prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x114"
+    },
     "AngleCorrection": "1",
     "Rotation": "185"
   },
@@ -134,450 +218,762 @@
     "type": "0x5164",
     "id": "ult jugg prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjLoEItems16x16",
+      "Index": "0x01"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x177e",
     "id": "Vicious Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x7b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1894",
     "id": "Normal Succubus",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x2f3"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1893",
     "id": "Set Succubus",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x2f4"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1771",
     "id": "Bloodshed Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x31"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1772",
     "id": "Dark Knight Shield Proj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x33"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0xff8",
     "id": "WoodLand Proj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x591"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0xff9",
     "id": "WoodLand Proj Ult",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x592"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1778",
     "id": "Titanic Sword Proj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x7c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1779",
     "id": "Titanic Sword Proj Ult",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x7f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x1780",
     "id": "Paladiiiin Proj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x3f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x17de",
     "id": "Wunder Web",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x2a4"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x17df",
     "id": "Super Wunder Web",
     "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x2a5"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0001",
     "id": "Heavy Crossbow Bolt",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x70"
+    }
   },
   {
     "type": "0x0002",
     "id": "Red Fire",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xd6"
+    }
   },
   {
     "type": "0x0003",
     "id": "Green Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xde"
+    }
   },
   {
     "type": "0x0004",
     "id": "Blue Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xe6"
+    }
   },
   {
     "type": "0x0005",
     "id": "Purple Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xee"
+    }
   },
   {
     "type": "0x0006",
     "id": "Blade",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xf6"
+    }
   },
   {
     "type": "0x0007",
     "id": "Arrow",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xfe"
+    }
   },
   {
     "type": "0x0008",
     "id": "Stick",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xfe"
+    }
   },
   {
     "type": "0x0009",
     "id": "Green Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x71"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x000a",
     "id": "Red Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x72"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x000b",
     "id": "Blue Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x73"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x000c",
     "id": "Gold Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x74"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x000d",
     "id": "Crossbow Bolt",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x5c"
+    }
   },
   {
     "type": "0x000e",
     "id": "White Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x8a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x000f",
     "id": "Fire Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x9a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0010",
     "id": "Green Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xaa"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0011",
     "id": "Blue Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xba"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0012",
     "id": "Pink Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xca"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0013",
     "id": "Darkness Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x71"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0014",
     "id": "Green Blob",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x10"
+    }
   },
   {
     "type": "0x0015",
     "id": "Red Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x60"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x0016",
     "id": "Blue Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x63"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x0017",
     "id": "Grey Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x66"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x0018",
     "id": "Purple Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x70"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x0019",
     "id": "Green Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x73"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x001a",
     "id": "Yellow Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x76"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x001b",
     "id": "Silver Shield",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x13"
+    },
     "AngleCorrection": "3"
   },
   {
     "type": "0x001c",
     "id": "Cyan Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa0"
+    }
   },
   {
     "type": "0x001d",
     "id": "Yellow Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa1"
+    }
   },
   {
     "type": "0x001e",
     "id": "Orange Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa2"
+    }
   },
   {
     "type": "0x001f",
     "id": "Dark Blue Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa3"
+    }
   },
   {
     "type": "0x0020",
     "id": "Fire Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xd5"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0021",
     "id": "Blue Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xe5"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0022",
     "id": "Green Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xdd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0023",
     "id": "Purple Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xed"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0024",
     "id": "Salmon Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x8a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0025",
     "id": "Violet Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x8b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0026",
     "id": "Aqua Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x8c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0027",
     "id": "Black Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x9a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0028",
     "id": "Yellow Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x9b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0029",
     "id": "Grey Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x9c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x002a",
     "id": "Purple Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x64"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x002b",
     "id": "Grey Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x65"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x002c",
     "id": "Spring Green Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x66"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x002d",
     "id": "Indigo Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x67"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x002e",
     "id": "Grey Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x83"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x002f",
     "id": "Fire Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x93"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x0030",
     "id": "Green Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xa3"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x0031",
     "id": "Blue Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xb3"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x0032",
     "id": "Purple Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xc3"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x0033",
     "id": "Black Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xcf"
+    }
   },
   {
     "type": "0x0034",
     "id": "Brown Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa4"
+    }
   },
   {
     "type": "0x0035",
     "id": "Black Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xa5"
+    }
   },
   {
     "type": "0x0036",
     "id": "Purple Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x72"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0037",
     "id": "Black Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x73"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0038",
     "id": "Orange Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x74"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0039",
     "id": "Purple Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xc2"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x003a",
     "id": "Blue Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xb2"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x003b",
     "id": "White Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x40"
+    }
   },
   {
     "type": "0x003c",
     "id": "White Flame",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x41"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x003d",
     "id": "Leaf Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x42"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x003e",
     "id": "Bark Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x43"
+    },
     "Rotation": "0.2"
   },
   {
     "type": "0x003f",
     "id": "Eldritch Zap",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x44"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0040",
     "id": "Sparkling Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x45"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0041",
     "id": "Web Thread",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x46"
+    },
     "Rotation": "0",
     "ShadowSize": "0"
   },
@@ -585,6 +981,10 @@
     "type": "0x0042",
     "id": "Aqua Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x51"
+    },
     "Rotation": "0",
     "AngleCorrection": "1"
   },
@@ -592,84 +992,140 @@
     "type": "0x0043",
     "id": "Gray Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x80"
+    },
     "Rotation": "150"
   },
   {
     "type": "0x0044",
     "id": "Fire Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x81"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x0045",
     "id": "Green Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x82"
+    },
     "Rotation": "200"
   },
   {
     "type": "0x0046",
     "id": "Dark Gray Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x83"
+    },
     "Rotation": "150"
   },
   {
     "type": "0x0047",
     "id": "Blue Mystic Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x84"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0048",
     "id": "Purple Mystic Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x85"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0049",
     "id": "Fire Mystic Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x86"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x004a",
     "id": "Rimmed Mystic Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x87"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x004b",
     "id": "Beam",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x88"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x004c",
     "id": "Brown Claw",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x89"
+    },
     "Rotation": "300"
   },
   {
     "type": "0x004d",
     "id": "Violet Claw",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8a"
+    },
     "Rotation": "300"
   },
   {
     "type": "0x004e",
     "id": "Fire Claw",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8b"
+    },
     "Rotation": "300"
   },
   {
     "type": "0x004f",
     "id": "Steel Claw",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8c"
+    },
     "Rotation": "300"
   },
   {
     "type": "0x0050",
     "id": "Web Thread 2",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8d"
+    },
     "Rotation": "0",
     "ShadowSize": "0"
   },
@@ -677,6 +1133,10 @@
     "type": "0x0051",
     "id": "Web Thread 3",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8e"
+    },
     "Rotation": "0",
     "ShadowSize": "0"
   },
@@ -684,2060 +1144,3504 @@
     "type": "0x0052",
     "id": "Ice Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x8f"
+    },
     "Rotation": "275"
   },
   {
     "type": "0x0053",
     "id": "Hellfire",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiChar216x8",
+      "Index": "0x14"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0054",
     "id": "Zedshot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0xc0"
+    },
     "Rotation": "50"
   },
   {
     "type": "0x0055",
     "id": "Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x0d"
+    },
     "Rotation": "200"
   },
   {
     "type": "0x0057",
     "id": "Fire Magic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0xc1"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0058",
     "id": "Ice Magic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0xc2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0059",
     "id": "Thunderbolt",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0xc3"
+    }
   },
   {
     "type": "0x005a",
     "id": "Red Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x00"
+    }
   },
   {
     "type": "0x005b",
     "id": "Red BigBullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x01"
+    }
   },
   {
     "type": "0x005c",
     "id": "Gold Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x02"
+    }
   },
   {
     "type": "0x005d",
     "id": "White Beam",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x03"
+    }
   },
   {
     "type": "0x005e",
     "id": "Ice Burst",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x04"
+    }
   },
   {
     "type": "0x005f",
     "id": "Vortex",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x00"
+    },
     "Rotation": "-60"
   },
   {
     "type": "0x0060",
     "id": "Pink Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x05"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0061",
     "id": "Pink Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x06"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0062",
     "id": "Blue Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x07"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0063",
     "id": "Ice Triangle",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x08"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x0064",
     "id": "Oryx Bubble",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x01"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0065",
     "id": "Oryx Knight Blast Sm",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x09"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0066",
     "id": "Oryx Knight Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0a"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0067",
     "id": "Oryx Brute Line",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0b"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0068",
     "id": "Oryx Brute Rush",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x02"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x0069",
     "id": "Oryx Insect Sting",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0c"
+    },
     "Rotation": "0"
   },
   {
     "type": "0x006a",
     "id": "Oryx Insect Sting Status",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0d"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x006b",
     "id": "Oryx Eye Warrior Swipe",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0e"
+    }
   },
   {
     "type": "0x006c",
     "id": "Armor Sword Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x0f"
+    }
   },
   {
     "type": "0x006d",
     "id": "Armor Creation",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x10"
+    }
   },
   {
     "type": "0x006e",
     "id": "White Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x11"
+    }
   },
   {
     "type": "0x006f",
     "id": "Lightning Spiral",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x12"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x0070",
     "id": "Super Blast Red",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x03"
+    }
   },
   {
     "type": "0x0071",
     "id": "Super Blast Purple",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x04"
+    }
   },
   {
     "type": "0x0072",
     "id": "Small White Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x13"
+    }
   },
   {
     "type": "0x0073",
     "id": "Purple Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x14"
+    }
   },
   {
     "type": "0x0074",
     "id": "Red Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x15"
+    }
   },
   {
     "type": "0x0075",
     "id": "Pet Bubble",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x16"
+    }
   },
   {
     "type": "0x0076",
     "id": "Oryx Knight Line",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x17"
+    }
   },
   {
     "type": "0x0077",
     "id": "Stone Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x18"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0078",
     "id": "Oryx Knight Swipe Spin",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x19"
+    },
     "Rotation": "85"
   },
   {
     "type": "0x0079",
     "id": "Purple Spit",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x1a"
+    }
   },
   {
     "type": "0x007a",
     "id": "Yellow Wave",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x1b"
+    }
   },
   {
     "type": "0x007b",
     "id": "Squid Sucker",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x1c"
+    }
   },
   {
     "type": "0x007c",
     "id": "Ink Blot",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiProjs",
+      "Index": "0x1d"
+    },
     "Rotation": "195"
   },
   {
     "type": "0x007d",
     "id": "Squid Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x22"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x007e",
     "id": "Bubble",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiProjs",
+      "Index": "0x23"
+    }
   },
   {
     "type": "0x007f",
     "id": "Sea Arrow",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x27"
+    }
   },
   {
     "type": "0x0080",
     "id": "Sea Spike",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x28"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x0081",
     "id": "Fishman Spear",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x29"
+    }
   },
   {
     "type": "0x0082",
     "id": "Fishman Boomerang",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2a"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x0083",
     "id": "Coral Spike",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2b"
+    }
   },
   {
     "type": "0x0084",
     "id": "Trident",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2c"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x0085",
     "id": "Thunder Swirl",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2d"
+    },
     "Rotation": "-85"
   },
   {
     "type": "0x0086",
     "id": "Rainbow Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2e"
+    }
   },
   {
     "type": "0x0087",
     "id": "Super Trident",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x2f"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x0088",
     "id": "Yellow Wall",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x05"
+    }
   },
   {
     "type": "0x0089",
     "id": "Deep Sea Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x06"
+    }
   },
   {
     "type": "0x008a",
     "id": "Tentacle Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x30"
+    }
   },
   {
     "type": "0x008b",
     "id": "Tentacle Wall",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x31"
+    }
   },
   {
     "type": "0x008c",
     "id": "Water Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x32"
+    }
   },
   {
     "type": "0x008d",
     "id": "InkBubbles",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiProjs",
+      "Index": "0x33"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x008e",
     "id": "OctoBlast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x36"
+    }
   },
   {
     "type": "0x008f",
     "id": "Deep Sea Blast Yellow",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x07"
+    }
   },
   {
     "type": "0x0090",
     "id": "Coral Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x37"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x0091",
     "id": "FishWarrior Spear",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x38"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x0092",
     "id": "Coral Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x39"
+    }
   },
   {
     "type": "0x0093",
     "id": "Mute Spell",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3a"
+    },
     "Rotation": "135"
   },
   {
     "type": "0x0094",
     "id": "Sea Horse Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3b"
+    },
     "Rotation": "135"
   },
   {
     "type": "0x0095",
     "id": "Wine Bomb",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3c"
+    },
     "Rotation": "-105"
   },
   {
     "type": "0x0096",
     "id": "Invisible",
     "Class": "Projectile",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "ShadowSize": "0"
   },
   {
     "type": "0x0097",
     "id": "Fireball 2",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3d"
+    },
     "Rotation": "-110"
   },
   {
     "type": "0x0098",
     "id": "Ghost Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3e"
+    }
   },
   {
     "type": "0x0099",
     "id": "Totem Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x3f"
+    },
     "AngleCorrection": "-1"
   },
   {
     "type": "0x009a",
     "id": "Hunter Spear",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x40"
+    }
   },
   {
     "type": "0x009b",
     "id": "Shaman Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x41"
+    },
     "Rotation": "45"
   },
   {
     "type": "0x009c",
     "id": "Mask Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x42"
+    },
     "AngleCorrection": "0"
   },
   {
     "type": "0x009d",
     "id": "Totem Fire Wall",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x43"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x009e",
     "id": "Mask Powerwave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x44"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x009f",
     "id": "Mask Powershot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x45"
+    }
   },
   {
     "type": "0x00a0",
     "id": "Crystal Serpent Missile",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x46"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00a1",
     "id": "Basilisk Acid",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x47"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00a2",
     "id": "Basilisk Beam",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x48"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00a3",
     "id": "Snake Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x49"
+    }
   },
   {
     "type": "0x00a4",
     "id": "Snake Shot Yellow",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4a"
+    }
   },
   {
     "type": "0x00a5",
     "id": "Yellow Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4b"
+    },
     "Rotation": "-120"
   },
   {
     "type": "0x00a6",
     "id": "White Demon Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4c"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x00a7",
     "id": "Thousand Shot Arrow",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4d"
+    }
   },
   {
     "type": "0x00a8",
     "id": "Dagger",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4e"
+    }
   },
   {
     "type": "0x00a9",
     "id": "HellHoundAttack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x4f"
+    }
   },
   {
     "type": "0x00aa",
     "id": "ArmorGuard Attack",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x50"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ab",
     "id": "Bone Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x51"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x00ac",
     "id": "Vampire Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x52"
+    }
   },
   {
     "type": "0x00ad",
     "id": "Vampire Magic Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x53"
+    }
   },
   {
     "type": "0x00ae",
     "id": "Rockbomb Spike",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x54"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00af",
     "id": "Coffin Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x55"
+    }
   },
   {
     "type": "0x00b0",
     "id": "Cross Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x56"
+    }
   },
   {
     "type": "0x00b1",
     "id": "Bone Dagger Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x57"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00b2",
     "id": "Specter Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x58"
+    },
     "Rotation": "-80"
   },
   {
     "type": "0x00b3",
     "id": "Specter Spike",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x59"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00b4",
     "id": "Specter Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5a"
+    }
   },
   {
     "type": "0x00b5",
     "id": "Ruthven Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00b6",
     "id": "LavaBombBlast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00b7",
     "id": "Anatis",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5d"
+    }
   },
   {
     "type": "0x00b8",
     "id": "Rainbow Magic Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5e"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x00b9",
     "id": "Rainbow Magic Star Super",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x08"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x00ba",
     "id": "Pink Dot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x5f"
+    }
   },
   {
     "type": "0x00bb",
     "id": "Feather",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiProjs",
+      "Index": "0x60"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x00bc",
     "id": "Rainbow Blaster",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x63"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00bd",
     "id": "Chicken Leg",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x1d"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x00be",
     "id": "Rainbow Baller",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x64"
+    }
   },
   {
     "type": "0x00bf",
     "id": "Planet Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x65"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00c0",
     "id": "Moon Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x66"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00c1",
     "id": "White Orb",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x67"
+    }
   },
   {
     "type": "0x00c2",
     "id": "White Orbiter",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x68"
+    }
   },
   {
     "type": "0x00c3",
     "id": "White Superblast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjsBig",
+      "Index": "0x09"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00c4",
     "id": "White Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x69"
+    }
   },
   {
     "type": "0x00c5",
     "id": "White Ball Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00c6",
     "id": "White Star Stunner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6b"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x00c7",
     "id": "Black Eye",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00c8",
     "id": "White Blue Bubble",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6d"
+    }
   },
   {
     "type": "0x00c9",
     "id": "White Planet Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ca",
     "id": "Assassin Swipe",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x6f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00cb",
     "id": "Assassin Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x70"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00cc",
     "id": "Snakepit Dart",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x46"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00cd",
     "id": "Snake Spit",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x47"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ce",
     "id": "Snake Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x48"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x00cf",
     "id": "Snake Ball Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x49"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x00d0",
     "id": "Rat Tail",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4a"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x00d1",
     "id": "Ghost Swipe",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4b"
+    }
   },
   {
     "type": "0x00d2",
     "id": "Lanturn Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d3",
     "id": "Idol Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4d"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d4",
     "id": "Idol Wave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d5",
     "id": "Lightning Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d6",
     "id": "Eye Laser",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x55"
+    }
   },
   {
     "type": "0x00d7",
     "id": "Zombie Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xd7"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d8",
     "id": "Fish Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xd8"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00d9",
     "id": "Roger Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xd9"
+    }
   },
   {
     "type": "0x00da",
     "id": "Roger Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xda"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00db",
     "id": "Spirit Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xdb"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00dc",
     "id": "Ghost Boss Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xdc"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00dd",
     "id": "Ghost Sr Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xdd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00de",
     "id": "Ghost Boss Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xde"
+    },
     "Rotation": "-120"
   },
   {
     "type": "0x00df",
     "id": "Spirit Dagger Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xe3"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e0",
     "id": "Ghostly Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x15b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e1",
     "id": "Lightning Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x15c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e2",
     "id": "Cannonball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x15d"
+    }
   },
   {
     "type": "0x00e3",
     "id": "Giant Cannonball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x3b"
+    }
   },
   {
     "type": "0x00e4",
     "id": "Skull Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x15e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e5",
     "id": "Red Gas",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x15f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e6",
     "id": "Green Gas",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x160"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e7",
     "id": "Directed Explosion",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x161"
+    }
   },
   {
     "type": "0x00e8",
     "id": "Z Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x162"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00e9",
     "id": "Ghostly Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x163"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ea",
     "id": "Shockwave Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x164"
+    }
   },
   {
     "type": "0x00eb",
     "id": "Robot Attack",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x165"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ec",
     "id": "Goo Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x199"
+    }
   },
   {
     "type": "0x00ed",
     "id": "Psychic Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x19a"
+    }
   },
   {
     "type": "0x00ee",
     "id": "Beach Ball Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x19b"
+    }
   },
   {
     "type": "0x00ef",
     "id": "Blade Spiral",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0xf6"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x00f0",
     "id": "Sonic Bat Boom",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1c7"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00f1",
     "id": "Sonic Bat Spinner",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1c8"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x00f2",
     "id": "Purple Energy Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1c9"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x00f3",
     "id": "Yellow Energy Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1ca"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x00f4",
     "id": "H Creation Energy",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x5d"
+    }
   },
   {
     "type": "0x00f5",
     "id": "H Creation Shockwave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1cb"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00f6",
     "id": "H Creation Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x5e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00f7",
     "id": "H Creation Wave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1cc"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00f8",
     "id": "H Baby Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1cd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00f9",
     "id": "Science Confuse Spin",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1fc"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x00fa",
     "id": "Science Fire Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1fd"
+    }
   },
   {
     "type": "0x00fb",
     "id": "Katana Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x245"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00fc",
     "id": "Kendo Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x246"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00fd",
     "id": "Line Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x247"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00fe",
     "id": "Night Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x248"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x00ff",
     "id": "Sky Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x249"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2100",
     "id": "Buster Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2101",
     "id": "Demon Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2102",
     "id": "Jewel Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2103",
     "id": "Ichimonji Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24d"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2104",
     "id": "Muramasa Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2105",
     "id": "Masamune Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x24f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2106",
     "id": "Celestial Slash",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x250"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2107",
     "id": "Beam Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x257"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2108",
     "id": "Ninja Star Basic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x258"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x2109",
     "id": "Ninja Star Four-Point",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x259"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x210a",
     "id": "Ninja Star Spiral",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25a"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x210b",
     "id": "Ninja Star Silver",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25b"
+    },
     "Rotation": "-75"
   },
   {
     "type": "0x210c",
     "id": "Ninja Star Wind",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25c"
+    },
     "Rotation": "-95"
   },
   {
     "type": "0x210d",
     "id": "Ninja Star Ice",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25d"
+    },
     "Rotation": "75"
   },
   {
     "type": "0x210e",
     "id": "Ninja Star Doom",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25e"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x210f",
     "id": "Ninja Star Midnight",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x25f"
+    },
     "Rotation": "-100"
   },
   {
     "type": "0x2110",
     "id": "Stinger",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x260"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2111",
     "id": "EggSack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x261"
+    }
   },
   {
     "type": "0x2112",
     "id": "Dagger Throw",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x262"
+    }
   },
   {
     "type": "0x2113",
     "id": "Golden Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x263"
+    }
   },
   {
     "type": "0x2114",
     "id": "Golden Coin",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x264"
+    }
   },
   {
     "type": "0x2115",
     "id": "Ruby",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x265"
+    }
   },
   {
     "type": "0x2116",
     "id": "Emerald",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x266"
+    }
   },
   {
     "type": "0x2117",
     "id": "Gold Fireball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x267"
+    }
   },
   {
     "type": "0x2118",
     "id": "Beer Barrel",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x268"
+    },
     "Rotation": "140"
   },
   {
     "type": "0x2119",
     "id": "Grey Spiral",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x269"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x211a",
     "id": "Beer Shockwave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x26a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x211b",
     "id": "Beer Bottle",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x26b"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x211c",
     "id": "Crystal Shard",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x26c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x211d",
     "id": "Unicorn Horn",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2a6"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x211e",
     "id": "Cream Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2a7"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x211f",
     "id": "Cream Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2a8"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2120",
     "id": "Cream Ball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2a9"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x2121",
     "id": "Purple Rototo Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2aa"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2122",
     "id": "Red Rototo Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2ab"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2123",
     "id": "Hard Candy Stake",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2ac"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2124",
     "id": "Magic Sparkle",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2ad"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x2125",
     "id": "Magic Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b0"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x2126",
     "id": "Troll Hair Whip",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b1"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x2127",
     "id": "Rainbow Brick",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2128",
     "id": "Icecream Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b3"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2129",
     "id": "Pink Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b4"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x212a",
     "id": "Pink Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2b5"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x212b",
     "id": "Flame Breath",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2b6"
+    },
     "AngleCorrection": "1",
     "Rotation": "70"
   },
   {
     "type": "0x212c",
     "id": "Skeleton Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2ef"
+    }
   },
   {
     "type": "0x212d",
     "id": "Troll 1 Attack 1",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiChar216x8",
+      "Index": "0x0e"
+    }
   },
   {
     "type": "0x212e",
     "id": "Troll 2 Attack 1",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f0"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x212f",
     "id": "Troll 3 Attack 1",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f1"
+    }
   },
   {
     "type": "0x2130",
     "id": "Ghost Bride Attack 1",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f2"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x2131",
     "id": "Angry Ghost",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f3"
+    },
     "AngleCorrection": "-.5"
   },
   {
     "type": "0x2132",
     "id": "Purple Magic Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f1"
+    }
   },
   {
     "type": "0x2133",
     "id": "Blue Ghost Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f4"
+    }
   },
   {
     "type": "0x2134",
     "id": "Yellow Grey Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f5"
+    }
   },
   {
     "type": "0x2135",
     "id": "Spider Bolt",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f6"
+    }
   },
   {
     "type": "0x2136",
     "id": "Vampire Attack",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f7"
+    },
     "AngleCorrection": "-1.5"
   },
   {
     "type": "0x2137",
     "id": "Orange Pumpkin Wave",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f8"
+    }
   },
   {
     "type": "0x2138",
     "id": "Mummy Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2f9"
+    }
   },
   {
     "type": "0x2139",
     "id": "Ghost Big Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2fa"
+    }
   },
   {
     "type": "0x213a",
     "id": "Blue Zombie Wave",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x31c"
+    }
   },
   {
     "type": "0x213b",
     "id": "Ghost Cross",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x31d"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x213c",
     "id": "Ghost X",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x31e"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x213d",
     "id": "Skull Wave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x31f"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x213e",
     "id": "Giga Ghost X",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x96"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x213f",
     "id": "Big Zombie Wave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x320"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2140",
     "id": "Big Zombie Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x321"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2141",
     "id": "White Ghost Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x322"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2142",
     "id": "Wereshot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x323"
+    }
   },
   {
     "type": "0x2143",
     "id": "Wereblast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x324"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2144",
     "id": "Stick Throw",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x325"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x2145",
     "id": "Orange Pumpkin Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x326"
+    }
   },
   {
     "type": "0x2146",
     "id": "Orange Shot",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x327"
+    }
   },
   {
     "type": "0x2147",
     "id": "Demon Fire Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x328"
+    }
   },
   {
     "type": "0x2148",
     "id": "Horseman Blast",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x329"
+    }
   },
   {
     "type": "0x2149",
     "id": "Nature Wave",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32a"
+    }
   },
   {
     "type": "0x214a",
     "id": "Big Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x372"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x214b",
     "id": "Poison Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x373"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x214c",
     "id": "Blue Magic Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x374"
+    }
   },
   {
     "type": "0x214d",
     "id": "Icey Magic Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x375"
+    }
   },
   {
     "type": "0x214e",
     "id": "Yetti Attack SM",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x376"
+    }
   },
   {
     "type": "0x214f",
     "id": "Moth Dust",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x39c"
+    },
     "Rotation": "350"
   },
   {
     "type": "0x2150",
     "id": "Small Moth Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3a1"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2151",
     "id": "Leaf Magic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3a2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2152",
     "id": "Acorn",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3a3"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x2153",
     "id": "Fire Bust Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b0"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2154",
     "id": "Fire Storm",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0xb3"
+    },
     "Rotation": "80"
   },
   {
     "type": "0x2155",
     "id": "Dragon Attack Red Firewave",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xbc"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2156",
     "id": "Dragon Attack Red Big Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xbd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2157",
     "id": "Dragon Attack Blue Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b6"
+    },
     "Rotation": "120"
   },
   {
     "type": "0x2158",
     "id": "Dragon Attack Blue Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b7"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2159",
     "id": "Dragon Attack Blue Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b8"
+    },
     "AngleCorrection": "0"
   },
   {
     "type": "0x215A",
     "id": "Dragon Attack Green Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b9"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x215B",
     "id": "Dragon Attack Green Ball",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3ba"
+    }
   },
   {
     "type": "0x215C",
     "id": "Dragon Attack Green Spin Ball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xbe"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x215D",
     "id": "Dragon Attack Green Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xbf"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x215E",
     "id": "Dragon Attack Green Spine",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3bb"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x215F",
     "id": "Dragon Attack Red Small Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3bc"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2160",
     "id": "Dragon Attack Black Ray",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xbb"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2161",
     "id": "Dragon Attack Black Spin",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b1"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x2162",
     "id": "Dragon Attack Black Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2163",
     "id": "Dragon Attack Black Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b3"
+    }
   },
   {
     "type": "0x2164",
     "id": "Dragon Attack Red Orb",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b4"
+    }
   },
   {
     "type": "0x2165",
     "id": "Dragon Attack Red Spinning Fireball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3b5"
+    },
     "Rotation": "100"
   },
   {
     "type": "0x2166",
     "id": "Body Bomb Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xca"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2167",
     "id": "Sonic Bat Boom Rock",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3bd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2168",
     "id": "Sonic Bat Spinner Rock",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3be"
+    },
     "Rotation": "60"
   },
   {
     "type": "0x2169",
     "id": "Dragon Eye Laser",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xc2"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x216a",
     "id": "Dragon Eye Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xc3"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x216b",
     "id": "Water Storm",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x3d3"
+    },
     "Rotation": "70"
   },
   {
     "type": "0x216c",
     "id": "Pet Bullet 1",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x138"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x216d",
     "id": "Pet Bullet 2",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x139"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x216e",
     "id": "Pet Bullet 3",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x13a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x216f",
     "id": "Blue Bolt Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiProjs",
+      "Index": "0x75"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x217c",
     "id": "Sound Wave",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3f4"
+    }
   },
   {
     "type": "0x217d",
     "id": "Gold Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x406"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x217e",
     "id": "Poison Katana Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x407"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x217f",
     "id": "Leaf Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x408"
+    },
     "Rotation": "350"
   },
   {
     "type": "0x218a",
     "id": "Bearshot",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x411"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x218b",
     "id": "Eucalyptus",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x417"
+    },
     "Rotation": "180"
   },
   {
     "type": "0x218c",
     "id": "hawt sawce",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x418"
+    }
   },
   {
     "type": "0x218d",
     "id": "binary",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x419"
+    }
   },
   {
     "type": "0x218e",
     "id": "happy magic",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x41b"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x218f",
     "id": "boss spawn",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiChar16x16",
+      "Index": "0x54"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x219a",
     "id": "Small Dark Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x448"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x219b",
     "id": "Confuse Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x449"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x219c",
     "id": "Large White Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13a"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x219d",
     "id": "Destruction Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13b"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x219e",
     "id": "Large White Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13c"
+    }
   },
   {
     "type": "0x219f",
     "id": "Small White Bullet",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x44a"
+    }
   },
   {
     "type": "0x220a",
     "id": "Small White Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x44b"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x220b",
     "id": "Archmage Shield",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13d"
+    },
     "AngleCorrection": "3"
   },
   {
     "type": "0x220c",
     "id": "Ball Of Hurt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13e"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x220d",
     "id": "Darkness Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x44c"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x220e",
     "id": "Large Blue Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x13f"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x220f",
     "id": "Small Blue Shuriken",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x44d"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x221e",
     "id": "Halloween SSS",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x459"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x221f",
     "id": "TG Food Stuffs",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x45a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x221a",
     "id": "Ice Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x45b"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x221b",
     "id": "Fire Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x45c"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x221d",
     "id": "Armor Pierce Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x486"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x2170",
     "id": "Paralyze Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x487"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x258b",
     "id": "snow flakes",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x495"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x258d",
     "id": "ice bomb",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x49a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x738d",
     "id": "BellaShot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4B7"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x738e",
     "id": "BellaBerry",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4B5"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x738f",
     "id": "BellaPetal",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4B8"
+    }
   },
   {
     "type": "0x740d",
     "id": "BellaLeaf",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4B6"
+    }
   },
   {
     "type": "0x740b",
     "id": "Heartfinder Slash",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4A8"
+    }
   },
   {
     "type": "0x740c",
     "id": "Cupid's Arrow",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4A9"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x739e",
     "id": "Handfasting Cord",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4AA"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x739f",
     "id": "Rose Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4AB"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x740a",
     "id": "Glittering Prizes",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4AC"
+    },
     "Rotation": "90"
   },
   {
     "type": "0x2590",
     "id": "Weakness Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4BD"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x2591",
     "id": "Silence Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4BF"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x2592",
     "id": "Dyed Eggs",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4C1"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x2593",
     "id": "Morning Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4CB"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2329",
     "id": "Amethyst Shift",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj",
+      "Index": "0x8a"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x232B",
     "id": "Hat Cascade",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4D4"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x232C",
     "id": "Fruitpocalypse",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4D8"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x232D",
     "id": "Cat Cavalcade",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4DC"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x232E",
     "id": "Space Junk",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4E0"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x232F",
     "id": "Toy Attack",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x4E4"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x2330",
     "id": "Oryx Sword Attack",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4E8"
+    }
   },
   {
     "type": "0x2331",
     "id": "Red Planet Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4E9"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2332",
     "id": "Red Planet Orb",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4EA"
+    }
   },
   {
     "type": "0x2354",
     "id": "Jester Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4EB"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2355",
     "id": "Fire Shield",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4EC"
+    },
     "AngleCorrection": "3"
   },
   {
     "type": "0xcf3",
     "id": "Terror Orb",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x505"
+    },
     "Rotation": "185"
   },
   {
     "type": "0xcf4",
     "id": "Obsidian Vortex",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x506"
+    },
     "Rotation": "185"
   },
   {
     "type": "0xcf5",
     "id": "Purple Batshot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x507"
+    },
     "AngleCorrection": "2"
   },
   {
     "type": "0xcf6",
     "id": "Runes of Horror",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x508"
+    }
   },
   {
     "type": "0xcf7",
     "id": "Cleaved Eyeball",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x50B"
+    },
     "AngleCorrection": "0"
   },
   {
     "type": "0x2356",
     "id": "Geb Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x512"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2357",
     "id": "Great Geb Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x513"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2358",
     "id": "Soul Orb",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x517"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2359",
     "id": "Soul Vortex",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x518"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x235A",
     "id": "Fairy Bullet",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x51C"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x235B",
     "id": "Fairy Bolt",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x51D"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2376",
     "id": "Dark Purple Magic",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "d3LofiObjEmbed",
+      "Index": "0x19"
+    }
   },
   {
     "type": "0x2377",
     "id": "Pfiffel Esben Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x552"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2378",
     "id": "Icicle Shot",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x55c"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x2379",
     "id": "Salju Slash",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x55d"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x237a",
     "id": "Killer Carols",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x55e"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x237b",
     "id": "Gift Parade",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x560"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x21a4",
     "id": "Spooky Sparkle",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x53E"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x21a5",
     "id": "Spooky Sparkle 9000",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x53F"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0xa22b",
     "id": "Ancient Magic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x542"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0xa22c",
     "id": "Morer Ancienter Magic",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x543"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x217a",
     "id": "Woodland Moth Dust",
     "Class": "Projectile",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x39c"
+    },
     "Rotation": "350",
     "DisplayId": "{epicforestMaze.Woodland_Moth_Dust}"
   },
@@ -2745,6 +4649,10 @@
     "type": "0x217b",
     "id": "Fire Acorn",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3e7"
+    },
     "Rotation": "180",
     "DisplayId": "{epicforestMaze.Fire_Acorn}"
   },
@@ -2752,57 +4660,97 @@
     "type": "0x5166",
     "id": "Void Star",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x8f"
+    },
     "Rotation": "185"
   },
   {
     "type": "0x5168",
     "id": "Dire Blast",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0x9e"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x516d",
     "id": "n encore prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xbd"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x516e",
     "id": "s encore prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xbe"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5184",
     "id": "umbral staff prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xe9"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x517e",
     "id": "umbral wand prj",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xfc"
+    }
   },
   {
     "type": "0x517f",
     "id": "umbral sword prj",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xeb"
+    }
   },
   {
     "type": "0x5180",
     "id": "umbral bow prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xed"
+    },
     "AngleCorrection": "1"
   },
   {
     "type": "0x5181",
     "id": "umbral dagger prj",
-    "Class": "Projectile"
+    "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xef"
+    }
   },
   {
     "type": "0x5182",
     "id": "umbral katana prj",
     "Class": "Projectile",
+    "Texture": {
+      "File": "lofiObj6",
+      "Index": "0xfa"
+    },
     "AngleCorrection": "1"
   }
 ]

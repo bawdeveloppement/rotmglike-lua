@@ -3,6 +3,10 @@
     "type": "0x0511",
     "id": "Mystery Box",
     "Class": "MysteryBoxGround",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x0f"
+    },
     "DisplayId": "{objects.Mystery_Box}"
   },
   {
@@ -12,6 +16,10 @@
     "NoMiniMap": true,
     "ShadowSize": "0",
     "Size": "0",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x494"
+    },
     "StasisImmune": true,
     "DisplayId": "{objects.Mystery_Box_Ground_Object}"
   }

@@ -4,6 +4,10 @@
     "id": "Gift Chest",
     "Class": "OneWayContainer",
     "Container": true,
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x7f"
+    },
     "Size": "120",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Gift_Chest}"

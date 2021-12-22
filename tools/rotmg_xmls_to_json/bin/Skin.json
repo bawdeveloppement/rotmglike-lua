@@ -4,6 +4,10 @@
     "id": "Mini Geb",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "93"
+    },
     "PlayerClassType": "0x0310",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Geb"
@@ -13,6 +17,10 @@
     "id": "Mini Oryx",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "94"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Oryx"
@@ -22,6 +30,10 @@
     "id": "Mini Phylactery",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "95"
+    },
     "PlayerClassType": "0x0323",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Phylactery"
@@ -31,6 +43,10 @@
     "id": "Mini Skuld",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "96"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Skuld"
@@ -40,6 +56,10 @@
     "id": "Mini Swoll",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "97"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Swoll"
@@ -49,6 +69,10 @@
     "id": "Mini Twilight",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "98"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Reward of Special Mini Skins Pack!",
     "DisplayId": "Mini Twilight"
@@ -58,6 +82,10 @@
     "id": "K is Bae",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "99"
+    },
     "PlayerClassType": "0x0307",
     "UnlockSpecial": "Skin of Admin K",
     "DisplayId": "K is Bae"
@@ -67,6 +95,10 @@
     "id": "Deverino",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "100"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Skin of Admin and Founder Devwarlt",
     "DisplayId": "Deverino"
@@ -75,6 +107,10 @@
     "type": "0x5159",
     "id": "Awesome Thessal Queen Set Skin",
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "101"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -85,6 +121,10 @@
     "id": "Happy Clown",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "102"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Released on update 5.00!",
     "DisplayId": "Happy Clown"
@@ -94,6 +134,10 @@
     "id": "Uzumaki Naruto",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "103"
+    },
     "PlayerClassType": "0x0326",
     "UnlockSpecial": "Released on update 5.00!",
     "DisplayId": "Uzumaki Naruto"
@@ -103,6 +147,10 @@
     "id": "The Rusher",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "91"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Unlocked during Open Beta Test Server",
     "DisplayId": "The Rusher"
@@ -111,6 +159,10 @@
     "type": "0x1899",
     "id": "Succubus Queen Set Skin",
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "92"
+    },
     "PlayerClassType": "0x0321",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -121,6 +173,10 @@
     "id": "The Spider Queen Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "9"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -131,6 +187,10 @@
     "id": "Ancient Colossus Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "8"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -141,6 +201,10 @@
     "id": "Woodland Sorcerer Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "7"
+    },
     "PlayerClassType": "0x0325",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -151,6 +215,10 @@
     "id": "Dark Knight Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "06"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -161,6 +229,10 @@
     "id": "Bandit",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "0"
+    },
     "PlayerClassType": "0x0300",
     "UnlockLevel": "0",
     "DisplayId": "{skins.Bandit}"
@@ -170,6 +242,10 @@
     "id": "Robin Hood",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "1"
+    },
     "PlayerClassType": "0x0307",
     "UnlockLevel": "5",
     "DisplayId": "{skins.Robin_Hood}"
@@ -179,6 +255,10 @@
     "id": "Merlin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "2"
+    },
     "PlayerClassType": "0x030e",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Merlin}"
@@ -188,6 +268,10 @@
     "id": "Traditional",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "3"
+    },
     "PlayerClassType": "0x0310",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Traditional}"
@@ -197,6 +281,10 @@
     "id": "Juggernaut",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "4"
+    },
     "PlayerClassType": "0x031d",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Juggernaut}"
@@ -206,6 +294,10 @@
     "id": "Knight of the Round",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "5"
+    },
     "PlayerClassType": "0x031e",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Knight_of_the_Round}"
@@ -215,6 +307,10 @@
     "id": "Decorated Paladin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "6"
+    },
     "PlayerClassType": "0x031f",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Decorated_Paladin}"
@@ -224,6 +320,10 @@
     "id": "Stealth",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "7"
+    },
     "PlayerClassType": "0x0320",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Stealth}"
@@ -233,6 +333,10 @@
     "id": "Death Mage",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "8"
+    },
     "PlayerClassType": "0x0321",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Death_Mage}"
@@ -242,6 +346,10 @@
     "id": "Amazonian",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "9"
+    },
     "PlayerClassType": "0x0322",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Amazonian}"
@@ -251,6 +359,10 @@
     "id": "Seer",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "10"
+    },
     "PlayerClassType": "0x0323",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Seer}"
@@ -260,6 +372,10 @@
     "id": "Loki",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "11"
+    },
     "PlayerClassType": "0x0324",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Loki}"
@@ -269,6 +385,10 @@
     "id": "Warlock",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "12"
+    },
     "PlayerClassType": "0x0325",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Warlock}"
@@ -278,6 +398,10 @@
     "id": "Shadow",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "13"
+    },
     "PlayerClassType": "0x0326",
     "UnlockLevel": "10",
     "DisplayId": "{skins.Shadow}"
@@ -287,6 +411,10 @@
     "id": "Elder Wizard",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "14"
+    },
     "PlayerClassType": "0x030e",
     "UnlockLevel": "15",
     "DisplayId": "{skins.Elder_Wizard}"
@@ -296,6 +424,10 @@
     "id": "Robed Priest",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "15"
+    },
     "PlayerClassType": "0x0310",
     "UnlockLevel": "15",
     "DisplayId": "{skins.Robed_Priest}"
@@ -305,6 +437,10 @@
     "id": "Santa",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "16"
+    },
     "PlayerClassType": "0x030e",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Santa}"
@@ -314,6 +450,10 @@
     "id": "Little Helper",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "17"
+    },
     "PlayerClassType": "0x0307",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Little_Helper}"
@@ -323,6 +463,10 @@
     "id": "Father Time",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "18"
+    },
     "PlayerClassType": "0x0310",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Father_Time}"
@@ -332,6 +476,10 @@
     "id": "Down Under",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "19"
+    },
     "PlayerClassType": "0x031d",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Down_Under}"
@@ -341,6 +489,10 @@
     "id": "Founding Father",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "20"
+    },
     "PlayerClassType": "0x031f",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Founding_Father}"
@@ -350,6 +502,10 @@
     "id": "Cupid",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "21"
+    },
     "PlayerClassType": "0x0307",
     "UnlockLevel": "1",
     "DisplayId": "{skins.Cupid}"
@@ -359,6 +515,10 @@
     "id": "Slime Knight",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "30"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Slime_Knight}"
@@ -368,6 +528,10 @@
     "id": "Slime Archer",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "35"
+    },
     "PlayerClassType": "0x0307",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Slime_Archer}"
@@ -377,6 +541,10 @@
     "id": "Slime Priest",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "31"
+    },
     "PlayerClassType": "0x0310",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Slime_Priest}"
@@ -386,6 +554,10 @@
     "id": "Agent",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "36"
+    },
     "PlayerClassType": "0x0320",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Agent}"
@@ -395,6 +567,10 @@
     "id": "Brigand",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "44"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Brigand}"
@@ -404,6 +580,10 @@
     "id": "Gentleman",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "41"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Granted by crafting the Steam Holiday Sale 2013 badge.",
     "DisplayId": "{skins.Gentleman}"
@@ -413,6 +593,10 @@
     "id": "Scarlett",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "48"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Winter 2013 Special Release.",
     "DisplayId": "{skins.Scarlett}"
@@ -422,6 +606,10 @@
     "id": "Shoveguy",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "37"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Winter 2013 Special Release.",
     "DisplayId": "{skins.Shoveguy}"
@@ -431,6 +619,10 @@
     "id": "Iceman",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "50"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Winter 2013 Gift.",
     "DisplayId": "{skins.Iceman}"
@@ -440,6 +632,10 @@
     "id": "Slime Ninja",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "22"
+    },
     "PlayerClassType": "0x0326",
     "UnlockSpecial": "Winter 2013 Special Release.",
     "DisplayId": "{skins.Slime_Ninja}"
@@ -449,6 +645,10 @@
     "id": "Bashing Bride",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "51"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Bashing_Bride}"
@@ -458,6 +658,10 @@
     "id": "Eligible Bachelor",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "52"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Eligible_Bachelor}"
@@ -467,6 +671,10 @@
     "id": "Nun",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "38"
+    },
     "PlayerClassType": "0x0310",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Nun}"
@@ -476,6 +684,10 @@
     "id": "Witch Doctor",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "46"
+    },
     "PlayerClassType": "0x0321",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Witch_Doctor}"
@@ -485,6 +697,10 @@
     "id": "Sorceress",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "47"
+    },
     "PlayerClassType": "0x0325",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Sorceress}"
@@ -494,6 +710,10 @@
     "id": "Artemis",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "53"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Valentines 2014 Special Release.",
     "DisplayId": "{skins.Artemis}"
@@ -503,6 +723,10 @@
     "id": "Slime Wizard",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "32"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Unlocked 2014",
     "DisplayId": "{skins.Slime_Wizard}"
@@ -512,6 +736,10 @@
     "id": "Deadly Vixen",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "49"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Unlocked 2014",
     "DisplayId": "{skins.Deadly_Vixen}"
@@ -521,6 +749,10 @@
     "id": "Stanley the Spring Bunny",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "54"
+    },
     "PlayerClassType": "0x0325",
     "UnlockSpecial": "Spring 2014 Special Release",
     "DisplayId": "{skins.Stanley_the_Spring_Bunny}"
@@ -530,6 +762,10 @@
     "id": "Nexus no Miko",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "68"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.Nexus_no_Miko}"
@@ -539,6 +775,10 @@
     "id": "Drow Trickster",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "70"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.Drow_Trickster}"
@@ -548,6 +788,10 @@
     "id": "B.B. Wolf",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "58"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.B.B._Wolf}"
@@ -557,6 +801,10 @@
     "id": "Lil Red",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "59"
+    },
     "PlayerClassType": "0x0323",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.Lil_Red}"
@@ -566,6 +814,10 @@
     "id": "Holy Avenger",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "39"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.Holy_Avenger}"
@@ -575,6 +827,10 @@
     "id": "King Knifeula",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "60"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.King_Knifeula}"
@@ -584,6 +840,10 @@
     "id": "Ranger",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "42"
+    },
     "PlayerClassType": "0x0307",
     "UnlockSpecial": "Month of the Mad God 2014 Release",
     "DisplayId": "{skins.Ranger}"
@@ -593,6 +853,10 @@
     "id": "Platinum Knight",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "55"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "First Release: August 2014",
     "DisplayId": "{skins.Platinum_Knight}"
@@ -602,6 +866,10 @@
     "id": "Platinum Warrior",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "56"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "First Release: August 2014",
     "DisplayId": "{skins.Platinum_Warrior}"
@@ -611,6 +879,10 @@
     "id": "Platinum Rogue",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "57"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "First Release: August 2014",
     "DisplayId": "{skins.Platinum_Rogue}"
@@ -620,6 +892,10 @@
     "id": "Witch",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "71"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Project Realmway 2 Winner, June 2014",
     "DisplayId": "{skins.Witch}"
@@ -629,6 +905,10 @@
     "id": "Slime Sorcerer",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "23"
+    },
     "PlayerClassType": "0x0325",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Sorcerer}"
@@ -638,6 +918,10 @@
     "id": "Slime Trickster",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "24"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Trickster}"
@@ -647,6 +931,10 @@
     "id": "Slime Mystic",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "25"
+    },
     "PlayerClassType": "0x0323",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Mystic}"
@@ -656,6 +944,10 @@
     "id": "Slime Huntress",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "26"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Huntress}"
@@ -665,6 +957,10 @@
     "id": "Slime Necromancer",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "27"
+    },
     "PlayerClassType": "0x0321",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Necromancer}"
@@ -674,6 +970,10 @@
     "id": "Slime Assassin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "28"
+    },
     "PlayerClassType": "0x0320",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Assassin}"
@@ -683,6 +983,10 @@
     "id": "Slime Paladin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "29"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Paladin}"
@@ -692,6 +996,10 @@
     "id": "Slime Rogue",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "33"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Rogue}"
@@ -701,6 +1009,10 @@
     "id": "Slime Warrior",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "34"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Seriously slimy quest reward.",
     "DisplayId": "{skins.Slime_Warrior}"
@@ -710,6 +1022,10 @@
     "id": "Puppet Master",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "72"
+    },
     "PlayerClassType": "0x0320",
     "UnlockSpecial": "Looted by those who defeat the Puppet Master in his theatre.",
     "DisplayId": "{skins.Puppet_Master}"
@@ -719,6 +1035,10 @@
     "id": "Jester",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "73"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Looted by those who defeat the Puppet Master in his Theatre. Thanks to: Thq32df and ViciousTwo ",
     "DisplayId": "{skins.Jester}"
@@ -728,6 +1048,10 @@
     "id": "Ghost Huntress",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "75"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Unlocked during Halloween 2014",
     "DisplayId": "{skins.Ghost_Huntress}"
@@ -737,6 +1061,10 @@
     "id": "Skeleton Warrior",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "74"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Unlocked during Halloween 2014",
     "DisplayId": "{skins.Skeleton_Warrior}"
@@ -746,6 +1074,10 @@
     "id": "Infected Assassin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "76"
+    },
     "PlayerClassType": "0x0320",
     "UnlockSpecial": "Unlocked during Halloween 2014",
     "DisplayId": "{skins.Infected_Assassin}"
@@ -755,6 +1087,10 @@
     "id": "Huntsman",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "77"
+    },
     "PlayerClassType": "0x0307",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: WunderWafe",
     "DisplayId": "{skins.Huntsman}"
@@ -764,6 +1100,10 @@
     "id": "Demon Spawn",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "78"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: WunderWafe",
     "DisplayId": "{skins.Demon_Spawn}"
@@ -773,6 +1113,10 @@
     "id": "Dark Elf Huntress",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "79"
+    },
     "PlayerClassType": "0x0322",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.Dark_Elf_Huntress}"
@@ -782,6 +1126,10 @@
     "id": "Hunchback",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "80"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Hawkmin",
     "DisplayId": "{skins.Hunchback}"
@@ -791,6 +1139,10 @@
     "id": "Vampiress",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "81"
+    },
     "PlayerClassType": "0x0324",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.Vampiress}"
@@ -800,6 +1152,10 @@
     "id": "Frankenstein's Monster",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "82"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.FrankensteinAPOSs_Monster}"
@@ -809,6 +1165,10 @@
     "id": "Jack the Ripper",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "83"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.Jack_the_Ripper}"
@@ -818,6 +1178,10 @@
     "id": "Death",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "84"
+    },
     "PlayerClassType": "0x0326",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Thqdfthqdf",
     "DisplayId": "{skins.Death}"
@@ -827,6 +1191,10 @@
     "id": "Tiny Avatar",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "85"
+    },
     "PlayerClassType": "0x0321",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: DG",
     "DisplayId": "{skins.Tiny_Avatar}"
@@ -836,6 +1204,10 @@
     "id": "Zombie Nurse",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "86"
+    },
     "PlayerClassType": "0x0310",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Thqdfthqdf",
     "DisplayId": "{skins.Zombie_Nurse}"
@@ -845,6 +1217,10 @@
     "id": "Ascended Sorcerer",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "67"
+    },
     "PlayerClassType": "0x0325",
     "UnlockSpecial": "Unlocked during Halloween 2014.",
     "DisplayId": "{skins.Ascended_Sorcerer}"
@@ -854,6 +1230,10 @@
     "id": "Mischievous Imp",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "88"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.Mischievous_Imp}"
@@ -863,6 +1243,10 @@
     "id": "Vampire Hunter",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "89"
+    },
     "PlayerClassType": "0x0320",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Thqdfthqdf",
     "DisplayId": "{skins.Vampire_Hunter}"
@@ -872,6 +1256,10 @@
     "id": "Poltergeist",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "90"
+    },
     "PlayerClassType": "0x0323",
     "UnlockSpecial": "Unlocked during Halloween 2014. Thanks to: Beige",
     "DisplayId": "{skins.Poltergeist}"
@@ -881,6 +1269,10 @@
     "id": "Oryx Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "00"
+    },
     "PlayerClassType": "0x031e",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -891,6 +1283,10 @@
     "id": "Geb Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "01"
+    },
     "PlayerClassType": "0x0310",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -901,6 +1297,10 @@
     "id": "Phylactery Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "02"
+    },
     "PlayerClassType": "0x0323",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -911,6 +1311,10 @@
     "id": "Swoll Paladin Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "03"
+    },
     "PlayerClassType": "0x031f",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -921,6 +1325,10 @@
     "id": "Skuld Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "04"
+    },
     "PlayerClassType": "0x0300",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -931,6 +1339,10 @@
     "id": "Twilight Archmage Set Skin",
     "Skin": true,
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins16",
+      "Index": "05"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -940,6 +1352,10 @@
     "type": "0x516f",
     "id": "Haunted Spirit Set Skin",
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "104"
+    },
     "PlayerClassType": "0x030e",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,
@@ -949,6 +1365,10 @@
     "type": "0x5190",
     "id": "Mini Forgotten Sentinel Set Skin",
     "Class": "Skin",
+    "AnimatedTexture": {
+      "File": "playerskins",
+      "Index": "105"
+    },
     "PlayerClassType": "0x031d",
     "UnlockSpecial": "Set Skin",
     "NoSkinSelect": true,

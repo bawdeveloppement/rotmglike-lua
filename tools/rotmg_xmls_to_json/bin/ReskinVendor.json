@@ -3,6 +3,10 @@
     "type": "0x1912",
     "id": "Armoire",
     "Class": "ReskinVendor",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x9d"
+    },
     "ShadowSize": "55",
     "Z": "-0.1",
     "OccupySquare": true,
@@ -12,6 +16,10 @@
     "type": "0x1913",
     "id": "Tailor",
     "Class": "ReskinVendor",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x9d"
+    },
     "Static": true
   }
 ]

@@ -5,6 +5,10 @@
     "Class": "GuildHallPortal",
     "IntergamePortal": true,
     "DungeonName": "Guild Hall",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x54"
+    },
     "ShadowSize": "0",
     "DisplayId": "{objects.Guild_Hall_Portal}"
   }

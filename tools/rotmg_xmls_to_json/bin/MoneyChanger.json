@@ -3,6 +3,10 @@
     "type": "0x01cb",
     "id": "Money Changer",
     "Class": "MoneyChanger",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x3c"
+    },
     "Static": true,
     "Size": "60"
   }

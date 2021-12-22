@@ -5,6 +5,10 @@
     "Class": "PetUpgrader",
     "Model": "Pet Upgrader Obj",
     "Rotation": "180",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xcf"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -16,6 +20,10 @@
     "type": "0x0754",
     "id": "Pet Upgrader",
     "Class": "PetUpgrader",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0xfb"
+    },
     "Size": "0",
     "ShadowSize": "0",
     "DisplayId": "{objects.Pet_Upgrader}"

@@ -1,10 +1,17 @@
 var { xml2json } = require('xml-js');
 var { parseString } = require('xml2js');
-var fs = require('fs')
+var fs = require('fs');
+const { format } = require('path');
 
 
 const fileToParse = "/dat1"
 
+function formatTexture ( obj ) { 
+    return {
+        File: obj.File[0],
+        Index: obj.Index[0]
+    }
+}
 
 function xmlToJsonFile () {
     fs.readFile(__dirname + fileToParse + ".xml", function(err, data) {
@@ -74,6 +81,62 @@ function newData () {
                                     ] = parsed[index][objKey]["$"]
                                 }
                             }
+                            else if ( objKey === "RandomTexture") {
+                                newObj[objKey] = {}
+                                Object.keys(parsed[index][objKey]).forEach(so => {
+                                    if (Array.isArray(parsed[index][objKey][so])) {
+                                        newObj[objKey][so] = [...parsed[index][objKey][so].map((sx => formatTexture(sx)))]
+                                    } else {
+                                        newObj[objKey][so] = [formatTexture(parsed[index][objKey][so])]
+                                    }
+                                })
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "Top") {
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "AltTexture") {
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "Animation") {
+                                newObj[objKey] = {}
+                                Object.keys(parsed[index][objKey]["$"]).forEach(s => {
+                                    newObj[objKey][s] = parsed[index][objKey]["$"][s]
+                                })
+                                newObj[objKey]["Frame"] = {}
+                                Object.keys(parsed[index][objKey]["Frame"]["$"]).forEach(s => {
+                                    newObj[objKey]["Frame"][s] = parsed[index][objKey]["Frame"]["$"][s]
+                                })
+                                if (parsed[index][objKey]["Frame"]["Texture"] !== undefined) {
+                                    newObj[objKey]["Frame"]["Texture"] = {
+                                        File: parsed[index][objKey]["Frame"]["Texture"][0]["File"][0],
+                                        Index: parsed[index][objKey]["Frame"]["Texture"][0]["Index"][0]
+                                    }
+                                } else if (parsed[index][objKey]["Frame"]["RandomTexture"] !== undefined) {
+                                    newObj[objKey]["Frame"]["RandomTexture"] = []
+                                    if (Array.isArray(parsed[index][objKey]["Frame"]["RandomTexture"])) {
+                                        newObj[objKey]["Frame"]["RandomTexture"] = parsed[index][objKey]["Frame"]["RandomTexture"][0]["Texture"].map(u => formatTexture(u))
+                                    }
+                                }
+                            }
+                            else {
+                                newObj[objKey] = parsed[index][objKey]
+                            }
                         }
                         else {
                             newObj[objKey] = parsed[index][objKey]
@@ -103,6 +166,62 @@ function newData () {
                                     newObj[objKey][parsed[index][objKey]["_"]] = parsed[index][objKey]["$"]
                                 }
                             }
+                            else if ( objKey === "RandomTexture") {
+                                newObj[objKey] = {}
+                                Object.keys(parsed[index][objKey]).forEach(so => {
+                                    if (Array.isArray(parsed[index][objKey][so])) {
+                                        newObj[objKey][so] = [...parsed[index][objKey][so].map((sx => formatTexture(sx)))]
+                                    } else {
+                                        newObj[objKey][so] = [formatTexture(parsed[index][objKey][so])]
+                                    }
+                                })
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "Top") {
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "AltTexture") {
+                                if (parsed[index][objKey]["Texture"] !== undefined) {
+                                    newObj[objKey] = {
+                                        File: parsed[index][objKey]["Texture"]["File"][0],
+                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
+                                    }
+                                }
+                            }
+                            else if ( objKey === "Animation") {
+                                newObj[objKey] = {}
+                                Object.keys(parsed[index][objKey]["$"]).forEach(s => {
+                                    newObj[objKey][s] = parsed[index][objKey]["$"][s]
+                                })
+                                newObj[objKey]["Frame"] = {}
+                                Object.keys(parsed[index][objKey]["Frame"]["$"]).forEach(s => {
+                                    newObj[objKey]["Frame"][s] = parsed[index][objKey]["Frame"]["$"][s]
+                                })
+                                if (parsed[index][objKey]["Frame"]["Texture"] !== undefined) {
+                                    newObj[objKey]["Frame"]["Texture"] = {
+                                        File: parsed[index][objKey]["Frame"]["Texture"][0]["File"][0],
+                                        Index: parsed[index][objKey]["Frame"]["Texture"][0]["Index"][0]
+                                    }
+                                } else if (parsed[index][objKey]["Frame"]["RandomTexture"] !== undefined) {
+                                    newObj[objKey]["Frame"]["RandomTexture"] = []
+                                    if (Array.isArray(parsed[index][objKey]["Frame"]["RandomTexture"])) {
+                                        newObj[objKey]["Frame"]["RandomTexture"] = parsed[index][objKey]["Frame"]["RandomTexture"][0]["Texture"].map(u => formatTexture(u))
+                                    }
+                                }
+                            }
+                            else {
+                                newObj[objKey] = parsed[index][objKey]
+                            }
                         }
                         else {
                             newObj[objKey] = parsed[index][objKey]
@@ -116,7 +235,7 @@ function newData () {
         Object.keys(classes).forEach((cls) => {
             fs.writeFile(__dirname + "/bin/" + cls + ".json", JSON.stringify(classes[cls], null, 2), { encoding: "utf-8" }, (err) => {
                 if (!err) {
-                    console.log("success")
+                    // console.log("success")
                 } else {
                     console.err(err)
                 }

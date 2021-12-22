@@ -3,6 +3,14 @@
     "type": "0x198a",
     "id": "Arena Stone High Wall",
     "Class": "DoubleWall",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x190"
+    },
+    "Top": {
+      "File": "lofiEnvironment3",
+      "Index": "0x191"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Static": true,
@@ -15,6 +23,14 @@
     "type": "0x198b",
     "id": "Arena Stone High Stands",
     "Class": "DoubleWall",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x190"
+    },
+    "Top": {
+      "File": "lofiEnvironment3",
+      "Index": "0x192"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Static": true,
@@ -27,6 +43,14 @@
     "type": "0x1993",
     "id": "0ADouble",
     "Class": "DoubleWall",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x00"
+    },
+    "Top": {
+      "File": "lofiEnvironment",
+      "Index": "0x04"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Static": true,

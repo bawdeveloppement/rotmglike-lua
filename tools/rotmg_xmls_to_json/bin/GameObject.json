@@ -7,6 +7,10 @@
     "ShadowSize": "0",
     "Size": "0",
     "OccupySquare": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Blue_Dragon_Spawner}"
   },
@@ -18,6 +22,10 @@
     "ShadowSize": "80",
     "Size": "140",
     "Z": "-0.30",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3aa"
+    },
     "StasisImmune": true
   },
   {
@@ -28,6 +36,10 @@
     "ShadowSize": "0",
     "Size": "0",
     "OccupySquare": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Red_Dragon_Spawner}"
   },
@@ -39,6 +51,10 @@
     "ShadowSize": "80",
     "Size": "140",
     "Z": "-0.20",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3ab"
+    },
     "StasisImmune": true
   },
   {
@@ -49,6 +65,10 @@
     "ShadowSize": "80",
     "Size": "140",
     "Z": "-0.20",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3ab"
+    },
     "StasisImmune": true
   },
   {
@@ -59,6 +79,10 @@
     "ShadowSize": "0",
     "Size": "0",
     "OccupySquare": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Green_Dragon_Spawner}"
   },
@@ -70,6 +94,10 @@
     "ShadowSize": "0",
     "Size": "0",
     "OccupySquare": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Black_Dragon_Spawner}"
   },
@@ -77,6 +105,10 @@
     "type": "0x5e5f",
     "id": "Forrest Shady Floor",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x129"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Floor}"
@@ -85,6 +117,10 @@
     "type": "0x5e5e",
     "id": "Forrest Shady Corner DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x13b"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Corner_DL}"
@@ -93,6 +129,10 @@
     "type": "0x5e5d",
     "id": "Forrest Shady Corner DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x13a"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Corner_DR}"
@@ -101,6 +141,10 @@
     "type": "0x5e5c",
     "id": "Forrest Shady Corner UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x139"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Corner_UL}"
@@ -109,6 +153,10 @@
     "type": "0x5e5b",
     "id": "Forrest Shady Corner UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x138"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Corner_UR}"
@@ -117,6 +165,10 @@
     "type": "0x5e5a",
     "id": "Forrest Shady OCorner DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x137"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_OCorner_DL}"
@@ -125,6 +177,10 @@
     "type": "0x5e59",
     "id": "Forrest Shady OCorner DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x136"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_OCorner_DR}"
@@ -133,6 +189,10 @@
     "type": "0x5e58",
     "id": "Forrest Shady OCorner UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x135"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_OCorner_UL}"
@@ -141,6 +201,10 @@
     "type": "0x5e57",
     "id": "Forrest Shady OCorner UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x134"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_OCorner_UR}"
@@ -149,6 +213,10 @@
     "type": "0x5e56",
     "id": "Forrest Shady Edge UP",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x133"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Edge_UP}"
@@ -157,6 +225,10 @@
     "type": "0x5e55",
     "id": "Forrest Shady Edge DN",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x132"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Edge_DN}"
@@ -165,6 +237,10 @@
     "type": "0x5e54",
     "id": "Forrest Shady Edge LF",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x131"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Edge_LF}"
@@ -173,6 +249,10 @@
     "type": "0x5e53",
     "id": "Forrest Shady Edge RT",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x130"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Edge_RT}"
@@ -181,6 +261,10 @@
     "type": "0x5e52",
     "id": "Forrest Shady Floor DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x126"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Floor_DR}"
@@ -189,6 +273,10 @@
     "type": "0x5e51",
     "id": "Forrest Shady Floor DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x127"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Floor_DL}"
@@ -197,6 +285,10 @@
     "type": "0x5e50",
     "id": "Forrest Shady Floor UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x128"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Floor_UR}"
@@ -205,6 +297,10 @@
     "type": "0x5e4f",
     "id": "Forrest Shady Floor UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x12a"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forestMaze.Forrest_Shady_Floor_UL}"
@@ -214,17 +310,36 @@
     "id": "Boss Totem",
     "Enemy": true,
     "Class": "GameObject",
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "31"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Size": "120",
     "ShadowSize": "80",
     "OccupySquare": true,
+    "Projectile": {
+      "$": {
+        "id": "0"
+      },
+      "ObjectId": "Totem Fire Wall",
+      "Damage": "50",
+      "Speed": "40",
+      "Size": "100",
+      "LifetimeMS": "1600",
+      "PassesCover": ""
+    },
     "DisplayId": "{forbiddenJungle.Boss_Totem}"
   },
   {
     "type": "0x0dc5",
     "id": "Jungle Spear",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x00"
+    },
     "Static": true,
     "Size": "80",
     "ShadowSize": "60",
@@ -234,6 +349,21 @@
     "type": "0x0dc6",
     "id": "Jungle Brazier",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x07"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.2",
+        "Texture": {
+          "File": "lofiObjBig",
+          "Index": "0x07"
+        }
+      }
+    },
     "Size": "100",
     "Static": true,
     "OccupySquare": true,
@@ -244,6 +374,10 @@
     "type": "0x0dc8",
     "id": "Jungle Invisible Solid",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x38"
+    },
     "Static": true,
     "OccupySquare": true,
     "NoMiniMap": true,
@@ -255,6 +389,10 @@
     "type": "0x0dc9",
     "id": "Jungle Grass Solid",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x63"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{forbiddenJungle.Jungle_Grass_Solid}"
@@ -263,6 +401,10 @@
     "type": "0x0dca",
     "id": "Jungle Flowers Solid",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x67"
+    },
     "DrawOnGround": true,
     "OccupySquare": true,
     "NoMiniMap": true,
@@ -273,6 +415,10 @@
     "type": "0x0dcb",
     "id": "Jungle Plant Unbreakable",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x6b"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/trees_hit",
@@ -283,6 +429,10 @@
     "type": "0x0dd4",
     "id": "Jungle Ground Flowers",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x67"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Ground_Flowers}"
@@ -291,6 +441,10 @@
     "type": "0x0dd5",
     "id": "Jungle Grass",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x63"
+    },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Grass}"
   },
@@ -298,6 +452,10 @@
     "type": "0x0dd6",
     "id": "Jungle Flower Bright",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x6e"
+    },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Flower_Bright}"
   },
@@ -305,6 +463,10 @@
     "type": "0x0dd7",
     "id": "Jungle Plant",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x70"
+    },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Plant}"
   },
@@ -312,6 +474,10 @@
     "type": "0x0dd8",
     "id": "Jungle Plant Solid",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x6b"
+    },
     "Static": true,
     "OccupySquare": true,
     "MaxHitPoints": "500",
@@ -326,6 +492,10 @@
     "type": "0x0dd9",
     "id": "Jungle Rock",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x73"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/trees_hit",
@@ -336,6 +506,10 @@
     "type": "0x0dda",
     "id": "Jungle Tree Big",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x11"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/trees_hit",
@@ -347,6 +521,10 @@
     "id": "Treasure Pile",
     "Class": "GameObject",
     "Z": "-.2",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x63"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "NoMiniMap": true,
@@ -358,6 +536,10 @@
     "id": "Treasure Chests",
     "Class": "GameObject",
     "Z": "-.2",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x67"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "NoMiniMap": true,
@@ -370,7 +552,26 @@
     "DisplayId": "{cave.Treasure_Flame_Trap_1.2_Sec}",
     "Class": "GameObject",
     "Enemy": true,
-    "DrawOnGround": true
+    "DrawOnGround": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "AltTexture": {
+      "File": "lofiObj3",
+      "Index": "0x204"
+    },
+    "Projectile": {
+      "$": {
+        "id": "0"
+      },
+      "ObjectId": "Invisible",
+      "Damage": "50",
+      "Speed": "0",
+      "LifetimeMS": "100",
+      "Size": "100",
+      "MultiHit": ""
+    }
   },
   {
     "type": "0x5e3b",
@@ -378,13 +579,36 @@
     "DisplayId": "{cave.Treasure_Flame_Trap_1.7_Sec}",
     "Class": "GameObject",
     "Enemy": true,
-    "DrawOnGround": true
+    "DrawOnGround": true,
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "AltTexture": {
+      "File": "lofiObj3",
+      "Index": "0x204"
+    },
+    "Projectile": {
+      "$": {
+        "id": "0"
+      },
+      "ObjectId": "Invisible",
+      "Damage": "50",
+      "Speed": "0",
+      "LifetimeMS": "100",
+      "Size": "100",
+      "MultiHit": ""
+    }
   },
   {
     "type": "0x5e4e",
     "id": "Treasure Rocks",
     "Class": "GameObject",
     "Z": "-.2",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x217"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "NoMiniMap": true,
@@ -396,6 +620,10 @@
     "id": "shtrs Abandoned Switch 1",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -406,6 +634,10 @@
     "id": "shtrs Abandoned Switch 2",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -416,6 +648,10 @@
     "id": "shtrs Abandoned Switch 3",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -426,6 +662,10 @@
     "id": "shtrs Abandoned Switch 4",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -436,6 +676,10 @@
     "id": "shtrs Abandoned Switch 5",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -446,6 +690,10 @@
     "id": "shtrs Abandoned Switch 6",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -456,6 +704,10 @@
     "id": "shtrs Abandoned Switch 7",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -466,6 +718,10 @@
     "id": "shtrs Abandoned Switch 8",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -476,6 +732,10 @@
     "id": "shtrs Abandoned Switch 10",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -486,6 +746,10 @@
     "id": "shtrs Abandoned Switch 9",
     "Class": "GameObject",
     "Enemy": true,
+    "AnimatedTexture": {
+      "File": "chars16x16dEncounters2",
+      "Index": "70"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -496,6 +760,14 @@
     "id": "shtrs Unborken Column",
     "Class": "GameObject",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x140"
+    },
+    "AltTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x140"
+    },
     "MaxHitPoints": "5000",
     "Defense": "200",
     "XpMulty": "0.0",
@@ -506,6 +778,10 @@
     "id": "Suit of Armor Sm",
     "DisplayId": "{oryxCastle.Suit_of_Armor_Sm}",
     "Class": "GameObject",
+    "AnimatedTexture": {
+      "File": "chars8x8dEncounters",
+      "Index": "14"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "4000",
@@ -525,7 +801,33 @@
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "2600",
-    "DrawOnGround": true
+    "DrawOnGround": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x1d"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x1e"
+    },
+    "Projectile": {
+      "$": {
+        "id": "0"
+      },
+      "ObjectId": "Mute Spell",
+      "Speed": "50",
+      "MinDamage": "10",
+      "MaxDamage": "20",
+      "Size": "80",
+      "LifetimeMS": "1000",
+      "ConditionEffect": {
+        "_": "Quiet",
+        "$": {
+          "duration": "5"
+        }
+      },
+      "MultiHit": ""
+    }
   },
   {
     "type": "0x0d87",
@@ -537,12 +839,42 @@
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "2600",
     "DrawOnGround": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x1d"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x1e"
+    },
+    "Projectile": {
+      "$": {
+        "id": "0"
+      },
+      "ObjectId": "Mute Spell",
+      "Speed": "50",
+      "MinDamage": "10",
+      "MaxDamage": "20",
+      "Size": "80",
+      "LifetimeMS": "1000",
+      "ConditionEffect": {
+        "_": "Quiet",
+        "$": {
+          "duration": "5"
+        }
+      },
+      "MultiHit": ""
+    },
     "DisplayId": "{oryxCastle.OryxAPOSs_Living_Floor}"
   },
   {
     "type": "0x5e19",
     "id": "SampleGenerator",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "NoMiniMap": true,
     "ShadowSize": "0",
     "Effect": "CustomParticles"
@@ -551,6 +883,10 @@
     "type": "0x5e20",
     "id": "MadLabGreenBubbles",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "NoMiniMap": true,
     "ShadowSize": "0",
     "Effect": {
@@ -573,6 +909,10 @@
     "type": "0x5e21",
     "id": "MadLabBlueBubbles",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "NoMiniMap": true,
     "ShadowSize": "0",
     "Effect": {
@@ -596,6 +936,10 @@
     "id": "Parrot Cage",
     "Class": "GameObject",
     "ShadowSize": "0",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xed"
+    },
     "Size": "80",
     "Z": "0.40",
     "StasisImmune": true,
@@ -606,6 +950,10 @@
     "type": "0x705f",
     "id": "Bottled Evil Water",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3f3"
+    },
     "DisplayId": "{epicpirateCave.Bottled_Evil_Water}"
   },
   {
@@ -614,6 +962,16 @@
     "Class": "GameObject",
     "Model": "Tower",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xc8"
+    },
+    "Projectile": {
+      "ObjectId": "Green Blob",
+      "Speed": "40",
+      "Damage": "5",
+      "LifetimeMS": "3000"
+    },
     "DisplayId": "{tutorial_objects.South_Tutorial_Gun}"
   },
   {
@@ -622,6 +980,16 @@
     "Class": "GameObject",
     "Model": "Tower",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xc8"
+    },
+    "Projectile": {
+      "ObjectId": "Green Blob",
+      "Speed": "40",
+      "Damage": "5",
+      "LifetimeMS": "3000"
+    },
     "DisplayId": "{tutorial_objects.North_Tutorial_Gun}"
   },
   {
@@ -630,6 +998,16 @@
     "Class": "GameObject",
     "Model": "Tower",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xc8"
+    },
+    "Projectile": {
+      "ObjectId": "Green Blob",
+      "Speed": "40",
+      "Damage": "5",
+      "LifetimeMS": "3000"
+    },
     "DisplayId": "{tutorial_objects.East_Tutorial_Gun}"
   },
   {
@@ -638,12 +1016,26 @@
     "Class": "GameObject",
     "Model": "Tower",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xc8"
+    },
+    "Projectile": {
+      "ObjectId": "Green Blob",
+      "Speed": "40",
+      "Damage": "5",
+      "LifetimeMS": "3000"
+    },
     "DisplayId": "{tutorial_objects.West_Tutorial_Gun}"
   },
   {
     "type": "0x0808",
     "id": "Up Arrow",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x14"
+    },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.Up_Arrow}"
   },
@@ -651,6 +1043,10 @@
     "type": "0x0809",
     "id": "UpLeft Arrow",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x15"
+    },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.UpLeft_Arrow}"
   },
@@ -658,6 +1054,10 @@
     "type": "0x080a",
     "id": "UpRight Arrow",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x16"
+    },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.UpRight_Arrow}"
   },
@@ -665,6 +1065,10 @@
     "type": "0x080b",
     "id": "Grey Up Arrow",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x17"
+    },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.Grey_Up_Arrow}"
   },
@@ -672,6 +1076,10 @@
     "type": "0x0100",
     "id": "Tree A",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x49"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -686,6 +1094,10 @@
     "type": "0x0101",
     "id": "Tree B",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4a"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -700,6 +1112,10 @@
     "type": "0x0102",
     "id": "Tree Leafless",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4b"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -714,6 +1130,10 @@
     "type": "0x0103",
     "id": "Tree Dead",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4c"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -728,6 +1148,10 @@
     "type": "0x0104",
     "id": "Tree Jungle",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4d"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -742,6 +1166,10 @@
     "type": "0x0105",
     "id": "Bush",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4e"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -749,6 +1177,10 @@
     "type": "0x0106",
     "id": "Shrub",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x4f"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -756,6 +1188,10 @@
     "type": "0x0107",
     "id": "Rock Grey",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x59"
+    },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
     "Static": true,
@@ -765,6 +1201,10 @@
     "type": "0x0108",
     "id": "Rock Brown",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x5a"
+    },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
     "Static": true,
@@ -774,6 +1214,10 @@
     "type": "0x0109",
     "id": "Small Mushroom",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x6c"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -781,6 +1225,10 @@
     "type": "0x010a",
     "id": "Tree Stump",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x50"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -788,6 +1236,10 @@
     "type": "0x010b",
     "id": "Black Tree Stump",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x51"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -795,6 +1247,10 @@
     "type": "0x010c",
     "id": "Jungle Tree Stump",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x52"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -802,12 +1258,20 @@
     "type": "0x0110",
     "id": "Large Mushroom",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x6d"
+    },
     "Static": true
   },
   {
     "type": "0x0111",
     "id": "White Flowers",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x6e"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -815,6 +1279,10 @@
     "type": "0x0112",
     "id": "Pink Flowers",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x6f"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -822,6 +1290,10 @@
     "type": "0x0113",
     "id": "Large Lilypads",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x7e"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -829,6 +1301,10 @@
     "type": "0x0114",
     "id": "Small Lilypads",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x7f"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -836,6 +1312,10 @@
     "type": "0x0153",
     "id": "Partial Red Floor",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x10"
+    },
     "DrawOnGround": true,
     "Static": true,
     "ProtectFromGroundDamage": true,
@@ -845,12 +1325,20 @@
     "type": "0x0173",
     "id": "Snake Grate",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x20"
+    },
     "DrawOnGround": true
   },
   {
     "type": "0x0174",
     "id": "White Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x40"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -864,6 +1352,10 @@
     "type": "0x0175",
     "id": "Purple Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x41"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -877,6 +1369,10 @@
     "type": "0x0176",
     "id": "Red Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x42"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -890,6 +1386,10 @@
     "type": "0x0177",
     "id": "Blue Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x43"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -903,6 +1403,10 @@
     "type": "0x0178",
     "id": "Green Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x44"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -916,6 +1420,10 @@
     "type": "0x0179",
     "id": "Yellow Sprite Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x45"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -929,13 +1437,21 @@
     "type": "0x017a",
     "id": "Pandora's Box",
     "Class": "GameObject",
-    "Model": "Cube"
+    "Model": "Cube",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x30"
+    }
   },
   {
     "type": "0x017b",
     "id": "Grey Pillar",
     "Class": "GameObject",
     "Model": "Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x51"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -945,6 +1461,10 @@
     "id": "Purple Pillar",
     "Class": "GameObject",
     "Model": "Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x1d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -954,6 +1474,10 @@
     "id": "Blue Pillar",
     "Class": "GameObject",
     "Model": "Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x2d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -963,6 +1487,10 @@
     "id": "Red Pillar",
     "Class": "GameObject",
     "Model": "Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x3d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -972,6 +1500,10 @@
     "id": "Broken Grey Pillar",
     "Class": "GameObject",
     "Model": "Broken Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x51"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -981,6 +1513,10 @@
     "id": "Broken Purple Pillar",
     "Class": "GameObject",
     "Model": "Broken Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x1d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -990,6 +1526,10 @@
     "id": "Broken Blue Pillar",
     "Class": "GameObject",
     "Model": "Broken Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x2d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -999,6 +1539,10 @@
     "id": "Broken Red Pillar",
     "Class": "GameObject",
     "Model": "Broken Pillar",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x3d"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true
@@ -1007,12 +1551,20 @@
     "type": "0x0184",
     "id": "Cross",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj",
+      "Index": "0x14"
+    },
     "Static": true
   },
   {
     "type": "0x0185",
     "id": "Fir Tree 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x00"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1023,6 +1575,10 @@
     "type": "0x0186",
     "id": "Fir Tree 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x01"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1033,6 +1589,10 @@
     "type": "0x0187",
     "id": "Fir Tree 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x02"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1043,6 +1603,10 @@
     "type": "0x0188",
     "id": "Small Fir Tree 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x03"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1054,6 +1618,10 @@
     "type": "0x0189",
     "id": "Small Fir Tree 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x04"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1065,6 +1633,10 @@
     "type": "0x018a",
     "id": "Dead Fir Tree 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x05"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1075,6 +1647,10 @@
     "type": "0x018b",
     "id": "Dead Fir Tree 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x06"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1085,6 +1661,10 @@
     "type": "0x018c",
     "id": "Dead Fir Tree 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x07"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1095,6 +1675,10 @@
     "type": "0x018d",
     "id": "Dead Fir Tree 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x08"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1105,6 +1689,10 @@
     "type": "0x018e",
     "id": "Palm Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj4",
+      "Index": "0x10"
+    },
     "MinSize": "140",
     "MaxSize": "160",
     "SizeStep": "20",
@@ -1115,6 +1703,10 @@
     "type": "0x0191",
     "id": "Apple Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj4",
+      "Index": "0x13"
+    },
     "Static": true,
     "MinSize": "120",
     "MaxSize": "160",
@@ -1125,6 +1717,10 @@
     "type": "0x0194",
     "id": "Cherry Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj4",
+      "Index": "0x16"
+    },
     "Static": true,
     "MinSize": "120",
     "MaxSize": "140",
@@ -1135,6 +1731,10 @@
     "type": "0x0197",
     "id": "Saguaro Cactus 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x20"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1146,6 +1746,10 @@
     "type": "0x0198",
     "id": "Saguaro Cactus 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x21"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1157,6 +1761,10 @@
     "type": "0x0199",
     "id": "Saguaro Cactus 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x22"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1168,6 +1776,10 @@
     "type": "0x019a",
     "id": "Small Saguaro Cactus 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x23"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1179,6 +1791,10 @@
     "type": "0x019b",
     "id": "Small Saguaro Cactus 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x24"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1190,6 +1806,10 @@
     "type": "0x019c",
     "id": "Prickly Pear Cactus 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x25"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1200,6 +1820,10 @@
     "type": "0x019d",
     "id": "Prickly Pear Cactus 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x26"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1210,6 +1834,10 @@
     "type": "0x019e",
     "id": "Succulent Plant 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x27"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1220,6 +1848,10 @@
     "type": "0x019f",
     "id": "Succulent Plant 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x28"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1230,6 +1862,10 @@
     "type": "0x01a0",
     "id": "Large Green Bush",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x30"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -1237,6 +1873,10 @@
     "type": "0x01a1",
     "id": "Green Bush 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x31"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1244,6 +1884,10 @@
     "type": "0x01a2",
     "id": "Green Bush 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x32"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1251,6 +1895,10 @@
     "type": "0x01a3",
     "id": "Green Bush 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x33"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1258,6 +1906,10 @@
     "type": "0x01a4",
     "id": "Green Bush 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x34"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1265,6 +1917,10 @@
     "type": "0x01a5",
     "id": "Green Bush 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x35"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1272,6 +1928,10 @@
     "type": "0x01a6",
     "id": "Green Bush 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x36"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1279,6 +1939,10 @@
     "type": "0x01a7",
     "id": "Green Bush 7",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x37"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1286,6 +1950,10 @@
     "type": "0x01a8",
     "id": "Green Bush 8",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x38"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1293,6 +1961,10 @@
     "type": "0x01a9",
     "id": "Large Light Green Bush",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x40"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -1300,6 +1972,10 @@
     "type": "0x01aa",
     "id": "Light Green Bush 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x41"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1307,6 +1983,10 @@
     "type": "0x01ab",
     "id": "Light Green Bush 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x42"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1314,6 +1994,10 @@
     "type": "0x01ac",
     "id": "Light Green Bush 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x43"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1321,6 +2005,10 @@
     "type": "0x01ad",
     "id": "Light Green Bush 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x44"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1328,6 +2016,10 @@
     "type": "0x01ae",
     "id": "Light Green Bush 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x45"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1335,6 +2027,10 @@
     "type": "0x01af",
     "id": "Light Green Bush 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x46"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1342,6 +2038,10 @@
     "type": "0x01b0",
     "id": "Light Green Bush 7",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x47"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1349,6 +2049,10 @@
     "type": "0x01b1",
     "id": "Light Green Bush 8",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x48"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1356,6 +2060,10 @@
     "type": "0x01b2",
     "id": "Large Yellow Bush",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x50"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -1363,6 +2071,10 @@
     "type": "0x01b3",
     "id": "Yellow Bush 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x51"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1370,6 +2082,10 @@
     "type": "0x01b4",
     "id": "Yellow Bush 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x52"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1377,6 +2093,10 @@
     "type": "0x01b5",
     "id": "Yellow Bush 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x53"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1384,6 +2104,10 @@
     "type": "0x01b6",
     "id": "Yellow Bush 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x54"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1391,6 +2115,10 @@
     "type": "0x01b7",
     "id": "Yellow Bush 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x55"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1398,6 +2126,10 @@
     "type": "0x01b8",
     "id": "Yellow Bush 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x56"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1405,6 +2137,10 @@
     "type": "0x01b9",
     "id": "Yellow Bush 7",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x57"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1412,6 +2148,10 @@
     "type": "0x01ba",
     "id": "Yellow Bush 8",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x58"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1419,6 +2159,10 @@
     "type": "0x01bb",
     "id": "Large Dead Bush",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x60"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -1426,6 +2170,10 @@
     "type": "0x01bc",
     "id": "Dead Bush 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x61"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1433,6 +2181,10 @@
     "type": "0x01bd",
     "id": "Dead Bush 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x62"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1440,6 +2192,10 @@
     "type": "0x01be",
     "id": "Dead Bush 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x63"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1447,6 +2203,10 @@
     "type": "0x01bf",
     "id": "Dead Bush 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x64"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1454,6 +2214,10 @@
     "type": "0x01c0",
     "id": "Dead Bush 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x65"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1461,6 +2225,10 @@
     "type": "0x01c1",
     "id": "Dead Bush 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x66"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1468,6 +2236,10 @@
     "type": "0x01c2",
     "id": "Dead Bush 7",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x67"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1475,6 +2247,10 @@
     "type": "0x01c3",
     "id": "Dead Bush 8",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj4",
+      "Index": "0x68"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -1482,6 +2258,10 @@
     "type": "0x01c4",
     "id": "Road Marker",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x80"
+    },
     "Static": true,
     "OccupySquare": true
   },
@@ -1489,6 +2269,10 @@
     "type": "0x01da",
     "id": "Statue of Oryx",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x2c"
+    },
     "Static": true,
     "Size": "200",
     "OccupySquare": true
@@ -1497,6 +2281,10 @@
     "type": "0x01db",
     "id": "Statue of Oryx Base",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0xff"
+    },
     "Static": true,
     "Size": "100",
     "ShadowSize": "0",
@@ -1507,6 +2295,10 @@
     "type": "0x01de",
     "id": "Landscaped Tree",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x49"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -1519,6 +2311,10 @@
     "type": "0x01e0",
     "id": "Weapon Rack",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x56"
+    },
     "Size": "100",
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1531,6 +2327,10 @@
     "id": "Table",
     "Class": "GameObject",
     "Model": "Table",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5a"
+    },
     "Color": "0x9E5D21",
     "Static": true,
     "FullOccupy": true,
@@ -1542,6 +2342,10 @@
     "id": "BulletinBoard",
     "Class": "GameObject",
     "Model": "Sign",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5d"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "0"
@@ -1550,6 +2354,10 @@
     "type": "0x01f8",
     "id": "Dark Brown Tile",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0xf9"
+    },
     "DrawOnGround": true,
     "Size": "85",
     "Static": true
@@ -1558,6 +2366,10 @@
     "type": "0x01f9",
     "id": "Rags",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment2",
+      "Index": "0xfa"
+    },
     "DrawOnGround": true,
     "Size": "85",
     "Static": true
@@ -1566,6 +2378,10 @@
     "type": "0x01fa",
     "id": "Abyss Bones",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x2c"
+    },
     "Size": "85",
     "Static": true
   },
@@ -1573,6 +2389,10 @@
     "type": "0x01fc",
     "id": "Spider Ground Rocks",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x39"
+    },
     "DrawOnGround": true,
     "Size": "75",
     "Static": true
@@ -1581,6 +2401,10 @@
     "type": "0x01fd",
     "id": "Spider Junk",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x3e"
+    },
     "Size": "100",
     "ShadowSize": "60",
     "Static": true
@@ -1589,6 +2413,10 @@
     "type": "0x01fe",
     "id": "Spider Egg Prop",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x4d"
+    },
     "Size": "80",
     "Static": true
   },
@@ -1596,6 +2424,10 @@
     "type": "0x1800",
     "id": "Spider Silk",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x50"
+    },
     "DrawOnGround": true,
     "Size": "85",
     "Static": true
@@ -1606,7 +2438,32 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "60",
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x54"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.1",
+        "RandomTexture": [
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x54"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x55"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x56"
+          }
+        ]
+      }
+    }
   },
   {
     "type": "0x1802",
@@ -1614,12 +2471,41 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "60",
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x57"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.1",
+        "RandomTexture": [
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x58"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x57"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0x59"
+          }
+        ]
+      }
+    }
   },
   {
     "type": "0x1803",
     "id": "Pool of Blood",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x5a"
+    },
     "DrawOnGround": true,
     "Size": "100",
     "Static": true
@@ -1628,6 +2514,10 @@
     "type": "0x1804",
     "id": "Target",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x96"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -1638,6 +2528,10 @@
     "type": "0x1805",
     "id": "Dummy",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x97"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -1648,6 +2542,10 @@
     "type": "0x1806",
     "id": "Target Strong",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x96"
+    },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "700",
@@ -1659,6 +2557,10 @@
     "type": "0x1807",
     "id": "Dummy Strong",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x97"
+    },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "700",
@@ -1670,6 +2572,10 @@
     "type": "0x1808",
     "id": "Target Spawner",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x96"
+    },
     "Size": "0",
     "ShadowSize": "0",
     "NoMiniMap": true,
@@ -1679,6 +2585,10 @@
     "type": "0x1809",
     "id": "Dummy Spawner",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x97"
+    },
     "Size": "0",
     "ShadowSize": "0",
     "NoMiniMap": true,
@@ -1688,6 +2598,43 @@
     "type": "0x180d",
     "id": "Gothic Candelabra",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xa0"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.2",
+        "RandomTexture": [
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa0"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa1"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa2"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa3"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa4"
+          },
+          {
+            "File": "lofiEnvironment3",
+            "Index": "0xa5"
+          }
+        ]
+      }
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Static": true,
@@ -1697,6 +2644,22 @@
     "type": "0x180f",
     "id": "Gothic Window Light Da",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1704,6 +2667,22 @@
     "type": "0x1810",
     "id": "Gothic Window Light Db",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1711,6 +2690,22 @@
     "type": "0x1811",
     "id": "Gothic Window Light Ua",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1718,6 +2713,22 @@
     "type": "0x1812",
     "id": "Gothic Window Light Ub",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1725,6 +2736,22 @@
     "type": "0x1815",
     "id": "Gothic Window Light La",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1732,6 +2759,22 @@
     "type": "0x1814",
     "id": "Gothic Window Light Lb",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1739,6 +2782,22 @@
     "type": "0x1813",
     "id": "Gothic Window Light Ra",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1746,6 +2805,22 @@
     "type": "0x1816",
     "id": "Gothic Window Light Rb",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
+    "Animation": {
+      "sync": "true",
+      "prob": "1",
+      "period": "5.5",
+      "Frame": {
+        "time": "4",
+        "Texture": {
+          "File": "invisible",
+          "Index": "0"
+        }
+      }
+    },
     "Static": true,
     "DrawOnGround": true
   },
@@ -1755,7 +2830,11 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "0",
-    "Static": true
+    "Static": true,
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xb7"
+    }
   },
   {
     "type": "0x181c",
@@ -1763,12 +2842,20 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "0",
-    "Static": true
+    "Static": true,
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xbc"
+    }
   },
   {
     "type": "0x181d",
     "id": "Rock Path",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xc0"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1777,6 +2864,10 @@
     "id": "Death Tree",
     "Class": "GameObject",
     "Size": "120",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x15"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -1788,6 +2879,10 @@
     "id": "Tombstone",
     "Class": "GameObject",
     "ShadowSize": "100",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xc5"
+    },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
     "MaxHitPoints": "1000",
@@ -1803,12 +2898,20 @@
     "Class": "GameObject",
     "Size": "100",
     "ShadowSize": "80",
-    "Static": true
+    "Static": true,
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xd2"
+    }
   },
   {
     "type": "0x182b",
     "id": "GhostShip Stairs",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x7c"
+    },
     "DrawOnGround": true,
     "OccupySquare": true,
     "NoMiniMap": true,
@@ -1818,6 +2921,10 @@
     "type": "0x182e",
     "id": "GhostShip Barrel",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x87"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -1834,13 +2941,42 @@
     "Size": "80",
     "ShadowSize": "100",
     "ShadowColor": "0x404d75",
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x89"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.2",
+        "RandomTexture": [
+          {
+            "File": "lofiObj3",
+            "Index": "0x89"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0x8a"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0x8b"
+          }
+        ]
+      }
+    }
   },
   {
     "type": "0x1832",
     "id": "GhostShip Stool",
     "Class": "GameObject",
     "ShadowSize": "80",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x8c"
+    },
     "Static": true,
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death"
@@ -1849,6 +2985,10 @@
     "type": "0x1833",
     "id": "GhostShip Weapons",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x8e"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/stone_walls_hit",
@@ -1858,6 +2998,10 @@
     "type": "0x1834",
     "id": "GhostShip Bones",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x8f"
+    },
     "Static": true,
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1868,6 +3012,10 @@
     "id": "Ghost Table",
     "Class": "GameObject",
     "Model": "Table",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x97"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -1878,6 +3026,10 @@
     "type": "0x1837",
     "id": "Castle Pot",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x9a"
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "MaxHitPoints": "400",
@@ -1889,12 +3041,49 @@
     "type": "0x1863",
     "id": "Magic Blue Flame",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x9d"
+    },
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.2",
+        "RandomTexture": [
+          {
+            "File": "lofiObj3",
+            "Index": "0x9d"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0x9e"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0x9f"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0xa6"
+          },
+          {
+            "File": "lofiObj3",
+            "Index": "0xa7"
+          }
+        ]
+      }
+    },
     "Static": true
   },
   {
     "type": "0x1865",
     "id": "Big Trees",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x2d"
+    },
     "MinSize": "130",
     "MaxSize": "160",
     "SizeStep": "5",
@@ -1907,6 +3096,10 @@
     "id": "Ghost Ship Crate",
     "Class": "GameObject",
     "Model": "Crate",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x31"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -1916,6 +3109,10 @@
     "type": "0x1870",
     "id": "Ghost Puddle",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0xf8"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1923,6 +3120,10 @@
     "type": "0x1871",
     "id": "GP Center",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xfc"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1930,6 +3131,10 @@
     "type": "0x1872",
     "id": "GP Rt",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xfd"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1937,6 +3142,10 @@
     "type": "0x1873",
     "id": "GP Lf",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0xfe"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1944,6 +3153,10 @@
     "type": "0x1874",
     "id": "GP Up",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x100"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1951,6 +3164,10 @@
     "type": "0x1875",
     "id": "GP Dn",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x101"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1958,6 +3175,10 @@
     "type": "0x1876",
     "id": "GP Cur",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x102"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1965,6 +3186,10 @@
     "type": "0x1877",
     "id": "GP Cul",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x103"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1972,6 +3197,10 @@
     "type": "0x1878",
     "id": "GP Cdr",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x104"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1979,6 +3208,10 @@
     "type": "0x1879",
     "id": "GP Cdl",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x105"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -1987,6 +3220,10 @@
     "id": "Table Edge UL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5a"
+    },
     "Color": "0x9E5D21",
     "Rotation": "0",
     "Static": true,
@@ -1999,6 +3236,10 @@
     "id": "Table Edge UR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xdb"
+    },
     "Color": "0x9E5D21",
     "Rotation": "90",
     "Static": true,
@@ -2011,6 +3252,10 @@
     "id": "Table Edge LR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xda"
+    },
     "Color": "0x9E5D21",
     "Rotation": "180",
     "Static": true,
@@ -2023,6 +3268,10 @@
     "id": "Table Edge LL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0xd9"
+    },
     "Color": "0x9E5D21",
     "Rotation": "270",
     "Static": true,
@@ -2035,6 +3284,10 @@
     "id": "Ghost Table Edge UL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x97"
+    },
     "Color": "0x302048",
     "Rotation": "0",
     "Static": true,
@@ -2047,6 +3300,10 @@
     "id": "Ghost Table Edge UR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x106"
+    },
     "Color": "0x302048",
     "Rotation": "90",
     "Static": true,
@@ -2059,6 +3316,10 @@
     "id": "Ghost Table Edge LR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x108"
+    },
     "Color": "0x302048",
     "Rotation": "180",
     "Static": true,
@@ -2071,6 +3332,10 @@
     "id": "Ghost Table Edge LL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x107"
+    },
     "Color": "0x302048",
     "Rotation": "270",
     "Static": true,
@@ -2083,6 +3348,10 @@
     "id": "Tesla Coil",
     "Class": "GameObject",
     "Model": "Tesla",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x32"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "600",
@@ -2096,6 +3365,10 @@
     "type": "0x188b",
     "id": "Lab Table",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x16b"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "100",
@@ -2110,6 +3383,10 @@
     "id": "Cloning Vat",
     "Class": "GameObject",
     "Model": "CloningVat",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x3d"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "MaxHitPoints": "600",
@@ -2125,6 +3402,10 @@
     "id": "Monster Tank1",
     "Class": "GameObject",
     "Model": "Monster Tank1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x53"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "Size": "100",
@@ -2135,6 +3416,10 @@
     "id": "Monster Tank2",
     "Class": "GameObject",
     "Model": "Monster Tank2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x53"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "Size": "100",
@@ -2145,6 +3430,10 @@
     "id": "Monster Tank3",
     "Class": "GameObject",
     "Model": "Monster Tank3",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x53"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "Size": "100",
@@ -2155,6 +3444,10 @@
     "id": "Monster Tank4",
     "Class": "GameObject",
     "Model": "Monster Tank4",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x53"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
     "Size": "100",
@@ -2164,6 +3457,10 @@
     "type": "0x18a0",
     "id": "Partial Horizontal Catwalk",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1ce"
+    },
     "DrawOnGround": true,
     "Static": true,
     "ProtectFromGroundDamage": true,
@@ -2173,6 +3470,10 @@
     "type": "0x18a1",
     "id": "Partial Vertical Catwalk",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1d0"
+    },
     "DrawOnGround": true,
     "Static": true,
     "ProtectFromGroundDamage": true,
@@ -2182,6 +3483,10 @@
     "type": "0x18a2",
     "id": "Partial Catwalk",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1d2"
+    },
     "DrawOnGround": true,
     "Static": true,
     "ProtectFromGroundDamage": true,
@@ -2191,6 +3496,10 @@
     "type": "0x18a3",
     "id": "Mad Lab Bones",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x2c"
+    },
     "Size": "85",
     "Static": true,
     "Z": ".04"
@@ -2200,6 +3509,10 @@
     "id": "Iron Brick",
     "Class": "GameObject",
     "Model": "Cube",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x4b"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2209,6 +3522,10 @@
     "type": "0x18a6",
     "id": "Iron Deathspike",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x4f"
+    },
     "OccupySquare": true,
     "Static": true,
     "ShadowSize": "55"
@@ -2217,6 +3534,10 @@
     "type": "0x18a7",
     "id": "Beach Umbrella",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x43"
+    },
     "OccupySquare": true,
     "Static": true,
     "NoMiniMap": true,
@@ -2226,6 +3547,10 @@
     "type": "0x18a9",
     "id": "Ice Crystal Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x5f"
+    },
     "OccupySquare": true,
     "Static": true,
     "NoMiniMap": true,
@@ -2236,6 +3561,10 @@
     "type": "0x18aa",
     "id": "Ice Crystal Rock",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1d7"
+    },
     "OccupySquare": true,
     "Static": true,
     "NoMiniMap": true,
@@ -2246,6 +3575,10 @@
     "type": "0x18ab",
     "id": "Ice Flower",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1db"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2253,6 +3586,10 @@
     "type": "0x18ae",
     "id": "MadLab Warning R",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1df"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2260,6 +3597,10 @@
     "type": "0x18af",
     "id": "MadLab Warning L",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e0"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2267,6 +3608,10 @@
     "type": "0x18b0",
     "id": "MadLab Warning U",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e1"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2274,6 +3619,10 @@
     "type": "0x18b1",
     "id": "MadLab Warning D",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e2"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2281,6 +3630,10 @@
     "type": "0x18b2",
     "id": "MadLab Warning UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e3"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2288,6 +3641,10 @@
     "type": "0x18b3",
     "id": "MadLab Warning UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e4"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2295,6 +3652,10 @@
     "type": "0x18b4",
     "id": "MadLab Warning DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e5"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2302,6 +3663,10 @@
     "type": "0x18b5",
     "id": "MadLab Warning DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1e6"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2309,6 +3674,10 @@
     "type": "0x18b6",
     "id": "MadLab Cables Hor",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1e7"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2316,6 +3685,10 @@
     "type": "0x18b7",
     "id": "MadLab Cables Vert",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1e9"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2323,6 +3696,10 @@
     "type": "0x18b8",
     "id": "MadLab Cables UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1eb"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2330,6 +3707,10 @@
     "type": "0x18b9",
     "id": "MadLab Cables UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1ec"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2337,6 +3718,10 @@
     "type": "0x18ba",
     "id": "MadLab Cables DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1ed"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2344,6 +3729,10 @@
     "type": "0x18bb",
     "id": "MadLab Cables DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1ee"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2351,6 +3740,10 @@
     "type": "0x18bc",
     "id": "MadLab Warning Inner UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1ef"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2358,6 +3751,10 @@
     "type": "0x18bd",
     "id": "MadLab Warning Inner UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1f0"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2365,6 +3762,10 @@
     "type": "0x18be",
     "id": "MadLab Warning Inner DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1f1"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2372,6 +3773,10 @@
     "type": "0x18bf",
     "id": "MadLab Warning Inner DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1f2"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2380,6 +3785,10 @@
     "id": "Lab Table Plain",
     "Class": "GameObject",
     "Model": "Table",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x97"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2390,76 +3799,120 @@
     "type": "0x18ad",
     "id": "Lab Table Beaker",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1f3"
+    },
     "Z": "0.6",
     "Size": "40"
   },
   {
     "type": "0x18c8",
     "id": "Character Changer NonStatic",
-    "Class": "GameObject"
+    "Class": "GameObject",
+    "Texture": {
+      "File": "lofiChar8x8",
+      "Index": "0x08"
+    }
   },
   {
     "type": "0x5f13",
     "id": "Decal Dye",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x27f"
+    }
   },
   {
     "type": "0x5f14",
     "id": "Decal Cloth",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x280"
+    }
   },
   {
     "type": "0x5f15",
     "id": "Decal Key",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x281"
+    }
   },
   {
     "type": "0x5f16",
     "id": "Decal Pet",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x288"
+    }
   },
   {
     "type": "0x5f17",
     "id": "Decal Fame",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x283"
+    }
   },
   {
     "type": "0x5f18",
     "id": "Decal Special",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x284"
+    }
   },
   {
     "type": "0x5f19",
     "id": "Decal Support",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x285"
+    }
   },
   {
     "type": "0x5f1c",
     "id": "Decal Small Dye",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x286"
+    }
   },
   {
     "type": "0x5f1d",
     "id": "Decal Small Cloth",
     "Class": "GameObject",
     "DrawOnGround": true,
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x287"
+    }
   },
   {
     "type": "0x18cf",
@@ -2467,7 +3920,22 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "60",
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2ba"
+    },
+    "Animation": {
+      "prob": "1",
+      "period": "1.2",
+      "Frame": {
+        "time": "0.2",
+        "Texture": {
+          "File": "lofiObj3",
+          "Index": "0x2bb"
+        }
+      }
+    }
   },
   {
     "type": "0x18ce",
@@ -2475,12 +3943,31 @@
     "Class": "GameObject",
     "Size": "80",
     "ShadowSize": "60",
-    "Static": true
+    "Static": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2be"
+    },
+    "Animation": {
+      "prob": "1",
+      "period": "1.2",
+      "Frame": {
+        "time": "0.2",
+        "Texture": {
+          "File": "lofiObj3",
+          "Index": "0x2bf"
+        }
+      }
+    }
   },
   {
     "type": "0x18d1",
     "id": "Candy Small Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2c3"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MinSize": "130",
@@ -2494,6 +3981,10 @@
     "type": "0x18d2",
     "id": "Candy Jelly Bean",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2c7"
+    },
     "HitSound": "monster/blobs_hit",
     "DeathSound": "monster/blobs_death",
     "MinSize": "130",
@@ -2505,6 +3996,10 @@
     "type": "0x18d3",
     "id": "Candy Peppermint Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2c9"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MinSize": "130",
@@ -2518,6 +4013,10 @@
     "type": "0x18d4",
     "id": "Candy Ground Flowers",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2ce"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2525,6 +4024,10 @@
     "type": "0x18d5",
     "id": "Candy Marshmallo",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2d1"
+    },
     "HitSound": "monster/blobs_hit",
     "DeathSound": "monster/blobs_death",
     "MaxHitPoints": "1000",
@@ -2540,6 +4043,10 @@
     "type": "0x18dc",
     "id": "Candy RockCandy",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x7d"
+    },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
     "MaxHitPoints": "2000",
@@ -2555,6 +4062,10 @@
     "id": "Candy Choc Column Broken",
     "Class": "GameObject",
     "Model": "Candy Col Broken",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x70"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -2565,6 +4076,10 @@
     "id": "Candy Choc Column Whole",
     "Class": "GameObject",
     "Model": "Candy Col Whole",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x71"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -2575,6 +4090,10 @@
     "id": "Candy Straw Column Broken",
     "Class": "GameObject",
     "Model": "Candy Col Broken",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x72"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -2585,6 +4104,10 @@
     "id": "Candy Straw Column Whole",
     "Class": "GameObject",
     "Model": "Candy Col Whole",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x73"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -2595,6 +4118,10 @@
     "id": "Candy Doughnut Sm Flat Choc",
     "Class": "GameObject",
     "Model": "Candy Doughnut 1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x74"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "50"
@@ -2604,6 +4131,10 @@
     "id": "Candy Doughnut Sm Flat Straw",
     "Class": "GameObject",
     "Model": "Candy Doughnut 1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x75"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "50"
@@ -2613,6 +4144,10 @@
     "id": "Candy Doughnut Big Flat Choc",
     "Class": "GameObject",
     "Model": "Candy Doughnut 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x74"
+    },
     "Static": true,
     "OccupySquare": true
   },
@@ -2621,6 +4156,10 @@
     "id": "Candy Doughnut Big Flat Straw",
     "Class": "GameObject",
     "Model": "Candy Doughnut 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x75"
+    },
     "Static": true,
     "OccupySquare": true
   },
@@ -2629,6 +4168,10 @@
     "id": "Candy Doughnut Big Vert Choc",
     "Class": "GameObject",
     "Model": "Candy Doughnut 3",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x74"
+    },
     "Static": true,
     "OccupySquare": true
   },
@@ -2637,6 +4180,10 @@
     "id": "Candy Doughnut Big Vert Straw",
     "Class": "GameObject",
     "Model": "Candy Doughnut 3",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x75"
+    },
     "Static": true,
     "OccupySquare": true
   },
@@ -2644,6 +4191,10 @@
     "type": "0x18e9",
     "id": "Candy Peppermint Tree Big",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x7f"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MinSize": "130",
@@ -2658,6 +4209,10 @@
     "id": "Gate",
     "Class": "GameObject",
     "Model": "Gate",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x76"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2668,6 +4223,10 @@
     "id": "Gate Entry",
     "Class": "GameObject",
     "Model": "Gate Entry",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x77"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2678,6 +4237,10 @@
     "id": "Gate End 1",
     "Class": "GameObject",
     "Model": "Gate End 1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x78"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2689,6 +4252,10 @@
     "id": "Gate End 2",
     "Class": "GameObject",
     "Model": "Gate End 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x78"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2700,6 +4267,10 @@
     "id": "Monument 1",
     "Class": "GameObject",
     "Model": "Monument 1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x79"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2711,6 +4282,10 @@
     "id": "Monument 2",
     "Class": "GameObject",
     "Model": "Monument 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x7a"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2722,6 +4297,10 @@
     "id": "Monument 3",
     "Class": "GameObject",
     "Model": "Monument 3",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x7b"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2733,6 +4312,10 @@
     "id": "Gate 2",
     "Class": "GameObject",
     "Model": "Gate",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x76"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2744,6 +4327,10 @@
     "id": "Holloween Big Jacko",
     "Class": "GameObject",
     "Model": "Jacko",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x89"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2754,6 +4341,10 @@
     "id": "Arena Large Monument 1",
     "Class": "GameObject",
     "Model": "Large Monument 1",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x79"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2764,6 +4355,10 @@
     "id": "Arena Large Monument 2",
     "Class": "GameObject",
     "Model": "Large Monument 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x7a"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2774,6 +4369,10 @@
     "id": "Arena Large Monument 3",
     "Class": "GameObject",
     "Model": "Large Monument 3",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x7b"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2784,6 +4383,10 @@
     "id": "Gate Entry 2",
     "Class": "GameObject",
     "Model": "Gate Entry 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x8a"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2798,6 +4401,10 @@
     "SizeStep": "5",
     "ShadowSize": "0",
     "Static": true,
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x8b"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "Enemy": true,
@@ -2809,6 +4416,10 @@
     "type": "0x1900",
     "id": "Holloween Leaves",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2e5"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2816,6 +4427,10 @@
     "type": "0x1901",
     "id": "Holloween Leaves Sm",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2e6"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -2823,6 +4438,10 @@
     "type": "0x5f08",
     "id": "Arena Spell Table",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2e9"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -2834,6 +4453,10 @@
     "type": "0x5f00",
     "id": "Arena Cauldron",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2ea"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -2845,6 +4468,10 @@
     "type": "0x5f11",
     "id": "Arena Grave Stones",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x8d"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -2857,6 +4484,10 @@
     "id": "Gate Entry 2 Rotated",
     "Class": "GameObject",
     "Model": "Gate Entry 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x8a"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2868,6 +4499,10 @@
     "id": "Gate Entry Rotated",
     "Class": "GameObject",
     "Model": "Gate Entry",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x77"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2879,6 +4514,10 @@
     "id": "Gate Entry LF Rotated",
     "Class": "GameObject",
     "Model": "Gate Entry",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x77"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2890,6 +4529,10 @@
     "id": "Gate Entry LF 2 Rotated",
     "Class": "GameObject",
     "Model": "Gate Entry 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x8a"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2901,6 +4544,10 @@
     "id": "Gate Entry Side",
     "Class": "GameObject",
     "Model": "Gate Entry",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x77"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2912,6 +4559,10 @@
     "id": "Gate Entry Side 2",
     "Class": "GameObject",
     "Model": "Gate Entry 2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x8a"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -2923,6 +4574,10 @@
     "id": "Dark Table",
     "Class": "GameObject",
     "Model": "Table",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32c"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -2934,6 +4589,10 @@
     "id": "Dark Table Edge UL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32c"
+    },
     "Color": "0x643011",
     "Rotation": "0",
     "Static": true,
@@ -2946,6 +4605,10 @@
     "id": "Dark Table Edge UR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32d"
+    },
     "Color": "0x643011",
     "Rotation": "90",
     "Static": true,
@@ -2958,6 +4621,10 @@
     "id": "Dark Table Edge LR",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32f"
+    },
     "Color": "0x643011",
     "Rotation": "180",
     "Static": true,
@@ -2970,6 +4637,10 @@
     "id": "Dark Table Edge LL",
     "Class": "GameObject",
     "Model": "Table Edge",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x32e"
+    },
     "Color": "0x643011",
     "Rotation": "270",
     "Static": true,
@@ -2981,6 +4652,10 @@
     "type": "0x190f",
     "id": "Corn",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x99"
+    },
     "MinSize": "90",
     "MaxSize": "110",
     "SizeStep": "5",
@@ -2991,6 +4666,10 @@
     "type": "0x1910",
     "id": "Pumpkin",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x273"
+    },
     "MinSize": "90",
     "MaxSize": "110",
     "SizeStep": "5",
@@ -3001,6 +4680,10 @@
     "type": "0x1914",
     "id": "Winter Tree Small",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x337"
+    },
     "MinSize": "100",
     "MaxSize": "120",
     "SizeStep": "5",
@@ -3013,6 +4696,10 @@
     "id": "Winter Tree Big",
     "Class": "GameObject",
     "Size": "120",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x9e"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -3023,6 +4710,10 @@
     "type": "0x1916",
     "id": "Winter Rock",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x33a"
+    },
     "MinSize": "90",
     "MaxSize": "110",
     "SizeStep": "5",
@@ -3034,6 +4725,10 @@
     "type": "0x1917",
     "id": "Winter Snowman Big",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0xa5"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "80"
@@ -3042,6 +4737,10 @@
     "type": "0x1918",
     "id": "Winter Snowman Small",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x33c"
+    },
     "Static": true,
     "OccupySquare": true,
     "ShadowSize": "80"
@@ -3050,6 +4749,10 @@
     "type": "0x1919",
     "id": "Winter Drift",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiChar216x8",
+      "Index": "0x13"
+    },
     "Static": true,
     "OccupySquare": true,
     "Z": "-0.15",
@@ -3059,6 +4762,10 @@
     "type": "0x191d",
     "id": "Japanese Rocks",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x37a"
+    },
     "ShadowSize": "0",
     "MinSize": "100",
     "MaxSize": "120",
@@ -3071,6 +4778,10 @@
     "type": "0x191e",
     "id": "Japanese Shrine",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x37d"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "ShadowSize": "80",
@@ -3083,6 +4794,10 @@
     "type": "0x191f",
     "id": "Japanese Trees",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0xa9"
+    },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
     "ShadowSize": "80",
@@ -3095,6 +4810,10 @@
     "type": "0x1920",
     "id": "Japanese Sticks",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x382"
+    },
     "OccupySquare": true,
     "ShadowSize": "60",
     "MinSize": "90",
@@ -3107,6 +4826,10 @@
     "id": "Dragon Temple Gold Brick",
     "Class": "GameObject",
     "Model": "Cube",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xa9"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3117,6 +4840,10 @@
     "id": "Dragon Totem",
     "Class": "GameObject",
     "Model": "Candy Col Whole",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xae"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -3126,13 +4853,46 @@
     "type": "0x1931",
     "id": "Big Box",
     "Class": "GameObject",
-    "Model": "ThreeSideCube"
+    "Model": "ThreeSideCube",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x30"
+    }
   },
   {
     "type": "0x1932",
     "id": "Dragon Candelabra",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xcb"
+    },
     "ShadowSize": "50",
+    "Animation": {
+      "prob": "1.0",
+      "period": "0.0",
+      "Frame": {
+        "time": "0.2",
+        "RandomTexture": [
+          {
+            "File": "lofiObjBig",
+            "Index": "0xcb"
+          },
+          {
+            "File": "lofiObjBig",
+            "Index": "0xcc"
+          },
+          {
+            "File": "lofiObjBig",
+            "Index": "0xcd"
+          },
+          {
+            "File": "lofiObjBig",
+            "Index": "0xce"
+          }
+        ]
+      }
+    },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
     "Static": true,
@@ -3143,6 +4903,10 @@
     "id": "Dragon Table LL",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd6"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3153,6 +4917,10 @@
     "id": "Dragon Table LM",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd7"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3163,6 +4931,10 @@
     "id": "Dragon Table LR",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd8"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3173,6 +4945,10 @@
     "id": "Dragon Table ML",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd3"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3183,6 +4959,10 @@
     "id": "Dragon Table MM",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd4"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3193,6 +4973,10 @@
     "id": "Dragon Table MR",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd5"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3203,6 +4987,10 @@
     "id": "Dragon Table UL",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd0"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3213,6 +5001,10 @@
     "id": "Dragon Table UM",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd1"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3223,6 +5015,10 @@
     "id": "Dragon Table UR",
     "Class": "GameObject",
     "Model": "Squatty3Side",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xd2"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -3233,6 +5029,10 @@
     "id": "Fortune Pillar",
     "Class": "GameObject",
     "Model": "Pillar2",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x174"
+    },
     "Rotation": "0",
     "Static": true,
     "FullOccupy": true,
@@ -3244,6 +5044,10 @@
     "id": "Fortune Platform",
     "Class": "GameObject",
     "Model": "Platform",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x174"
+    },
     "Color": "0x9E5D21",
     "Rotation": "0",
     "Static": true,
@@ -3257,6 +5061,10 @@
     "Class": "GameObject",
     "Model": "Pet Upgrader Obj",
     "Rotation": "180",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xcf"
+    },
     "Static": true,
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -3268,6 +5076,10 @@
     "type": "0x1944",
     "id": "White Flowers NoWalk",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x6e"
+    },
     "DrawOnGround": true,
     "Static": true,
     "EnemyOccupySquare": true,
@@ -3279,6 +5091,10 @@
     "type": "0x1945",
     "id": "Iinvisible NoWalk",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "Static": true,
     "EnemyOccupySquare": true,
     "OccupySquare": true,
@@ -3291,6 +5107,10 @@
     "type": "0x1949",
     "id": "Earth Gash Small",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x10f"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3298,6 +5118,10 @@
     "type": "0x194a",
     "id": "Earth Big Gash TL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x10b"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3305,6 +5129,10 @@
     "type": "0x194b",
     "id": "Earth Big Gash TR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x10c"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3312,6 +5140,10 @@
     "type": "0x194c",
     "id": "Earth Big Gash BL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x10d"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3319,6 +5151,10 @@
     "type": "0x194d",
     "id": "Earth Big Gash BR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x10e"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3326,6 +5162,10 @@
     "type": "0x194e",
     "id": "Earth Tile Down",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x128"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3333,6 +5173,10 @@
     "type": "0x194f",
     "id": "Earth Tile Right",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x129"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3340,6 +5184,10 @@
     "type": "0x1950",
     "id": "Earth Tile Up",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12a"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3347,6 +5195,10 @@
     "type": "0x1951",
     "id": "Earth Tile Left",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12b"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3354,6 +5206,10 @@
     "type": "0x1952",
     "id": "Earth Tile LU",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12c"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3361,6 +5217,10 @@
     "type": "0x1953",
     "id": "Earth Tile LD",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12d"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3368,6 +5228,10 @@
     "type": "0x1954",
     "id": "Earth Tile RD",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12e"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3375,6 +5239,10 @@
     "type": "0x1955",
     "id": "Earth Tile RU",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x12f"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3383,6 +5251,10 @@
     "id": "Arena Column Short",
     "Class": "GameObject",
     "Model": "Candy Col Broken",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe1"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -3393,6 +5265,10 @@
     "id": "Arena Column",
     "Class": "GameObject",
     "Model": "Candy Col Whole",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe1"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -3402,6 +5278,10 @@
     "type": "0x1959",
     "id": "Arena Rug 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x135"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3409,6 +5289,10 @@
     "type": "0x195a",
     "id": "Arena Rug 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x136"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3416,6 +5300,10 @@
     "type": "0x195b",
     "id": "Arena Rug 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x137"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3423,6 +5311,10 @@
     "type": "0x195c",
     "id": "Arena Rug 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x138"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3430,6 +5322,10 @@
     "type": "0x195d",
     "id": "Arena Rug 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x139"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3437,6 +5333,10 @@
     "type": "0x195e",
     "id": "Arena Rug 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x13a"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3444,6 +5344,10 @@
     "type": "0x195f",
     "id": "Arena Rug 7",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x13b"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3451,6 +5355,10 @@
     "type": "0x1960",
     "id": "Arena Rug 8",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x13c"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3458,6 +5366,10 @@
     "type": "0x1961",
     "id": "Arena Rug 9",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x13d"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3465,6 +5377,10 @@
     "type": "0x1962",
     "id": "Earthy Bush Large",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0xe2"
+    },
     "ShadowSize": "75",
     "Static": true
   },
@@ -3472,6 +5388,10 @@
     "type": "0x1963",
     "id": "Earthy Bush Small",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x113"
+    },
     "ShadowSize": "50",
     "Static": true
   },
@@ -3479,6 +5399,10 @@
     "type": "0x1964",
     "id": "Earth Huge Gash 1",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x117"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3486,6 +5410,10 @@
     "type": "0x1965",
     "id": "Earth Huge Gash 2",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x118"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3493,6 +5421,10 @@
     "type": "0x1966",
     "id": "Earth Huge Gash 3",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x119"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3500,6 +5432,10 @@
     "type": "0x1967",
     "id": "Earth Huge Gash 4",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x11a"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3507,6 +5443,10 @@
     "type": "0x1968",
     "id": "Earth Huge Gash 5",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x11b"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3514,6 +5454,10 @@
     "type": "0x1969",
     "id": "Earth Huge Gash 6",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x11c"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3521,6 +5465,10 @@
     "type": "0x196a",
     "id": "Earth Blue Flowers",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x11d"
+    },
     "DrawOnGround": true,
     "Static": true
   },
@@ -3528,6 +5476,10 @@
     "type": "0x196b",
     "id": "Earthy Red Rock",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x120"
+    },
     "Size": "120",
     "ShadowSize": "100",
     "Static": true,
@@ -3537,6 +5489,10 @@
     "type": "0x196c",
     "id": "Earthy Red Rock Lighter",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x142"
+    },
     "MinSize": "90",
     "MaxSize": "120",
     "SizeStep": "5",
@@ -3548,6 +5504,10 @@
     "type": "0x197d",
     "id": "Arena Discarded Sword",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x16a"
+    },
     "MinSize": "90",
     "MaxSize": "120",
     "SizeStep": "5",
@@ -3559,6 +5519,10 @@
     "type": "0x197e",
     "id": "Arena Discarded Lance",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0xe5"
+    },
     "MinSize": "90",
     "MaxSize": "120",
     "SizeStep": "5",
@@ -3571,6 +5535,10 @@
     "id": "Arena Stone Column",
     "Class": "GameObject",
     "Model": "Column One and a Half",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe4"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -3581,6 +5549,10 @@
     "id": "Arena Stone Mid Stands",
     "Class": "GameObject",
     "Model": "Candy Col Broken",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe7"
+    },
     "Static": true,
     "OccupySquare": true,
     "FullOccupy": true,
@@ -3590,6 +5562,10 @@
     "type": "0x170f",
     "id": "OceanRock",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x6e"
+    },
     "Size": "80",
     "Static": true,
     "DisplayId": "{oceanTrench.OceanRock}"
@@ -3598,6 +5574,10 @@
     "type": "0x1710",
     "id": "Seaweed",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x75"
+    },
     "Size": "80",
     "Static": true,
     "DisplayId": "{oceanTrench.Seaweed}"
@@ -3606,6 +5586,10 @@
     "type": "0x1711",
     "id": "Coral",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x77"
+    },
     "Size": "80",
     "Static": true,
     "DisplayId": "{oceanTrench.Coral}"
@@ -3617,6 +5601,14 @@
     "OccupySquare": true,
     "ShadowSize": "0",
     "Z": "-0.40",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x57"
+    },
+    "AltTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x57"
+    },
     "StasisImmune": true,
     "DisplayId": "{madLab.Monster_Cage}"
   },
@@ -3626,7 +5618,23 @@
     "Class": "GameObject",
     "Enemy": true,
     "Model": "Tower",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1aa"
+    },
     "StasisImmune": true,
+    "Projectile": {
+      "ObjectId": "Green Star",
+      "Speed": "40",
+      "Damage": "0",
+      "LifetimeMS": "5000",
+      "ConditionEffect": {
+        "_": "Confused",
+        "$": {
+          "duration": ".5"
+        }
+      }
+    },
     "DisplayId": "{madLab.West_Automated_Defense_Turret}"
   },
   {
@@ -3635,7 +5643,23 @@
     "Class": "GameObject",
     "Enemy": true,
     "Model": "Tower",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x1aa"
+    },
     "StasisImmune": true,
+    "Projectile": {
+      "ObjectId": "Green Star",
+      "Speed": "40",
+      "Damage": "0",
+      "LifetimeMS": "5000",
+      "ConditionEffect": {
+        "_": "Confused",
+        "$": {
+          "duration": ".5"
+        }
+      }
+    },
     "DisplayId": "{madLab.East_Automated_Defense_Turret}"
   },
   {
@@ -3645,6 +5669,14 @@
     "Enemy": true,
     "Size": "125",
     "HitSound": "monster/djinn_hit",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x54"
+    },
+    "AltTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x55"
+    },
     "StasisImmune": true,
     "DisplayId": "{madLab.Dr_Terrible_Bubble}"
   },
@@ -3653,6 +5685,10 @@
     "id": "Gravestone 1",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar28x8",
+      "Index": "0x6c"
+    },
     "DisplayId": "{objects.Gravestone_1}"
   },
   {
@@ -3660,6 +5696,10 @@
     "id": "Gravestone 2",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar28x8",
+      "Index": "0x6d"
+    },
     "DisplayId": "{objects.Gravestone_2}"
   },
   {
@@ -3667,6 +5707,10 @@
     "id": "Gravestone 3",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar28x8",
+      "Index": "0x6e"
+    },
     "DisplayId": "{objects.Gravestone_3}"
   },
   {
@@ -3674,6 +5718,10 @@
     "id": "Gravestone 4",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar28x8",
+      "Index": "0x6f"
+    },
     "DisplayId": "{objects.Gravestone_4}"
   },
   {
@@ -3681,6 +5729,10 @@
     "id": "Gravestone 5",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x13"
+    },
     "DisplayId": "{objects.Gravestone_5}"
   },
   {
@@ -3688,6 +5740,10 @@
     "id": "Gravestone 6",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x14"
+    },
     "DisplayId": "{objects.Gravestone_6}"
   },
   {
@@ -3695,6 +5751,10 @@
     "id": "Gravestone 7",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x15"
+    },
     "DisplayId": "{objects.Gravestone_7}"
   },
   {
@@ -3702,6 +5762,10 @@
     "id": "Gravestone 8",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x16"
+    },
     "DisplayId": "{objects.Gravestone_8}"
   },
   {
@@ -3709,6 +5773,10 @@
     "id": "Gravestone 9",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x17"
+    },
     "DisplayId": "{objects.Gravestone_9}"
   },
   {
@@ -3716,6 +5784,10 @@
     "id": "Gravestone 10",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x27"
+    },
     "DisplayId": "{objects.Gravestone_10}"
   },
   {
@@ -3723,6 +5795,10 @@
     "id": "Gravestone 11",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiChar216x16",
+      "Index": "0x3d"
+    },
     "DisplayId": "{objects.Gravestone_11}"
   },
   {
@@ -3731,6 +5807,10 @@
     "Class": "GameObject",
     "Model": "Tower",
     "Effect": "Fountain",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x96"
+    },
     "DisplayId": "{objects.White_Fountain}"
   },
   {
@@ -3739,6 +5819,10 @@
     "Class": "GameObject",
     "DrawOnGround": true,
     "Effect": "Vent",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x26"
+    },
     "DisplayId": "{objects.Ocean_Vent}"
   },
   {
@@ -3794,6 +5878,10 @@
     "type": "0x0749",
     "id": "G Door Opener",
     "Class": "GameObject",
+    "Texture": {
+      "File": "invisible",
+      "Index": "0"
+    },
     "ShadowSize": "0",
     "DisplayId": "{objects.G_Door_Opener}"
   },
@@ -3802,6 +5890,10 @@
     "id": "Winter Fountain Frozen",
     "Class": "GameObject",
     "Model": "Tower",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x96"
+    },
     "ShadowSize": "0",
     "DisplayId": "{objects.Winter_Fountain_Frozen}"
   },
@@ -3810,6 +5902,10 @@
     "id": "lod Golden Statue",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4C4"
+    },
     "Size": "140",
     "DisplayId": "{objects.lod_Golden_Statue}"
   },
@@ -3818,6 +5914,10 @@
     "id": "lod Golden Loot",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4C5"
+    },
     "DisplayId": "{objects.lod_Golden_Loot}"
   },
   {
@@ -3825,6 +5925,10 @@
     "id": "lod Large Golden Loot",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x172"
+    },
     "DisplayId": "{objects.lod_Large_Golden_Loot}"
   },
   {
@@ -3832,6 +5936,10 @@
     "id": "lod Abnormal Treasure Pile",
     "Class": "GameObject",
     "ShowName": true,
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x173"
+    },
     "DisplayId": "{objects.lod_Abnormal_Treasure_Pile}"
   },
   {
@@ -3840,6 +5948,10 @@
     "Class": "GameObject",
     "ShowName": true,
     "Size": "100",
+    "Texture": {
+      "File": "lofiCharBig",
+      "Index": "0x170"
+    },
     "DisplayId": "{objects.ft_Vases_with_rug}"
   },
   {
@@ -3848,12 +5960,20 @@
     "Class": "GameObject",
     "ShowName": true,
     "Size": "100",
+    "Texture": {
+      "File": "lofiCharBig",
+      "Index": "0x171"
+    },
     "DisplayId": "{objects.ft_Vases}"
   },
   {
     "type": "0x719f",
     "id": "destnex Paladin Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x12b"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Paladin_Grave}"
@@ -3862,6 +5982,10 @@
     "type": "0x720a",
     "id": "destnex Warrior Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x12c"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Warrior_Grave}"
@@ -3870,6 +5994,10 @@
     "type": "0x720b",
     "id": "destnex Priest Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x12d"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Priest_Grave}"
@@ -3878,6 +6006,10 @@
     "type": "0x720c",
     "id": "destnex Knight Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x12e"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Knight_Grave}"
@@ -3886,6 +6018,10 @@
     "type": "0x720d",
     "id": "destnex Necromancer Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x12f"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Necromancer_Grave}"
@@ -3894,6 +6030,10 @@
     "type": "0x720e",
     "id": "destnex Assassin Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x130"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Assassin_Grave}"
@@ -3902,6 +6042,10 @@
     "type": "0x720f",
     "id": "destnex Sorcerer Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x131"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Sorcerer_Grave}"
@@ -3910,6 +6054,10 @@
     "type": "0x721a",
     "id": "destnex Trickster Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x132"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Trickster_Grave}"
@@ -3918,6 +6066,10 @@
     "type": "0x721b",
     "id": "destnex Wizard Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x133"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Wizard_Grave}"
@@ -3926,6 +6078,10 @@
     "type": "0x721c",
     "id": "destnex Rogue Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x134"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Rogue_Grave}"
@@ -3934,6 +6090,10 @@
     "type": "0x721d",
     "id": "destnex Mystic Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x135"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Mystic_Grave}"
@@ -3942,6 +6102,10 @@
     "type": "0x721e",
     "id": "destnex Huntress Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x136"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Huntress_Grave}"
@@ -3950,6 +6114,10 @@
     "type": "0x721f",
     "id": "destnex Archer Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x137"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Archer_Grave}"
@@ -3958,6 +6126,10 @@
     "type": "0x722a",
     "id": "destnex Ninja Grave",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0x138"
+    },
     "Static": true,
     "OccupySquare": true,
     "DisplayId": "{nexusDestroyed.destnex_Ninja_Grave}"
@@ -3966,6 +6138,10 @@
     "type": "0x0de5",
     "id": "Wine Barrel",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x76"
+    },
     "Static": true,
     "OccupySquare": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -3980,6 +6156,10 @@
     "type": "0x0de6",
     "id": "WineSpill Puddle",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x79"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_Puddle}"
@@ -3988,6 +6168,10 @@
     "type": "0x0de7",
     "id": "WineSpill DL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x7c"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_DL}"
@@ -3996,6 +6180,10 @@
     "type": "0x0de8",
     "id": "WineSpill DR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x7d"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_DR}"
@@ -4004,6 +6192,10 @@
     "type": "0x0de9",
     "id": "WineSpill UR",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x7e"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_UR}"
@@ -4012,6 +6204,10 @@
     "type": "0x0dea",
     "id": "WineSpill UL",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x7f"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_UL}"
@@ -4020,6 +6216,10 @@
     "type": "0x0deb",
     "id": "WineSpill L",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x80"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_L}"
@@ -4028,6 +6228,10 @@
     "type": "0x0dec",
     "id": "WineSpill R",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x81"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_R}"
@@ -4036,6 +6240,10 @@
     "type": "0x0ded",
     "id": "WineSpill U",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x82"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_U}"
@@ -4044,6 +6252,10 @@
     "type": "0x0dee",
     "id": "WineSpill D",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x83"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_D}"
@@ -4052,6 +6264,10 @@
     "type": "0x0def",
     "id": "WineSpill C",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x84"
+    },
     "DrawOnGround": true,
     "Static": true,
     "DisplayId": "{oryxWineCellar.WineSpill_C}"
@@ -4060,6 +6276,10 @@
     "type": "0x5f09",
     "id": "Arena Hay Stack",
     "Class": "GameObject",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x30e"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -4072,6 +6292,10 @@
     "type": "0x5f1a",
     "id": "Arena Dead Tree",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x90"
+    },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
     "MaxHitPoints": "1000",
@@ -4085,6 +6309,10 @@
     "type": "0x5f1b",
     "id": "Arena Statue",
     "Class": "GameObject",
+    "RandomTexture": {
+      "File": "lofiObjBig",
+      "Index": "0x94"
+    },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
     "MaxHitPoints": "1000",
@@ -4100,6 +6328,27 @@
     "Class": "GameObject",
     "Model": "Obelisk",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x40"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x41"
+    },
+    "Projectile": {
+      "ObjectId": "Hellfire",
+      "Speed": "100",
+      "MinDamage": "30",
+      "MaxDamage": "70",
+      "LifetimeMS": "500",
+      "ConditionEffect": {
+        "_": "Armor Broken",
+        "$": {
+          "duration": "2"
+        }
+      }
+    },
     "DisplayId": "{tombOfTheAncients.Tomb_Fire_Turret}"
   },
   {
@@ -4109,6 +6358,28 @@
     "Class": "GameObject",
     "Model": "Obelisk",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x42"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x43"
+    },
+    "Projectile": {
+      "ObjectId": "Thunderbolt",
+      "Speed": "40",
+      "MinDamage": "10",
+      "MaxDamage": "100",
+      "LifetimeMS": "3000",
+      "ConditionEffect": {
+        "_": "Paralyzed",
+        "$": {
+          "duration": "1.4"
+        }
+      },
+      "MultiHit": ""
+    },
     "DisplayId": "{tombOfTheAncients.Tomb_Thunder_Turret}"
   },
   {
@@ -4118,6 +6389,26 @@
     "Class": "GameObject",
     "Model": "Obelisk",
     "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x44"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x45"
+    },
+    "Projectile": {
+      "ObjectId": "Ice Spinner",
+      "Speed": "80",
+      "Damage": "70",
+      "LifetimeMS": "1400",
+      "ConditionEffect": {
+        "_": "Slowed",
+        "$": {
+          "duration": "2"
+        }
+      }
+    },
     "DisplayId": "{tombOfTheAncients.Tomb_Frost_Turret}"
   },
   {
@@ -4127,7 +6418,28 @@
     "Group": "Center Tomb Turrets",
     "Class": "GameObject",
     "Model": "Obelisk",
-    "Enemy": true
+    "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x46"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x47"
+    },
+    "Projectile": {
+      "ObjectId": "Hellfire",
+      "Speed": "80",
+      "MinDamage": "20",
+      "MaxDamage": "60",
+      "LifetimeMS": "800",
+      "ConditionEffect": {
+        "_": "Armor Broken",
+        "$": {
+          "duration": "2"
+        }
+      }
+    }
   },
   {
     "type": "0x0d35",
@@ -4136,7 +6448,29 @@
     "Group": "Center Tomb Turrets",
     "Class": "GameObject",
     "Model": "Obelisk",
-    "Enemy": true
+    "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x48"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x49"
+    },
+    "Projectile": {
+      "ObjectId": "Thunderbolt",
+      "Speed": "200",
+      "MinDamage": "10",
+      "MaxDamage": "80",
+      "LifetimeMS": "1000",
+      "ConditionEffect": {
+        "_": "Paralyzed",
+        "$": {
+          "duration": "1.4"
+        }
+      },
+      "MultiHit": ""
+    }
   },
   {
     "type": "0x0d36",
@@ -4145,6 +6479,27 @@
     "Group": "Center Tomb Turrets",
     "Class": "GameObject",
     "Model": "Obelisk",
-    "Enemy": true
+    "Enemy": true,
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x4a"
+    },
+    "AltTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x4b"
+    },
+    "Projectile": {
+      "ObjectId": "Ice Spinner",
+      "Speed": "40",
+      "Damage": "60",
+      "LifetimeMS": "1800",
+      "ConditionEffect": {
+        "_": "Slowed",
+        "$": {
+          "duration": "4"
+        }
+      },
+      "Size": "60"
+    }
   }
 ]

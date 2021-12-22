@@ -6,6 +6,10 @@
     "Class": "FortuneTeller",
     "ShadowSize": "50",
     "Size": "100",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x4f5"
+    },
     "StasisImmune": true
   }
 ]

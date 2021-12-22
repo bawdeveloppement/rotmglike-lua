@@ -8,6 +8,10 @@
     "GuildItem": "GuildHallUpgrade",
     "GuildItemParam": "Guild Hall 2",
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x98"
+    },
     "OccupySquare": true,
     "Static": true
   },
@@ -20,6 +24,10 @@
     "GuildItem": "GuildHallUpgrade",
     "GuildItemParam": "Guild Hall 3",
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x98"
+    },
     "OccupySquare": true,
     "Static": true
   },
@@ -32,6 +40,10 @@
     "GuildItem": "GuildHallUpgrade",
     "GuildItemParam": "Guild Hall 4",
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x98"
+    },
     "OccupySquare": true,
     "Static": true
   }

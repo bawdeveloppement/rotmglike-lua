@@ -45,7 +45,7 @@ function Player:initialize( world, data )
     self.healthText = love.graphics.newText(_G.font, ""..characterComponent.stats.life .. " / " .. characterComponent.stats.max_life)
     self.manaText = love.graphics.newText(_G.font, ""..characterComponent.stats.mana .. " / " .. characterComponent.stats.max_mana)
     self.expText = love.graphics.newText(_G.font, ""..characterComponent.exp .. " / " .. characterComponent.max_exp)
-    
+
     self.autoFire = false
 end
 
@@ -93,7 +93,7 @@ local plus = {
     { x = 25, y = 425, name = "wisdom" },
     { x = 25, y = 445, name = "dexterity" },
     { x = 25, y = 465, name = "speed" },
-    { x = 25, y = 485, name = "force" },
+    { x = 25, y = 485, name = "vitality" },
 }
 
 local charInterface = {
@@ -175,7 +175,7 @@ function Player:draw()
     local selfPosition = self.components["TransformComponent"].position
     local stats = characterComponent.stats
 
-    self.healthText:set(""..characterComponent.stats.life .. " / " .. characterComponent.stats.max_life)
+    self.healthText:set("".. math.floor(characterComponent.stats.life * 10) / 10 .. " / " .. characterComponent.stats.max_life)
     self.manaText:set(""..characterComponent.stats.mana .. "\n / \n" .. characterComponent.stats.max_mana)
     self.expText:set(""..characterComponent.exp .. " / " .. characterComponent.max_exp)
 
@@ -229,7 +229,7 @@ function Player:draw()
         self:drawPlus(6)
         love.graphics.print("Speed : "..stats.speed, 40, h - 142)
         self:drawPlus(7)
-        love.graphics.print("Force : "..stats.force, 40, h - 122)
+        love.graphics.print("Vitality : "..stats.vitality, 40, h - 122)
         self:drawPlus(8)
     else
         love.graphics.setColor(0, 0, 0, 0.4);

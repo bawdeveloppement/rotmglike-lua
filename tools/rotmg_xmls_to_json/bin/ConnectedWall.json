@@ -3,6 +3,10 @@
     "type": "0x01c8",
     "id": "White Bench",
     "Class": "ConnectedWall",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x96"
+    },
     "BaseIndent": "0.25",
     "TopIndent": "0.25",
     "Height": "0.5",
@@ -16,6 +20,34 @@
     "type": "0x01dd",
     "id": "Tomb Wall",
     "Class": "ConnectedWall",
+    "RandomTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x00"
+    },
+    "DotTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x30"
+    },
+    "ShortLineTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x31"
+    },
+    "LTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x32"
+    },
+    "LineTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x33"
+    },
+    "TTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x34"
+    },
+    "CrossTexture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x35"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -28,6 +60,10 @@
     "type": "0x18d0",
     "id": "Retro Tomb Rock Wall",
     "Class": "ConnectedWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2c2"
+    },
     "Static": true,
     "FullOccupy": true,
     "OccupySquare": true,
@@ -39,6 +75,10 @@
     "type": "0x1911",
     "id": "Wooden Bench",
     "Class": "ConnectedWall",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x5a"
+    },
     "BaseIndent": "0",
     "TopIndent": "0",
     "Height": "0.4",
@@ -52,6 +92,10 @@
     "type": "0x1921",
     "id": "White Bench Low",
     "Class": "ConnectedWall",
+    "Texture": {
+      "File": "lofiEnvironment2",
+      "Index": "0x96"
+    },
     "BaseIndent": "0.25",
     "TopIndent": "0.25",
     "Height": "0.25",
@@ -65,6 +109,10 @@
     "type": "0x193c",
     "id": "Wood Fence",
     "Class": "ConnectedWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x3dc"
+    },
     "BaseIndent": "0.4",
     "TopIndent": "0.4",
     "Height": "0.75",

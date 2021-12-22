@@ -4,6 +4,10 @@
     "type": "0x7f05",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "Black Cat Skin",
@@ -16,6 +20,10 @@
     "type": "0x7f06",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "Grey Cat Skin",
@@ -28,6 +36,10 @@
     "type": "0x7f07",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "Orange Cat Skin",
@@ -40,6 +52,10 @@
     "type": "0x7f08",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "Tan Cat Skin",
@@ -52,6 +68,10 @@
     "type": "0x7f09",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "Yellow Cat Skin",
@@ -64,6 +84,10 @@
     "type": "0x7f0a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Common",
     "DefaultSkin": "White Cat Skin",
@@ -76,6 +100,10 @@
     "type": "0x7f0b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Brown Pup Skin",
@@ -88,6 +116,10 @@
     "type": "0x7f0c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Grey Pup Skin",
@@ -100,6 +132,10 @@
     "type": "0x7f0d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Golden Pup Skin",
@@ -112,6 +148,10 @@
     "type": "0x7f0e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Grey Wolf Skin",
@@ -124,6 +164,10 @@
     "type": "0x7f0f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Brown Fox Skin",
@@ -136,6 +180,10 @@
     "type": "0x7f10",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Sheepdog Skin",
@@ -148,6 +196,10 @@
     "type": "0x7f11",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Common",
     "DefaultSkin": "Grey Fox Skin",
@@ -160,6 +212,10 @@
     "type": "0x7f12",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Common",
     "DefaultSkin": "Blue Parrot Skin",
@@ -172,10 +228,18 @@
     "type": "0x7f13",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Common",
     "DefaultSkin": "Oriole Skin",
     "FirstAbility": "Attack Far",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Oriole}"
   },
@@ -184,10 +248,18 @@
     "type": "0x7f14",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Common",
     "DefaultSkin": "Goldfinch Skin",
     "FirstAbility": "Decoy",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Goldfinch}"
   },
@@ -196,10 +268,18 @@
     "type": "0x7f15",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Common",
     "DefaultSkin": "Bluebird Skin",
     "FirstAbility": "Heal",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Bluebird}"
   },
@@ -208,10 +288,18 @@
     "type": "0x7f16",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Common",
     "DefaultSkin": "Cardinal Skin",
     "FirstAbility": "Attack Close",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Cardinal}"
   },
@@ -220,6 +308,10 @@
     "type": "0x7f17",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Common",
     "DefaultSkin": "Elephant Skin",
@@ -232,6 +324,10 @@
     "type": "0x7f18",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Common",
     "DefaultSkin": "Koala Skin",
@@ -244,6 +340,10 @@
     "type": "0x7f19",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Common",
     "DefaultSkin": "Monkey Skin",
@@ -256,6 +356,10 @@
     "type": "0x7f1a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Farm",
     "Rarity": "Common",
     "DefaultSkin": "Chick Skin",
@@ -268,6 +372,10 @@
     "type": "0x7f1b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Farm",
     "Rarity": "Common",
     "DefaultSkin": "Pig Skin",
@@ -280,6 +388,10 @@
     "type": "0x7f1c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Farm",
     "Rarity": "Common",
     "DefaultSkin": "Duck Skin",
@@ -292,6 +404,10 @@
     "type": "0x7f89",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Common",
     "DefaultSkin": "Squirrel Skin",
@@ -304,6 +420,10 @@
     "type": "0x7f1d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Common",
     "DefaultSkin": "Hamster Skin",
@@ -316,6 +436,10 @@
     "type": "0x7f1e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Common",
     "DefaultSkin": "Raccoon Skin",
@@ -328,6 +452,10 @@
     "type": "0x7f1f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Reptile",
     "Rarity": "Common",
     "DefaultSkin": "Dino Skin",
@@ -340,6 +468,10 @@
     "type": "0x7f20",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Reptile",
     "Rarity": "Common",
     "DefaultSkin": "Tomb Snake Skin",
@@ -352,6 +484,10 @@
     "type": "0x7f21",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Reptile",
     "Rarity": "Common",
     "DefaultSkin": "Chameleon Skin",
@@ -364,10 +500,18 @@
     "type": "0x7f8a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Dragonfly Skin",
     "FirstAbility": "Attack Far",
+    "WhileMoving": {
+      "Z": "0.25",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Dragonfly}"
   },
@@ -376,6 +520,10 @@
     "type": "0x7f23",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Black Ant Skin",
@@ -388,6 +536,10 @@
     "type": "0x7f24",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Blue Ant Skin",
@@ -400,6 +552,10 @@
     "type": "0x7f25",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Green Ant Skin",
@@ -412,6 +568,10 @@
     "type": "0x7f26",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Red Ant Skin",
@@ -424,6 +584,10 @@
     "type": "0x7f27",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Common",
     "DefaultSkin": "Purple Ant Skin",
@@ -436,6 +600,10 @@
     "type": "0x7f28",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Common",
     "DefaultSkin": "Penguin Skin",
@@ -448,6 +616,10 @@
     "type": "0x7f29",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Common",
     "DefaultSkin": "Green Penguin Skin",
@@ -460,6 +632,10 @@
     "type": "0x7f2a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Common",
     "DefaultSkin": "Grape Penguin Skin",
@@ -472,6 +648,10 @@
     "type": "0x7f2b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Common",
     "DefaultSkin": "Grass Penguin Skin",
@@ -484,6 +664,10 @@
     "type": "0x7f2c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Blue Snail Skin",
@@ -496,6 +680,10 @@
     "type": "0x7f2d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Green Frog Skin",
@@ -508,6 +696,10 @@
     "type": "0x7f2e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Purple Snail Skin",
@@ -520,6 +712,10 @@
     "type": "0x7f2f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Purple Frog Skin",
@@ -532,6 +728,10 @@
     "type": "0x7f30",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Sea Slurp Skin",
@@ -544,6 +744,10 @@
     "type": "0x7f31",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Turtle Skin",
@@ -556,6 +760,10 @@
     "type": "0x7f32",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Common",
     "DefaultSkin": "Crab Skin",
@@ -568,10 +776,18 @@
     "type": "0x7f34",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Common",
     "DefaultSkin": "Bat Skin",
     "FirstAbility": "Attack Close",
+    "WhileMoving": {
+      "Z": "0.3",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Bat}"
   },
@@ -580,6 +796,10 @@
     "type": "0x7f35",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Common",
     "DefaultSkin": "Lil' Ghost Skin",
@@ -594,11 +814,19 @@
     "type": "0x7f36",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Common",
     "DefaultSkin": "Spirit Skin",
     "FirstAbility": "Attack Mid",
     "ShadowSize": "35",
+    "WhileMoving": {
+      "Z": "0.3",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Spirit}"
   },
@@ -607,6 +835,10 @@
     "type": "0x7f37",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Humanoid",
     "Rarity": "Common",
     "DefaultSkin": "Baby Skin",
@@ -619,6 +851,10 @@
     "type": "0x7f39",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Common",
     "DefaultSkin": "Dreidel Skin",
@@ -631,10 +867,18 @@
     "type": "0x7f3a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Common",
     "DefaultSkin": "Sprite Star Skin",
     "FirstAbility": "Electric",
+    "WhileMoving": {
+      "Z": "0.22",
+      "Flying": ""
+    },
     "Size": "60",
     "DisplayId": "{pets.Sprite_Star}"
   },
@@ -643,6 +887,10 @@
     "type": "0x7f3b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Common",
     "DefaultSkin": "Blue Thing Skin",
@@ -655,6 +903,10 @@
     "type": "0x7f3c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Automaton",
     "Rarity": "Common",
     "DefaultSkin": "Robobuddy Skin",
@@ -667,6 +919,10 @@
     "type": "0x7f3d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Automaton",
     "Rarity": "Common",
     "DefaultSkin": "Helmbot Skin",
@@ -679,6 +935,10 @@
     "type": "0x7f3e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Rare",
     "DefaultSkin": "Lion Skin",
@@ -690,6 +950,10 @@
     "type": "0x7f3f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Rare",
     "DefaultSkin": "White Lion Skin",
@@ -701,6 +965,10 @@
     "type": "0x7f40",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Feline",
     "Rarity": "Rare",
     "DefaultSkin": "Ninja Cat Skin",
@@ -712,6 +980,10 @@
     "type": "0x7f41",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Rare",
     "DefaultSkin": "Golden Sheepdog Skin",
@@ -723,6 +995,10 @@
     "type": "0x7f42",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Rare",
     "DefaultSkin": "Black Wolf Skin",
@@ -734,6 +1010,10 @@
     "type": "0x7f43",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Canine",
     "Rarity": "Rare",
     "DefaultSkin": "Gold Bulldog Skin",
@@ -745,9 +1025,17 @@
     "type": "0x7f44",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Rare",
     "DefaultSkin": "Eagle Skin",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Eagle}"
   },
@@ -756,9 +1044,17 @@
     "type": "0x7f45",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Rare",
     "DefaultSkin": "Raven Skin",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Raven}"
   },
@@ -767,9 +1063,17 @@
     "type": "0x7f46",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Rare",
     "DefaultSkin": "USA Eagle Skin",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.USA_Eagle}"
   },
@@ -778,9 +1082,17 @@
     "type": "0x7f47",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Avian",
     "Rarity": "Rare",
     "DefaultSkin": "Pigeon Skin",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Pigeon}"
   },
@@ -789,6 +1101,10 @@
     "type": "0x7f48",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Rare",
     "DefaultSkin": "Panda Skin",
@@ -800,9 +1116,17 @@
     "type": "0x7f49",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Rare",
     "DefaultSkin": "Toucan Skin",
+    "WhileMoving": {
+      "Z": "0.35",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Toucan}"
   },
@@ -811,6 +1135,10 @@
     "type": "0x7f4a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Exotic",
     "Rarity": "Rare",
     "DefaultSkin": "Orangutan Skin",
@@ -822,6 +1150,10 @@
     "type": "0x7f4b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Farm",
     "Rarity": "Rare",
     "DefaultSkin": "Mallard Skin",
@@ -833,6 +1165,10 @@
     "type": "0x7f4c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Farm",
     "Rarity": "Rare",
     "DefaultSkin": "Turkey Skin",
@@ -844,6 +1180,10 @@
     "type": "0x7f4d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Rare",
     "DefaultSkin": "Skunk Skin",
@@ -855,9 +1195,17 @@
     "type": "0x7f4e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Rare",
     "DefaultSkin": "Snowy Owl Skin",
+    "WhileMoving": {
+      "Z": "0.25",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Snowy_Owl}"
   },
@@ -866,6 +1214,10 @@
     "type": "0x7f4f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Woodland",
     "Rarity": "Rare",
     "DefaultSkin": "Reindeer Skin",
@@ -877,6 +1229,10 @@
     "type": "0x7f50",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Reptile",
     "Rarity": "Rare",
     "DefaultSkin": "Baby Dragon Skin",
@@ -888,9 +1244,17 @@
     "type": "0x7f52",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Rare",
     "DefaultSkin": "Bee Skin",
+    "WhileMoving": {
+      "Z": "0.25",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Bee}"
   },
@@ -899,6 +1263,10 @@
     "type": "0x7f53",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Insect",
     "Rarity": "Rare",
     "DefaultSkin": "Praying Mantis Skin",
@@ -910,6 +1278,10 @@
     "type": "0x7f54",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Rare",
     "DefaultSkin": "Karate Red Skin",
@@ -921,6 +1293,10 @@
     "type": "0x7f55",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Rare",
     "DefaultSkin": "Karate Blue Skin",
@@ -932,6 +1308,10 @@
     "type": "0x7f56",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Rare",
     "DefaultSkin": "Karate Yellow Skin",
@@ -943,6 +1323,10 @@
     "type": "0x7f57",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Penguin",
     "Rarity": "Rare",
     "DefaultSkin": "Karate Purple Skin",
@@ -954,6 +1338,10 @@
     "type": "0x7f58",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Rare",
     "DefaultSkin": "Demon Frog Skin",
@@ -965,6 +1353,10 @@
     "type": "0x7f59",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Aquatic",
     "Rarity": "Rare",
     "DefaultSkin": "Peppermint Snail Skin",
@@ -976,9 +1368,17 @@
     "type": "0x7f5a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Rare",
     "DefaultSkin": "Gargoylel Skin",
+    "WhileMoving": {
+      "Z": "0.25",
+      "Flying": ""
+    },
     "Size": "80",
     "DisplayId": "{pets.Gargoyle}"
   },
@@ -987,6 +1387,10 @@
     "type": "0x7f5b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Rare",
     "DefaultSkin": "Lil' Cyclops Skin",
@@ -998,6 +1402,10 @@
     "type": "0x7f5c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Rare",
     "DefaultSkin": "Werewolf Cub Skin",
@@ -1009,6 +1417,10 @@
     "type": "0x7f5d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Rare",
     "DefaultSkin": "Monster Eye Skin",
@@ -1023,9 +1435,18 @@
     "type": "0x7f5e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Spooky",
     "Rarity": "Rare",
     "DefaultSkin": "Skull Skin",
+    "WhileMoving": {
+      "Z": "0.22",
+      "Flying": "",
+      "ShadowSize": "80"
+    },
     "Size": "80",
     "DisplayId": "{pets.Skull}"
   },
@@ -1034,6 +1455,10 @@
     "type": "0x7f5f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Humanoid",
     "Rarity": "Rare",
     "DefaultSkin": "Leprechaun Skin",
@@ -1045,6 +1470,10 @@
     "type": "0x7f60",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Humanoid",
     "Rarity": "Rare",
     "DefaultSkin": "Elf Skin",
@@ -1056,6 +1485,10 @@
     "type": "0x7f61",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Humanoid",
     "Rarity": "Rare",
     "DefaultSkin": "Mermaid Skin",
@@ -1067,6 +1500,10 @@
     "type": "0x7f62",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
     "DefaultSkin": "Jelly Skin",
@@ -1078,6 +1515,10 @@
     "type": "0x7f63",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
     "DefaultSkin": "Gummy Bear Skin",
@@ -1089,6 +1530,10 @@
     "type": "0x7f64",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
     "DefaultSkin": "Snowman Skin",
@@ -1100,6 +1545,10 @@
     "type": "0x7f65",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
     "DefaultSkin": "Jalapeno Skin",
@@ -1111,6 +1560,10 @@
     "type": "0x7f66",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Automaton",
     "Rarity": "Rare",
     "DefaultSkin": "Redbot Skin",
@@ -1122,6 +1575,10 @@
     "type": "0x7f67",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObj2",
+      "Index": "0x32"
+    },
     "Family": "Automaton",
     "Rarity": "Rare",
     "DefaultSkin": "Funkatron Skin",
@@ -1133,6 +1590,10 @@
     "type": "0x7f68",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Feline",
     "Rarity": "Divine",
     "DefaultSkin": "Tiger Skin",
@@ -1144,6 +1605,10 @@
     "type": "0x7f69",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Feline",
     "Rarity": "Divine",
     "DefaultSkin": "Pink Lion Skin",
@@ -1155,6 +1620,10 @@
     "type": "0x7f6a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Canine",
     "Rarity": "Divine",
     "DefaultSkin": "Midnight Wolf Skin",
@@ -1166,6 +1635,10 @@
     "type": "0x7f6b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Canine",
     "Rarity": "Divine",
     "DefaultSkin": "Golden Hyena Skin",
@@ -1177,9 +1650,18 @@
     "type": "0x7f6c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Avian",
     "Rarity": "Divine",
     "DefaultSkin": "Phoenix Skin",
+    "WhileMoving": {
+      "Z": "0.3",
+      "Flying": "",
+      "ShadowSize": "80"
+    },
     "Size": "80",
     "DisplayId": "{pets.Phoenix}"
   },
@@ -1188,6 +1670,10 @@
     "type": "0x7f6d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Avian",
     "Rarity": "Divine",
     "DefaultSkin": "Griffin Skin",
@@ -1199,6 +1685,10 @@
     "type": "0x7f6e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Exotic",
     "Rarity": "Divine",
     "DefaultSkin": "War Elephant Skin",
@@ -1210,6 +1700,10 @@
     "type": "0x7f6f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Exotic",
     "Rarity": "Divine",
     "DefaultSkin": "King Gorilla Skin",
@@ -1221,6 +1715,10 @@
     "type": "0x7f70",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Farm",
     "Rarity": "Divine",
     "DefaultSkin": "Enraged Yack Skin",
@@ -1232,6 +1730,10 @@
     "type": "0x7f71",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Farm",
     "Rarity": "Divine",
     "DefaultSkin": "Night Mare Skin",
@@ -1243,6 +1745,10 @@
     "type": "0x7f72",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Woodland",
     "Rarity": "Divine",
     "DefaultSkin": "Silver Doe Skin",
@@ -1254,6 +1760,10 @@
     "type": "0x7f73",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Woodland",
     "Rarity": "Divine",
     "DefaultSkin": "Solar Owl Skin",
@@ -1265,6 +1775,10 @@
     "type": "0x7f74",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Reptile",
     "Rarity": "Divine",
     "DefaultSkin": "Tandem Cobra Skin",
@@ -1276,6 +1790,10 @@
     "type": "0x7f75",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Reptile",
     "Rarity": "Divine",
     "DefaultSkin": "Poison Drake Skin",
@@ -1287,6 +1805,10 @@
     "type": "0x7f76",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Insect",
     "Rarity": "Divine",
     "DefaultSkin": "Beetleman Skin",
@@ -1298,10 +1820,18 @@
     "type": "0x7f77",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Insect",
     "Rarity": "Divine",
     "DefaultSkin": "Ultrawasp Skin",
     "Size": "80",
+    "WhileMoving": {
+      "Z": "0.2",
+      "Flying": ""
+    },
     "ShadowSize": "65",
     "DisplayId": "{pets.Ultrawasp}"
   },
@@ -1310,6 +1840,10 @@
     "type": "0x7f78",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Penguin",
     "Rarity": "Divine",
     "DefaultSkin": "Battle Penguin Skin",
@@ -1321,6 +1855,10 @@
     "type": "0x7f79",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Penguin",
     "Rarity": "Divine",
     "DefaultSkin": "Tank Penguin Skin",
@@ -1333,6 +1871,10 @@
     "type": "0x7f7a",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Aquatic",
     "Rarity": "Divine",
     "DefaultSkin": "Golden Crab Skin",
@@ -1344,6 +1886,10 @@
     "type": "0x7f7b",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Aquatic",
     "Rarity": "Divine",
     "DefaultSkin": "Great Shark Skin",
@@ -1357,6 +1903,10 @@
     "type": "0x7f7c",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Aquatic",
     "Rarity": "Divine",
     "DefaultSkin": "Blue Landfish Skin",
@@ -1368,9 +1918,18 @@
     "type": "0x7f7d",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Spooky",
     "Rarity": "Divine",
     "DefaultSkin": "Glowing Skull Skin",
+    "WhileMoving": {
+      "Z": "0.25",
+      "Flying": "",
+      "ShadowSize": "80"
+    },
     "Size": "80",
     "DisplayId": "{pets.Glowing_Skull}"
   },
@@ -1379,6 +1938,10 @@
     "type": "0x7f7e",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Spooky",
     "Rarity": "Divine",
     "DefaultSkin": "Monkey Head Skin",
@@ -1392,6 +1955,10 @@
     "type": "0x7f7f",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Spooky",
     "Rarity": "Divine",
     "DefaultSkin": "Reaper Skin",
@@ -1403,6 +1970,10 @@
     "type": "0x7f80",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Humanoid",
     "Rarity": "Divine",
     "DefaultSkin": "Battle God Skin",
@@ -1414,6 +1985,10 @@
     "type": "0x7f81",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Humanoid",
     "Rarity": "Divine",
     "DefaultSkin": "Centaur Skin",
@@ -1425,9 +2000,17 @@
     "type": "0x7f82",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Humanoid",
     "Rarity": "Divine",
     "DefaultSkin": "Forest Fairy Skin",
+    "WhileMoving": {
+      "Z": "0.3",
+      "Flying": ""
+    },
     "ShadowSize": "60",
     "Size": "80",
     "DisplayId": "{pets.Forest_Fairy}"
@@ -1437,6 +2020,10 @@
     "type": "0x7f83",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
     "DefaultSkin": "Lil' Oryx Skin",
@@ -1448,6 +2035,10 @@
     "type": "0x7f84",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
     "DefaultSkin": "Shroom Skin",
@@ -1459,6 +2050,10 @@
     "type": "0x7f85",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
     "DefaultSkin": "Great Jelly Skin",
@@ -1471,6 +2066,10 @@
     "type": "0x7f86",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Automaton",
     "Rarity": "Divine",
     "DefaultSkin": "Spiderbot Skin",
@@ -1482,6 +2081,10 @@
     "type": "0x7f87",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Automaton",
     "Rarity": "Divine",
     "DefaultSkin": "Cylindron Skin",
@@ -1493,6 +2096,10 @@
     "type": "0x7f88",
     "Pet": true,
     "Class": "Pet",
+    "Texture": {
+      "File": "lofiObjBig",
+      "Index": "0xe0"
+    },
     "Family": "Automaton",
     "Rarity": "Divine",
     "DefaultSkin": "Gutsbot Skin",

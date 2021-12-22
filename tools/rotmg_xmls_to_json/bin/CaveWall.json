@@ -3,6 +3,10 @@
     "type": "0x01ce",
     "id": "Cave Wall",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiEnvironment",
+      "Index": "0x60"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -15,6 +19,10 @@
     "type": "0x18a8",
     "id": "Ice Cave Wall",
     "Class": "CaveWall",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x1d4"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -26,6 +34,10 @@
     "type": "0x18d6",
     "id": "Candy Rock Wall",
     "Class": "CaveWall",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2d3"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -37,6 +49,10 @@
     "type": "0x18d7",
     "id": "Candy Rock Wall Blue",
     "Class": "CaveWall",
+    "RandomTexture": {
+      "File": "lofiObj3",
+      "Index": "0x2d3"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -48,6 +64,10 @@
     "type": "0x18d8",
     "id": "Candy Rock Wall Green",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2d4"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -59,6 +79,10 @@
     "type": "0x18d9",
     "id": "Candy Rock Wall Pink",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2d6"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -70,6 +94,10 @@
     "type": "0x18da",
     "id": "Candy Rock Wall Yellow",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2d5"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -81,6 +109,10 @@
     "type": "0x18db",
     "id": "Candy Rock Wall Blue Basic",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": "0x2d8"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
@@ -92,6 +124,10 @@
     "type": "0x1947",
     "id": "Earth Walls",
     "Class": "CaveWall",
+    "Texture": {
+      "File": "lofiEnvironment3",
+      "Index": "0x111"
+    },
     "ShadowSize": "0",
     "Static": true,
     "FullOccupy": true,
