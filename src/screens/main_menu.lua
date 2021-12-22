@@ -1,5 +1,5 @@
 local GameMainMenuScreen = require(_G.libDir .. "middleclass")("GameMainMenuScreen", _G.xle.Screen)
-local Button = require(_G.engineDir .. "game_objects.main").InterfaceElements.Button
+local ButtonElement = require(_G.engineDir .. "game_objects.main").InterfaceElements.ButtonElement
 
 function GameMainMenuScreen:initialize (name, active )
     _G.xle.Screen.initialize(self, name, active)
@@ -10,8 +10,8 @@ function GameMainMenuScreen:init()
     love.window.setTitle(self.name)
 
     self.nodes = {
-        playButton = Button:new("play", 10, 10),
-        optionButton = Button:new("option", 10, 50)
+        playButton = ButtonElement:new("play", 10, 10),
+        optionButton = ButtonElement:new("option", 10, 50)
     }
 
     self.nodes.playButton:addOnClickEvent("changeScreen", function ()
