@@ -1,0 +1,12 @@
+[
+    {
+        "id": "Loot Bag 1",
+        "texture": {
+            "file": "lofiObj6",
+            "index": "0x00"
+        },
+        "attributes": {
+            "soulbound": true
+        }
+    }
+]
