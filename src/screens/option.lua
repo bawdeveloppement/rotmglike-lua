@@ -16,6 +16,9 @@ function GameOptionScreen:init()
     end
 
     self.volumeController = VolumeControllerObject:new()
+    self.volumeController:addOnChangeEvent("mastervolume", function ( volume )
+        love.audio.setVolume(volume);
+    end)
 end
 
 function GameOptionScreen:draw()

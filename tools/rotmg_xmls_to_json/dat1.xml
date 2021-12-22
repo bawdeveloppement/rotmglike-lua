@@ -33872,7 +33872,7 @@
       <MaxDamage>175</MaxDamage>
       <LifetimeMS>400</LifetimeMS>
     </Projectile>
-    <BagType>4</BagType>f
+    <BagType>4</BagType>
     <FameBonus>4</FameBonus>
     <OldSound>daggerSwing</OldSound>
     <feedPower>450</feedPower>

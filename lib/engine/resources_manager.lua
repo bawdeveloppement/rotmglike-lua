@@ -45,6 +45,10 @@ function ResourcesManager:getTexture ( textureId )
     end
 end
 
+function ResourcesManager:getOrAddTexture ( ... )
+    -- body
+end
+
 function ResourcesManager:addTexture( textureId, texturePath, opt )
     self.textures[textureId] = love.graphics.newImage(texturePath, opt or nil);
 end

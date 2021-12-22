@@ -2,31 +2,6 @@ _G.baseDir      = (...):match("(.-)[^%.]+$")
 _G.engineDir      = _G.baseDir .. "engine."
 _G.libDir = _G.baseDir .. "lib."
 
-local JSON = require("lib.json")
-
-local ok, err = love.filesystem.read("src/assets/prefabs/dat1.json")
-local dat = JSON:decode(ok).Object
-local loadedTextures = {}
-local validData = {}
-
-for index, value in ipairs(dat) do
-    --#region LOADING TEXTURES
-    for key, v in pairs(value) do
-        -- Load textures
-        if key == "Texture" then
-            if loadedTextures[v.File] == nil and v.File ~= "invisible" and v.File ~= "lofiChar8x8" and v.File ~= "lofiChar216x8" and v.File ~= "lofiChar216x16"  and v.File ~= "lofiChar16x16"  and v.File ~= "lofiChar16x8"  and v.File ~= "lofiChar28x8"  and v.File ~= "d1lofiObjBig" then
-                validData[#validData + 1] = dat[index]
-                if string.find(v.File, "Embed") then
-                    loadedTextures[v.File] = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "_.png")
-                else
-                    loadedTextures[v.File] = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "Embed_.png") or nil
-                end
-            end
-        end
-    end
-    --#endregion
-
-end
 love.graphics.setDefaultFilter("nearest")
 
 local player = {
@@ -610,55 +585,6 @@ function love.mousereleased (mousex, mousey, button)
         --right click when hover item should take one item in quantity if quantity is > 1
         lastRightMouseClick = love.timer.getTime() - lastRightMouseClick
         rightMouseButtonPressed = false
-    end
-    if leftMouseButtonPressed == false then
-        if itemInMouse ~= nil then
-            local slotToDrop = nil
-            for i, v in ipairs(quickSlots) do
-                if mousex > 250 + (i - 1) * 42 and mousex < 250 + (i - 1) * 42 + 32 and mousey > 600 - 110 and mousey < 600 - 110 + 32 then
-                    slotToDrop = i
-                end
-            end
-            if slotToDrop ~= nil then
-                if itemInMouse.item.type == quickSlots[slotToDrop].type then
-                    if quickSlots[slotToDrop].item ~= nil then
-                        if quickSlots[slotToDrop].item.name == itemInMouse.item.name then
-                            -- Item quantity
-                            if quickSlots[slotToDrop].quantity < itemInMouse.item.stackable then
-                                local toRetain = 0
-                                if itemInMouse.quantity + quickSlots[slotToDrop].quantity > itemInMouse.item.stackable then
-                                    toRetain = itemInMouse.quantity - quickSlots[slotToDrop].quantity
-                                end
-                                quickSlots[slotToDrop].quantity = quickSlots[slotToDrop].quantity + itemInMouse.quantity
-                                itemInMouse = nil
-                                slotToDrop = nil
-                            end
-                        else
-                            local stock = quickSlots[slotToDrop]
-                            quickSlots[slotToDrop] = { item = itemInMouse.item, quantity = itemInMouse.quantity }
-                            itemInMouse = { item = stock.item, quantity = stock.quantity, lastBag = nil }
-                            slotToDrop = nil
-                        end
-                    else
-                        quickSlots[slotToDrop].item = itemInMouse.item
-                        quickSlots[slotToDrop].quantity = itemInMouse.quantity
-                        itemInMouse = nil
-                        slotToDrop = nil
-                    end
-                end
-            else
-                if itemInMouse.lastBag ~= nil then
-                    if bags[itemInMouse.lastBag] ~= nil then
-                        
-                        table.insert(bags[itemInMouse.lastBag].loots, #bags[itemInMouse.lastBag].loots, { item = itemInMouse.item, quantity = itemInMouse.quantity })
-                        itemInMouse = nil
-                    else
-                        dropBag(mx, my, {{ item = itemInMouse.item.name, quantity = itemInMouse.quantity }})
-                        itemInMouse = nil
-                    end
-                end
-            end
-        end
     end
 
     for i, v in ipairs(quickSlots) do

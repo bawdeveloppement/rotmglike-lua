@@ -92,9 +92,6 @@ local bagTypes = {
     }
 }
 
-local function pack(...)
-    return { ... }, select("#", ...)
-end
 
 local function dropBag (x, y, loots)
     local newBag = {
