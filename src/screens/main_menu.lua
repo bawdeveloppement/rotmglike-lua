@@ -1,43 +1,63 @@
 local GameMainMenuScreen = require(_G.libDir .. "middleclass")("GameMainMenuScreen", _G.xle.Screen)
+local Button = require(_G.engineDir .. "game_objects.main").InterfaceElements.Button
 
 function GameMainMenuScreen:initialize (name, active )
     _G.xle.Screen.initialize(self, name, active)
-
 end
 
 function GameMainMenuScreen:init()
     _G.xle.Screen.init(self)
     love.window.setTitle(self.name)
+
+    self.nodes = {
+        playButton = Button:new("play", 10, 10),
+        optionButton = Button:new("option", 10, 50)
+    }
+
+    self.nodes.playButton:addOnClickEvent("changeScreen", function ()
+        _G.xle.Screen.goToScreen("play");
+    end)
+
+    self.nodes.optionButton:addOnClickEvent("changeScreen", function ()
+        _G.xle.Screen.goToScreen("option");
+    end)
 end
 
-local mousex, mousey = 0, 0;
-function GameMainMenuScreen:update()
-    mousex, mousey = love.mouse.getPosition()
-end
-
-function GameMainMenuScreen:draw()
-    if mousex > 0 and mousex < 100 and mousey > 0 and mousey < 32 then
-        love.graphics.rectangle("fill", 0, 0, 100, 32)
-        love.graphics.setColor(0,0,0,1)
-        love.graphics.print("Play", 0, 0)
+function GameMainMenuScreen:update(...)
+    for k in pairs(self.nodes) do
+        if self.nodes[k].update ~= nil then
+            self.nodes[k]:update(...)
+        end
     end
-    love.graphics.setColor(1,1,1,1)
-    love.graphics.print("Play", 0, 0)
-    love.graphics.rectangle("line", 0, 0, 100, 32)
-
-    if mousex > 0 and mousex < 100 and mousey > 48 and mousey < 72 then
-        love.graphics.rectangle("fill", 0, 48, 100, 32)
-        love.graphics.setColor(0,0,0,1)
-    end
-    love.graphics.setColor(1,1,1,1)
-    love.graphics.print("Option", 0, 48)
-    love.graphics.rectangle("line", 0, 48, 100, 32)
 end
 
-function GameMainMenuScreen:mousepressed(mx, my, button)
+function GameMainMenuScreen:draw(...)
+    for k in pairs(self.nodes) do
+        if self.nodes[k].draw ~= nil then
+            self.nodes[k]:draw(...)
+        end
+    end
+end
+
+function GameMainMenuScreen:mousereleased(...)
+    local mx, my, button = ...
+    for k in pairs(self.nodes) do
+        if self.nodes[k].mousereleased ~= nil then
+            self.nodes[k]:mousereleased(...)
+        end
+    end
+end
+
+function GameMainMenuScreen:mousepressed(...)
+    local mx, my, button = ...
+    for i in ipairs(self.nodes) do
+        if self.nodes[i].mousepressed ~= nil then
+            self.nodes[i]:mousepressed(...)
+        end
+    end
     if button == 1 then
         if mx > 0 and mx < 100 and my > 0 and my < 32 then
-            _G.xle.Screen.goToScreen("play");
+            _G.xle.Screen.goToScreen("play")
         end
 
         if mx > 0 and mx < 100 and my > 48 and my < 72 then

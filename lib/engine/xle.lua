@@ -24,7 +24,6 @@ local callbacks = {
         "load",
         "lowmemory",
         "quit",
-        "resize",
         "textedited",
         "textinput",
         "threaderror",
@@ -44,6 +43,7 @@ local callbacks = {
         "draw",
         "keypressed",
         "keyreleased",
+        "resize",
     }
 }
 
@@ -62,9 +62,30 @@ function XLE:load()
             v:init()
         end
     end
-    
+    local w, h = love.window.getMode()
+    self.old = {
+        screen = {
+            w = w,
+            h = h
+        }
+    }
     for _, v in ipairs(callbacks.supported) do
         love[v] = function (...)
+            if v == "keypressed" then
+                local key = ...
+                if key == "f" then
+                    local w, h, flags = love.window.getMode()
+                    self.old.screen.w = w
+                    self.old.screen.h = h
+                    -- print(love.window.getDesktopDimensions())
+                    for i, modes in ipairs(love.window.getFullscreenModes()) do
+                        print(i)
+                        for k, mode in pairs(modes) do
+                            print(k .. mode)
+                        end
+                    end
+                end
+            end
             for _, screen in pairs(Screen.screensInstances) do
                 if screen[v] ~= nil and type(screen[v]) == "function" and screen.active then
                     screen[v](screen, ...)

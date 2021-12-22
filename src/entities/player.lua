@@ -6,7 +6,6 @@ local CollisionComponent = require(_G.engineDir.."components.collision")
 
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
-local PlayerComponent = require(_G.srcDir.."components.player")
 
 local Projectile = require(_G.srcDir .. "entities.projectile");
 
@@ -25,7 +24,6 @@ function Player:initialize( world, data )
         { class = CollisionComponent },
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
-        { class = PlayerComponent },
     });
 
     self.bag = Container:new(20)
@@ -48,6 +46,7 @@ function Player:initialize( world, data )
     self.manaText = love.graphics.newText(_G.font, ""..characterComponent.stats.mana .. " / " .. characterComponent.stats.max_mana)
     self.expText = love.graphics.newText(_G.font, ""..characterComponent.exp .. " / " .. characterComponent.max_exp)
     
+    self.autoFire = false
 end
 
 function Player:bindPlaySoundOnLevelUp()
@@ -73,12 +72,12 @@ function Player:bindPlaySoundOnDeath()
 end
 
 local mx, my = 0, 0;
-function Player:update(dt)
-    Entity.update(self, dt);
+function Player:update(...)
+    Entity.update(self, ...);
     mx, my = love.mouse.getPosition()
 
     local position = self:getComponent("TransformComponent").position
-    if love.mouse.isDown(1) then
+    if love.mouse.isDown(1) or self.autoFire == true then
         local velx = math.cos(math.atan2(position.y - my, position.x - mx))
         local vely = math.sin(math.atan2(position.y - my, position.x - mx));
         self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
@@ -295,6 +294,9 @@ end
 function Player:keypressed(key)
     Entity.keypressed(self, key)
 
+    if key == "i" then
+        self.autoFire = not self.autoFire
+    end
     if key == "k" then
         local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
         self.bag:addItem(_G.dbObject.Equipments[itemToLoot])
