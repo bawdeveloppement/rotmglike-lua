@@ -125,7 +125,7 @@ end
 local monsters = {}
 local projectiles = {}
 
-local levelUpSound = love.audio.newSource("assets/sfx/level_up.mp3", "static")
+local levelUpSound = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
 local windowWidth, windowHeight, t = love.window.getMode(); 
 local monstersTemplate = {
     {
@@ -169,8 +169,8 @@ local function createMonster( monsterTemplate , x, y)
         },
         reward = monsterTemplate.reward,
         sfx = {
-            deathSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
-            hitSound = love.audio.newSource("assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
+            deathSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_death.mp3", "static"),
+            hitSound = love.audio.newSource("src/assets/sfx/monster/".. monsterTemplate.name .."_hit.mp3", "static")
         },
         attack = {
             cooldown = 50,
