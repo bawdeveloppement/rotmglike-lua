@@ -1,1 +1,3 @@
 /tools/rotmg_xmls_to_json/node_modules/
+/debug/love-win32/*
+/debug/love-win64/*

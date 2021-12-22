@@ -1,5 +1,5 @@
 #!/bin/bash
-love2dPath="../../../Téléchargements/love-11.3"
+love2dPath="./debug/love"
 gameName="rotmg"
 gameVersion=0.0.4
 
