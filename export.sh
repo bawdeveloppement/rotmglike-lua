@@ -1,4 +1,5 @@
 #!/bin/bash
+love2dPath = ../../../Téléchargements/love-11.3
 gameName="rotmg"
 gameVersion=0.0.4
 
@@ -20,11 +21,11 @@ if [ -f "./bin/v$gameVersion/$gameName-$gameVersion-win32.exe" ]; then
     rm ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe
 fi
 
-cat ../../../Téléchargements/love-11.3-win32/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe
+cat $love2dPath-win32/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe
 
 
 if [ -f "./bin/v$gameVersion/$gameName-$gameVersion-win64.exe" ]; then
     rm ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe
 fi
 
-cat ../../../Téléchargements/love-11.3-win64/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe
+cat $love2dPath-win64/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe
