@@ -5,10 +5,16 @@ function ResourcesManager:initialize()
     self.textures = {}
 end
 
--- SoundId = string
--- SoundPath = string
 function ResourcesManager:addSound( soundId, soundPath )
     self.sounds[soundId] = love.audio.newSource(soundPath, "static");
+end
+
+function ResourcesManager:getTexture ( textureId )
+    if self.textures[textureId] ~= nil then
+        return self.textures[textureId]
+    else
+        return nil
+    end
 end
 
 function ResourcesManager:addTexture( textureId, texturePath, opt )
