@@ -10,11 +10,12 @@ function GameMainMenuScreen:init()
     love.window.setTitle(self.name)
 
     self.nodes = {
-        playButton = ButtonElement:new("play", 10, 10),
-        optionButton = ButtonElement:new("option", 10, 50)
+        playSoloButton = ButtonElement:new("Single Player", 10, 10),
+        playMultiButton = ButtonElement:new("Online", 10, 50, true),
+        optionButton = ButtonElement:new("option", 10, 100)
     }
 
-    self.nodes.playButton:addOnClickEvent("changeScreen", function ()
+    self.nodes.playSoloButton:addOnClickEvent("changeScreen", function ()
         _G.xle.Screen.goToScreen("play");
     end)
 
@@ -50,18 +51,9 @@ end
 
 function GameMainMenuScreen:mousepressed(...)
     local mx, my, button = ...
-    for i in ipairs(self.nodes) do
-        if self.nodes[i].mousepressed ~= nil then
-            self.nodes[i]:mousepressed(...)
-        end
-    end
-    if button == 1 then
-        if mx > 0 and mx < 100 and my > 0 and my < 32 then
-            _G.xle.Screen.goToScreen("play")
-        end
-
-        if mx > 0 and mx < 100 and my > 48 and my < 72 then
-            _G.xle.Screen.goToScreen("option");
+    for k in pairs(self.nodes) do
+        if self.nodes[k].mousepressed ~= nil then
+            self.nodes[k]:mousepressed(...)
         end
     end
 end

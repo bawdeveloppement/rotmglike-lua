@@ -32,7 +32,9 @@ end
 
 function ButtonElement:click()
     for i in ipairs(self.onClick) do
-        self.onClick[i].handler()
+        if self.onClick[i].handler ~= nil then
+            self.onClick[i].handler()
+        end
     end
 end
 

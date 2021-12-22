@@ -10,7 +10,7 @@ local screens = {
     { name = "option", buildIndex = 2 },
     { name = "play", buildIndex = 3 },
 }
-
+local loveVersion = 11.3
 love.audio.setVolume(0.1)
 
 _G.font = love.graphics.newFont("src/assets/fonts/yoster.ttf")

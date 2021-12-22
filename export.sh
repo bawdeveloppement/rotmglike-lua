@@ -25,7 +25,7 @@ if [ -f "./old.lua" ]; then
     mv old.lua main.lua
 fi
 
-#LINUX
+# LINUX
 cat /usr/bin/love ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion.AppImage
 chmod a+x ./bin/v$gameVersion/$gameName-$gameVersion.AppImage
 
