@@ -31,24 +31,27 @@ end
 
 function MonsterAIComponent:update(...)
     local position = self:getComponent("TransformComponent").position
-    local characters = self.entity.world:getEntitiesByComponentName("PlayerComponent")
+    local characters = self.entity.world:getEntitiesByComponentName("CharacterComponent")
     local target = nil
     for i, v in ipairs(characters) do
         local vPos = v:getComponent("TransformComponent").position
         if vPos.x > position.x - 200 and vPos.x < position.x + 200 and vPos.y > position.y - 200 and vPos.y < position.y + 200 then
-            local velx = math.cos(math.atan2(position.y - vPos.y, position.x - vPos.x))
-            local vely = math.sin(math.atan2(position.y - vPos.y, position.x - vPos.x));
-            -- body
-            self.velocity.x = velx
-            self.velocity.y = vely
-            -- target velx
-            target = {
-                x = velx,
-                y = vely
-            }
-            -- if position.isInCollision == false then 
-            position.x = position.x - self.velocity.x * 1
-            position.y = position.y - self.velocity.y * 1
+            local vChar = v:getComponent("CharacterComponent")
+            if vChar.isPlayer then
+                local velx = math.cos(math.atan2(position.y - vPos.y, position.x - vPos.x))
+                local vely = math.sin(math.atan2(position.y - vPos.y, position.x - vPos.x));
+                -- body
+                self.velocity.x = velx
+                self.velocity.y = vely
+                -- target velx
+                target = {
+                    x = velx,
+                    y = vely
+                }
+                -- if position.isInCollision == false then 
+                position.x = position.x - self.velocity.x * 1
+                position.y = position.y - self.velocity.y * 1
+            end
         end
     end
 
