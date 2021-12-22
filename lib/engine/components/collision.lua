@@ -10,30 +10,18 @@ function CollisionComponent:initialize( entity, data )
 
     local position = self.entity:getComponent("TransformComponent").position;
     local rect = self.entity:getComponent("SpriteComponent").rect;
+    local scale = self.entity:getComponent("SpriteComponent").scale;
 
     position = {
         x = position.x + (data.x or 0) - 4,
         y = position.y + (data.y or 0) - 2
     }
 
-    self.rect = rect or {
-        width = 36,
-        height = 36
-    }
-    
-    if data.rect ~= nil then
-        self.rect = {
-            width = data.rect.width + 4 or 36,
-            height = data.rect.height + 4 or 36
-        }
-    end
+    self.rect = rect
 
     self.isInCollision = {
         with = nil
     }
-end
-
-function CollisionComponent:update()
 end
 
 function CollisionComponent:draw()

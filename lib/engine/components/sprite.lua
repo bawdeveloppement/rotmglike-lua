@@ -10,29 +10,47 @@ function Sprite:initialize(parent, data)
     self.image = nil;
     self.transform = self.entity:getComponent("TransformComponent");
 
+    self.scale = data.scale or 1
+
     self.rect  = data.rect or {
         width = 16,
         height = 16
     }
 
-    self.scale = Vector2(data.width or 55, data.height or 37);
-    
+    self.tile = data.tile or {
+        width = 8,
+        height = 8
+    }
+
+    if self.rect.width > self.tile.width then
+        self.scale = self.rect.width / self.tile.width
+    end
+
     if data.relativity ~= nil then self:setRelativity(data.relativity) else
         self.relativity = Vector2(0, 0);
     end
 
-    if data.scale ~= nil then self.scale = Vector2(data.scale.x, data.scale.y) end
+    if data.scale ~= nil then self.scale = data.scale or 1 end
 
-    if data.imageUri ~= nil then self:setImage(data.imageUri) end
-    
+    if data.imageUri ~= nil then self:setImageUri(data.imageUri) end
+
+    self.spriteIndex = 0
 end
 
 function Sprite:setRelativity(relativity)
     self.relativity = Vector2(relativity.x, relativity.y);
 end
 
-function Sprite:setImage(imageUri)
+function Sprite:setImageUri(imageUri)
     self.image = love.graphics.newImage(imageUri);
+end
+
+function Sprite:setImage( image )
+    self.image = image;
+end
+
+function Sprite:setIndex( index)
+    self.spriteIndex = index
 end
 
 function Sprite:draw()
@@ -41,7 +59,7 @@ function Sprite:draw()
     love.graphics.setColor(1,1,1,1);
     local transform = self.entity:getComponent("TransformComponent");
     if self.image ~= nil then
-        love.graphics.draw(self.image, self:getSpriteIndex(0), transform.position.x, transform.position.y, 0, 2);
+        love.graphics.draw(self.image, self:getSpriteIndex(self.spriteIndex), transform.position.x, transform.position.y, 0, self.scale);
     else
         love.graphics.rectangle("fill",
             transform.position.x,
@@ -53,7 +71,14 @@ function Sprite:draw()
 end
 
 function Sprite:getSpriteIndex(x)
-    return love.graphics.newQuad(x, x, self.rect.width, self.rect.height, self.image:getDimensions())
+    local imageW, imageH = self.image:getDimensions()
+    return love.graphics.newQuad(
+        self.tile.width * (x % (imageW / self.tile.width)),
+        math.floor(x / (imageW / self.tile.width)) * self.tile.width,
+        self.tile.width,
+        self.tile.height,
+        self.image:getDimensions()
+    );
 end
 
 return  Sprite
