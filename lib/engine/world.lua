@@ -6,7 +6,7 @@ function World:initialize( world_name, world_data, world_worldScale )
     self.worldScale = world_worldScale or 4
 
     for i, v in pairs(self.worldData.tilesets) do
-        self.worldData.tilesets[i].image = love.graphics.newImage("src/assets/textures/rotmg/EmbeddedAssets_"..v.name.."Embed_.png")
+        self.worldData.tilesets[i].image = _G.xle.ResourcesManager:getTexture(v.name)
     end
 
     self.quads = {}
@@ -40,6 +40,7 @@ function World:initialize( world_name, world_data, world_worldScale )
                                 self,
                                 {
                                     name = obj.properties["entityId"],
+                                    scale = self.worldScale,
                                     position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
                                 }
                             );
@@ -48,6 +49,8 @@ function World:initialize( world_name, world_data, world_worldScale )
                             local ent = require(_G.srcDir .. "entities.".. k):new(
                                 self,
                                 {
+                                    name = obj.name,
+                                    scale = self.worldScale,
                                     position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
                                 }
                             );
