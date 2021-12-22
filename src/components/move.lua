@@ -10,17 +10,21 @@ end
 
 
 function MoveComponent:update(...)
-    local z = love.keyboard.isDown("z");
-    local q = love.keyboard.isDown("q");
-    local d = love.keyboard.isDown("d");
-    local s = love.keyboard.isDown("s");
     local transform = self.entity:getComponent("TransformComponent")
     local character = self.entity:getComponent("CharacterComponent")
-    if z then
+
+    local z = love.keyboard.isDown("z");
+    local w = love.keyboard.isDown("w");
+    local q = love.keyboard.isDown("q");
+    local a = love.keyboard.isDown("a");
+    local d = love.keyboard.isDown("d");
+    local s = love.keyboard.isDown("s");
+
+    if z or w then
         transform.position.y = transform.position.y - (5 + character.stats.speed * 0.1)
     end
 
-    if q then
+    if q or a then
         transform.position.x = transform.position.x - (5 + character.stats.speed * 0.1)
     end
 

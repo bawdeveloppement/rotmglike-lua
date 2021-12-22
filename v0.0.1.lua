@@ -244,14 +244,16 @@ end
 
 local function playerUpdate ()
     local z = love.keyboard.isDown("z");
+    local w = love.keyboard.isDown("w");
     local q = love.keyboard.isDown("q");
+    local a = love.keyboard.isDown("a");
     local d = love.keyboard.isDown("d");
     local s = love.keyboard.isDown("s");
-    if z then
+    if z or w then
         player.y = player.y - (player.speed + player.stats.speed * 0.1);
     end
 
-    if q then
+    if q or a then
         player.x = player.x - (player.speed + player.stats.speed * 0.1);
     end
 
