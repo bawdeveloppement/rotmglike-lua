@@ -1,25 +1,39 @@
 local Container = require(_G.libDir .. "middleclass")("Container")
 local CharacterComponent = require(_G.srcDir .. "components.character")
 
-function Container:initialize(length, x, y)
-    
-    self.position = {
+function Container:initialize(length, x, y, parent)
+    self.rect = {
         x = x or 0,
-        y = y or 0
+        y = y or 0,
+        width = 220,
+        height = 220
     }
-
+    self.parent = parent or nil
     self.length = length
     self.slots = {}
+
+    for i = 1, self.length, 1 do
+        table.insert(self.slots, #self.slots + 1, { item = nil, quantity = 0 })
+    end
 
     self.cacheText = {}
 end
 
-function Container:addItem ( item, quantity )
-    if #self.slots < self.length then
-        table.insert(self.slots, #self.slots + 1, {
+function Container:addItemInFirstEmptySlot (item, quantity )
+    local index = 0
+    for i, v in ipairs(self.slots) do
+        if self.slots[i].item == nil then
+            index = i
+            break
+        end
+    end
+    if index == 0 then
+        return
+    else
+        self.slots[index] = {
             item = item,
             quantity = quantity or 1
-        })
+        }
     end
 end
 
@@ -59,9 +73,9 @@ function Container:extend( slotNumbers )
 end
 
 --#region Draw
-
 function Container:drawItem(x, y, index)
-    if self.slots[index] ~= nil then
+    local mx, my = love.mouse.getPosition()
+    if self.slots[index].item ~= nil then
         local item = self.slots[index].item;
         if item.Texture ~= nil then
             local image = _G.xle.ResourcesManager:getTexture(item.Texture.File);
@@ -81,37 +95,35 @@ function Container:drawItem(x, y, index)
         else
             love.graphics.rectangle("fill", x, y, 32, 32)
         end
-        local mx, my = love.mouse.getPosition()
         if mx > x and mx < x + 32 and my > y and my < y + 32 then
             love.graphics.setColor(0,0,0,0.4)
             love.graphics.rectangle("fill", mx, my - 200, 300, 200)
             love.graphics.setColor(1,1,1,1)
             love.graphics.rectangle("line", mx, my - 200, 300, 200)
-            if self.cacheText[self.slots[index].item["$"].id] ~= nil then
-                for i, v in ipairs(self.cacheText[self.slots[index].item["$"].id]) do
+            local itemId = self.slots[index].item.id or (""..#self.slots..love.math.random(0, 100))
+            if self.cacheText[itemId] ~= nil then
+                for i, v in ipairs(self.cacheText[itemId]) do
                     love.graphics.draw(v, mx + 10, my - 200 + i * v:getHeight())
                 end
             else
-                self.cacheText[self.slots[index].item["$"].id] = {}
-                self.cacheText[self.slots[index].item["$"].id][1] = love.graphics.newText(_G.font1, self.slots[index].item["$"].id)
+                self.cacheText[itemId] = {}
+                self.cacheText[itemId][1] = love.graphics.newText(_G.font1, itemId)
                 local i = 2
                 for k, v in pairs(self.slots[index].item) do
                     if k ~= "$" then
                         if type(v) ~= "table" or k == "ActivateOnEquip" then
                             if k == "ActivateOnEquip" then
-                                self.cacheText[self.slots[index].item["$"].id][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
+                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
                                 if v["_"] == "IncrementStat" then
-                                    if CharacterComponent.statOffToHere[v["$"].stat] ~= nil then
-                                        self.cacheText[self.slots[index].item["$"].id][i]:setf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[v["$"].stat] ..  " : " ..  v["$"].amount }, 200, "left")
+                                    if CharacterComponent.statOffToHere[v.stat] ~= nil then
+                                        self.cacheText[itemId][i]:setf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[v.stat] ..  " : " ..  v.amount }, 200, "left")
                                         i = i + 1
                                     end
                                 end
                             else
-                                self.cacheText[self.slots[index].item["$"].id][i] = love.graphics.newText(_G.font1, k .. " : " .. v)
-                                print(self.cacheText[self.slots[index].item["$"].id][i]:getHeight())
+                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, k .. " : " .. tostring(v))
                                 i = i + 1
                             end
-                            print(k)
                         end
                     end
                 end
@@ -122,46 +134,123 @@ end
 
 function Container:drawSlot(x, y, i)
     love.graphics.rectangle("line", x, y, 32, 32)
-    if self.slots[i] ~= nil then
+    if self.slots[i].item ~= nil then
         self:drawItem(x, y, i)
     end
 end
 
 function Container:getItemCount()
     local items = 0
-    for i = 1, #self.slots, 1 do
-        if self.slots[i] ~= nil then
+    for i, v in ipairs(self.slots) do
+        if self.slots[i].item ~= nil then
             items = items + 1
         end
     end
     return items
 end
 
+
 function Container:draw()
+    local w, h = love.window.getMode()
     -- Container Interface
     love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", 10, 600- 52 - 220, 220, 220);
+    love.graphics.rectangle("line", 10, h- 52 - self.rect.height, self.rect.width, self.rect.height);
     love.graphics.setColor(0, 0, 0, 0.4);
-    love.graphics.rectangle("fill", 10, 600- 52 - 220, 220, 220);
+    love.graphics.rectangle("fill", 10, h- 52 - self.rect.height, self.rect.width, self.rect.height);
     love.graphics.setColor(1, 1, 1, 1);
-    love.graphics.print("Container : "..self:getItemCount().." items.", 10, 600-52-240)
+    love.graphics.print("Container : "..self:getItemCount().." items.", 10, h-52-240)
 
     local i = 1
     for y = 1, self.length / 5, 1 do
         for x = 1, 5, 1 do
-            self:drawSlot(20 + (10 + 32) * (x - 1), (600 - 94 - 210 ) + 42 * y, i)
+            self:drawSlot(20 + (10 + 32) * (x - 1), (h - 94 - 210 ) + 42 * y, i)
             i = i + 1
         end
     end
 end
 --#endregion
 
-function Container:mousepressed( mousex, mousey, button)
-    
+function Container:mousepressed( mx, my, button)
+    local w, h = love.window.getMode()
+    if button == 1 then
+        local i = 1
+        for y = 1, self.length / 5, 1 do
+            for x = 1, 5, 1 do
+                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > (h - 94 - 210 ) + 42 * y and my < (h - 94 - 210 ) + 32 + 42 * y then
+                    if self.parent.itemInMouse.item == nil and self.slots[i].item ~= nil then
+                        self.parent.itemInMouse = {
+                            item = self.slots[i].item,
+                            quantity = self.slots[i].quantity,
+                            lastIndex = {
+                                origin = "bag",
+                                value = i
+                            }
+                        }
+                        self.slots[i] = {
+                            item = nil,
+                            quantity = 0
+                        }
+                    end
+                end
+                i = i + 1
+            end
+        end
+    end
 end
 
-function Container:mousereleased( mousex, mousey, button)
-    
+function Container:mousereleased( mx, my, button)
+    local w, h = love.window.getMode()
+    if button == 1 then
+        local i = 1
+        for y = 1, self.length / 5, 1 do
+            for x = 1, 5, 1 do
+                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > (h - 94 - 210 ) + 42 * y and my < (h - 94 - 210 ) + 32 + 42 * y then
+                    if self.parent.itemInMouse.item ~= nil then
+                        if self.slots[i].item == nil then
+                            self.slots[i] = {
+                                item = self.parent.itemInMouse.item,
+                                quantity = self.parent.itemInMouse.quantity
+                            }
+                            self.parent.itemInMouse = {
+                                item = nil,
+                                quantity = 0,
+                                lastIndex = nil
+                            }
+                        else
+                            local oldItem = self.slots[i]
+                            self.slots[i] = {
+                                item = self.parent.itemInMouse.item,
+                                quantity = self.parent.itemInMouse.quantity
+                            }
+                            if self.parent.itemInMouse.lastIndex ~= nil then
+                                if self.parent.itemInMouse.lastIndex.origin == "bag" then
+                                    self.slots[self.parent.itemInMouse.lastIndex.value] = oldItem
+                                else
+                                    self.parent.quickSlots[self.parent.itemInMouse.lastIndex.value] = oldItem
+                                end
+                            end
+                            self.parent.itemInMouse = {
+                                item = nil,
+                                quantity = 0,
+                                lastIndex = 0
+                            }
+                        end
+                    end
+                end
+                i = i + 1
+            end
+        end
+    end
+end
+
+function Container:getRect()
+    local w, h = love.window.getMode()
+    return {
+        x = 10,
+        y = h- 52 - self.rect.height,
+        width = self.rect.width,
+        height = self.rect.height
+    }
 end
 
 return Container
