@@ -1,0 +1,1 @@
+for file in *.png; do mv "$file" "${file/EmbeddedAssets_/}"; done
