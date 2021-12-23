@@ -54,7 +54,7 @@ function Monster:bindDropBag()
             self.dropBagSound:play()
         end
         local randomBag = love.math.random(1, 18)
-        self.world:addEntity(BagEntity:new(self.world, { position = sPos, name = _G.dbObject.Containers[randomBag]["$"].id }))
+        self.world:addEntity(BagEntity:new(self.world, { position = sPos, name = _G.dbObject.Containers[randomBag].id }))
     end)
 end
 

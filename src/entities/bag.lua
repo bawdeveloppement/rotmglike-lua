@@ -28,7 +28,7 @@ function BagEntity:initialize( world, data )
 
     self.slots = {}
     for i, v in ipairs(_G.dbObject["Containers"]) do
-        if v["$"].id == self.name then
+        if v.id == self.name then
             self:getComponent("SpriteComponent"):setImage(_G.xle.ResourcesManager:getTexture(v["Texture"].File))
             self:getComponent("SpriteComponent"):setIndex(tonumber(v["Texture"].Index, 16))
         end

@@ -20,17 +20,33 @@ local Player = require(_G.libDir .. "middleclass")("Player", Entity)
 function Player:initialize( world, data )
     Entity.initialize(self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
-        { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/rotmg/EmbeddedAssets_playersSkins16Embed_.png"}},
+        { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/playersSkins16.png"}},
         { class = CollisionComponent },
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
     });
 
-    self.bag = Container:new(20)
+    self.itemInMouse = {
+        item = nil,
+        quantity = 0,
+        lastIndex = nil
+    }
+
+    self.quickSlots = {
+        { type = "quick_slot", key="f", item = nil },
+        { type = "quick_slot", key="a", item = nil },
+        { type = "quick_slot", key="e", item  = nil },
+        { type = "head", item = nil },
+        { type = "spell", item = nil },
+        { type = "chest", item = nil },
+        { type = "ring", item = nil },
+    }
+
+    self.bag = Container:new(20, 0, 0, self)
 
     for i = 1, 9, 1 do
         local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
-        self.bag:addItem(_G.dbObject.Equipments[itemToLoot])
+        self.bag:addItemInFirstEmptySlot(_G.dbObject.Equipments[itemToLoot], 1)
     end
 
     self.audio = {
@@ -71,10 +87,10 @@ function Player:bindPlaySoundOnDeath()
     end)
 end
 
-local mx, my = 0, 0;
 function Player:update(...)
     Entity.update(self, ...);
-    mx, my = love.mouse.getPosition()
+    local mx, my = love.mouse.getPosition()
+    local w, h = love.window.getMode()
 
     local position = self:getComponent("TransformComponent").position
     if love.mouse.isDown(1) or self.autoFire == true then
@@ -82,6 +98,14 @@ function Player:update(...)
         local vely = math.sin(math.atan2(position.y - my, position.x - mx));
         self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
         -- self.sound.fire.play(self.sound.fire)
+    end
+
+    local bagRect = self.bag:getRect()
+    if  ( mx > bagRect.x and mx < bagRect.x + bagRect.width and my > bagRect.y and my < bagRect.y + bagRect.height ~= nil) or 
+        ( mx > w / 2 - 150 and mx < w / 2 - 150 + 300 and my > h - 110 and my < h - 110 + 32) then
+        self.mouseIsHoverContainer = true
+    else
+        self.mouseIsHoverContainer = false
     end
 end
 
@@ -105,6 +129,7 @@ local bagInterface = {
 }
 
 function Player:drawPlus ( index )
+    local mx, my = love.mouse.getPosition()
     local w, h = love.window:getMode()
     love.graphics.rectangle("line", plus[index].x - 8, h - (600 - plus[index].y)- 8, 16, 16)
 
@@ -119,47 +144,67 @@ function Player:drawPlus ( index )
     end
 end
 
-local quickSlots = {
-    { type = "quick_slot", key="f", item = nil },
-    { type = "quick_slot", key="a", item = nil },
-    { type = "quick_slot", key="e", item  = nil },
-    { type = "head", item = nil },
-    { type = "spell", item = nil },
-    { type = "chest", item = nil },
-    { type = "ring", item = nil },
-}
 --#endregion
-local function drawQuickSlots ()
+function Player:drawQuickSlots ()
     local w, h = love.window.getMode()
-    for i, v in ipairs(quickSlots) do
+    for i, v in ipairs(self.quickSlots) do
         love.graphics.setColor(1,1,1,1)
         love.graphics.rectangle("line", w / 2 - 150 + (i - 1) * 42, h - 110, 32, 32)
         love.graphics.setColor(0,0,0,0.4)
         love.graphics.rectangle("fill", w / 2 - 150 + (i - 1) * 42, h - 110, 32, 32)
         love.graphics.setColor(1,1,1,1)
-        if quickSlots[i].item ~= nil and quickSlots[i].quantity ~= 0 and quickSlots[i].quantity ~= nil then
-            love.graphics.print(""..quickSlots[i].quantity, w / 2 - 150 + (i - 1) * 42, h - 110)
-            local quad = love.graphics.newQuad(
-                0,
-                0,
-                64, 32,
-                quickSlots[i].item.texture:getDimensions()
-            )
-            love.graphics.draw(
-                quickSlots[i].item.texture,
-                quad,
-                w / 2 + (i - 1) * 42,
-                h - 110,
-                0,
-                1.5, 1.5,
-                0, 0,
-                0, 0
-            )
+        if self.quickSlots[i].item ~= nil then
+            local item = self.quickSlots[i].item;
+            if item.Texture ~= nil then
+                local image = _G.xle.ResourcesManager:getTexture(item.Texture.File);
+                if image ~= nil then
+                    local imageW, imageH = image:getDimensions()
+                    local quad = love.graphics.newQuad(
+                        8 * (tonumber(item.Texture.Index, 16) % (imageW / 8)),
+                        math.floor(tonumber(item.Texture.Index, 16) / (imageW / 8)) * 8,
+                        8,
+                        8,
+                        imageW, imageH
+                    )
+                    love.graphics.draw(image, quad, w / 2 - 150 + (i - 1) * 42,  h - 110, 0, 4);
+                else
+                    love.graphics.rectangle("fill", w / 2 - 150 + (i - 1) * 42,  h - 110, 32, 32)
+                end
+            else
+                love.graphics.rectangle("fill", w / 2 - 150 + (i - 1) * 42,  h - 110, 32, 32)
+            end
+            love.graphics.print(""..self.quickSlots[i].quantity, w / 2 - 150 + (i - 1) * 42, h - 110)
         end
     end
 end
 
 
+
+function Player:drawItemInMouse()
+    if self.itemInMouse then
+        local mx, my = love.mouse.getPosition()
+        if self.itemInMouse.item ~= nil then
+            if self.itemInMouse.item.Texture ~= nil then
+                local image = _G.xle.ResourcesManager:getTexture(self.itemInMouse.item.Texture.File);
+                if image ~= nil then
+                    local imageW, imageH = image:getDimensions()
+                    local quad = love.graphics.newQuad(
+                        8 * (tonumber(self.itemInMouse.item.Texture.Index, 16) % (imageW / 8)),
+                        math.floor(tonumber(self.itemInMouse.item.Texture.Index, 16) / (imageW / 8)) * 8,
+                        8,
+                        8,
+                        imageW, imageH
+                    )
+                    love.graphics.draw(image, quad, mx,  my, 0, 4);
+                end
+            else
+                love.graphics.rectangle("fill", mx, my, 32, 32)
+            end
+            love.graphics.print(""..self.itemInMouse.quantity, mx + 42, my)
+        end
+        
+    end
+end
 
 function Player:draw()
     Entity.draw(self);
@@ -169,7 +214,7 @@ function Player:draw()
     local realCamY = 0
     -- Interface
     -- Quick Item Interface
-    drawQuickSlots()
+    self:drawQuickSlots()
     -- Life
     local characterComponent = self.components["CharacterComponent"]
     local selfPosition = self.components["TransformComponent"].position
@@ -214,7 +259,7 @@ function Player:draw()
         love.graphics.setColor(0, 0, 0, 0.4);
         love.graphics.rectangle("fill", 10, h - 272, 220, 220);
         love.graphics.setColor(1, 1, 1, 1);
-        love.graphics.print("Player stats", 10, 308)
+        love.graphics.print("Player stats", 10, h - 308)
         love.graphics.print("Max life : "..stats.max_life, 40, h - 262) 
         self:drawPlus(1)
         love.graphics.print("Max mana : "..stats.max_mana, 40, h - 242)
@@ -233,7 +278,7 @@ function Player:draw()
         self:drawPlus(8)
     else
         love.graphics.setColor(0, 0, 0, 0.4);
-        love.graphics.rectangle("fill", 10, 600 - 32 - 10, 32, 32)
+        love.graphics.rectangle("fill", 10, h - 32 - 10, 32, 32)
         love.graphics.setColor(1, 1, 1, 1);
         love.graphics.print("C", 16, h-32)
         love.graphics.rectangle("line", 10, h - 32 - 10, 32, 32)
@@ -255,17 +300,21 @@ function Player:draw()
         love.graphics.print("B", 65, h-32)
         love.graphics.rectangle("line", 20 + 32, h - 32 - 10, 32, 32)
     end
+
+    self:drawItemInMouse()
 end
 
 local lshift = false
-function Player:mousepressed(mousex, mousey, button)
-    Entity.mousepressed(self, mousex, mousey, button)
-    self.bag:mousepressed(mousex, mousey, button)
+function Player:mousepressed(...)
+    Entity.mousepressed(self, ...)
+    self.bag:mousepressed(...)
+
+    local mx, my, button = ...
     local w, h = love.window.getMode()
     local characterComponent = self.components["CharacterComponent"]
     if characterComponent.statPoints > 0 then
         for i, v in ipairs(plus) do
-            if mousex > plus[i].x - 8 and mousex < plus[i].x + 8 and mousey > h - (600 - plus[i].y) - 8 and mousey < h - (600 - plus[i].y) + 8 then
+            if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > h - (600 - plus[i].y) - 8 and my < h - (600 - plus[i].y) + 8 then
                 if button == 1 then
                     if lshift ~= false then
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
@@ -288,6 +337,87 @@ function Player:mousepressed(mousex, mousey, button)
             end
         end
     end
+
+    if button == 1 then
+        for i, v in ipairs(self.quickSlots) do
+            if mx > w / 2 - 150 + (i - 1) * 42 and mx < w / 2 - 150 + (i - 1) * 42 + 32 and my > h - 110 and my < h - 110 + 32 then
+                if self.itemInMouse.item == nil and self.quickSlots[i].item ~= nil then
+                    self.itemInMouse.item = self.quickSlots[i].item
+                    self.itemInMouse.quantity = self.quickSlots[i].quantity
+                    self.itemInMouse.lastIndex = {
+                        origin = "quickslot",
+                        value = i
+                    }
+                    self.quickSlots[i].item = nil
+                    self.quickSlots[i].quantity = 0
+                end
+            end
+        end
+    end
+end
+
+function Player:mousereleased(...)
+    self.bag:mousereleased(...)
+    local mx, my, button = ...
+    local w, h = love.window.getMode()
+    if button == 1 then
+        for i, v in ipairs(self.quickSlots) do
+            if mx > w / 2 - 150 + (i - 1) * 42 and mx < w / 2 - 150 + (i - 1) * 42 + 32 and my > h - 110 and my < h - 110 + 32 then
+                if self.itemInMouse.item ~= nil then
+                    if self.quickSlots[i].item == nil then
+                        self.quickSlots[i].item = self.itemInMouse.item
+                        self.quickSlots[i].quantity = self.itemInMouse.quantity
+                        self.itemInMouse = {
+                            item = nil,
+                            quantity = 0,
+                            lastIndex = nil
+                        }
+                    elseif self.quickSlots[i].item ~= nil then
+                        --replace
+                        local old = {
+                            item = self.quickSlots[i].item,
+                            quantity = self.quickSlots[i].quantity
+                        }
+                        self.quickSlots[i].item = self.itemInMouse.item
+                        self.quickSlots[i].quantity = self.itemInMouse.quantity
+                        if self.itemInMouse.lastIndex ~= nil then
+                            if self.itemInMouse.lastIndex.origin == "quickslot" then
+                                self.quickSlots[self.itemInMouse.lastIndex.value] = old
+                            else
+                                self.bag:setItemInSlotId(self.itemInMouse.lastIndex.value, old.item, old.quantity)
+                            end
+                        end
+                        self.itemInMouse = {
+                            item = nil,
+                            quantity = 0,
+                            lastIndex = nil
+                        }
+                    end
+                end
+            else
+                if not self.mouseIsHoverContainer then
+                    if self.itemInMouse.item ~= nil then
+                        if self.itemInMouse.lastIndex.origin == "quickslot" then
+                            self.quickSlots[self.itemInMouse.lastIndex.value] = {
+                                item = self.itemInMouse.item,
+                                quantity = self.itemInMouse.quantity
+                            }
+                            self.itemInMouse.item = nil
+                            self.itemInMouse.quantity = 0
+                            self.itemInMouse.lastIndex = nil
+                            _G.errorAudio:play()
+                        elseif self.itemInMouse.lastIndex.origin == "bag" then
+                            self.bag:setItemInSlotId(self.itemInMouse.lastIndex.value, self.itemInMouse.item, self.itemInMouse.quantity)
+                            self.itemInMouse.item = nil
+                            self.itemInMouse.quantity = 0
+                            self.itemInMouse.lastIndex = nil
+                            _G.errorAudio:play()
+                        end
+                    end
+                end
+            end
+        end
+    end
 end
 
 function Player:keypressed(key)
@@ -298,7 +428,7 @@ function Player:keypressed(key)
     end
     if key == "k" then
         local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
-        self.bag:addItem(_G.dbObject.Equipments[itemToLoot])
+        self.bag:addItemInFirstEmptySlot(_G.dbObject.Equipments[itemToLoot])
     end
     if key == "j" then
         self.bag:removeFirstItem()
