@@ -23,7 +23,7 @@
     "CanPutNormalObjects": true,
     "Loot": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x5c"
     },
     "Size": "95",
@@ -38,7 +38,7 @@
     "CanPutNormalObjects": true,
     "Loot": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x5b"
     },
     "Size": "95",

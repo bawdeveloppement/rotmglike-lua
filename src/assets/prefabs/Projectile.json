@@ -229,7 +229,7 @@
     "id": "Vicious Slash",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x7b"
     },
     "AngleCorrection": "1"
@@ -239,7 +239,7 @@
     "id": "Normal Succubus",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2f3"
     },
     "AngleCorrection": "1"
@@ -249,7 +249,7 @@
     "id": "Set Succubus",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2f4"
     },
     "AngleCorrection": "1"
@@ -259,7 +259,7 @@
     "id": "Bloodshed Swipe",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x31"
     },
     "AngleCorrection": "1"
@@ -269,7 +269,7 @@
     "id": "Dark Knight Shield Proj",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x33"
     },
     "AngleCorrection": "1"
@@ -299,7 +299,7 @@
     "id": "Titanic Sword Proj",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x7c"
     },
     "AngleCorrection": "1"
@@ -309,7 +309,7 @@
     "id": "Titanic Sword Proj Ult",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x7f"
     },
     "AngleCorrection": "1"
@@ -319,7 +319,7 @@
     "id": "Paladiiiin Proj",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x3f"
     },
     "AngleCorrection": "1"
@@ -329,7 +329,7 @@
     "id": "Wunder Web",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a4"
     },
     "AngleCorrection": "1"
@@ -339,7 +339,7 @@
     "id": "Super Wunder Web",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a5"
     },
     "AngleCorrection": "1"
@@ -4540,7 +4540,7 @@
     "id": "Dark Purple Magic",
     "Class": "Projectile",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x19"
     }
   },

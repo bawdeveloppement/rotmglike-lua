@@ -2285,7 +2285,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x20"
     },
     "SlotType": "17",
@@ -2324,7 +2324,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x32"
     },
     "SlotType": "19",
@@ -2357,7 +2357,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x34"
     },
     "SlotType": "14",
@@ -2381,7 +2381,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x35"
     },
     "SlotType": "9",
@@ -2404,7 +2404,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2b"
     },
     "SlotType": "9",
@@ -2435,7 +2435,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2c"
     },
     "SlotType": "9",
@@ -2466,7 +2466,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2d"
     },
     "SlotType": "9",
@@ -2498,7 +2498,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x30"
     },
     "SlotType": "1",
@@ -2527,7 +2527,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x32"
     },
     "SlotType": "5",
@@ -2577,7 +2577,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x34"
     },
     "SlotType": "7",
@@ -2599,7 +2599,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x35"
     },
     "SlotType": "9",
@@ -2750,7 +2750,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x3b"
     },
     "SlotType": "1",
@@ -2778,7 +2778,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x3c"
     },
     "SlotType": "16",
@@ -2828,7 +2828,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x3d"
     },
     "SlotType": "7",
@@ -2852,7 +2852,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x3e"
     },
     "SlotType": "9",
@@ -2876,7 +2876,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a6"
     },
     "SlotType": "3",
@@ -2913,7 +2913,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a8"
     },
     "SlotType": "20",
@@ -2956,7 +2956,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a7"
     },
     "SlotType": "6",
@@ -2980,7 +2980,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x2a9"
     },
     "SlotType": "9",
@@ -3388,7 +3388,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x1d"
     },
     "SlotType": "10",
@@ -21434,7 +21434,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x03"
     },
     "Description": "{equip.The_Devil_-_Card_XV_of_the_Major_Arcana._Thanks_to_Dappertr}",
@@ -21465,7 +21465,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x04"
     },
     "Description": "{equip.The_Sun_-_Card_XIX_of_the_Major_Arcana._Thanks_to_Dappertro}",
@@ -21496,7 +21496,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x05"
     },
     "Description": "{equip.Death_-_Card_XIII_of_the_Major_Arcana._Thanks_to_Dappertron}",
@@ -21527,7 +21527,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x06"
     },
     "Description": "{equip.The_Tower_-_Card_XVI_of_the_Major_Arcana._Thanks_to_Dappert}",
@@ -21558,7 +21558,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x07"
     },
     "Description": "{equip.The_Magician_-_Card_I_of_the_Major_Arcana._Thanks_to_Dapper}",
@@ -21589,7 +21589,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x08"
     },
     "Description": "{equip.The_World_-_Card_XXI_of_the_Major_Arcana._Thanks_to_Dappert}",
@@ -21620,7 +21620,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x09"
     },
     "Description": "{equip.The_Chariot_-_Card_VII_of_the_Major_Arcana._Thanks_to_Dappe}",
@@ -21650,7 +21650,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x0a"
     },
     "Description": "{equip.The_Moon_-_Card_XVIII_of_the_Major_Arcana._Thanks_to_LabdaA}",
@@ -21682,7 +21682,7 @@
     "Item": true,
     "SlotType": "10",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x15"
     },
     "Description": "{equip.The_fool_represents_innocence,_it_is_the_beginning._When_in}",
@@ -21966,7 +21966,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x0b"
     },
     "SlotType": "6",
@@ -22030,7 +22030,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x00"
     },
     "SlotType": "7",
@@ -22054,7 +22054,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x01"
     },
     "SlotType": "9",
@@ -22078,7 +22078,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x02"
     },
     "SlotType": "5",
@@ -22311,7 +22311,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x0d"
     },
     "SlotType": "10",
@@ -22337,7 +22337,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x0e"
     },
     "SlotType": "10",
@@ -22363,7 +22363,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x0f"
     },
     "SlotType": "10",
@@ -22389,7 +22389,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x10"
     },
     "SlotType": "10",
@@ -22415,7 +22415,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x11"
     },
     "SlotType": "10",
@@ -22441,7 +22441,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x12"
     },
     "SlotType": "10",
@@ -22467,7 +22467,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x13"
     },
     "SlotType": "10",
@@ -22492,7 +22492,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x14"
     },
     "SlotType": "10",
@@ -22857,7 +22857,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x16"
     },
     "SlotType": "10",
@@ -22888,7 +22888,7 @@
     "Class": "Equipment",
     "Item": true,
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x1b"
     },
     "SlotType": "10",
