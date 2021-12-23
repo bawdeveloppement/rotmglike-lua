@@ -1,6 +1,6 @@
 local SelectElement = require(_G.libDir .. "middleclass")("SelectElement")
 
-function SelectElement:initialize( rect, options )
+function SelectElement:initialize( rect, options, default )
     self.rect = {
         x = rect.x or 0,
         y = rect.y or 0,
@@ -8,9 +8,11 @@ function SelectElement:initialize( rect, options )
         height = rect.height or 32
     }
 
-    self.optionSelected = nil
-
     self.options = options
+
+
+    self.optionSelected = default or 0
+
 
     self.onChange = {}
 
@@ -43,6 +45,7 @@ end
 
 function SelectElement:getOptionById( optionId )
     local option = nil
+    if optionId == 0 then return option end
     if #self.options ~= 0 then
         for i, v in ipairs(self.options) do
             if v.id == optionId then
@@ -62,18 +65,18 @@ function SelectElement:draw(...)
         
         love.graphics.setColor(0,0,0,1)
         if self:getOptionById(self.optionSelected) ~= nil then
-            love.graphics.print(self:getOptionById(self.optionSelected).text or "Click here to select", self.rect.x + 10, self.rect.y + 4)
+            love.graphics.print(self:getOptionById(self.optionSelected).text or "Click here to select", self.rect.x + 10, self.rect.y + 4 + 8)
         else
-            love.graphics.print("Click here to select", self.rect.x + 10, self.rect.y + 4)
+            love.graphics.print("Click here to select", self.rect.x + 10, self.rect.y + 4 + 8)
         end
         love.graphics.setColor(1,1,1,1)
     else
         love.graphics.rectangle("line", self.rect.x - 4 , self.rect.y, self.rect.width + 8, self.rect.height + 8)
         love.graphics.rectangle("line", self.rect.x, self.rect.y + 4, self.rect.width, self.rect.height)
         if self:getOptionById(self.optionSelected) ~= nil then
-            love.graphics.print(self:getOptionById(self.optionSelected).text or "Click here to select", self.rect.x + 10, self.rect.y + 4)
+            love.graphics.print(self:getOptionById(self.optionSelected).text or "Click here to select", self.rect.x + 10, self.rect.y + 4 + 8)
         else
-            love.graphics.print("Click here to select", self.rect.x + 10, self.rect.y + 4)
+            love.graphics.print("Click here to select", self.rect.x + 10, self.rect.y + 4 + 8)
         end
     end
 
@@ -81,28 +84,31 @@ function SelectElement:draw(...)
     if self.show then
         -- border
         love.graphics.rectangle("line", self.rect.x - 4, self.rect.y + self.rect.height + 12, self.rect.width + 8, self.maxHeight)
+        love.graphics.setColor(0,0,0,1)
+        love.graphics.rectangle("fill", self.rect.x - 4, self.rect.y + self.rect.height + 12, self.rect.width + 8, self.maxHeight)
+        love.graphics.setColor(1,1,1,1)
         -- boxs
         for i, v in ipairs(self.options) do
             local scrollBarY = (newY - self.scrollbarPositionY)
-            local ratio = ((((self.rect.height + 4) * #self.options + 4) - self.maxHeight) / 100)
+            local ratio = ((self.rect.height + 4) * #self.options + 4) / self.maxHeight
             local scrollDownY = scrollBarY * ratio
-            -- print(ratio)
-            -- print(ratio * scrollBarY)
-            -- print(newY + ((i - 1) * (self.rect.height + 4)))
             if newY + ((i - 1) * (self.rect.height + 4)) + (scrollBarY * ratio) - 5  < self.rect.y + self.maxHeight and newY + ((i - 1) * (self.rect.height + 4)) + (scrollBarY * ratio) > self.rect.y + self.rect.height then
                 if mx > self.rect.x and mx < self.rect.x + self.rect.width and
                 my > newY + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY
                 and my < newY + self.rect.height + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY then
                     love.graphics.rectangle("fill", self.rect.x, newY + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY, self.rect.width, self.rect.height)
                     love.graphics.setColor(0,0,0,1)
-                    love.graphics.print(v.text, self.rect.x + 4, self.rect.y + 4 + (self.rect.height + 16 )+ ( (i - 1) * (self.rect.height + 4)) + scrollDownY)
+                    love.graphics.print(v.text, self.rect.x + 4, self.rect.y + 4 + (self.rect.height + 16 )+ ( (i - 1) * (self.rect.height + 4)) + scrollDownY + 2)
                     love.graphics.setColor(1,1,1,1)
                 else
                     love.graphics.rectangle(
                         "line", self.rect.x,
                         self.rect.y + (self.rect.height + 16 ) + ( (i - 1) * (self.rect.height + 4)) + scrollDownY,
                         self.rect.width, self.rect.height)
-                    love.graphics.print(v.text, self.rect.x + 4, self.rect.y + 4 + (self.rect.height + 16 ) + ((i - 1) * (self.rect.height + 4)) + scrollDownY)
+                    love.graphics.setColor(0,0,0,1)
+                    love.graphics.rectangle("fill", self.rect.x, newY + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY, self.rect.width, self.rect.height)
+                    love.graphics.setColor(1,1,1,1)
+                    love.graphics.print(v.text, self.rect.x + 4, self.rect.y + 4 + (self.rect.height + 16 ) + ((i - 1) * (self.rect.height + 4)) + scrollDownY + 2)
                 end
             end
         end
@@ -155,7 +161,7 @@ end
 function SelectElement:mousepressed(mx, my, button)
     local newY = nil
     if button == 1 then
-        if mx > self.rect.x - 4 and mx < self.rect.x + self.rect.width and my > self.rect.y  and my < self.rect.y + self.rect.height and not self.show then
+        if mx > self.rect.x - 4 and mx < self.rect.x + self.rect.width and my > self.rect.y  and my < self.rect.y + self.rect.height then
             self.show = not self.show
         end
 
@@ -174,12 +180,13 @@ function SelectElement:mousepressed(mx, my, button)
         if self.show then
             for i, v in ipairs(self.options) do
                 local scrollBarY = (newY - self.scrollbarPositionY)
-                local ratio = ((((self.rect.height + 4) * #self.options + 4) - self.maxHeight) / 100)
+                local ratio = ((self.rect.height + 4) * #self.options + 4) / self.maxHeight
                 local scrollDownY = scrollBarY * ratio
                 if mx > self.rect.x and mx < self.rect.x + self.rect.width and
                 my > newY + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY
                 and my < newY + self.rect.height + 4 + ((i - 1) * (self.rect.height + 4)) + scrollDownY then
                     self:change(self.options[i].id)
+                    self.show = not self.show
                 end
             end
         end
