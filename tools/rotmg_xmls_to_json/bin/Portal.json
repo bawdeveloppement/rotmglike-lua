@@ -660,7 +660,7 @@
     "IntergamePortal": true,
     "DungeonName": "Puppet Master's Encore",
     "Texture": {
-      "File": "d3LofiObjEmbed",
+      "File": "d3LofiObj",
       "Index": "0x1a"
     }
   },

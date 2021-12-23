@@ -1,15 +1,33 @@
 var { xml2json } = require('xml-js');
 var { parseString } = require('xml2js');
 var fs = require('fs');
-const { format } = require('path');
+const { format, parse } = require('path');
 
 
 const fileToParse = "/dat1"
 
 function formatTexture ( obj ) { 
+    
+    let textureName = ""
+    if (Array.isArray(obj.File)) {
+        textureName = obj.File[0]
+    }
+    else {
+        textureName = obj.File
+    }
+    if (textureName.lastIndexOf("Embed") > -1) {
+        textureName = textureName.slice(0, textureName.lastIndexOf("Embed"))
+    }
+    let index = ""
+    if (Array.isArray(obj.Index)) {
+        index = obj.Index[0]
+    }
+    else {
+        index = obj.Index
+    }
     return {
-        File: obj.File[0],
-        Index: obj.Index[0]
+        File: textureName,
+        Index: index
     }
 }
 
@@ -81,6 +99,9 @@ function newData () {
                                     ] = parsed[index][objKey]["$"]
                                 }
                             }
+                            else if ( objKey === "Texture") {
+                                newObj[objKey] = formatTexture(parsed[index][objKey])
+                            }
                             else if ( objKey === "RandomTexture") {
                                 newObj[objKey] = {}
                                 Object.keys(parsed[index][objKey]).forEach(so => {
@@ -91,26 +112,17 @@ function newData () {
                                     }
                                 })
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "Top") {
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "AltTexture") {
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "Animation") {
@@ -123,10 +135,7 @@ function newData () {
                                     newObj[objKey]["Frame"][s] = parsed[index][objKey]["Frame"]["$"][s]
                                 })
                                 if (parsed[index][objKey]["Frame"]["Texture"] !== undefined) {
-                                    newObj[objKey]["Frame"]["Texture"] = {
-                                        File: parsed[index][objKey]["Frame"]["Texture"][0]["File"][0],
-                                        Index: parsed[index][objKey]["Frame"]["Texture"][0]["Index"][0]
-                                    }
+                                    newObj[objKey]["Frame"]["Texture"] = formatTexture(parsed[index][objKey]["Frame"]["Texture"][0])
                                 } else if (parsed[index][objKey]["Frame"]["RandomTexture"] !== undefined) {
                                     newObj[objKey]["Frame"]["RandomTexture"] = []
                                     if (Array.isArray(parsed[index][objKey]["Frame"]["RandomTexture"])) {
@@ -166,6 +175,9 @@ function newData () {
                                     newObj[objKey][parsed[index][objKey]["_"]] = parsed[index][objKey]["$"]
                                 }
                             }
+                            else if ( objKey === "Texture") {
+                                newObj[objKey] = formatTexture(parsed[index][objKey])
+                            }
                             else if ( objKey === "RandomTexture") {
                                 newObj[objKey] = {}
                                 Object.keys(parsed[index][objKey]).forEach(so => {
@@ -176,26 +188,17 @@ function newData () {
                                     }
                                 })
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "Top") {
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "AltTexture") {
                                 if (parsed[index][objKey]["Texture"] !== undefined) {
-                                    newObj[objKey] = {
-                                        File: parsed[index][objKey]["Texture"]["File"][0],
-                                        Index: parsed[index][objKey]["Texture"]["Index"][0]
-                                    }
+                                    newObj[objKey] = formatTexture(parsed[index][objKey]["Texture"])
                                 }
                             }
                             else if ( objKey === "Animation") {
