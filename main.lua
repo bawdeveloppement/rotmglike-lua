@@ -20,11 +20,25 @@ _G.font3 = love.graphics.newFont("src/assets/fonts/eight-bit-dragon-font/EightBi
 _G.font4 = love.graphics.newFont("src/assets/fonts/rubber-biscuit/RUBBBRO_.TTF")
 _G.xle = require(_G.engineDir .. "xle")
 
+_G.string.split = function (self, sep)
+    local sep, fields = sep or ":", {}
+    local pattern = string.format("([^%s]+)", sep)
+    self:gsub(pattern, function(c) fields[#fields+1] = c end)
+    return fields
+end
+
 
 local JSON = require("lib.json")
 
-local ok, err = love.filesystem.read("src/assets/prefabs/dat1.json")
-local dat = JSON:decode(ok).Object
+-- local ok, err = love.filesystem.read("src/assets/prefabs/dat1.json")
+-- local dat = JSON:decode(ok).Object
+
+local container, containerErr = love.filesystem.read("src/assets/prefabs/Container.json")
+local containerData = JSON:decode(container)
+
+local equipment, equipementErr = love.filesystem.read("src/assets/prefabs/Equipment.json")
+local equipmentData = JSON:decode(equipment)
+
 local loadedTextures = {}
 local validData = {}
 
@@ -33,34 +47,17 @@ _G.pack = function (...)
 end
 
 _G.dbObject = {
-    Containers = {},
-    Equipments = {}
+    Containers = containerData,
+    Equipments = equipmentData
 }
 
 
-for index, value in ipairs(dat) do
+for index, value in ipairs(require(_G.srcDir .. "assets.textures.textures")) do
     --#region LOADING TEXTURES / items
-    for key, v in pairs(value) do
-        -- Load textures
-        if key == "Texture" then
-            if _G.xle.ResourcesManager:getTexture(v.File) == nil and v.File ~= "invisible" and v.File ~= "lofiChar8x8" and v.File ~= "lofiChar216x8" and v.File ~= "lofiChar216x16"  and v.File ~= "lofiChar16x16"  and v.File ~= "lofiChar16x8"  and v.File ~= "lofiChar28x8"  and v.File ~= "d1lofiObjBig" then
-                validData[#validData + 1] = dat[index]
-                if string.find(v.File, "Embed") then
-                    _G.xle.ResourcesManager:addTexture(v.File, "src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "_.png")
-                else
-                    _G.xle.ResourcesManager:addTexture(v.File, "src/assets/textures/rotmg/EmbeddedAssets_" .. v.File .. "Embed_.png")
-                end
-            end
-        end
-        if key == "Class" and value[key] == "Container" then
-            table.insert(_G.dbObject.Containers, value)
-        end
-
-        if key == "Class" and value[key] == "Equipment" then
-            table.insert(_G.dbObject.Equipments, value)
-        end
-    end
-    --#endregion
+    local indexName = value:split(".")[1]
+    _G.xle.ResourcesManager:addTexture(indexName, "src/assets/textures/"..value)
 end
+
+_G.errorAudio = _G.xle.ResourcesManager:getOrAddSound("error.mp3")
 
 _G.xleInstance = _G.xle.Init:new(screens)

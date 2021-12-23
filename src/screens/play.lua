@@ -9,7 +9,7 @@ function GamePlayScreen:init()
     _G.xle.Screen.init(self)
 
     local Realm = require(_G.srcDir .. "worlds.realm.realm"):new()
-    
+
     self.nodes = {
         Realm,
     }
