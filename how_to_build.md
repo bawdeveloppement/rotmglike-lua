@@ -1,4 +1,5 @@
 # How to build
+The export.sh will create rotmg-0.0.2
 
 ## Build Export.sh
 Just change the version name in build.sh or specify in the command arg
