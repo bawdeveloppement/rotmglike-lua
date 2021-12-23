@@ -22,6 +22,8 @@ function Sprite:initialize(parent, data)
         height = 8
     }
 
+    self.orientation = data.orientation or 0
+
     if self.rect.width > self.tile.width then
         self.scale = self.rect.width / self.tile.width
     end
@@ -59,7 +61,7 @@ function Sprite:draw()
     love.graphics.setColor(1,1,1,1);
     local transform = self.entity:getComponent("TransformComponent");
     if self.image ~= nil then
-        love.graphics.draw(self.image, self:getSpriteIndex(self.spriteIndex), transform.position.x, transform.position.y, 0, self.scale);
+        love.graphics.draw(self.image, self:getSpriteIndex(self.spriteIndex), transform.position.x, transform.position.y, self.orientation, self.scale);
     else
         love.graphics.rectangle("fill",
             transform.position.x,

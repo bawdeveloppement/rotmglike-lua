@@ -8,6 +8,7 @@ function Container:initialize(length, x, y, parent)
         width = 220,
         height = 220
     }
+
     self.parent = parent or nil
     self.length = length
     self.slots = {}
@@ -114,10 +115,12 @@ function Container:drawItem(x, y, index)
                         if type(v) ~= "table" or k == "ActivateOnEquip" then
                             if k == "ActivateOnEquip" then
                                 self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
-                                if v["_"] == "IncrementStat" then
-                                    if CharacterComponent.statOffToHere[v.stat] ~= nil then
-                                        self.cacheText[itemId][i]:setf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[v.stat] ..  " : " ..  v.amount }, 200, "left")
-                                        i = i + 1
+                                for kact, vact in pairs(self.slots[index].item[k]) do
+                                    if kact == "IncrementStat" then
+                                        if CharacterComponent.statOffToHere[vact.stat] ~= nil then
+                                            i = i + 1
+                                            self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left")
+                                        end
                                     end
                                 end
                             else

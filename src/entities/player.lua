@@ -33,13 +33,13 @@ function Player:initialize( world, data )
     }
 
     self.quickSlots = {
-        { type = "quick_slot", key="f", item = nil },
-        { type = "quick_slot", key="a", item = nil },
-        { type = "quick_slot", key="e", item  = nil },
-        { type = "head", item = nil },
-        { type = "spell", item = nil },
-        { type = "chest", item = nil },
-        { type = "ring", item = nil },
+        { slotTypes = 0, key="f", type = "quick_slot", item = nil },
+        { slotTypes = 0, key="a", type = "quick_slot", item = nil },
+        { slotTypes = 0, key="e", type = "quick_slot", item  = nil },
+        { slotTypes = { 1, 8, 2, 3, 17, 23, 24 }, key="1", type = "weapon", item = nil },
+        { slotTypes = { 4, 5, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 25 }, key="2", type = "spell", item = nil },
+        { slotTypes = { 6, 7, 14}, key="3", type = "chest", item = nil },
+        { slotTypes = { 9 }, key="4", type = "ring", item = nil },
     }
 
     self.bag = Container:new(20, 0, 0, self)
@@ -50,6 +50,7 @@ function Player:initialize( world, data )
     end
 
     self.audio = {
+        fire = nil,
         level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
     }
 
@@ -96,7 +97,32 @@ function Player:update(...)
     if love.mouse.isDown(1) or self.autoFire == true then
         local velx = math.cos(math.atan2(position.y - my, position.x - mx))
         local vely = math.sin(math.atan2(position.y - my, position.x - mx));
-        self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
+        if self.quickSlots[4].item ~= nil then
+            if self.quickSlots[4].item.Projectile ~= nil then
+                self.world:addEntity(
+                    Projectile:new(
+                        self.world,
+                        {
+                            projectileId = self.quickSlots[4].item.Projectile.ObjectId,
+                            damage = {
+                                minDamage = self.quickSlots[4].item.Projectile.MinDamage,
+                                maxDamage = self.quickSlots[4].item.Projectile.MaxDamage
+                            },
+                            sound = self.quickSlots[4].item.Sound,
+                            ownerId = self.id,
+                            x = position.x,
+                            y = position.y,
+                            dx = velx,
+                            dy = vely
+                        }
+                    )
+                )
+            else
+                self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely, sound = self.quickSlots[4].item.Sound }))
+            end
+        else
+            self.world:addEntity( Projectile:new(self.world, { ownerId = self.id, x = position.x, y = position.y, dx = velx, dy = vely }))
+        end
         -- self.sound.fire.play(self.sound.fire)
     end
 
@@ -356,6 +382,28 @@ function Player:mousepressed(...)
     end
 end
 
+function Player:canPutInQuickSlot( slotId, item)
+    if self.quickSlots[slotId] ~= nil then
+        if type(self.quickSlots[slotId].slotTypes) == "table" then
+            local slotTypeEqual = false
+            for i, v in ipairs(self.quickSlots[slotId].slotTypes) do
+                if tostring(v) == item.SlotType then
+                    slotTypeEqual = true
+                end
+            end
+            return slotTypeEqual
+        else
+            if self.quickSlots[slotId].slotTypes == 0 then
+                return true
+            else
+                return false
+            end
+        end
+    else
+        return false
+    end
+end
+
 function Player:mousereleased(...)
     self.bag:mousereleased(...)
     local mx, my, button = ...
@@ -365,15 +413,25 @@ function Player:mousereleased(...)
             if mx > w / 2 - 150 + (i - 1) * 42 and mx < w / 2 - 150 + (i - 1) * 42 + 32 and my > h - 110 and my < h - 110 + 32 then
                 if self.itemInMouse.item ~= nil then
                     if self.quickSlots[i].item == nil then
-                        self.quickSlots[i].item = self.itemInMouse.item
-                        self.quickSlots[i].quantity = self.itemInMouse.quantity
-                        self.itemInMouse = {
-                            item = nil,
-                            quantity = 0,
-                            lastIndex = nil
-                        }
+                        if self:canPutInQuickSlot(i, self.itemInMouse.item) then
+                            self.quickSlots[i].item = self.itemInMouse.item
+                            self.quickSlots[i].quantity = self.itemInMouse.quantity
+                            self.itemInMouse = {
+                                item = nil,
+                                quantity = 0,
+                                lastIndex = nil
+                            }
+                        else
+                            if self.itemInMouse.lastIndex.origin == "bag" then
+                               self.bag:setItemInSlotId(self.itemInMouse.lastIndex.value, self.itemInMouse.item, self.itemInMouse.quantity)
+                               self.itemInMouse = {
+                                   item = nil,
+                                   quantity = 0,
+                                   lastIndex = nil
+                               }
+                            end
+                        end
                     elseif self.quickSlots[i].item ~= nil then
-                        --replace
                         local old = {
                             item = self.quickSlots[i].item,
                             quantity = self.quickSlots[i].quantity

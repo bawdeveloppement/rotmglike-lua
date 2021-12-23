@@ -3,6 +3,7 @@
         "love"
     ],
     "Lua.diagnostics.disable": [
-        "discard-returns"
+        "discard-returns",
+        "unused-local"
     ]
 }

@@ -8,7 +8,7 @@ local Projectile = require(_G.libDir .. "middleclass")("Projectile", Entity);
 function Projectile:initialize( world, data )
     Entity.initialize(self, world, "Projectile"..world:getEntitiesCount(), "Projectile", {
         { class = TransformComponent, data = { position = { x = data.x, y = data.y }}},
-        { class = Sprite, data = { rect = { width = 16, height = 16 }}},
+        { class = Sprite, data = { rect = { width = 16, height = 16 }, orientation = 90}},
         { class = CollisionComponent, data = { solid = true }}
     });
 
@@ -18,6 +18,33 @@ function Projectile:initialize( world, data )
         distance = 300,
         damage = love.math.random(10, 30)
     }
+
+    self.projectileId = data.projectileId or nil
+
+    self.damage = {
+        minDamage = data.minDamage or 10,
+        maxDamage = data.maxDamage or 30
+    }
+
+    self.audio = _G.xle.ResourcesManager:getOrAddSound(data.sound or "weapon/crossbow")
+
+    if self.audio ~= nil then
+        self.audio:play()
+    end
+
+    if self.projectileId ~= nil then
+        for i, v in ipairs(_G.dbObject.Projectiles) do
+            if v.id == self.projectileId then
+                if v.Texture ~= nil then
+                    self:getComponent("SpriteComponent"):setImage(_G.xle.ResourcesManager:getTexture(v["Texture"].File))
+                    self:getComponent("SpriteComponent"):setIndex(tonumber(v["Texture"].Index, 16))
+                elseif v.RandomTexture ~= nil then
+                    self:getComponent("SpriteComponent"):setImage(_G.xle.ResourcesManager:getTexture(v["RandomTexture"].File))
+                    self:getComponent("SpriteComponent"):setIndex(tonumber(v["RandomTexture"].Index, 16))
+                end
+            end
+        end
+    end
 
     self.start = {
         x = data.x,
@@ -47,7 +74,7 @@ function Projectile:update(...)
                 local owner = self.world:getEntityById(self.ownerId);
                 if owner ~= nil then
                     if v.name ~= owner.name then
-                        v:getComponent("CharacterComponent"):getDamage(10, self.ownerId)
+                        v:getComponent("CharacterComponent"):getDamage(self.damage.minDamage, self.ownerId)
                         self.markDestroy = true
                     end
                 end

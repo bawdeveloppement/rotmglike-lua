@@ -39,6 +39,9 @@ local containerData = JSON:decode(container)
 local equipment, equipementErr = love.filesystem.read("src/assets/prefabs/Equipment.json")
 local equipmentData = JSON:decode(equipment)
 
+local projectiles, projectilesErr = love.filesystem.read("src/assets/prefabs/Projectile.json")
+local projectilesData = JSON:decode(projectiles)
+
 local loadedTextures = {}
 local validData = {}
 
@@ -48,9 +51,9 @@ end
 
 _G.dbObject = {
     Containers = containerData,
-    Equipments = equipmentData
+    Equipments = equipmentData,
+    Projectiles = projectilesData
 }
-
 
 for index, value in ipairs(require(_G.srcDir .. "assets.textures.textures")) do
     --#region LOADING TEXTURES / items

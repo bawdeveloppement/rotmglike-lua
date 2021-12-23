@@ -25,10 +25,12 @@ function CollisionComponent:initialize( entity, data )
 end
 
 function CollisionComponent:draw()
-    local transform = self.entity:getComponent("TransformComponent");
-    love.graphics.setColor(0,1,0,1)
-    love.graphics.rectangle("line", transform.position.x, transform.position.y, self.rect.width, self.rect.height)
-    love.graphics.setColor(1,1,1,1)
+    if _G.isDebug then
+        local transform = self.entity:getComponent("TransformComponent");
+        love.graphics.setColor(0,1,0,1)
+        love.graphics.rectangle("line", transform.position.x, transform.position.y, self.rect.width, self.rect.height)
+        love.graphics.setColor(1,1,1,1)
+    end
 end
 
 return CollisionComponent
