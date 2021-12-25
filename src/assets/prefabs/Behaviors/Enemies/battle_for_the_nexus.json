@@ -1,0 +1,16 @@
+{
+    "id": "Battle For The Nexus",
+    "init": {
+        "Oryx the Mad God Deux": {
+            "Nope": {
+                "AddCond": "Invincible",
+                "EntityNotExistsTransition": [ "" ],
+                "OR_EntityNotExistsTransition": {
+                    "targetId": "NM Green Dragon God Deux",
+                    "dist": 999,
+                    "targetState": ""
+                }
+            }
+        }
+    }
+}
