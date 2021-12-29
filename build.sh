@@ -40,9 +40,8 @@ fi
     
 
 cat $love2dPath-win32/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe
-zip -9 -r ./bin/v$gameVersion/$gameName-$gameVersion-win32.zip ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe $love2dPath-win32/*
+zip -9 -jr ./bin/v$gameVersion/$gameName-$gameVersion-win32.zip ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe $love2dPath-win32/
 rm ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe
-
 
 if [ -f "./bin/v$gameVersion/$gameName-$gameVersion-win64.exe" ]; then
     rm ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe
@@ -52,5 +51,5 @@ if [ -f "./bin/v$gameVersion/$gameName-$gameVersion-win64.zip" ]; then
 fi
 
 cat $love2dPath-win64/love.exe ./bin/v$gameVersion/$gameName-$gameVersion.love > ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe
-zip -9 -r ./bin/v$gameVersion/$gameName-$gameVersion-win64.zip ./bin/v$gameVersion/$gameName-$gameVersion-win32.exe $love2dPath-win64/*
+zip -9 -jr ./bin/v$gameVersion/$gameName-$gameVersion-win64.zip ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe $love2dPath-win64/
 rm ./bin/v$gameVersion/$gameName-$gameVersion-win64.exe

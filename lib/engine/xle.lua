@@ -83,6 +83,9 @@ function XLE:load()
                     screen[v](screen, ...)
                 end
             end
+            if v == "draw" then
+                love.graphics.print('Memory actually used (in kB): ' .. collectgarbage('count'), 10,10)
+            end
         end
     end
 end

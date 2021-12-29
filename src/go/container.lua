@@ -103,30 +103,29 @@ function Container:drawItem(x, y, index)
             love.graphics.rectangle("line", mx, my - 200, 300, 200)
             local itemId = self.slots[index].item.id or (""..#self.slots..love.math.random(0, 100))
             if self.cacheText[itemId] ~= nil then
-                for i, v in ipairs(self.cacheText[itemId]) do
-                    love.graphics.draw(v, mx + 10, my - 200 + i * v:getHeight())
-                end
+                love.graphics.draw(self.cacheText[itemId], mx + 10, my - 200)
             else
-                self.cacheText[itemId] = {}
-                self.cacheText[itemId][1] = love.graphics.newText(_G.font1, itemId)
-                local i = 2
+                self.cacheText[itemId] = love.graphics.newText(_G.font1, itemId)
+                local lastIndex = 1
+                local newHeight = 0
                 for k, v in pairs(self.slots[index].item) do
-                    if k ~= "$" then
-                        if type(v) ~= "table" or k == "ActivateOnEquip" then
-                            if k == "ActivateOnEquip" then
-                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
-                                for kact, vact in pairs(self.slots[index].item[k]) do
-                                    if kact == "IncrementStat" then
-                                        if CharacterComponent.statOffToHere[vact.stat] ~= nil then
-                                            i = i + 1
-                                            self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left")
-                                        end
+                    if k ~= "$" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
+                        and k ~= "Item" and k ~= "Usable" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
+                        if k == "ActivateOnEquip" then
+                            newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                            lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n"}, 200, "left",0, newHeight)
+                            for kact, vact in pairs(self.slots[index].item[k]) do
+                                if kact == "IncrementStat" then
+                                    if CharacterComponent.statOffToHere[vact.stat] ~= nil then
+                                        newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                                        lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left", 0, newHeight)
                                     end
                                 end
-                            else
-                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, k .. " : " .. tostring(v))
-                                i = i + 1
                             end
+                        else
+                            newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                            print(k ..newHeight .. "index" .. lastIndex)
+                            lastIndex = self.cacheText[itemId]:addf(k .. " : " .. tostring(v), 200, "left", 0, self.cacheText[itemId]:getHeight(lastIndex))
                         end
                     end
                 end

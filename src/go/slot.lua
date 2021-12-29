@@ -87,7 +87,8 @@ function Slot:draw( ... )
                 self.cacheText[itemId][1] = love.graphics.newText(_G.font1, itemId)
                 local i = 2
                 for k, v in pairs(self.item) do
-                    if k ~= "$" then
+                    if k ~= "$" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
+                    and k ~= "Item" and k ~= "Usable" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
                         if type(v) ~= "table" or k == "ActivateOnEquip" then
                             if k == "ActivateOnEquip" then
                                 self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
