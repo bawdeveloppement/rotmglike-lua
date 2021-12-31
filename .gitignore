@@ -1,6 +1,4 @@
 /tools/rotmg_xmls_to_json/node_modules/
 /debug/love-win32/*
 /debug/love-win64/*
-/bin/v0.0.*/rotmg-0.0.*-win32.zip
-/bin/v0.0.*/rotmg-0.0.*-win64.zip
-/bin/v0.0.*/rotmg-0.0.*.AppImage
+/bin/*
