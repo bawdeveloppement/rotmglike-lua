@@ -1,5 +1,6 @@
 return {
     "main_menu",
     "option",
-    "play"
+    "play",
+    "death_screen"
 }

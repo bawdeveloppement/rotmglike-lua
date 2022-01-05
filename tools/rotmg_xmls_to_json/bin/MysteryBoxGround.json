@@ -5,7 +5,7 @@
     "Class": "MysteryBoxGround",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x0f"
+      "Index": 15
     },
     "DisplayId": "{objects.Mystery_Box}"
   },
@@ -18,7 +18,7 @@
     "Size": "0",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x494"
+      "Index": 1172
     },
     "StasisImmune": true,
     "DisplayId": "{objects.Mystery_Box_Ground_Object}"

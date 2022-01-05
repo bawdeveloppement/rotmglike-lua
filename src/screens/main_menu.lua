@@ -40,22 +40,4 @@ function GameMainMenuScreen:draw(...)
     end
 end
 
-function GameMainMenuScreen:mousereleased(...)
-    local mx, my, button = ...
-    for k in pairs(self.nodes) do
-        if self.nodes[k].mousereleased ~= nil then
-            self.nodes[k]:mousereleased(...)
-        end
-    end
-end
-
-function GameMainMenuScreen:mousepressed(...)
-    local mx, my, button = ...
-    for k in pairs(self.nodes) do
-        if self.nodes[k].mousepressed ~= nil then
-            self.nodes[k]:mousepressed(...)
-        end
-    end
-end
-
 return GameMainMenuScreen;

@@ -39,6 +39,7 @@ local callbacks = {
         "mousepressed",
         "mousereleased",
         "update",
+        "conf",
         "load",
         "draw",
         "keypressed",
@@ -49,7 +50,8 @@ local callbacks = {
 
 XLE.static.optionsCached = {}
 
-function XLE:initialize( screens )
+function XLE:initialize(gameName, screens )
+    self.game_name = gameName
     -- require and initialise
     for i, v in ipairs(screens) do
         require("src.screens."..v.name):new(v.name, v.buildIndex == 1 )
@@ -73,9 +75,13 @@ function XLE:load()
     }
     for _, v in ipairs(callbacks.supported) do
         love[v] = function (...)
+            if v == "conf" then
+                print(...)
+            end
             if v == "load" then
+                self:initGameDirectory()
                 for i, mode in ipairs(love.window.getFullscreenModes()) do
-                    table.insert(XLE.optionsCached, #XLE.optionsCached + 1, {id = mode.height.. "x".. mode.width, text =  mode.height.. "x".. mode.width, value = mode  })
+                    table.insert(XLE.optionsCached, #XLE.optionsCached + 1, {id = mode.width.. "x".. mode.height, text =  mode.width.. "x".. mode.height, value = mode  })
                 end
             end
             for _, screen in pairs(Screen.screensInstances) do
@@ -88,6 +94,23 @@ function XLE:load()
             end
         end
     end
+end
+
+function XLE:initGameDirectory ()
+    love.filesystem.setIdentity(self.game_name, true)
+
+    -- print("user directory"..love.filesystem.getSaveDirectory())
+
+    if love.filesystem.getInfo(love.filesystem.getSaveDirectory(), "directory") == nil then
+        local success = love.filesystem.createDirectory(love.filesystem.getSaveDirectory())
+        if success then
+            print("game directory created")
+        else
+            print("game directory already exist")
+        end
+    end
+
+    local game_path = love.filesystem.getSaveDirectory()
 end
 
 

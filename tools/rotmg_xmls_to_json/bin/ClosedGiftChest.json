@@ -5,7 +5,7 @@
     "Class": "ClosedGiftChest",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x7e"
+      "Index": 126
     },
     "Size": "120",
     "DisplayId": "{objects.Gift_Chest_Closed}"

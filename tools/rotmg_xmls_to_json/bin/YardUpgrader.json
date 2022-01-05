@@ -6,7 +6,7 @@
     "PetYardType": "2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224
     },
     "ShadowSize": "50",
     "Price": "150",
@@ -22,7 +22,7 @@
     "PetYardType": "3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224
     },
     "ShadowSize": "50",
     "Price": "400",
@@ -38,7 +38,7 @@
     "PetYardType": "4",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224
     },
     "ShadowSize": "50",
     "Price": "1200",
@@ -54,7 +54,7 @@
     "PetYardType": "5",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224
     },
     "ShadowSize": "50",
     "Price": "2000",
@@ -69,7 +69,7 @@
     "Class": "YardUpgrader",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224
     },
     "ShadowSize": "50",
     "Static": true,

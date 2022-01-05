@@ -5,7 +5,7 @@
     "Class": "CharacterChanger",
     "Texture": {
       "File": "lofiChar8x8",
-      "Index": "0x08"
+      "Index": 8
     },
     "Static": true
   },
@@ -15,7 +15,7 @@
     "Class": "CharacterChanger",
     "Texture": {
       "File": "lofiChar8x8",
-      "Index": "0x18"
+      "Index": 24
     },
     "Static": true
   }

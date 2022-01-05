@@ -7,8 +7,50 @@
     "expandedProjectPaths": [
         "."
     ],
-    "file.lastUsedOpenFilter": "Tous les Fichiers (*)",
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "/home/ofx/Documents/rotmglike-lua/src/assets/tileset/lofiEnvironment3.tsx": {
+            "scaleInEditor": 1
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/nexus/nexus.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 75.875,
+                "y": 62.5
+            }
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/nexus/nexus.tmx#lofiEnvironment": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/nexus/nexus.tmx#lofiEnvironment3": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 73.375,
+                "y": 86.75
+            }
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx#lofiEnvironment": {
+            "scaleInDock": 4
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx#lofiEnvironment2": {
+            "scaleInDock": 3
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx#lofiObj2": {
+            "scaleInDock": 4
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx#lofiObj3": {
+            "scaleInDock": 3
+        },
+        "/home/ofx/Documents/rotmglike-lua/src/worlds/vault/vault.tmx#lofiObjBig": {
+            "scaleInDock": 2
+        },
         "/home/opx/Documents/love/rpg/src/assets/tileset/lofiEnvironment2.tsx": {
             "scaleInDock": 1
         },
@@ -30,12 +72,13 @@
             "scale": 1.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 232,
-                "y": 179
+                "x": 270.3333333333333,
+                "y": 255.66666666666669
             }
         },
         "realm.tmx#lofiEnvironment": {
-            "scaleInDock": 3
+            "scaleInDock": 3,
+            "scaleInEditor": 1
         },
         "realm.tmx#lofiEnvironment2": {
             "dynamicWrapping": false,
@@ -57,22 +100,23 @@
             "scaleInDock": 4
         }
     },
-    "last.exportedFilePath": "/home/opx/Documents/love/rpg/src/worlds/nexus",
+    "last.exportedFilePath": "/home/ofx/Documents/rotmglike-lua/src/worlds/vault",
     "last.externalTilesetPath": "/home/opx/Documents/love/rpg/src/assets/tileset",
-    "last.imagePath": "/home/opx/Documents/love/rpg/src/assets/textures/rotmg",
-    "map.height": 50,
-    "map.lastUsedExportFilter": "Fichiers Lua (*.lua)",
+    "last.imagePath": "/home/ofx/Documents/rotmglike-lua/src/assets/textures",
+    "map.height": 16,
+    "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": null,
     "map.renderOrder": null,
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 50,
+    "map.width": 16,
     "openFiles": [
         "realm.tmx"
     ],
     "project": "rotmg.tiled-project",
     "recentFiles": [
+        "/home/ofx/Documents/rotmglike-lua/src/assets/tileset/lofiEnvironment3.tsx",
         "realm.tmx",
         "vault.tmx",
         "/home/opx/Documents/love/rpg/src/assets/worlds/EmbeddedAssets_lofiEnvironment2Embed_.tsx"

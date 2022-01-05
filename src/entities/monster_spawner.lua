@@ -17,9 +17,9 @@ function MonsterSpawner:initialize ( world, data )
 end
 
 function MonsterSpawner:update(...)
-    local dt = ...
     Entity.update(self, ...)
     
+    local dt = ...
     local monsters = self.world:getEntitiesByComponentName("MonsterAIComponent")
 
     if #monsters < 5 and self.monsterKilled < 3 then

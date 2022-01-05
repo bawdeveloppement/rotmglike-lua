@@ -5,7 +5,7 @@
     "Class": "Stalagmite",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xc0"
+      "Index": 192
     },
     "Static": true,
     "OccupySquare": true,

@@ -10,7 +10,7 @@
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x98"
+      "Index": 152
     },
     "OccupySquare": true,
     "Static": true
@@ -26,7 +26,7 @@
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x98"
+      "Index": 152
     },
     "OccupySquare": true,
     "Static": true
@@ -42,7 +42,7 @@
     "Description": "{objects.This_will_make_your_Guild_Hall_larger_and_more_attractive}",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x98"
+      "Index": 152
     },
     "OccupySquare": true,
     "Static": true

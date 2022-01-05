@@ -8,7 +8,7 @@
     "Size": "120",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x4F6"
+      "Index": 1270
     },
     "StasisImmune": true
   },
@@ -20,7 +20,7 @@
     "Size": "0",
     "Texture": {
       "File": "invisible",
-      "Index": "0"
+      "Index": 0
     },
     "StasisImmune": true,
     "DisplayId": "{objects.Quest_Rewards_Inv_Object}"

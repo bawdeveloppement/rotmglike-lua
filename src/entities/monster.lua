@@ -15,7 +15,7 @@ function Monster:initialize ( world, data)
         { class = Transform, data = data },
         { class = Sprite, data = { rect = { width = 16, height = 16 }, center = true }},
         { class = CharacterComponent },
-        { class = CollisionComponent },
+        { class = CollisionComponent, data = { rect = { width = 16, height = 16 }}},
         { class = MonsterAIComponent }
     });
 

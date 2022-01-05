@@ -4,11 +4,11 @@
   <export target="data.lua" format="lua"/>
  </editorsettings>
  <tileset firstgid="1" name="lofiEnvironment2" tilewidth="8" tileheight="8" tilecount="480" columns="16">
-  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironment2Embed_.png" width="128" height="240"/>
+  <image source="../../assets/textures/lofiEnvironment2.png" width="128" height="240"/>
  </tileset>
  <tileset firstgid="481" source="../../assets/tileset/lofiEnvironment3.tsx"/>
  <tileset firstgid="897" name="lofiEnvironment" tilewidth="8" tileheight="8" tilecount="256" columns="16">
-  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironmentEmbed_.png" width="128" height="128"/>
+  <image source="../../assets/textures/lofiEnvironment.png" width="128" height="128"/>
  </tileset>
  <layer id="1" name="under_ground" width="50" height="50">
   <data encoding="csv">

@@ -5,7 +5,7 @@
     "Class": "ConnectedWall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x96"
+      "Index": 150
     },
     "BaseIndent": "0.25",
     "TopIndent": "0.25",
@@ -22,7 +22,7 @@
     "Class": "ConnectedWall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0x00"
+      "Index": 0
     },
     "DotTexture": {
       "File": "lofiEnvironment3",
@@ -62,7 +62,7 @@
     "Class": "ConnectedWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2c2"
+      "Index": 706
     },
     "Static": true,
     "FullOccupy": true,
@@ -77,7 +77,7 @@
     "Class": "ConnectedWall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x5a"
+      "Index": 90
     },
     "BaseIndent": "0",
     "TopIndent": "0",
@@ -94,7 +94,7 @@
     "Class": "ConnectedWall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x96"
+      "Index": 150
     },
     "BaseIndent": "0.25",
     "TopIndent": "0.25",
@@ -111,7 +111,7 @@
     "Class": "ConnectedWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3dc"
+      "Index": 988
     },
     "BaseIndent": "0.4",
     "TopIndent": "0.4",

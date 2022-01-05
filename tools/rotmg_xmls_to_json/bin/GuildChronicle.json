@@ -5,7 +5,7 @@
     "Class": "GuildChronicle",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x5c"
+      "Index": 92
     },
     "OccupySquare": true,
     "ShadowSize": "0",

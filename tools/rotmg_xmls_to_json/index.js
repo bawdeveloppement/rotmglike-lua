@@ -1,10 +1,12 @@
-var { xml2json } = require('xml-js');
-var { parseString } = require('xml2js');
+// var { xml2json } = require('xml-js');
+// var { parseString } = require('xml2js');
 var fs = require('fs');
 const { format, parse } = require('path');
 
 
 const fileToParse = "/dat1"
+
+const hexToDec = ( entry ) => entry.includes("0x") ? parseInt(entry, 16) : parseInt(entry)
 
 function formatTexture ( obj ) { 
     
@@ -27,7 +29,7 @@ function formatTexture ( obj ) {
     }
     return {
         File: textureName,
-        Index: index
+        Index: hexToDec(index)
     }
 }
 

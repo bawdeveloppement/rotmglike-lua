@@ -7,7 +7,7 @@
     "Rotation": "180",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xcf"
+      "Index": 207
     },
     "Static": true,
     "OccupySquare": true,
@@ -22,7 +22,7 @@
     "Class": "PetUpgrader",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xfb"
+      "Index": 251
     },
     "Size": "0",
     "ShadowSize": "0",

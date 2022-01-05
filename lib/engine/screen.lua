@@ -8,7 +8,6 @@ function Screen:initialize( name, active, entities )
     self.name = name
     
     table.insert(Screen.screensInstances, #Screen.screensInstances + 1, self)
-
 end
 
 function Screen:init()

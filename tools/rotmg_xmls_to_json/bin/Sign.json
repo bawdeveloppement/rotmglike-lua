@@ -5,7 +5,7 @@
     "Class": "Sign",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0xdd"
+      "Index": 221
     },
     "Size": "20",
     "ShadowSize": "0",
@@ -17,7 +17,7 @@
     "Class": "Sign",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0xdd"
+      "Index": 221
     },
     "Size": "20",
     "ShadowSize": "0",

@@ -6,7 +6,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe9"
+      "Index": 233
     },
     "ShadowSize": "0",
     "DisplayId": "{objects.Arena_Portal}"

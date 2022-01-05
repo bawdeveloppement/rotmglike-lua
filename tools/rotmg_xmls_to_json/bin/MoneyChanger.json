@@ -5,7 +5,7 @@
     "Class": "MoneyChanger",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0x3c"
+      "Index": 60
     },
     "Static": true,
     "Size": "60"

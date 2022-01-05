@@ -5,7 +5,7 @@
     "Class": "Merchant",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x77"
+      "Index": 119
     },
     "DisplayId": "{objects.Merchant}"
   }

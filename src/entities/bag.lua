@@ -20,9 +20,9 @@ function BagEntity:initialize( world, data )
         "Bag",
         data.name or "Loot Bag 2",
         {
-            { class = TransformComponent, data = { position = data.position } },
+            { class = TransformComponent, data = { position = data.position }},
             { class = SpriteComponent, data = { rect = { width = 16, height = 16 }, scale = 2, center = true }},
-            { class = CollisionComponent },
+            { class = CollisionComponent, data = { rect = { width = 16, height = 16 }}}
         }
     )
 
@@ -39,7 +39,7 @@ end
 
 
 function BagEntity:update(...)
-    Entity.draw(self)
+    Entity.draw(self, ...)
 
     self.lifeTimer = self.lifeTimer - 1
     if self.lifeTimer <= 0 then

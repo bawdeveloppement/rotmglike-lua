@@ -1,17 +1,23 @@
 local World = require(_G.libDir .. "middleclass")("World");
 
-function World:initialize( world_name, world_data, world_worldScale )
+World.static.worlds = {}
+
+function World:initialize( screen, active,  world_name, world_data, world_worldScale )
+    self.screen = screen
     self.worldName = world_name
     self.worldData = world_data
     self.worldScale = world_worldScale or 4
 
+    self.isActive = active
+    self.quads = {}
+    self.entities = {}
+
+    self:load()
+end
+
+function World:load()
     for i, v in pairs(self.worldData.tilesets) do
         self.worldData.tilesets[i].image = _G.xle.ResourcesManager:getTexture(v.name)
-    end
-
-    self.quads = {}
-
-    for i, v in ipairs(self.worldData.tilesets) do
         local w, h = self.worldData.tilesets[i].image:getDimensions()
         for y = 0, (h / self.worldData.tileheight) - 1 do
             for x = 0, (w / self.worldData.tilewidth) - 1 do
@@ -27,13 +33,10 @@ function World:initialize( world_name, world_data, world_worldScale )
         end
     end
 
-    self.entities = {}
-
     for li, layer in ipairs(self.worldData.layers) do
         if layer.type == "objectgroup" then
             for oi, obj in ipairs(layer.objects) do
                 for i, k in pairs(require(_G.srcDir .. "entities.entities")) do
-
                     if obj.name == k then
                         if obj.name == "monster_spawner" then
                             local ent = require(_G.srcDir .. "entities.".. k):new(
@@ -51,12 +54,12 @@ function World:initialize( world_name, world_data, world_worldScale )
                                 {
                                     name = obj.name,
                                     scale = self.worldScale,
-                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
+                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale},
+                                    properties = obj.properties
                                 }
                             );
                             table.insert(self.entities, ent)
                         end
-
                     end
                 end
             end

@@ -5,7 +5,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x60"
+      "Index": 96
     },
     "ShadowSize": "0",
     "Static": true,
@@ -21,7 +21,7 @@
     "Class": "CaveWall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x1d4"
+      "Index": 468
     },
     "ShadowSize": "0",
     "Static": true,
@@ -36,7 +36,7 @@
     "Class": "CaveWall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x2d3"
+      "Index": 723
     },
     "ShadowSize": "0",
     "Static": true,
@@ -51,7 +51,7 @@
     "Class": "CaveWall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x2d3"
+      "Index": 723
     },
     "ShadowSize": "0",
     "Static": true,
@@ -66,7 +66,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2d4"
+      "Index": 724
     },
     "ShadowSize": "0",
     "Static": true,
@@ -81,7 +81,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2d6"
+      "Index": 726
     },
     "ShadowSize": "0",
     "Static": true,
@@ -96,7 +96,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2d5"
+      "Index": 725
     },
     "ShadowSize": "0",
     "Static": true,
@@ -111,7 +111,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2d8"
+      "Index": 728
     },
     "ShadowSize": "0",
     "Static": true,
@@ -126,7 +126,7 @@
     "Class": "CaveWall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x111"
+      "Index": 273
     },
     "ShadowSize": "0",
     "Static": true,

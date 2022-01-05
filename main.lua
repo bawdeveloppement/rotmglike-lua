@@ -27,6 +27,7 @@ _G.string.split = function (self, sep)
     return fields
 end
 
+_G.isDebug = true
 
 local JSON = require("lib.json")
 
@@ -63,4 +64,4 @@ end
 
 _G.errorAudio = _G.xle.ResourcesManager:getOrAddSound("error.mp3")
 
-_G.xleInstance = _G.xle.Init:new(screens)
+_G.xleInstance = _G.xle.Init:new("astral_kingdom", screens)

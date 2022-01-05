@@ -5,7 +5,7 @@
     "Class": "ReskinVendor",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0x9d"
+      "Index": 157
     },
     "ShadowSize": "55",
     "Z": "-0.1",
@@ -18,7 +18,7 @@
     "Class": "ReskinVendor",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0x9d"
+      "Index": 157
     },
     "Static": true
   }

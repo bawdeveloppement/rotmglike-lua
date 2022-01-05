@@ -6,7 +6,7 @@
     "Model": "Sign",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x5e"
+      "Index": 94
     },
     "Static": true,
     "OccupySquare": true,

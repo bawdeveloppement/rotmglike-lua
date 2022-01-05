@@ -21,7 +21,7 @@ function Player:initialize( world, data )
     Entity.initialize(self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
         { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/playersSkins16.png"}},
-        { class = CollisionComponent },
+        { class = CollisionComponent, data = { rect={ width = 32 , height= 32 }}},
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
     });

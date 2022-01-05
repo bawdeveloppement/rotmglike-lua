@@ -2,12 +2,22 @@
 love2dPath="./debug/love"
 gameName="rotmg"
 gameVersion=0.0.4
+shouldOverwrite=false
 
 if [ $1 != "" ]; then
     gameVersion=$1
 fi
 
+mkdir ./bin
 mkdir ./bin/v$gameVersion
+
+if [ -d "./bin" ]; then
+    echo "yeah"
+fi
+
+if [ $shouldOverwrite == true ]; then
+    echo "dazdazd"
+fi
 
 if [ -f "./bin/v$gameVersion/$gameName-$gameVersion.love" ]; then
     rm ./bin/v$gameVersion/$gameName-$gameVersion.love ./bin/v$gameVersion/$gameName-$gameVersion.AppImage

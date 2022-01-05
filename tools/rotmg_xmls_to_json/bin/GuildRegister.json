@@ -5,7 +5,7 @@
     "Class": "GuildRegister",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x55"
+      "Index": 85
     },
     "OccupySquare": true,
     "ShadowSize": "0",

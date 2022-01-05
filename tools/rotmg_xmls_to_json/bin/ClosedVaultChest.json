@@ -5,7 +5,7 @@
     "Class": "ClosedVaultChest",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x0f"
+      "Index": 15
     },
     "DisplayId": "{objects.Closed_Vault_Chest}"
   }

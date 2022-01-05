@@ -5,11 +5,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x44f"
+      "Index": 1103
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x453"
+      "Index": 1107
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -25,11 +25,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x161"
+      "Index": 353
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x161"
+      "Index": 353
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -45,11 +45,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x44f"
+      "Index": 1103
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x453"
+      "Index": 1107
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -65,11 +65,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x44f"
+      "Index": 1103
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x574"
+      "Index": 1396
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -86,11 +86,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x44f"
+      "Index": 1103
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x453"
+      "Index": 1107
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -106,11 +106,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x454"
+      "Index": 1108
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x457"
+      "Index": 1111
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -127,11 +127,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x23"
+      "Index": 35
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x26"
+      "Index": 38
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -152,15 +152,15 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x5f"
+      "Index": 95
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x62"
+      "Index": 98
     },
     "AltTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0x63"
+      "Index": 99
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -177,11 +177,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x65"
+      "Index": 101
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x62"
+      "Index": 98
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -197,11 +197,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x66"
+      "Index": 102
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x62"
+      "Index": 98
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -219,11 +219,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x67"
+      "Index": 103
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x62"
+      "Index": 98
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -240,11 +240,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x68"
+      "Index": 104
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x62"
+      "Index": 98
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -260,11 +260,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3ec"
+      "Index": 1004
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x3ed"
+      "Index": 1005
     },
     "Animation": {
       "prob": "0.4",
@@ -294,11 +294,11 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3e0"
+      "Index": 992
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x3e1"
+      "Index": 993
     },
     "Animation": {
       "prob": "0.4",
@@ -324,11 +324,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x00"
+      "Index": 0
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -344,11 +344,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x02"
+      "Index": 2
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "Animation": {
       "prob": "0.4",
@@ -375,11 +375,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x03"
+      "Index": 3
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x06"
+      "Index": 6
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -398,11 +398,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0xb0"
+      "Index": 176
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0xc8"
+      "Index": 200
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -418,11 +418,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0xb2"
+      "Index": 178
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0xc8"
+      "Index": 200
     },
     "Animation": {
       "prob": "0.4",
@@ -449,11 +449,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x00"
+      "Index": 0
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x01"
+      "Index": 1
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -469,11 +469,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x30"
+      "Index": 48
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x34"
+      "Index": 52
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -489,11 +489,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x32"
+      "Index": 50
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x34"
+      "Index": 52
     },
     "Animation": {
       "prob": "0.4",
@@ -520,11 +520,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x33"
+      "Index": 51
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x36"
+      "Index": 54
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -543,11 +543,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x20"
+      "Index": 32
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x24"
+      "Index": 36
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -563,11 +563,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x22"
+      "Index": 34
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x24"
+      "Index": 36
     },
     "Animation": {
       "prob": "0.4",
@@ -593,11 +593,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x23"
+      "Index": 35
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x26"
+      "Index": 38
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -616,11 +616,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x23"
+      "Index": 35
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x26"
+      "Index": 38
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -639,11 +639,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x10"
+      "Index": 16
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -659,11 +659,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x12"
+      "Index": 18
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "Animation": {
       "prob": "0.4",
@@ -690,11 +690,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x13"
+      "Index": 19
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x16"
+      "Index": 22
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -713,11 +713,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xa0"
+      "Index": 160
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xa3"
+      "Index": 163
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -733,11 +733,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xa2"
+      "Index": 162
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xa3"
+      "Index": 163
     },
     "Animation": {
       "prob": "0.4",
@@ -764,11 +764,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xe0"
+      "Index": 224
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -784,11 +784,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x98"
+      "Index": 152
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xca"
+      "Index": 202
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -804,11 +804,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xa8"
+      "Index": 168
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xca"
+      "Index": 202
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -824,11 +824,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xa9"
+      "Index": 169
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcb"
+      "Index": 203
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -844,11 +844,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xb8"
+      "Index": 184
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcb"
+      "Index": 203
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -864,11 +864,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xb9"
+      "Index": 185
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcc"
+      "Index": 204
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -884,11 +884,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xc8"
+      "Index": 200
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcc"
+      "Index": 204
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -904,11 +904,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xc9"
+      "Index": 201
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcd"
+      "Index": 205
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -924,11 +924,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x99"
+      "Index": 153
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcd"
+      "Index": 205
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -944,11 +944,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x79"
+      "Index": 121
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcd"
+      "Index": 205
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -964,11 +964,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x89"
+      "Index": 137
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xcd"
+      "Index": 205
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -984,11 +984,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x57"
+      "Index": 87
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x58"
+      "Index": 88
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1004,11 +1004,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x59"
+      "Index": 89
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x58"
+      "Index": 88
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1024,11 +1024,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x5b"
+      "Index": 91
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x58"
+      "Index": 88
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1044,11 +1044,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xa9"
+      "Index": 169
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xaa"
+      "Index": 170
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1064,11 +1064,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xab"
+      "Index": 171
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1084,11 +1084,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xb3"
+      "Index": 179
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1104,7 +1104,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xb4"
+      "Index": 180
     },
     "Animation": {
       "prob": "0.5",
@@ -1119,7 +1119,7 @@
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1135,11 +1135,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xbb"
+      "Index": 187
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1155,11 +1155,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xbf"
+      "Index": 191
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1175,7 +1175,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xcc"
+      "Index": 204
     },
     "Animation": {
       "prob": "0.5",
@@ -1190,7 +1190,7 @@
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1206,11 +1206,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xd5"
+      "Index": 213
     },
     "Top": {
       "File": "lofiObj2",
-      "Index": "0xca"
+      "Index": 202
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1226,7 +1226,7 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xdf"
+      "Index": 223
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1242,11 +1242,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xeb"
+      "Index": 235
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xec"
+      "Index": 236
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1262,11 +1262,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xeb"
+      "Index": 235
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xed"
+      "Index": 237
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1282,11 +1282,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xee"
+      "Index": 238
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1302,11 +1302,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xef"
+      "Index": 239
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1322,11 +1322,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": "0xf6"
+      "Index": 246
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1342,11 +1342,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0xb0"
+      "Index": 176
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x8f"
+      "Index": 143
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1362,7 +1362,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x90"
+      "Index": 144
     },
     "Animation": {
       "prob": "0.5",
@@ -1377,7 +1377,7 @@
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x8f"
+      "Index": 143
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1393,11 +1393,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x99"
+      "Index": 153
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1413,11 +1413,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0x9b"
+      "Index": 155
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9d"
+      "Index": 157
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1433,11 +1433,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0x9e"
+      "Index": 158
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1453,11 +1453,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xa6"
+      "Index": 166
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "Animation": {
       "sync": "true",
@@ -1485,11 +1485,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xb0"
+      "Index": 176
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1508,11 +1508,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xb1"
+      "Index": 177
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1531,11 +1531,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0xb2"
+      "Index": 178
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1551,11 +1551,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0xb4"
+      "Index": 180
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0xb6"
+      "Index": 182
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1574,11 +1574,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x69"
+      "Index": 105
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x14"
+      "Index": 20
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1594,11 +1594,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x6b"
+      "Index": 107
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1614,11 +1614,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x6f"
+      "Index": 111
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x76"
+      "Index": 118
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1634,11 +1634,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x77"
+      "Index": 119
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1654,11 +1654,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x78"
+      "Index": 120
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1674,11 +1674,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x79"
+      "Index": 121
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1694,11 +1694,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x7d"
+      "Index": 125
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x7e"
+      "Index": 126
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1714,11 +1714,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x7f"
+      "Index": 127
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x7e"
+      "Index": 126
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1734,11 +1734,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x98"
+      "Index": 152
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1754,11 +1754,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x9b"
+      "Index": 155
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x6e"
+      "Index": 110
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1774,11 +1774,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x9c"
+      "Index": 156
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x9a"
+      "Index": 154
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1794,11 +1794,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xa8"
+      "Index": 168
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xa9"
+      "Index": 169
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1817,11 +1817,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xe4"
+      "Index": 228
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xe5"
+      "Index": 229
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1836,11 +1836,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xe6"
+      "Index": 230
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xe5"
+      "Index": 229
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1855,11 +1855,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xe7"
+      "Index": 231
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xe8"
+      "Index": 232
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1874,11 +1874,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xe9"
+      "Index": 233
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xe8"
+      "Index": 232
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1893,11 +1893,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xea"
+      "Index": 234
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xeb"
+      "Index": 235
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1912,11 +1912,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xec"
+      "Index": 236
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xeb"
+      "Index": 235
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1931,11 +1931,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xed"
+      "Index": 237
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xee"
+      "Index": 238
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1950,11 +1950,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0xf7"
+      "Index": 247
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0xee"
+      "Index": 238
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -1970,11 +1970,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x16c"
+      "Index": 364
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16d"
+      "Index": 365
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -1990,11 +1990,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x16e"
+      "Index": 366
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16f"
+      "Index": 367
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2010,11 +2010,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x170"
+      "Index": 368
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16d"
+      "Index": 365
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2030,11 +2030,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x19e"
+      "Index": 414
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x1a0"
+      "Index": 416
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2049,7 +2049,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x16c"
+      "Index": 364
     },
     "Animation": {
       "sync": "true",
@@ -2065,7 +2065,7 @@
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16d"
+      "Index": 365
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2081,7 +2081,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x16c"
+      "Index": 364
     },
     "Animation": {
       "sync": "true",
@@ -2097,7 +2097,7 @@
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16d"
+      "Index": 365
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2113,11 +2113,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1f5"
+      "Index": 501
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x16d"
+      "Index": 365
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2133,11 +2133,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1f6"
+      "Index": 502
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x1f7"
+      "Index": 503
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2156,11 +2156,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x26e"
+      "Index": 622
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xaa"
+      "Index": 170
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2176,11 +2176,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x26f"
+      "Index": 623
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xaa"
+      "Index": 170
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2196,11 +2196,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x270"
+      "Index": 624
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0xaa"
+      "Index": 170
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2216,11 +2216,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xed"
+      "Index": 237
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0xec"
+      "Index": 236
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2236,11 +2236,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x377"
+      "Index": 887
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2256,11 +2256,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x378"
+      "Index": 888
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2276,11 +2276,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x379"
+      "Index": 889
     },
     "Top": {
       "File": "lofiEnvironment",
-      "Index": "0x04"
+      "Index": 4
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2296,11 +2296,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x386"
+      "Index": 902
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x389"
+      "Index": 905
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2316,11 +2316,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x38a"
+      "Index": 906
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x38d"
+      "Index": 909
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2336,11 +2336,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x38e"
+      "Index": 910
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x38f"
+      "Index": 911
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2356,11 +2356,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x390"
+      "Index": 912
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x393"
+      "Index": 915
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2376,11 +2376,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": "0x394"
+      "Index": 916
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x397"
+      "Index": 919
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2396,11 +2396,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3a4"
+      "Index": 932
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x3a5"
+      "Index": 933
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2419,7 +2419,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x11d"
+      "Index": 285
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2435,7 +2435,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xdc"
+      "Index": 220
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -2451,7 +2451,7 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x11f"
+      "Index": 287
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -2467,11 +2467,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xdc"
+      "Index": 220
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0xdc"
+      "Index": 220
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -2487,11 +2487,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x111"
+      "Index": 273
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x112"
+      "Index": 274
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2509,11 +2509,11 @@
     "Class": "Wall",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": "0x151"
+      "Index": 337
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x157"
+      "Index": 343
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2529,11 +2529,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x154"
+      "Index": 340
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x157"
+      "Index": 343
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2549,11 +2549,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x155"
+      "Index": 341
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x157"
+      "Index": 343
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2569,11 +2569,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x156"
+      "Index": 342
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x157"
+      "Index": 343
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2589,11 +2589,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x151"
+      "Index": 337
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x158"
+      "Index": 344
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2609,11 +2609,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3fc"
+      "Index": 1020
     },
     "Top": {
       "File": "lofiObj3",
-      "Index": "0x3fd"
+      "Index": 1021
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2632,11 +2632,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x00"
+      "Index": 0
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x01"
+      "Index": 1
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2655,11 +2655,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x199"
+      "Index": 409
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x19b"
+      "Index": 411
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2675,11 +2675,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0x19a"
+      "Index": 410
     },
     "Top": {
       "File": "lofiEnvironment3",
-      "Index": "0x19c"
+      "Index": 412
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2695,11 +2695,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x7b"
+      "Index": 123
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x7c"
+      "Index": 124
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",
@@ -2716,11 +2716,11 @@
     "Class": "Wall",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x7d"
+      "Index": 125
     },
     "Top": {
       "File": "lofiEnvironment2",
-      "Index": "0x7c"
+      "Index": 124
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/wooden_walls_death",

@@ -6,7 +6,7 @@
     "Container": true,
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x7f"
+      "Index": 127
     },
     "Size": "120",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",

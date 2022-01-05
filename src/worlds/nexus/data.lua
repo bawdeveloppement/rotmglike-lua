@@ -9,7 +9,7 @@ return {
   tilewidth = 8,
   tileheight = 8,
   nextlayerid = 3,
-  nextobjectid = 3,
+  nextobjectid = 4,
   properties = {},
   tilesets = {
     {
@@ -20,7 +20,7 @@ return {
       spacing = 0,
       margin = 0,
       columns = 16,
-      image = "../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironment3Embed_.png",
+      image = "../../assets/textures/lofiEnvironment3.png",
       imagewidth = 128,
       imageheight = 208,
       objectalignment = "unspecified",
@@ -62,7 +62,7 @@ return {
       spacing = 0,
       margin = 0,
       columns = 16,
-      image = "../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironmentEmbed_.png",
+      image = "../../assets/textures/lofiEnvironment.png",
       imagewidth = 128,
       imageheight = 128,
       objectalignment = "unspecified",
@@ -179,6 +179,19 @@ return {
           properties = {
             ["portalId"] = "realm"
           }
+        },
+        {
+          id = 3,
+          name = "player",
+          type = "",
+          shape = "rectangle",
+          x = 24.75,
+          y = 16.75,
+          width = 6,
+          height = 7.5,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     }

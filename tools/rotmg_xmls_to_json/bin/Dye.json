@@ -7,7 +7,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -29,7 +29,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -51,7 +51,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -73,7 +73,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -95,7 +95,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -117,7 +117,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -139,7 +139,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -161,7 +161,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -183,7 +183,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -205,7 +205,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -227,7 +227,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -249,7 +249,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -271,7 +271,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -293,7 +293,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -315,7 +315,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -337,7 +337,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -359,7 +359,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -381,7 +381,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -403,7 +403,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -425,7 +425,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -447,7 +447,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -469,7 +469,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -491,7 +491,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -513,7 +513,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -535,7 +535,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -557,7 +557,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -579,7 +579,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -601,7 +601,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -623,7 +623,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -645,7 +645,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -667,7 +667,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -689,7 +689,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -711,7 +711,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -733,7 +733,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -755,7 +755,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -777,7 +777,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -799,7 +799,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -821,7 +821,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -843,7 +843,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -865,7 +865,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -887,7 +887,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -909,7 +909,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -931,7 +931,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -953,7 +953,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -975,7 +975,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -997,7 +997,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1019,7 +1019,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1041,7 +1041,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1063,7 +1063,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1085,7 +1085,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1107,7 +1107,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1129,7 +1129,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1151,7 +1151,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1173,7 +1173,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1195,7 +1195,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1217,7 +1217,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1239,7 +1239,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1261,7 +1261,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1283,7 +1283,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1305,7 +1305,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1327,7 +1327,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1349,7 +1349,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1371,7 +1371,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1393,7 +1393,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1415,7 +1415,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1437,7 +1437,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1459,7 +1459,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1481,7 +1481,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1503,7 +1503,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1525,7 +1525,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1547,7 +1547,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1569,7 +1569,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1591,7 +1591,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1613,7 +1613,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1635,7 +1635,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1657,7 +1657,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1679,7 +1679,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1701,7 +1701,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1723,7 +1723,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1745,7 +1745,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1767,7 +1767,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1789,7 +1789,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1811,7 +1811,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1833,7 +1833,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1855,7 +1855,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1877,7 +1877,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1899,7 +1899,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1921,7 +1921,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1943,7 +1943,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1965,7 +1965,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -1987,7 +1987,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2009,7 +2009,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2031,7 +2031,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2053,7 +2053,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2075,7 +2075,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2097,7 +2097,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2119,7 +2119,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2141,7 +2141,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2163,7 +2163,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2185,7 +2185,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2207,7 +2207,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2229,7 +2229,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2251,7 +2251,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2273,7 +2273,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2295,7 +2295,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2317,7 +2317,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2339,7 +2339,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2361,7 +2361,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2383,7 +2383,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2405,7 +2405,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2427,7 +2427,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2449,7 +2449,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2471,7 +2471,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2493,7 +2493,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2515,7 +2515,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2537,7 +2537,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2559,7 +2559,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2581,7 +2581,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2603,7 +2603,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2625,7 +2625,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2647,7 +2647,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2669,7 +2669,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2691,7 +2691,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2713,7 +2713,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2735,7 +2735,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2757,7 +2757,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2779,7 +2779,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2801,7 +2801,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2823,7 +2823,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2845,7 +2845,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2867,7 +2867,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2889,7 +2889,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2911,7 +2911,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2933,7 +2933,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2955,7 +2955,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2977,7 +2977,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -2999,7 +2999,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3021,7 +3021,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3043,7 +3043,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3065,7 +3065,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3087,7 +3087,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3109,7 +3109,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3131,7 +3131,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3153,7 +3153,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3175,7 +3175,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3197,7 +3197,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3219,7 +3219,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3241,7 +3241,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3263,7 +3263,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3285,7 +3285,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3307,7 +3307,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3329,7 +3329,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3351,7 +3351,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3373,7 +3373,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3395,7 +3395,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3417,7 +3417,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3439,7 +3439,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3461,7 +3461,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3483,7 +3483,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3505,7 +3505,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3527,7 +3527,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3549,7 +3549,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3571,7 +3571,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3593,7 +3593,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3615,7 +3615,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3637,7 +3637,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3659,7 +3659,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3681,7 +3681,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3703,7 +3703,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3725,7 +3725,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3747,7 +3747,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3769,7 +3769,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3791,7 +3791,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3813,7 +3813,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3835,7 +3835,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3857,7 +3857,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3879,7 +3879,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3901,7 +3901,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3923,7 +3923,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3945,7 +3945,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3967,7 +3967,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -3989,7 +3989,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4011,7 +4011,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4033,7 +4033,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4055,7 +4055,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4077,7 +4077,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4099,7 +4099,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4121,7 +4121,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4143,7 +4143,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4165,7 +4165,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4187,7 +4187,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4209,7 +4209,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4231,7 +4231,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4253,7 +4253,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4275,7 +4275,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4297,7 +4297,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4319,7 +4319,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4341,7 +4341,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4363,7 +4363,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4385,7 +4385,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4407,7 +4407,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4429,7 +4429,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4451,7 +4451,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4473,7 +4473,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4495,7 +4495,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4517,7 +4517,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4539,7 +4539,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4561,7 +4561,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4583,7 +4583,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4605,7 +4605,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4627,7 +4627,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4649,7 +4649,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4671,7 +4671,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4693,7 +4693,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4715,7 +4715,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4737,7 +4737,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4759,7 +4759,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4781,7 +4781,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4803,7 +4803,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4825,7 +4825,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4847,7 +4847,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4869,7 +4869,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4891,7 +4891,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4913,7 +4913,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4935,7 +4935,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4957,7 +4957,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -4979,7 +4979,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5001,7 +5001,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5023,7 +5023,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5045,7 +5045,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5067,7 +5067,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5089,7 +5089,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5111,7 +5111,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5133,7 +5133,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5155,7 +5155,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5177,7 +5177,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5199,7 +5199,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5221,7 +5221,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5243,7 +5243,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5265,7 +5265,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5287,7 +5287,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5309,7 +5309,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5331,7 +5331,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5353,7 +5353,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5375,7 +5375,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5397,7 +5397,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5419,7 +5419,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5441,7 +5441,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5463,7 +5463,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5485,7 +5485,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5507,7 +5507,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5529,7 +5529,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5551,7 +5551,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5573,7 +5573,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5595,7 +5595,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5617,7 +5617,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5639,7 +5639,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5661,7 +5661,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5683,7 +5683,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5705,7 +5705,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5727,7 +5727,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5749,7 +5749,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5771,7 +5771,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5793,7 +5793,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5815,7 +5815,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5837,7 +5837,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5859,7 +5859,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5881,7 +5881,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5903,7 +5903,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5925,7 +5925,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5947,7 +5947,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5969,7 +5969,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -5991,7 +5991,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6013,7 +6013,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6035,7 +6035,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6057,7 +6057,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6079,7 +6079,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6101,7 +6101,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6123,7 +6123,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6145,7 +6145,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6167,7 +6167,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x10"
+      "Index": 16
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6189,7 +6189,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x19"
+      "Index": 25
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6211,7 +6211,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6233,7 +6233,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6255,7 +6255,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6277,7 +6277,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6299,7 +6299,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6321,7 +6321,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6343,7 +6343,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6365,7 +6365,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6387,7 +6387,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6409,7 +6409,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6431,7 +6431,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6453,7 +6453,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6475,7 +6475,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6497,7 +6497,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6519,7 +6519,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6541,7 +6541,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6563,7 +6563,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6585,7 +6585,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6607,7 +6607,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6629,7 +6629,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6651,7 +6651,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6673,7 +6673,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6695,7 +6695,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6717,7 +6717,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6739,7 +6739,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6761,7 +6761,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6783,7 +6783,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6805,7 +6805,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6827,7 +6827,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6849,7 +6849,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6871,7 +6871,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6893,7 +6893,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6915,7 +6915,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6937,7 +6937,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6959,7 +6959,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -6981,7 +6981,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7003,7 +7003,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7025,7 +7025,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7047,7 +7047,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7069,7 +7069,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7091,7 +7091,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7113,7 +7113,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7135,7 +7135,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7157,7 +7157,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7179,7 +7179,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7201,7 +7201,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7223,7 +7223,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7245,7 +7245,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7267,7 +7267,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7289,7 +7289,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7311,7 +7311,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7333,7 +7333,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7355,7 +7355,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7377,7 +7377,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7399,7 +7399,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7421,7 +7421,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7443,7 +7443,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7465,7 +7465,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7487,7 +7487,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7509,7 +7509,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7531,7 +7531,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7553,7 +7553,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7575,7 +7575,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7597,7 +7597,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7619,7 +7619,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7641,7 +7641,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7663,7 +7663,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7685,7 +7685,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7707,7 +7707,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7729,7 +7729,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7751,7 +7751,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7773,7 +7773,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7795,7 +7795,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7817,7 +7817,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7839,7 +7839,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7861,7 +7861,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7883,7 +7883,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7905,7 +7905,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7927,7 +7927,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7949,7 +7949,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7971,7 +7971,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -7993,7 +7993,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8015,7 +8015,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8037,7 +8037,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8059,7 +8059,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8081,7 +8081,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8103,7 +8103,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8125,7 +8125,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8147,7 +8147,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8169,7 +8169,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8191,7 +8191,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8213,7 +8213,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8235,7 +8235,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8257,7 +8257,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8279,7 +8279,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8301,7 +8301,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8323,7 +8323,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8345,7 +8345,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8367,7 +8367,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8389,7 +8389,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8411,7 +8411,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8433,7 +8433,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8455,7 +8455,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8477,7 +8477,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8499,7 +8499,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8521,7 +8521,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8543,7 +8543,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8565,7 +8565,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8587,7 +8587,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8609,7 +8609,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8631,7 +8631,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8653,7 +8653,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8675,7 +8675,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8697,7 +8697,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8719,7 +8719,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8741,7 +8741,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8763,7 +8763,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8785,7 +8785,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8807,7 +8807,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8829,7 +8829,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8851,7 +8851,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8873,7 +8873,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8895,7 +8895,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8917,7 +8917,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8939,7 +8939,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8961,7 +8961,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -8983,7 +8983,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9005,7 +9005,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9027,7 +9027,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9049,7 +9049,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9071,7 +9071,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9093,7 +9093,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9115,7 +9115,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9137,7 +9137,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9159,7 +9159,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9181,7 +9181,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9203,7 +9203,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9225,7 +9225,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9247,7 +9247,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9269,7 +9269,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9291,7 +9291,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9313,7 +9313,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9335,7 +9335,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9357,7 +9357,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9379,7 +9379,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9401,7 +9401,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9423,7 +9423,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9445,7 +9445,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9467,7 +9467,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9489,7 +9489,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9511,7 +9511,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9533,7 +9533,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9555,7 +9555,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9577,7 +9577,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9599,7 +9599,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9621,7 +9621,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9643,7 +9643,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9665,7 +9665,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9687,7 +9687,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9709,7 +9709,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9731,7 +9731,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9753,7 +9753,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9775,7 +9775,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9797,7 +9797,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9819,7 +9819,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9841,7 +9841,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9863,7 +9863,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9885,7 +9885,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9907,7 +9907,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9929,7 +9929,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9951,7 +9951,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9973,7 +9973,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -9995,7 +9995,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10017,7 +10017,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10039,7 +10039,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10061,7 +10061,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10083,7 +10083,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10105,7 +10105,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10127,7 +10127,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10149,7 +10149,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10171,7 +10171,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10193,7 +10193,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10215,7 +10215,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10237,7 +10237,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10259,7 +10259,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10281,7 +10281,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10303,7 +10303,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1b"
+      "Index": 27
     },
     "Mask": {
       "File": "lofiObj3",
@@ -10325,7 +10325,7 @@
     "Item": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1d"
+      "Index": 29
     },
     "Mask": {
       "File": "lofiObj3",

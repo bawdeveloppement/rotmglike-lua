@@ -9,7 +9,7 @@ function Projectile:initialize( world, data )
     Entity.initialize(self, world, "Projectile"..world:getEntitiesCount(), "Projectile", {
         { class = TransformComponent, data = { position = { x = data.x, y = data.y }}},
         { class = Sprite, data = { rect = { width = 16, height = 16 }, orientation = 90}},
-        { class = CollisionComponent, data = { solid = true }}
+        { class = CollisionComponent, data = {  rect = { width = 16, height = 16 }, solid = true }}
     });
 
     self.ownerId = data.ownerId or nil

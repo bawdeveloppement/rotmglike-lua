@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-up" width="50" height="50" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="4">
  <tileset firstgid="1" name="lofiEnvironment3" tilewidth="8" tileheight="8" tilecount="416" columns="16">
-  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironment3Embed_.png" width="128" height="208"/>
+  <image source="../../assets/textures/lofiEnvironment3.png" width="128" height="208"/>
   <wangsets>
    <wangset name="Jeu de Tuile sans nom" type="corner" tile="-1">
     <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
@@ -9,7 +9,7 @@
   </wangsets>
  </tileset>
  <tileset firstgid="417" name="lofiEnvironment" tilewidth="8" tileheight="8" tilecount="256" columns="16">
-  <image source="../../assets/textures/rotmg/EmbeddedAssets_lofiEnvironmentEmbed_.png" width="128" height="128"/>
+  <image source="../../assets/textures/lofiEnvironment.png" width="128" height="128"/>
  </tileset>
  <layer id="1" name="Calque de Tuiles 1" width="50" height="50">
   <data encoding="csv">
@@ -71,5 +71,6 @@
     <property name="portalId" value="realm"/>
    </properties>
   </object>
+  <object id="3" name="player" x="24.75" y="16.75" width="6" height="7.5"/>
  </objectgroup>
 </map>

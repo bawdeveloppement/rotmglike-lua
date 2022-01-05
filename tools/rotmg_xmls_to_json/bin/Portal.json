@@ -7,7 +7,7 @@
     "DungeonName": "Lair of Draconis",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0x139"
+      "Index": 313
     },
     "Size": "60",
     "Animation": {
@@ -17,7 +17,7 @@
         "time": "0.20",
         "Texture": {
           "File": "lofiObjBig",
-          "Index": "0x174"
+          "Index": 372
         }
       }
     },
@@ -31,7 +31,7 @@
     "DungeonName": "The Ivory Wyvern",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0x139"
+      "Index": 313
     },
     "Size": "60",
     "DisplayId": "{lairOfDraconis.Ivory_Wyvern_Portal}"
@@ -44,7 +44,7 @@
     "DungeonName": "Forest Maze",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3dd"
+      "Index": 989
     },
     "ShadowSize": "0",
     "DisplayId": "{forestMaze.Forest_Maze_Portal}"
@@ -57,7 +57,7 @@
     "DungeonName": "Cave of A Thousand Treasures",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x20f"
+      "Index": 527
     },
     "DisplayId": "{cave.Treasure_Cave_Portal}"
   },
@@ -69,7 +69,7 @@
     "DungeonName": "The Shatters",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x44e"
+      "Index": 1102
     },
     "DisplayId": "{shatters.The_Shatters}"
   },
@@ -81,7 +81,7 @@
     "DungeonName": "Oryx's Chamber",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "DisplayId": "{oryxCastle.OryxAPOSs_Chamber_Portal}"
   },
@@ -93,7 +93,7 @@
     "DungeonName": "Deadwater Docks",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3ea"
+      "Index": 1002
     },
     "DisplayId": "{epicpirateCave.Deadwater_Docks}"
   },
@@ -105,7 +105,7 @@
     "DungeonName": "Bilgewater's Grotto",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3ea"
+      "Index": 1002
     },
     "DisplayId": "{epicpirateCave.BilgewaterAPOSs_Grotto_Portal}"
   },
@@ -117,7 +117,7 @@
     "DungeonName": "Mad Lab",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x1ab"
+      "Index": 427
     },
     "Animation": {
       "prob": "1",
@@ -139,7 +139,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "DisplayId": "{objects.Dungeon_Portal}"
   },
@@ -150,7 +150,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "SpawnPoint": true,
     "DisplayId": "{objects.Portal_of_Cowardice}"
@@ -162,7 +162,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "DisplayId": "{objects.Realm_Portal}"
   },
@@ -174,7 +174,7 @@
     "DungeonName": "Sprite World",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     },
     "DisplayId": "{objects.Glowing_Portal}"
   },
@@ -185,7 +185,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     },
     "SpawnPoint": true,
     "DisplayId": "{objects.Glowing_Portal_of_Cowardice}"
@@ -197,7 +197,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     },
     "DisplayId": "{objects.Glowing_Realm_Portal}"
   },
@@ -210,7 +210,7 @@
     "NexusPortal": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": "0x3f"
+      "Index": 63
     },
     "DisplayId": "{objects.Nexus_Portal}"
   },
@@ -222,7 +222,7 @@
     "DungeonName": "Pirate Cave",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "DisplayId": "{objects.Pirate_Cave_Portal}"
   },
@@ -234,7 +234,7 @@
     "DungeonName": "Snake Pit",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x8c"
+      "Index": 140
     },
     "Animation": {
       "prob": "0.6",
@@ -257,7 +257,7 @@
     "DungeonName": "Spider Den",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x8f"
+      "Index": 143
     },
     "DisplayId": "{objects.Spider_Den_Portal}"
   },
@@ -269,7 +269,7 @@
     "DungeonName": "Undead Lair",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x97"
+      "Index": 151
     },
     "Animation": {
       "prob": "1.0",
@@ -279,23 +279,23 @@
         "RandomTexture": [
           {
             "File": "lofiEnvironment2",
-            "Index": "0x98"
+            "Index": 152
           },
           {
             "File": "lofiEnvironment2",
-            "Index": "0x99"
+            "Index": 153
           },
           {
             "File": "lofiEnvironment2",
-            "Index": "0x9a"
+            "Index": 154
           },
           {
             "File": "lofiEnvironment2",
-            "Index": "0x9b"
+            "Index": 155
           },
           {
             "File": "lofiEnvironment2",
-            "Index": "0x9c"
+            "Index": 156
           }
         ]
       }
@@ -310,7 +310,7 @@
     "DungeonName": "Abyss of Demons",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x9d"
+      "Index": 157
     },
     "DisplayId": "{objects.Abyss_of_Demons_Portal}"
   },
@@ -322,7 +322,7 @@
     "DungeonName": "Random Realm",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     },
     "DisplayId": "{objects.Random_Realm_Portal}"
   },
@@ -334,7 +334,7 @@
     "DungeonName": "Nexus",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     },
     "DisplayId": "{objects.Portal_to_Nexus}"
   },
@@ -346,7 +346,7 @@
     "DungeonName": "Kitchen",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "Size": "120",
     "DisplayId": "{objects.Kitchen_Portal}"
@@ -359,7 +359,7 @@
     "DungeonName": "Vault",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xf8"
+      "Index": 248
     },
     "ShadowSize": "0",
     "DisplayId": "{objects.Vault_Portal}"
@@ -371,7 +371,7 @@
     "LockedPortal": true,
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0xba"
+      "Index": 186
     },
     "DisplayId": "{objects.Locked_Wine_Cellar_Portal}"
   },
@@ -383,7 +383,7 @@
     "DungeonName": "Battle for the Nexus",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x410"
+      "Index": 1040
     },
     "DisplayId": "{objects.Battle_Nexus_Portal}"
   },
@@ -396,7 +396,7 @@
     "DungeonName": "Tomb of the Ancients",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x9e"
+      "Index": 158
     }
   },
   {
@@ -408,7 +408,7 @@
     "DungeonName": "Belladonna's Garden",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x4BA"
+      "Index": 1210
     }
   },
   {
@@ -420,7 +420,7 @@
     "DungeonName": "Lair of Shaitan",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x4BB"
+      "Index": 1211
     }
   },
   {
@@ -432,7 +432,7 @@
     "DungeonName": "Court of Oryx",
     "Texture": {
       "File": "d1lofiObjBig",
-      "Index": "0xC"
+      "Index": 12
     }
   },
   {
@@ -443,7 +443,7 @@
     "DungeonName": "Dreamscape Labyrinth",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "DisplayId": "{objects.Dreamscape_Labyrinth_Portal}"
   },
@@ -455,7 +455,7 @@
     "DungeonName": "Ocean Trench",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x9f"
+      "Index": 159
     },
     "DisplayId": "{objects.Ocean_Trench_Portal}"
   },
@@ -467,7 +467,7 @@
     "DungeonName": "Forbidden Jungle",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0xa8"
+      "Index": 168
     },
     "DisplayId": "{objects.Forbidden_Jungle_Portal}"
   },
@@ -479,7 +479,7 @@
     "DungeonName": "Manor of the Immortals",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x4c"
+      "Index": 76
     },
     "DisplayId": "{objects.Manor_of_the_Immortals_Portal}"
   },
@@ -492,7 +492,7 @@
     "DungeonName": "Davy Jones' Locker",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x151"
+      "Index": 337
     },
     "Animation": {
       "prob": "1",
@@ -514,7 +514,7 @@
     "DungeonName": "Beachzone",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x192"
+      "Index": 402
     },
     "DisplayId": "{objects.Beachzone_Portal}"
   },
@@ -527,7 +527,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x36"
+      "Index": 54
     }
   },
   {
@@ -539,7 +539,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": "0xf8"
+      "Index": 248
     }
   },
   {
@@ -551,7 +551,7 @@
     "DungeonName": "Guild Explanation",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": "0x54"
+      "Index": 84
     },
     "ShadowSize": "0"
   },
@@ -563,7 +563,7 @@
     "DungeonName": "Candyland Hunting Grounds",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x2a5"
+      "Index": 677
     },
     "ShadowSize": "0",
     "DisplayId": "{objects.Candyland_Portal}"
@@ -576,7 +576,7 @@
     "DungeonName": "Haunted Cemetery",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x318"
+      "Index": 792
     },
     "Animation": {
       "prob": "0.4",
@@ -599,7 +599,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x33f"
+      "Index": 831
     },
     "DisplayId": "{objects.Cloth_Bazaar_Portal}"
   },
@@ -611,7 +611,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x0d"
+      "Index": 13
     },
     "DisplayId": "{objects.Pet_Yard_Portal}",
     "Size": "100",
@@ -625,7 +625,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x4f7"
+      "Index": 1271
     },
     "Animation": {
       "prob": "1",
@@ -649,7 +649,7 @@
     "DungeonName": "Puppet Master's Theatre",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x4FE"
+      "Index": 1278
     }
   },
   {
@@ -661,7 +661,7 @@
     "DungeonName": "Puppet Master's Encore",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": "0x1a"
+      "Index": 26
     }
   },
   {
@@ -673,7 +673,7 @@
     "DungeonName": "Ice Cave",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x54F"
+      "Index": 1359
     }
   },
   {
@@ -684,7 +684,7 @@
     "DungeonName": "The Inner Sanctum",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x54F"
+      "Index": 1359
     },
     "DisplayId": "{objects.Inner_Sanctum_Portal}"
   },
@@ -696,7 +696,7 @@
     "DungeonName": "Woodland Labyrinth",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3e5"
+      "Index": 997
     },
     "DisplayId": "{epicforestMaze.Woodland_Labyrinth}"
   },
@@ -708,7 +708,7 @@
     "DungeonName": "The Crawling Depths",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x3e8"
+      "Index": 1000
     },
     "DisplayId": "The Crawling Depths"
   },
@@ -720,7 +720,7 @@
     "DungeonName": "Haunted Cemetery",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x30a"
+      "Index": 778
     },
     "Animation": {
       "prob": "0.4",
@@ -744,7 +744,7 @@
     "DungeonName": "Haunted Cemetery Gates",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x30a"
+      "Index": 778
     },
     "Animation": {
       "prob": "0.6",
@@ -768,7 +768,7 @@
     "DungeonName": "Haunted Cemetery Graves",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x30a"
+      "Index": 778
     },
     "Animation": {
       "prob": "0.8",
@@ -792,7 +792,7 @@
     "DungeonName": "Haunted Cemetery Final Battle",
     "Texture": {
       "File": "lofiObj3",
-      "Index": "0x30a"
+      "Index": 778
     },
     "Animation": {
       "prob": "1",
@@ -815,7 +815,7 @@
     "IntergamePortal": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": "0x7c"
+      "Index": 124
     },
     "SpawnPoint": true
   },
@@ -827,7 +827,7 @@
     "DungeonName": "The Ether",
     "Texture": {
       "File": "lofiObj6",
-      "Index": "0xdb"
+      "Index": 219
     },
     "DisplayId": "The Ether"
   },
@@ -839,7 +839,7 @@
     "DungeonName": "Elder Mountains Beholder",
     "Texture": {
       "File": "lofiObj6",
-      "Index": "0xfd"
+      "Index": 253
     },
     "Animation": {
       "prob": "1.0",
@@ -849,19 +849,19 @@
         "RandomTexture": [
           {
             "File": "lofiObj6",
-            "Index": "0xfd"
+            "Index": 253
           },
           {
             "File": "lofiObj6",
-            "Index": "0xfe"
+            "Index": 254
           },
           {
             "File": "lofiObj6",
-            "Index": "0xff"
+            "Index": 255
           },
           {
             "File": "lofiObj6",
-            "Index": "0x109"
+            "Index": 265
           }
         ]
       }
