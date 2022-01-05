@@ -1,6 +1,7 @@
 return {
-    "main_menu",
-    "option",
-    "play",
-    "death_screen"
+    "main_menu_screen",
+    "option_screen",
+    "play_screen",
+    "death_screen",
+    "world_editor_screen",
 }

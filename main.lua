@@ -6,11 +6,13 @@ _G.srcDir    = _G.baseDir .. "src."
 love.graphics.setDefaultFilter("nearest")
 
 local screens = {
-    { name = "main_menu", buildIndex = 1 },
+    { name = "main_menu_screen", buildIndex = 1 },
     { name = "option", buildIndex = 2 },
     { name = "play", buildIndex = 3 },
 }
+
 local loveVersion = 11.3
+
 love.audio.setVolume(0.1)
 
 _G.font = love.graphics.newFont("src/assets/fonts/yoster.ttf")
@@ -18,6 +20,7 @@ _G.font1 = love.graphics.newFont("src/assets/fonts/super-legend-boy-font/SuperLe
 _G.font2 = love.graphics.newFont("src/assets/fonts/a-goblin-appears-font/AGoblinAppears-o2aV.ttf")
 _G.font3 = love.graphics.newFont("src/assets/fonts/eight-bit-dragon-font/EightBitDragon-anqx.ttf")
 _G.font4 = love.graphics.newFont("src/assets/fonts/rubber-biscuit/RUBBBRO_.TTF")
+
 _G.xle = require(_G.engineDir .. "xle")
 
 _G.string.split = function (self, sep)

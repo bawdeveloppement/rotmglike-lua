@@ -2,8 +2,6 @@ local GameDeathScreen = require(_G.libDir .. "middleclass")("GameDeathScreen", _
 
 local ButtonElement = require(_G.engineDir .. "game_objects.interface_elements.main").ButtonElement
 
-local VolumeControllerObject = require(_G.srcDir .. "go.volume_controller")
-local DimensionControllerObject = require(_G.srcDir .. "go.dimension_controller")
 
 function GameDeathScreen:initialize (name, active)
     _G.xle.Screen.initialize(self, name, active)
@@ -21,10 +19,11 @@ function GameDeathScreen:init()
     end
 
     self.nodes = {
+        ButtonElement = ButtonElement:new("", 0, 0)
     }
 end
 
-function GameOptionScreen:draw(...)
+function GameDeathScreen:draw(...)
     for k in pairs(self.nodes) do
         if self.nodes[k].draw ~= nil then
             self.nodes[k]:draw(...)
@@ -32,7 +31,7 @@ function GameOptionScreen:draw(...)
     end
 end
 
-function GameOptionScreen:update(...)
+function GameDeathScreen:update(...)
     for k in pairs(self.nodes) do
         if self.nodes[k].update ~= nil then
             self.nodes[k]:update(...)

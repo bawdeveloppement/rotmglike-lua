@@ -4,9 +4,11 @@ World.static.worlds = {}
 
 function World:initialize( screen, active,  world_name, world_data, world_worldScale )
     self.screen = screen
-    self.worldName = world_name
-    self.worldData = world_data
-    self.worldScale = world_worldScale or 4
+    
+    self.world_name = world_name
+    self.world_data = world_data
+    self.world_scale = world_worldScale or 4
+    self.world_pos = { x = 0, y = 0 }
 
     self.isActive = active
     self.quads = {}
@@ -16,16 +18,16 @@ function World:initialize( screen, active,  world_name, world_data, world_worldS
 end
 
 function World:load()
-    for i, v in pairs(self.worldData.tilesets) do
-        self.worldData.tilesets[i].image = _G.xle.ResourcesManager:getTexture(v.name)
-        local w, h = self.worldData.tilesets[i].image:getDimensions()
-        for y = 0, (h / self.worldData.tileheight) - 1 do
-            for x = 0, (w / self.worldData.tilewidth) - 1 do
+    for i, v in pairs(self.world_data.tilesets) do
+        self.world_data.tilesets[i].image = _G.xle.ResourcesManager:getTexture(v.name)
+        local w, h = self.world_data.tilesets[i].image:getDimensions()
+        for y = 0, (h / self.world_data.tileheight) - 1 do
+            for x = 0, (w / self.world_data.tilewidth) - 1 do
                 local quad = love.graphics.newQuad(
-                    x * self.worldData.tilewidth,
-                    y * self.worldData.tileheight,
-                    self.worldData.tilewidth,
-                    self.worldData.tileheight,
+                    x * self.world_data.tilewidth,
+                    y * self.world_data.tileheight,
+                    self.world_data.tilewidth,
+                    self.world_data.tileheight,
                     w, h
                 )
                 table.insert(self.quads, quad)
@@ -33,7 +35,7 @@ function World:load()
         end
     end
 
-    for li, layer in ipairs(self.worldData.layers) do
+    for li, layer in ipairs(self.world_data.layers) do
         if layer.type == "objectgroup" then
             for oi, obj in ipairs(layer.objects) do
                 for i, k in pairs(require(_G.srcDir .. "entities.entities")) do
@@ -43,8 +45,8 @@ function World:load()
                                 self,
                                 {
                                     name = obj.properties["entityId"],
-                                    scale = self.worldScale,
-                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale}
+                                    scale = self.world_scale,
+                                    position = { x = obj.x * self.world_scale, y = obj.y * self.world_scale}
                                 }
                             );
                             table.insert(self.entities, ent)
@@ -53,8 +55,8 @@ function World:load()
                                 self,
                                 {
                                     name = obj.name,
-                                    scale = self.worldScale,
-                                    position = { x = obj.x * self.worldScale, y = obj.y * self.worldScale},
+                                    scale = self.world_scale,
+                                    position = { x = obj.x * self.world_scale, y = obj.y * self.world_scale},
                                     properties = obj.properties
                                 }
                             );
@@ -79,8 +81,9 @@ function World:update(...)
     end
 end
 
+
 function World:draw()
-    for i, layer in ipairs(self.worldData.layers) do
+    for i, layer in ipairs(self.world_data.layers) do
         if layer.type == "tilelayer" then
             for y = 0, layer.height - 1 do
                 for x = 0, layer.width - 1 do
@@ -88,7 +91,7 @@ function World:draw()
                     local tid = layer.data[index]
     
                     local targetTileset = 0
-                    for i, v in ipairs(self.worldData.tilesets) do
+                    for i, v in ipairs(self.world_data.tilesets) do
                         if tid > v.firstgid then
                             targetTileset = i
                         end
@@ -96,16 +99,16 @@ function World:draw()
     
                     if tid ~= 0 then
                         local quad = self.quads[tid]
-                        local xx =  x * (self.worldData.tilewidth * self.worldScale)
-                        local yy =  y * (self.worldData.tileheight * self.worldScale)
+                        local xx =  x * (self.world_data.tilewidth * self.world_scale)
+                        local yy =  y * (self.world_data.tileheight * self.world_scale)
                         
                         love.graphics.draw(
-                            self.worldData.tilesets[targetTileset].image,
+                            self.world_data.tilesets[targetTileset].image,
                             quad,
                             xx,
                             yy,
                             0,
-                            self.worldScale,self.worldScale
+                            self.world_scale,self.world_scale
                         )
                     end
                 end
@@ -114,7 +117,7 @@ function World:draw()
         if layer.type == "objectgroup" then
             for ii, obj in ipairs(layer.objects) do
                 local targetTileset = 0
-                for i, tileset in ipairs(self.worldData.tilesets) do
+                for i, tileset in ipairs(self.world_data.tilesets) do
                     if obj.gid ~= nil then
                         if obj.gid > tileset.firstgid then
                             targetTileset = i
@@ -124,12 +127,12 @@ function World:draw()
                 if targetTileset ~= 0 then
                     local quad = self.quads[obj.gid]
                     love.graphics.draw(
-                        self.worldData.tilesets[targetTileset].image,
+                        self.world_data.tilesets[targetTileset].image,
                         quad,
-                        obj.x * self.worldScale,
-                        obj.y * self.worldScale,
+                        self.world_pos.x + obj.x * self.world_scale,
+                        self.world_pos.y + obj.y * self.world_scale,
                         0,
-                        self.worldScale,self.worldScale
+                        self.world_scale,self.world_scale
                     )
                 end
             end
@@ -181,12 +184,12 @@ function World:addEntity( entity )
 end
 
 function World:removeTile( layerId, dataId )
-    if self.worldData.layers[layerId] ~= nil then
+    if self.world_data.layers[layerId] ~= nil then
         -- local dataId = 0
-        -- for i, v in ipairs (self.worldData.layers[layerId].data) do
+        -- for i, v in ipairs (self.world_data.layers[layerId].data) do
         --     if i == 
         -- end
-        table.remove(self.worldData.layers[layerId].data, dataId)
+        table.remove(self.world_data.layers[layerId].data, dataId)
     end
 end
 
