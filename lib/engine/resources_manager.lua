@@ -24,7 +24,6 @@ function ResourcesManager:getOrAddSound ( soundId, path )
         local exist = false
         for i, v in ipairs(require(_G.srcDir.."assets.".. (path or "sfx") ..".sounds")) do
             if soundId == v then
-                print("dazdzadazd")
                 exist = true
             end
         end
@@ -32,7 +31,6 @@ function ResourcesManager:getOrAddSound ( soundId, path )
             self:addSound(soundId, "src/assets/".. (path or "sfx") .."/"..soundId)
             return self:getSound(soundId)
         else
-            print("ddzad")
             return nil
         end
     end

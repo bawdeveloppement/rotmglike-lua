@@ -6,6 +6,7 @@ local CollisionComponent = require(_G.engineDir.."components.collision")
 
 local MoveComponent = require(_G.srcDir.."components.move")
 local CharacterComponent = require(_G.srcDir.."components.character")
+local CameraComponent = require(_G.srcDir.."components.camera")
 
 local Projectile = require(_G.srcDir .. "entities.projectile");
 
@@ -24,6 +25,7 @@ function Player:initialize( world, data )
         { class = CollisionComponent, data = { rect={ width = 32 , height= 32 }}},
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
+        { class = CameraComponent },
     });
 
     self.itemInMouse = {
@@ -35,7 +37,7 @@ function Player:initialize( world, data )
     self.quickSlots = {
         { slotTypes = 0, key="f", type = "quick_slot", item = nil },
         { slotTypes = 0, key="a", type = "quick_slot", item = nil },
-        { slotTypes = 0, key="e", type = "quick_slot", item  = nil },
+        { slotTypes = 0, key="e", type = "quick_slot", item = nil },
         { slotTypes = { 1, 8, 2, 3, 17, 23, 24 }, key="1", type = "weapon", item = nil },
         { slotTypes = { 4, 5, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 25 }, key="2", type = "spell", item = nil },
         { slotTypes = { 6, 7, 14}, key="3", type = "chest", item = nil },
