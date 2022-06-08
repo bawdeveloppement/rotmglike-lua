@@ -1,0 +1,360 @@
+[
+  {
+    "id": "Heal",
+    "type": "0x164",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetHeal"
+      }
+    },
+    "Parameters": {
+      "MaxHeal": {
+        "$": {
+          "min": "10",
+          "max": "90",
+          "curve": "exp_incr"
+        }
+      },
+      "Cooldown": {
+        "$": {
+          "min": "10",
+          "max": "1",
+          "curve": "dim_returns"
+        }
+      }
+    },
+    "DisplayId": "{pets.Heal}"
+  },
+  {
+    "id": "MagicHeal",
+    "type": "0x170",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetMagicHeal"
+      }
+    },
+    "Parameters": {
+      "MaxHeal": {
+        "$": {
+          "min": "1",
+          "max": "45",
+          "curve": "exp_incr"
+        }
+      },
+      "Cooldown": {
+        "$": {
+          "min": "10",
+          "max": "1",
+          "curve": "dim_returns"
+        }
+      }
+    },
+    "DisplayId": "{pets.MagicHeal}"
+  },
+  {
+    "id": "AttackClose",
+    "type": "0x17f",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetShoot"
+      }
+    },
+    "Parameters": {
+      "ProjectileId": {
+        "$": {
+          "value": "CloseRangeAttack"
+        }
+      },
+      "DamageCurve": {
+        "$": {
+          "value": "exp_incr"
+        }
+      },
+      "ThreatRange": {
+        "$": {
+          "value": "4.5"
+        }
+      },
+      "Delay": {
+        "$": {
+          "min": "5",
+          "max": ".2",
+          "curve": "exp_decr"
+        }
+      },
+      "AimType": {
+        "$": {
+          "value": "Targeted"
+        }
+      }
+    },
+    "DisplayId": "{pets.AttackClose}"
+  },
+  {
+    "id": "AttackMid",
+    "type": "0x180",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetShoot"
+      }
+    },
+    "Parameters": {
+      "ProjectileId": {
+        "$": {
+          "value": "MidRangeAttack"
+        }
+      },
+      "DamageCurve": {
+        "$": {
+          "value": "exp_incr"
+        }
+      },
+      "ThreatRange": {
+        "$": {
+          "value": "6.75"
+        }
+      },
+      "Delay": {
+        "$": {
+          "min": "5",
+          "max": ".2",
+          "curve": "exp_decr"
+        }
+      },
+      "AimType": {
+        "$": {
+          "value": "Targeted"
+        }
+      }
+    },
+    "DisplayId": "{pets.AttackMid}"
+  },
+  {
+    "id": "AttackFar",
+    "type": "0x181",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetShoot"
+      }
+    },
+    "Parameters": {
+      "ProjectileId": {
+        "$": {
+          "value": "FarRangeAttack"
+        }
+      },
+      "DamageCurve": {
+        "$": {
+          "value": "exp_incr"
+        }
+      },
+      "ThreatRange": {
+        "$": {
+          "value": "9"
+        }
+      },
+      "Delay": {
+        "$": {
+          "min": "5",
+          "max": ".2",
+          "curve": "exp_decr"
+        }
+      },
+      "AimType": {
+        "$": {
+          "value": "Targeted"
+        }
+      }
+    },
+    "DisplayId": "{pets.AttackFar}"
+  },
+  {
+    "id": "ElectricZap",
+    "type": "0x182",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetZap"
+      }
+    },
+    "Parameters": {
+      "Color": {
+        "$": {
+          "value": "0xffffff"
+        }
+      },
+      "Damage": {
+        "$": {
+          "min": "5",
+          "max": "300",
+          "curve": "exp_incr"
+        }
+      },
+      "DamageRange": {
+        "$": {
+          "min": "5",
+          "max": "50",
+          "curve": "linear"
+        }
+      },
+      "Delay": {
+        "$": {
+          "min": "1",
+          "max": "0",
+          "curve": "dim_returns"
+        }
+      },
+      "ThreatRange": {
+        "$": {
+          "min": "0.35",
+          "max": "2",
+          "curve": "linear"
+        }
+      },
+      "Effect": {
+        "Type": [
+          {
+            "$": {
+              "value": "Paralyzed"
+            }
+          }
+        ],
+        "Probability": [
+          {
+            "$": {
+              "min": "0",
+              "max": ".2",
+              "curve": "linear"
+            }
+          }
+        ],
+        "Duration": [
+          {
+            "$": {
+              "min": ".4",
+              "max": "4",
+              "curve": "dim_returns"
+            }
+          }
+        ]
+      }
+    },
+    "DisplayId": "{pets.ElectricZap}"
+  },
+  {
+    "id": "PetSavage",
+    "type": "0x183",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetSavage"
+      }
+    },
+    "Parameters": {
+      "Tiles": {
+        "$": {
+          "min": "2.5",
+          "max": "8",
+          "curve": "dim_returns"
+        }
+      },
+      "Frequency": {
+        "$": {
+          "min": "8",
+          "max": ".8",
+          "curve": "exp_incr"
+        }
+      }
+    },
+    "DisplayId": "{pets.PetSavage}"
+  },
+  {
+    "id": "PetDecoy",
+    "type": "0x184",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetDecoy"
+      }
+    },
+    "Parameters": {
+      "Radius": {
+        "$": {
+          "min": "3",
+          "max": "12",
+          "curve": "dim_returns"
+        }
+      },
+      "Duration": {
+        "$": {
+          "min": "3",
+          "max": "8",
+          "curve": "exp_incr"
+        }
+      },
+      "Cooldown": {
+        "$": {
+          "min": "10",
+          "max": "3",
+          "curve": "exp_decr"
+        }
+      }
+    },
+    "DisplayId": "{pets.PetDecoy}"
+  },
+  {
+    "id": "PetRisingFury",
+    "type": "0x185",
+    "PetBehavior": true,
+    "Class": "PetBehavior",
+    "BaseBehavior": {
+      "$": {
+        "id": "PetRisingFury"
+      }
+    },
+    "Parameters": {
+      "MaxChargeTime": {
+        "$": {
+          "min": "5",
+          "max": "2",
+          "curve": "linear"
+        }
+      },
+      "MaxDamage": {
+        "$": {
+          "min": "100",
+          "max": "1500",
+          "curve": "exp_incr"
+        }
+      },
+      "Cooldown": {
+        "$": {
+          "min": "3.6",
+          "max": "0.2",
+          "curve": "exp_decr"
+        }
+      },
+      "Radius": {
+        "$": {
+          "min": "3",
+          "max": "8",
+          "curve": "exp_incr"
+        }
+      }
+    },
+    "DisplayId": "{pets.PetRisingFury}"
+  }
+]

@@ -5,7 +5,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 262
+      "Index": 262,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -15,7 +16,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 240
+      "Index": 240,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -25,7 +27,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 241
+      "Index": 241,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -35,7 +38,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 242
+      "Index": 242,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -45,7 +49,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 244
+      "Index": 244,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "185"
@@ -56,7 +61,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 243
+      "Index": 243,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -66,7 +72,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 256
+      "Index": 256,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -76,7 +83,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 257
+      "Index": 257,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -86,7 +94,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 258
+      "Index": 258,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -96,7 +105,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 259
+      "Index": 259,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -106,7 +116,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 260
+      "Index": 260,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "185"
@@ -117,7 +128,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 261
+      "Index": 261,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -127,7 +139,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 246
+      "Index": 246,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -137,7 +150,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 247
+      "Index": 247,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "185"
@@ -148,7 +162,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 245
+      "Index": 245,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -158,7 +173,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 263
+      "Index": 263,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "185"
@@ -169,7 +185,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 273
+      "Index": 273,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -179,7 +196,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 272
+      "Index": 272,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -189,7 +207,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 274
+      "Index": 274,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -199,7 +218,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 275
+      "Index": 275,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -209,7 +229,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 276
+      "Index": 276,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "185"
@@ -220,7 +241,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjLoEItems16x16",
-      "Index": 1
+      "Index": 1,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -230,7 +252,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 123
+      "Index": 123,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -240,7 +263,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 755
+      "Index": 755,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -250,7 +274,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 756
+      "Index": 756,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -260,7 +285,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 49
+      "Index": 49,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -270,7 +296,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 51
+      "Index": 51,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -280,7 +307,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1425
+      "Index": 1425,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -290,7 +318,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1426
+      "Index": 1426,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -300,7 +329,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 124
+      "Index": 124,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -310,7 +340,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 127
+      "Index": 127,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -320,7 +351,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 63
+      "Index": 63,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -330,7 +362,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 676
+      "Index": 676,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -340,7 +373,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 677
+      "Index": 677,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -350,7 +384,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 112
+      "Index": 112,
+      "Size": null
     }
   },
   {
@@ -359,7 +394,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 214
+      "Index": 214,
+      "Size": null
     }
   },
   {
@@ -368,7 +404,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 222
+      "Index": 222,
+      "Size": null
     }
   },
   {
@@ -377,7 +414,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 230
+      "Index": 230,
+      "Size": null
     }
   },
   {
@@ -386,7 +424,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 238
+      "Index": 238,
+      "Size": null
     }
   },
   {
@@ -395,7 +434,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 246
+      "Index": 246,
+      "Size": null
     }
   },
   {
@@ -404,7 +444,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 254
+      "Index": 254,
+      "Size": null
     }
   },
   {
@@ -413,7 +454,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 254
+      "Index": 254,
+      "Size": null
     }
   },
   {
@@ -422,7 +464,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 113
+      "Index": 113,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -432,7 +475,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 114
+      "Index": 114,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -442,7 +486,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 115
+      "Index": 115,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -452,7 +497,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 116
+      "Index": 116,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -462,7 +508,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 92
+      "Index": 92,
+      "Size": null
     }
   },
   {
@@ -471,7 +518,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -481,7 +529,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 154
+      "Index": 154,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -491,7 +540,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 170
+      "Index": 170,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -501,7 +551,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 186
+      "Index": 186,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -511,7 +562,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 202
+      "Index": 202,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -521,7 +573,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 113
+      "Index": 113,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -531,7 +584,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 16
+      "Index": 16,
+      "Size": null
     }
   },
   {
@@ -540,7 +594,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 96
+      "Index": 96,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -550,7 +605,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -560,7 +616,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 102
+      "Index": 102,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -570,7 +627,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 112
+      "Index": 112,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -580,7 +638,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 115
+      "Index": 115,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -590,7 +649,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 118
+      "Index": 118,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -600,7 +660,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     },
     "AngleCorrection": "3"
   },
@@ -610,7 +671,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 160
+      "Index": 160,
+      "Size": null
     }
   },
   {
@@ -619,7 +681,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 161
+      "Index": 161,
+      "Size": null
     }
   },
   {
@@ -628,7 +691,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 162
+      "Index": 162,
+      "Size": null
     }
   },
   {
@@ -637,7 +701,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 163
+      "Index": 163,
+      "Size": null
     }
   },
   {
@@ -646,7 +711,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 213
+      "Index": 213,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -656,7 +722,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 229
+      "Index": 229,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -666,7 +733,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 221
+      "Index": 221,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -676,7 +744,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 237
+      "Index": 237,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -686,7 +755,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -696,7 +766,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 139
+      "Index": 139,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -706,7 +777,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 140
+      "Index": 140,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -716,7 +788,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 154
+      "Index": 154,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -726,7 +799,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 155
+      "Index": 155,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -736,7 +810,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 156
+      "Index": 156,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -746,7 +821,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 100
+      "Index": 100,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -756,7 +832,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 101
+      "Index": 101,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -766,7 +843,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 102
+      "Index": 102,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -776,7 +854,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -786,7 +865,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 131
+      "Index": 131,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -796,7 +876,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 147
+      "Index": 147,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -806,7 +887,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 163
+      "Index": 163,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -816,7 +898,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 179
+      "Index": 179,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -826,7 +909,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 195
+      "Index": 195,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -836,7 +920,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 207
+      "Index": 207,
+      "Size": null
     }
   },
   {
@@ -845,7 +930,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 164
+      "Index": 164,
+      "Size": null
     }
   },
   {
@@ -854,7 +940,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 165
+      "Index": 165,
+      "Size": null
     }
   },
   {
@@ -863,7 +950,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 114
+      "Index": 114,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -873,7 +961,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 115
+      "Index": 115,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -883,7 +972,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 116
+      "Index": 116,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -893,7 +983,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 194
+      "Index": 194,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -903,7 +994,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 178
+      "Index": 178,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -913,7 +1005,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 64
+      "Index": 64,
+      "Size": null
     }
   },
   {
@@ -922,7 +1015,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 65
+      "Index": 65,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -932,7 +1026,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 66
+      "Index": 66,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -942,7 +1037,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "Rotation": "0.2"
   },
@@ -952,7 +1048,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 68
+      "Index": 68,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -962,7 +1059,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 69
+      "Index": 69,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -972,7 +1070,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 70
+      "Index": 70,
+      "Size": null
     },
     "Rotation": "0",
     "ShadowSize": "0"
@@ -983,7 +1082,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "Rotation": "0",
     "AngleCorrection": "1"
@@ -994,7 +1094,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 128
+      "Index": 128,
+      "Size": null
     },
     "Rotation": "150"
   },
@@ -1004,7 +1105,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 129
+      "Index": 129,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -1014,7 +1116,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 130
+      "Index": 130,
+      "Size": null
     },
     "Rotation": "200"
   },
@@ -1024,7 +1127,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 131
+      "Index": 131,
+      "Size": null
     },
     "Rotation": "150"
   },
@@ -1034,7 +1138,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 132
+      "Index": 132,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1044,7 +1149,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 133
+      "Index": 133,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1054,7 +1160,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 134
+      "Index": 134,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1064,7 +1171,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 135
+      "Index": 135,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1074,7 +1182,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 136
+      "Index": 136,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1084,7 +1193,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 137
+      "Index": 137,
+      "Size": null
     },
     "Rotation": "300"
   },
@@ -1094,7 +1204,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "Rotation": "300"
   },
@@ -1104,7 +1215,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 139
+      "Index": 139,
+      "Size": null
     },
     "Rotation": "300"
   },
@@ -1114,7 +1226,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 140
+      "Index": 140,
+      "Size": null
     },
     "Rotation": "300"
   },
@@ -1124,7 +1237,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 141
+      "Index": 141,
+      "Size": null
     },
     "Rotation": "0",
     "ShadowSize": "0"
@@ -1135,7 +1249,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 142
+      "Index": 142,
+      "Size": null
     },
     "Rotation": "0",
     "ShadowSize": "0"
@@ -1146,7 +1261,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 143
+      "Index": 143,
+      "Size": null
     },
     "Rotation": "275"
   },
@@ -1156,7 +1272,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiChar216x8",
-      "Index": 20
+      "Index": 20,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1166,7 +1283,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 192
+      "Index": 192,
+      "Size": null
     },
     "Rotation": "50"
   },
@@ -1176,7 +1294,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 13
+      "Index": 13,
+      "Size": null
     },
     "Rotation": "200"
   },
@@ -1186,7 +1305,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 193
+      "Index": 193,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1196,7 +1316,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 194
+      "Index": 194,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1206,7 +1327,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 195
+      "Index": 195,
+      "Size": null
     }
   },
   {
@@ -1215,7 +1337,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     }
   },
   {
@@ -1224,7 +1347,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 1
+      "Index": 1,
+      "Size": null
     }
   },
   {
@@ -1233,7 +1357,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 2
+      "Index": 2,
+      "Size": null
     }
   },
   {
@@ -1242,7 +1367,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 3
+      "Index": 3,
+      "Size": null
     }
   },
   {
@@ -1251,7 +1377,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 4
+      "Index": 4,
+      "Size": null
     }
   },
   {
@@ -1260,7 +1387,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Rotation": "-60"
   },
@@ -1270,7 +1398,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 5
+      "Index": 5,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1280,7 +1409,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 6
+      "Index": 6,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1290,7 +1420,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 7
+      "Index": 7,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1300,7 +1431,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 8
+      "Index": 8,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -1310,7 +1442,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 1
+      "Index": 1,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1320,7 +1453,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 9
+      "Index": 9,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1330,7 +1464,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 10
+      "Index": 10,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1340,7 +1475,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 11
+      "Index": 11,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1350,7 +1486,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 2
+      "Index": 2,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1360,7 +1497,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 12
+      "Index": 12,
+      "Size": null
     },
     "Rotation": "0"
   },
@@ -1370,7 +1508,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 13
+      "Index": 13,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -1380,7 +1519,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 14
+      "Index": 14,
+      "Size": null
     }
   },
   {
@@ -1389,7 +1529,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 15
+      "Index": 15,
+      "Size": null
     }
   },
   {
@@ -1398,7 +1539,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 16
+      "Index": 16,
+      "Size": null
     }
   },
   {
@@ -1407,7 +1549,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 17
+      "Index": 17,
+      "Size": null
     }
   },
   {
@@ -1416,7 +1559,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 18
+      "Index": 18,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -1426,7 +1570,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 3
+      "Index": 3,
+      "Size": null
     }
   },
   {
@@ -1435,7 +1580,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 4
+      "Index": 4,
+      "Size": null
     }
   },
   {
@@ -1444,7 +1590,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     }
   },
   {
@@ -1453,7 +1600,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 20
+      "Index": 20,
+      "Size": null
     }
   },
   {
@@ -1462,7 +1610,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 21
+      "Index": 21,
+      "Size": null
     }
   },
   {
@@ -1471,7 +1620,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 22
+      "Index": 22,
+      "Size": null
     }
   },
   {
@@ -1480,7 +1630,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 23
+      "Index": 23,
+      "Size": null
     }
   },
   {
@@ -1489,7 +1640,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 24
+      "Index": 24,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1499,7 +1651,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 25
+      "Index": 25,
+      "Size": null
     },
     "Rotation": "85"
   },
@@ -1509,7 +1662,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 26
+      "Index": 26,
+      "Size": null
     }
   },
   {
@@ -1518,7 +1672,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 27
+      "Index": 27,
+      "Size": null
     }
   },
   {
@@ -1527,7 +1682,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 28
+      "Index": 28,
+      "Size": null
     }
   },
   {
@@ -1536,7 +1692,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiProjs",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "Rotation": "195"
   },
@@ -1546,7 +1703,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 34
+      "Index": 34,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1556,7 +1714,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiProjs",
-      "Index": 35
+      "Index": 35,
+      "Size": null
     }
   },
   {
@@ -1565,7 +1724,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 39
+      "Index": 39,
+      "Size": null
     }
   },
   {
@@ -1574,7 +1734,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 40
+      "Index": 40,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1584,7 +1745,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 41
+      "Index": 41,
+      "Size": null
     }
   },
   {
@@ -1593,7 +1755,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 42
+      "Index": 42,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -1603,7 +1766,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 43
+      "Index": 43,
+      "Size": null
     }
   },
   {
@@ -1612,7 +1776,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 44
+      "Index": 44,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1622,7 +1787,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 45
+      "Index": 45,
+      "Size": null
     },
     "Rotation": "-85"
   },
@@ -1632,7 +1798,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 46
+      "Index": 46,
+      "Size": null
     }
   },
   {
@@ -1641,7 +1808,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 47
+      "Index": 47,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1651,7 +1819,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 5
+      "Index": 5,
+      "Size": null
     }
   },
   {
@@ -1660,7 +1829,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 6
+      "Index": 6,
+      "Size": null
     }
   },
   {
@@ -1669,7 +1839,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 48
+      "Index": 48,
+      "Size": null
     }
   },
   {
@@ -1678,7 +1849,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 49
+      "Index": 49,
+      "Size": null
     }
   },
   {
@@ -1687,7 +1859,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 50
+      "Index": 50,
+      "Size": null
     }
   },
   {
@@ -1696,7 +1869,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiProjs",
-      "Index": 51
+      "Index": 51,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -1706,7 +1880,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 54
+      "Index": 54,
+      "Size": null
     }
   },
   {
@@ -1715,7 +1890,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 7
+      "Index": 7,
+      "Size": null
     }
   },
   {
@@ -1724,7 +1900,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 55
+      "Index": 55,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1734,7 +1911,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 56
+      "Index": 56,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1744,7 +1922,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 57
+      "Index": 57,
+      "Size": null
     }
   },
   {
@@ -1753,7 +1932,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 58
+      "Index": 58,
+      "Size": null
     },
     "Rotation": "135"
   },
@@ -1763,7 +1943,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 59
+      "Index": 59,
+      "Size": null
     },
     "Rotation": "135"
   },
@@ -1773,7 +1954,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 60
+      "Index": 60,
+      "Size": null
     },
     "Rotation": "-105"
   },
@@ -1783,7 +1965,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "ShadowSize": "0"
   },
@@ -1793,7 +1976,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 61
+      "Index": 61,
+      "Size": null
     },
     "Rotation": "-110"
   },
@@ -1803,7 +1987,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 62
+      "Index": 62,
+      "Size": null
     }
   },
   {
@@ -1812,7 +1997,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 63
+      "Index": 63,
+      "Size": null
     },
     "AngleCorrection": "-1"
   },
@@ -1822,7 +2008,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 64
+      "Index": 64,
+      "Size": null
     }
   },
   {
@@ -1831,7 +2018,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 65
+      "Index": 65,
+      "Size": null
     },
     "Rotation": "45"
   },
@@ -1841,7 +2029,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 66
+      "Index": 66,
+      "Size": null
     },
     "AngleCorrection": "0"
   },
@@ -1851,7 +2040,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1861,7 +2051,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 68
+      "Index": 68,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1871,7 +2062,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 69
+      "Index": 69,
+      "Size": null
     }
   },
   {
@@ -1880,7 +2072,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 70
+      "Index": 70,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1890,7 +2083,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 71
+      "Index": 71,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1900,7 +2094,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 72
+      "Index": 72,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1910,7 +2105,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 73
+      "Index": 73,
+      "Size": null
     }
   },
   {
@@ -1919,7 +2115,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 74
+      "Index": 74,
+      "Size": null
     }
   },
   {
@@ -1928,7 +2125,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 75
+      "Index": 75,
+      "Size": null
     },
     "Rotation": "-120"
   },
@@ -1938,7 +2136,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 76
+      "Index": 76,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -1948,7 +2147,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 77
+      "Index": 77,
+      "Size": null
     }
   },
   {
@@ -1957,7 +2157,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 78
+      "Index": 78,
+      "Size": null
     }
   },
   {
@@ -1966,7 +2167,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 79
+      "Index": 79,
+      "Size": null
     }
   },
   {
@@ -1975,7 +2177,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 80
+      "Index": 80,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -1985,7 +2188,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -1995,7 +2199,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 82
+      "Index": 82,
+      "Size": null
     }
   },
   {
@@ -2004,7 +2209,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     }
   },
   {
@@ -2013,7 +2219,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 84
+      "Index": 84,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2023,7 +2230,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 85
+      "Index": 85,
+      "Size": null
     }
   },
   {
@@ -2032,7 +2240,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 86
+      "Index": 86,
+      "Size": null
     }
   },
   {
@@ -2041,7 +2250,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 87
+      "Index": 87,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2051,7 +2261,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 88
+      "Index": 88,
+      "Size": null
     },
     "Rotation": "-80"
   },
@@ -2061,7 +2272,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 89
+      "Index": 89,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2071,7 +2283,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 90
+      "Index": 90,
+      "Size": null
     }
   },
   {
@@ -2080,7 +2293,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 91
+      "Index": 91,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2090,7 +2304,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 92
+      "Index": 92,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2100,7 +2315,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 93
+      "Index": 93,
+      "Size": null
     }
   },
   {
@@ -2109,7 +2325,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 94
+      "Index": 94,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -2119,7 +2336,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 8
+      "Index": 8,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -2129,7 +2347,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 95
+      "Index": 95,
+      "Size": null
     }
   },
   {
@@ -2138,7 +2357,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiProjs",
-      "Index": 96
+      "Index": 96,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -2148,7 +2368,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2158,7 +2379,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -2168,7 +2390,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 100
+      "Index": 100,
+      "Size": null
     }
   },
   {
@@ -2177,7 +2400,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 101
+      "Index": 101,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2187,7 +2411,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 102
+      "Index": 102,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2197,7 +2422,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     }
   },
   {
@@ -2206,7 +2432,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 104
+      "Index": 104,
+      "Size": null
     }
   },
   {
@@ -2215,7 +2442,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjsBig",
-      "Index": 9
+      "Index": 9,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2225,7 +2453,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 105
+      "Index": 105,
+      "Size": null
     }
   },
   {
@@ -2234,7 +2463,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 106
+      "Index": 106,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2244,7 +2474,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 107
+      "Index": 107,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -2254,7 +2485,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 108
+      "Index": 108,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2264,7 +2496,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 109
+      "Index": 109,
+      "Size": null
     }
   },
   {
@@ -2273,7 +2506,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2283,7 +2517,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 111
+      "Index": 111,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2293,7 +2528,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 112
+      "Index": 112,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2303,7 +2539,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 70
+      "Index": 70,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2313,7 +2550,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 71
+      "Index": 71,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2323,7 +2561,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 72
+      "Index": 72,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -2333,7 +2572,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 73
+      "Index": 73,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -2343,7 +2583,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 74
+      "Index": 74,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -2353,7 +2594,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 75
+      "Index": 75,
+      "Size": null
     }
   },
   {
@@ -2362,7 +2604,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 76
+      "Index": 76,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2372,7 +2615,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 77
+      "Index": 77,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2382,7 +2626,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 78
+      "Index": 78,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2392,7 +2637,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 79
+      "Index": 79,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2402,7 +2648,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 85
+      "Index": 85,
+      "Size": null
     }
   },
   {
@@ -2411,7 +2658,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 215
+      "Index": 215,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2421,7 +2669,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 216
+      "Index": 216,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2431,7 +2680,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 217
+      "Index": 217,
+      "Size": null
     }
   },
   {
@@ -2440,7 +2690,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 218
+      "Index": 218,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2450,7 +2701,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 219
+      "Index": 219,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2460,7 +2712,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 220
+      "Index": 220,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2470,7 +2723,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 221
+      "Index": 221,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2480,7 +2734,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 222
+      "Index": 222,
+      "Size": null
     },
     "Rotation": "-120"
   },
@@ -2490,7 +2745,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 227
+      "Index": 227,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2500,7 +2756,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 347
+      "Index": 347,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2510,7 +2767,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 348
+      "Index": 348,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2520,7 +2778,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 349
+      "Index": 349,
+      "Size": null
     }
   },
   {
@@ -2529,7 +2788,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 59
+      "Index": 59,
+      "Size": null
     }
   },
   {
@@ -2538,7 +2798,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 350
+      "Index": 350,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2548,7 +2809,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 351
+      "Index": 351,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2558,7 +2820,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 352
+      "Index": 352,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2568,7 +2831,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 353
+      "Index": 353,
+      "Size": null
     }
   },
   {
@@ -2577,7 +2841,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 354
+      "Index": 354,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2587,7 +2852,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 355
+      "Index": 355,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2597,7 +2863,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 356
+      "Index": 356,
+      "Size": null
     }
   },
   {
@@ -2606,7 +2873,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 357
+      "Index": 357,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2616,7 +2884,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 409
+      "Index": 409,
+      "Size": null
     }
   },
   {
@@ -2625,7 +2894,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 410
+      "Index": 410,
+      "Size": null
     }
   },
   {
@@ -2634,7 +2904,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 411
+      "Index": 411,
+      "Size": null
     }
   },
   {
@@ -2643,7 +2914,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj",
-      "Index": 246
+      "Index": 246,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -2653,7 +2925,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 455
+      "Index": 455,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2663,7 +2936,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 456
+      "Index": 456,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -2673,7 +2947,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 457
+      "Index": 457,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -2683,7 +2958,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 458
+      "Index": 458,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -2693,7 +2969,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 93
+      "Index": 93,
+      "Size": null
     }
   },
   {
@@ -2702,7 +2979,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 459
+      "Index": 459,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2712,7 +2990,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 94
+      "Index": 94,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2722,7 +3001,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 460
+      "Index": 460,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2732,7 +3012,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 461
+      "Index": 461,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2742,7 +3023,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 508
+      "Index": 508,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -2752,7 +3034,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 509
+      "Index": 509,
+      "Size": null
     }
   },
   {
@@ -2761,7 +3044,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 581
+      "Index": 581,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2771,7 +3055,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 582
+      "Index": 582,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2781,7 +3066,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 583
+      "Index": 583,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2791,7 +3077,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 584
+      "Index": 584,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2801,7 +3088,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 585
+      "Index": 585,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2811,7 +3099,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 586
+      "Index": 586,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2821,7 +3110,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 587
+      "Index": 587,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2831,7 +3121,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 588
+      "Index": 588,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2841,7 +3132,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 589
+      "Index": 589,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2851,7 +3143,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 590
+      "Index": 590,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2861,7 +3154,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 591
+      "Index": 591,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2871,7 +3165,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 592
+      "Index": 592,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2881,7 +3176,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 599
+      "Index": 599,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2891,7 +3187,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 600
+      "Index": 600,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -2901,7 +3198,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 601
+      "Index": 601,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -2911,7 +3209,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 602
+      "Index": 602,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -2921,7 +3220,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 603
+      "Index": 603,
+      "Size": null
     },
     "Rotation": "-75"
   },
@@ -2931,7 +3231,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 604
+      "Index": 604,
+      "Size": null
     },
     "Rotation": "-95"
   },
@@ -2941,7 +3242,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 605
+      "Index": 605,
+      "Size": null
     },
     "Rotation": "75"
   },
@@ -2951,7 +3253,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 606
+      "Index": 606,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -2961,7 +3264,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 607
+      "Index": 607,
+      "Size": null
     },
     "Rotation": "-100"
   },
@@ -2971,7 +3275,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 608
+      "Index": 608,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -2981,7 +3286,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 609
+      "Index": 609,
+      "Size": null
     }
   },
   {
@@ -2990,7 +3296,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 610
+      "Index": 610,
+      "Size": null
     }
   },
   {
@@ -2999,7 +3306,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 611
+      "Index": 611,
+      "Size": null
     }
   },
   {
@@ -3008,7 +3316,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 612
+      "Index": 612,
+      "Size": null
     }
   },
   {
@@ -3017,7 +3326,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 613
+      "Index": 613,
+      "Size": null
     }
   },
   {
@@ -3026,7 +3336,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 614
+      "Index": 614,
+      "Size": null
     }
   },
   {
@@ -3035,7 +3346,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 615
+      "Index": 615,
+      "Size": null
     }
   },
   {
@@ -3044,7 +3356,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 616
+      "Index": 616,
+      "Size": null
     },
     "Rotation": "140"
   },
@@ -3054,7 +3367,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 617
+      "Index": 617,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3064,7 +3378,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 618
+      "Index": 618,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3074,7 +3389,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 619
+      "Index": 619,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3084,7 +3400,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 620
+      "Index": 620,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3094,7 +3411,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 678
+      "Index": 678,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3104,7 +3422,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 679
+      "Index": 679,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3114,7 +3433,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 680
+      "Index": 680,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3124,7 +3444,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 681
+      "Index": 681,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -3134,7 +3455,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 682
+      "Index": 682,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3144,7 +3466,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 683
+      "Index": 683,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3154,7 +3477,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 684
+      "Index": 684,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3164,7 +3488,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 685
+      "Index": 685,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -3174,7 +3499,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 688
+      "Index": 688,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -3184,7 +3510,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 689
+      "Index": 689,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -3194,7 +3521,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 690
+      "Index": 690,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3204,7 +3532,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 691
+      "Index": 691,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3214,7 +3543,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 692
+      "Index": 692,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -3224,7 +3554,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 693
+      "Index": 693,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3234,7 +3565,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 694
+      "Index": 694,
+      "Size": null
     },
     "AngleCorrection": "1",
     "Rotation": "70"
@@ -3245,7 +3577,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 751
+      "Index": 751,
+      "Size": null
     }
   },
   {
@@ -3254,7 +3587,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiChar216x8",
-      "Index": 14
+      "Index": 14,
+      "Size": null
     }
   },
   {
@@ -3263,7 +3597,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 752
+      "Index": 752,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3273,7 +3608,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 753
+      "Index": 753,
+      "Size": null
     }
   },
   {
@@ -3282,7 +3618,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 754
+      "Index": 754,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3292,7 +3629,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 755
+      "Index": 755,
+      "Size": null
     },
     "AngleCorrection": "-.5"
   },
@@ -3302,7 +3640,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 753
+      "Index": 753,
+      "Size": null
     }
   },
   {
@@ -3311,7 +3650,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 756
+      "Index": 756,
+      "Size": null
     }
   },
   {
@@ -3320,7 +3660,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 757
+      "Index": 757,
+      "Size": null
     }
   },
   {
@@ -3329,7 +3670,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 758
+      "Index": 758,
+      "Size": null
     }
   },
   {
@@ -3338,7 +3680,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 759
+      "Index": 759,
+      "Size": null
     },
     "AngleCorrection": "-1.5"
   },
@@ -3348,7 +3691,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 760
+      "Index": 760,
+      "Size": null
     }
   },
   {
@@ -3357,7 +3701,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 761
+      "Index": 761,
+      "Size": null
     }
   },
   {
@@ -3366,7 +3711,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 762
+      "Index": 762,
+      "Size": null
     }
   },
   {
@@ -3375,7 +3721,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 796
+      "Index": 796,
+      "Size": null
     }
   },
   {
@@ -3384,7 +3731,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 797
+      "Index": 797,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3394,7 +3742,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 798
+      "Index": 798,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3404,7 +3753,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 799
+      "Index": 799,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3414,7 +3764,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -3424,7 +3775,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 800
+      "Index": 800,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3434,7 +3786,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 801
+      "Index": 801,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3444,7 +3797,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 802
+      "Index": 802,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3454,7 +3808,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 803
+      "Index": 803,
+      "Size": null
     }
   },
   {
@@ -3463,7 +3818,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 804
+      "Index": 804,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3473,7 +3829,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 805
+      "Index": 805,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3483,7 +3840,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 806
+      "Index": 806,
+      "Size": null
     }
   },
   {
@@ -3492,7 +3850,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 807
+      "Index": 807,
+      "Size": null
     }
   },
   {
@@ -3501,7 +3860,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 808
+      "Index": 808,
+      "Size": null
     }
   },
   {
@@ -3510,7 +3870,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 809
+      "Index": 809,
+      "Size": null
     }
   },
   {
@@ -3519,7 +3880,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 810
+      "Index": 810,
+      "Size": null
     }
   },
   {
@@ -3528,7 +3890,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 882
+      "Index": 882,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3538,7 +3901,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 883
+      "Index": 883,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3548,7 +3912,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 884
+      "Index": 884,
+      "Size": null
     }
   },
   {
@@ -3557,7 +3922,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 885
+      "Index": 885,
+      "Size": null
     }
   },
   {
@@ -3566,7 +3932,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 886
+      "Index": 886,
+      "Size": null
     }
   },
   {
@@ -3575,7 +3942,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 924
+      "Index": 924,
+      "Size": null
     },
     "Rotation": "350"
   },
@@ -3585,7 +3953,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 929
+      "Index": 929,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3595,7 +3964,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 930
+      "Index": 930,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3605,7 +3975,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 931
+      "Index": 931,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -3615,7 +3986,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 944
+      "Index": 944,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3625,7 +3997,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 179
+      "Index": 179,
+      "Size": null
     },
     "Rotation": "80"
   },
@@ -3635,7 +4008,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 188
+      "Index": 188,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3645,7 +4019,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 189
+      "Index": 189,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3655,7 +4030,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 950
+      "Index": 950,
+      "Size": null
     },
     "Rotation": "120"
   },
@@ -3665,7 +4041,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 951
+      "Index": 951,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3675,7 +4052,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 952
+      "Index": 952,
+      "Size": null
     },
     "AngleCorrection": "0"
   },
@@ -3685,7 +4063,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 953
+      "Index": 953,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3695,7 +4074,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 954
+      "Index": 954,
+      "Size": null
     }
   },
   {
@@ -3704,7 +4084,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 190
+      "Index": 190,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3714,7 +4095,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 191
+      "Index": 191,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3724,7 +4106,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 955
+      "Index": 955,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3734,7 +4117,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 956
+      "Index": 956,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3744,7 +4128,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 187
+      "Index": 187,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3754,7 +4139,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 945
+      "Index": 945,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3764,7 +4150,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 946
+      "Index": 946,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3774,7 +4161,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 947
+      "Index": 947,
+      "Size": null
     }
   },
   {
@@ -3783,7 +4171,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 948
+      "Index": 948,
+      "Size": null
     }
   },
   {
@@ -3792,7 +4181,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 949
+      "Index": 949,
+      "Size": null
     },
     "Rotation": "100"
   },
@@ -3802,7 +4192,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 202
+      "Index": 202,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3812,7 +4203,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 957
+      "Index": 957,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3822,7 +4214,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 958
+      "Index": 958,
+      "Size": null
     },
     "Rotation": "60"
   },
@@ -3832,7 +4225,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 194
+      "Index": 194,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3842,7 +4236,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 195
+      "Index": 195,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3852,7 +4247,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 979
+      "Index": 979,
+      "Size": null
     },
     "Rotation": "70"
   },
@@ -3862,7 +4258,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 312
+      "Index": 312,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3872,7 +4269,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 313
+      "Index": 313,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3882,7 +4280,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 314
+      "Index": 314,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3892,7 +4291,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiProjs",
-      "Index": 117
+      "Index": 117,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3902,7 +4302,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1012
+      "Index": 1012,
+      "Size": null
     }
   },
   {
@@ -3911,7 +4312,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1030
+      "Index": 1030,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3921,7 +4323,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1031
+      "Index": 1031,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -3931,7 +4334,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1032
+      "Index": 1032,
+      "Size": null
     },
     "Rotation": "350"
   },
@@ -3941,7 +4345,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1041
+      "Index": 1041,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -3951,7 +4356,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1047
+      "Index": 1047,
+      "Size": null
     },
     "Rotation": "180"
   },
@@ -3961,7 +4367,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1048
+      "Index": 1048,
+      "Size": null
     }
   },
   {
@@ -3970,7 +4377,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1049
+      "Index": 1049,
+      "Size": null
     }
   },
   {
@@ -3979,7 +4387,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1051
+      "Index": 1051,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -3988,8 +4397,12 @@
     "id": "boss spawn",
     "Class": "Projectile",
     "RandomTexture": {
-      "File": "lofiChar16x16",
-      "Index": 84
+      "File": "lofiChar",
+      "Index": 84,
+      "Size": {
+        "Width": 16,
+        "Height": 16
+      }
     },
     "Rotation": "185"
   },
@@ -3999,7 +4412,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1096
+      "Index": 1096,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4009,7 +4423,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1097
+      "Index": 1097,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4019,7 +4434,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 314
+      "Index": 314,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4029,7 +4445,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 315
+      "Index": 315,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4039,7 +4456,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 316
+      "Index": 316,
+      "Size": null
     }
   },
   {
@@ -4048,7 +4466,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1098
+      "Index": 1098,
+      "Size": null
     }
   },
   {
@@ -4057,7 +4476,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1099
+      "Index": 1099,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4067,7 +4487,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 317
+      "Index": 317,
+      "Size": null
     },
     "AngleCorrection": "3"
   },
@@ -4077,7 +4498,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 318
+      "Index": 318,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4087,7 +4509,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1100
+      "Index": 1100,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4097,7 +4520,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 319
+      "Index": 319,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4107,7 +4531,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1101
+      "Index": 1101,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4117,7 +4542,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1113
+      "Index": 1113,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4127,7 +4553,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1114
+      "Index": 1114,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4137,7 +4564,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1115
+      "Index": 1115,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4147,7 +4575,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1116
+      "Index": 1116,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4157,7 +4586,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1158
+      "Index": 1158,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4167,7 +4597,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1159
+      "Index": 1159,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4177,7 +4608,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1173
+      "Index": 1173,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4187,7 +4619,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1178
+      "Index": 1178,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4197,7 +4630,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1207
+      "Index": 1207,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4207,7 +4641,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1205
+      "Index": 1205,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4217,7 +4652,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1208
+      "Index": 1208,
+      "Size": null
     }
   },
   {
@@ -4226,7 +4662,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1206
+      "Index": 1206,
+      "Size": null
     }
   },
   {
@@ -4235,7 +4672,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1192
+      "Index": 1192,
+      "Size": null
     }
   },
   {
@@ -4244,7 +4682,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1193
+      "Index": 1193,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4254,7 +4693,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1194
+      "Index": 1194,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4264,7 +4704,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1195
+      "Index": 1195,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -4274,7 +4715,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1196
+      "Index": 1196,
+      "Size": null
     },
     "Rotation": "90"
   },
@@ -4284,7 +4726,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1213
+      "Index": 1213,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4294,7 +4737,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1215
+      "Index": 1215,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4304,7 +4748,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1217
+      "Index": 1217,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4314,7 +4759,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1227
+      "Index": 1227,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4324,7 +4770,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4334,7 +4781,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1236
+      "Index": 1236,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4344,7 +4792,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1240
+      "Index": 1240,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4354,7 +4803,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1244
+      "Index": 1244,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4364,7 +4814,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1248
+      "Index": 1248,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4374,7 +4825,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1252
+      "Index": 1252,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4384,7 +4836,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1256
+      "Index": 1256,
+      "Size": null
     }
   },
   {
@@ -4393,7 +4846,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1257
+      "Index": 1257,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4403,7 +4857,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1258
+      "Index": 1258,
+      "Size": null
     }
   },
   {
@@ -4412,7 +4867,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1259
+      "Index": 1259,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4422,7 +4878,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1260
+      "Index": 1260,
+      "Size": null
     },
     "AngleCorrection": "3"
   },
@@ -4432,7 +4889,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1285
+      "Index": 1285,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4442,7 +4900,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1286
+      "Index": 1286,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4452,7 +4911,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1287
+      "Index": 1287,
+      "Size": null
     },
     "AngleCorrection": "2"
   },
@@ -4462,7 +4922,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1288
+      "Index": 1288,
+      "Size": null
     }
   },
   {
@@ -4471,7 +4932,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1291
+      "Index": 1291,
+      "Size": null
     },
     "AngleCorrection": "0"
   },
@@ -4481,7 +4943,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1298
+      "Index": 1298,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4491,7 +4954,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1299
+      "Index": 1299,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4501,7 +4965,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1303
+      "Index": 1303,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4511,7 +4976,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1304
+      "Index": 1304,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4521,7 +4987,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1308
+      "Index": 1308,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4531,7 +4998,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1309
+      "Index": 1309,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4541,7 +5009,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 25
+      "Index": 25,
+      "Size": null
     }
   },
   {
@@ -4550,7 +5019,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1362
+      "Index": 1362,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4560,7 +5030,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1372
+      "Index": 1372,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4570,7 +5041,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1373
+      "Index": 1373,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4580,7 +5052,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1374
+      "Index": 1374,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4590,7 +5063,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 1376
+      "Index": 1376,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4600,7 +5074,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1342
+      "Index": 1342,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4610,7 +5085,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1343
+      "Index": 1343,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4620,7 +5096,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1346
+      "Index": 1346,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4630,7 +5107,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1347
+      "Index": 1347,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4640,7 +5118,8 @@
     "Class": "Projectile",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 924
+      "Index": 924,
+      "Size": null
     },
     "Rotation": "350",
     "DisplayId": "{epicforestMaze.Woodland_Moth_Dust}"
@@ -4651,7 +5130,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 999
+      "Index": 999,
+      "Size": null
     },
     "Rotation": "180",
     "DisplayId": "{epicforestMaze.Fire_Acorn}"
@@ -4662,7 +5142,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 143
+      "Index": 143,
+      "Size": null
     },
     "Rotation": "185"
   },
@@ -4672,7 +5153,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 158
+      "Index": 158,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4682,7 +5164,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 189
+      "Index": 189,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4692,7 +5175,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 190
+      "Index": 190,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4702,7 +5186,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 233
+      "Index": 233,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4712,7 +5197,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 252
+      "Index": 252,
+      "Size": null
     }
   },
   {
@@ -4721,7 +5207,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 235
+      "Index": 235,
+      "Size": null
     }
   },
   {
@@ -4730,7 +5217,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 237
+      "Index": 237,
+      "Size": null
     },
     "AngleCorrection": "1"
   },
@@ -4740,7 +5228,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 239
+      "Index": 239,
+      "Size": null
     }
   },
   {
@@ -4749,7 +5238,8 @@
     "Class": "Projectile",
     "Texture": {
       "File": "lofiObj6",
-      "Index": 250
+      "Index": 250,
+      "Size": null
     },
     "AngleCorrection": "1"
   }

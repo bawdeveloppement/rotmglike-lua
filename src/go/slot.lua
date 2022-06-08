@@ -89,22 +89,22 @@ function Slot:draw( ... )
                 for k, v in pairs(self.item) do
                     if k ~= "$" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
                     and k ~= "Item" and k ~= "Usable" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
-                        if type(v) ~= "table" or k == "ActivateOnEquip" then
-                            if k == "ActivateOnEquip" then
-                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
-                                for kact, vact in pairs(self.item[k]) do
-                                    if kact == "IncrementStat" then
-                                        if CharacterComponent.statOffToHere[vact.stat] ~= nil then
-                                            i = i + 1
-                                            self.cacheText[itemId][i] = love.graphics.newText(_G.font, {{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount })
-                                        end
-                                    end
-                                end
-                            else
-                                self.cacheText[itemId][i] = love.graphics.newText(_G.font1, k .. " : " .. tostring(v))
-                            end
-                            i = i + 1
-                        end
+                        -- if type(v) ~= "table" or k == "ActivateOnEquip" then
+                        --     if k == "ActivateOnEquip" then
+                        --         self.cacheText[itemId][i] = love.graphics.newText(_G.font1, {{128/255, 128/255, 128/255, 1}, "Stats : \n"})
+                        --         for kact, vact in pairs(self.item[k]) do
+                        --             if kact == "IncrementStat" then
+                        --                 if CharacterComponent.statOffToHere[vact.stat] ~= nil then
+                        --                     i = i + 1
+                        --                     self.cacheText[itemId][i] = love.graphics.newText(_G.font, {{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount })
+                        --                 end
+                        --             end
+                        --         end
+                        --     else
+                        --         self.cacheText[itemId][i] = love.graphics.newText(_G.font1, k .. " : " .. tostring(v))
+                        --     end
+                        --     i = i + 1
+                        -- end
                     end
                 end
             end

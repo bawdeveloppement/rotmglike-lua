@@ -23,12 +23,13 @@ end
 
 function GamePlayScreen:goToWorld(worldId)
     for k, v in pairs(self.worlds) do
-        if v.isActive and v.worldName ~= worldId then
+        if v.isActive and v.world_name ~= worldId then
             v.isActive = false
         end
     end
+    print(v)
     for k, v in pairs(self.worlds) do
-        if not v.isActive and v.worldName == worldId then
+        if not v.isActive and v.world_name == worldId then
             v.isActive = true
         end
     end
@@ -75,7 +76,7 @@ function GamePlayScreen:keypressed(...)
     end
     local key = ...
     if key == "escape" then
-        _G.xle.Screen.goToScreen("main_menu");
+        _G.xle.Screen.goToScreen("main_menu_screen");
     end
 end
 

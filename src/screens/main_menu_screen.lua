@@ -16,11 +16,11 @@ function GameMainMenuScreen:init()
     }
 
     self.nodes.playSoloButton:addOnClickEvent("changeScreen", function ()
-        _G.xle.Screen.goToScreen("play");
+        _G.xle.Screen.goToScreen("play_screen");
     end)
 
     self.nodes.optionButton:addOnClickEvent("changeScreen", function ()
-        _G.xle.Screen.goToScreen("option");
+        _G.xle.Screen.goToScreen("option_screen");
     end)
 end
 
@@ -36,6 +36,21 @@ function GameMainMenuScreen:draw(...)
     for k in pairs(self.nodes) do
         if self.nodes[k].draw ~= nil then
             self.nodes[k]:draw(...)
+        end
+    end
+end
+
+function GameMainMenuScreen:mousepressed(...)
+    for k in pairs(self.nodes) do
+        if self.nodes[k].mousepressed ~= nil then
+            self.nodes[k]:mousepressed(...)
+        end
+    end
+end
+function GameMainMenuScreen:mousereleased(...)
+    for k in pairs(self.nodes) do
+        if self.nodes[k].mousereleased ~= nil then
+            self.nodes[k]:mousereleased(...)
         end
     end
 end

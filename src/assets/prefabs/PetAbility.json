@@ -1,0 +1,83 @@
+[
+  {
+    "id": "Attack Close",
+    "type": "0x192",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Shoot Attack",
+    "Description": "{pets.Shoots_at_any_close-range_enemies_and_deals_heavy_damage.\\n\\}",
+    "DisplayId": "{pets.Attack_Close}"
+  },
+  {
+    "id": "Attack Mid",
+    "type": "0x194",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Shoot Attack",
+    "Description": "{pets.Shoots_at_any_mid-range_enemies_and_deals_medium_damage.\\n\\n}",
+    "DisplayId": "{pets.Attack_Mid}"
+  },
+  {
+    "id": "Attack Far",
+    "type": "0x195",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Shoot Attack",
+    "Description": "{pets.Shoots_at_any_nearby_far-range_enemies_and_deals_light_damag}",
+    "DisplayId": "{pets.Attack_Far}"
+  },
+  {
+    "id": "Electric",
+    "type": "0x196",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "AOE Attack",
+    "Description": "{pets.Zaps_any_enemy_foolish_enough_to_touch_your_pet._This_attack}",
+    "DisplayId": "{pets.Electric}"
+  },
+  {
+    "id": "Heal",
+    "type": "0x197",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Heal",
+    "Description": "{pets.Heals_you_periodically.\\n\\nLevel_this_ability_up_to_increase}",
+    "DisplayId": "{pets.Heal}"
+  },
+  {
+    "id": "Magic Heal",
+    "type": "0x198",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Magic Heal",
+    "Description": "{pets.Restores_your_Magic_Points_periodically.\\n\\nLevel_this_abili}",
+    "DisplayId": "{pets.Magic_Heal}"
+  },
+  {
+    "id": "Savage",
+    "type": "0x199",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Savage",
+    "Description": "{pets.Your_pet_will_run_towards_nearby_enemies.\\n\\nLevel_this_abil}",
+    "DisplayId": "{pets.Savage}"
+  },
+  {
+    "id": "Decoy",
+    "type": "0x19a",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "Decoy",
+    "Description": "{pets.Distracts_enemies_for_a_short_while.\\n\\nLevel_this_ability_u}",
+    "DisplayId": "{pets.Decoy}"
+  },
+  {
+    "id": "Rising Fury",
+    "type": "0x19b",
+    "PetAbility": true,
+    "Class": "PetAbility",
+    "Group": "RisingFury",
+    "Description": "{pets.Standing_still_will_charge_this_attack._Begin_moving_to_rele}",
+    "DisplayId": "{pets.Rising_Fury}"
+  }
+]

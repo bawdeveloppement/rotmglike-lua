@@ -6,7 +6,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -22,7 +23,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -38,7 +40,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -54,7 +57,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -70,7 +74,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -86,7 +91,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Common",
@@ -102,7 +108,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -118,7 +125,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -134,7 +142,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -150,7 +159,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -166,7 +176,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -182,7 +193,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -198,7 +210,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Common",
@@ -214,7 +227,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Common",
@@ -230,7 +244,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Common",
@@ -250,7 +265,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Common",
@@ -270,7 +286,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Common",
@@ -290,7 +307,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Common",
@@ -310,7 +328,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Common",
@@ -326,7 +345,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Common",
@@ -342,7 +362,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Common",
@@ -358,7 +379,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Common",
@@ -374,7 +396,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Common",
@@ -390,7 +413,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Common",
@@ -406,7 +430,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Common",
@@ -422,7 +447,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Common",
@@ -438,7 +464,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Common",
@@ -454,7 +481,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Common",
@@ -470,7 +498,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Common",
@@ -486,7 +515,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Common",
@@ -502,7 +532,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -522,7 +553,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -538,7 +570,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -554,7 +587,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -570,7 +604,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -586,7 +621,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Common",
@@ -602,7 +638,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Common",
@@ -618,7 +655,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Common",
@@ -634,7 +672,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Common",
@@ -650,7 +689,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Common",
@@ -666,7 +706,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -682,7 +723,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -698,7 +740,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -714,7 +757,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -730,7 +774,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -746,7 +791,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -762,7 +808,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Common",
@@ -778,7 +825,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Common",
@@ -798,7 +846,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Common",
@@ -816,7 +865,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Common",
@@ -837,7 +887,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Common",
@@ -853,7 +904,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Common",
@@ -869,7 +921,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Common",
@@ -889,7 +942,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Common",
@@ -905,7 +959,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Common",
@@ -921,7 +976,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Common",
@@ -937,7 +993,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Rare",
@@ -952,7 +1009,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Rare",
@@ -967,7 +1025,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Rare",
@@ -982,7 +1041,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Rare",
@@ -997,7 +1057,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Rare",
@@ -1012,7 +1073,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Rare",
@@ -1027,7 +1089,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Rare",
@@ -1046,7 +1109,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Rare",
@@ -1065,7 +1129,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Rare",
@@ -1084,7 +1149,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Rare",
@@ -1103,7 +1169,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Rare",
@@ -1118,7 +1185,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Rare",
@@ -1137,7 +1205,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Rare",
@@ -1152,7 +1221,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Rare",
@@ -1167,7 +1237,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Rare",
@@ -1182,7 +1253,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Rare",
@@ -1197,7 +1269,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Rare",
@@ -1216,7 +1289,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Rare",
@@ -1231,7 +1305,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Rare",
@@ -1246,7 +1321,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Rare",
@@ -1265,7 +1341,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Rare",
@@ -1280,7 +1357,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Rare",
@@ -1295,7 +1373,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Rare",
@@ -1310,7 +1389,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Rare",
@@ -1325,7 +1405,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Rare",
@@ -1340,7 +1421,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Rare",
@@ -1355,7 +1437,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Rare",
@@ -1370,7 +1453,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Rare",
@@ -1389,7 +1473,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Rare",
@@ -1404,7 +1489,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Rare",
@@ -1419,7 +1505,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Rare",
@@ -1437,7 +1524,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Rare",
@@ -1457,7 +1545,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Rare",
@@ -1472,7 +1561,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Rare",
@@ -1487,7 +1577,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Rare",
@@ -1502,7 +1593,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
@@ -1517,7 +1609,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
@@ -1532,7 +1625,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
@@ -1547,7 +1641,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Rare",
@@ -1562,7 +1657,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Rare",
@@ -1577,7 +1673,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObj2",
-      "Index": "0x32"
+      "Index": 50,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Rare",
@@ -1592,7 +1689,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Divine",
@@ -1607,7 +1705,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Feline",
     "Rarity": "Divine",
@@ -1622,7 +1721,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Divine",
@@ -1637,7 +1737,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Canine",
     "Rarity": "Divine",
@@ -1652,7 +1753,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Divine",
@@ -1672,7 +1774,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Avian",
     "Rarity": "Divine",
@@ -1687,7 +1790,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Divine",
@@ -1702,7 +1806,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Exotic",
     "Rarity": "Divine",
@@ -1717,7 +1822,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Divine",
@@ -1732,7 +1838,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Farm",
     "Rarity": "Divine",
@@ -1747,7 +1854,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Divine",
@@ -1762,7 +1870,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Woodland",
     "Rarity": "Divine",
@@ -1777,7 +1886,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Divine",
@@ -1792,7 +1902,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Reptile",
     "Rarity": "Divine",
@@ -1807,7 +1918,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Divine",
@@ -1822,7 +1934,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Insect",
     "Rarity": "Divine",
@@ -1842,7 +1955,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Divine",
@@ -1857,7 +1971,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Penguin",
     "Rarity": "Divine",
@@ -1873,7 +1988,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Divine",
@@ -1888,7 +2004,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Divine",
@@ -1905,7 +2022,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Aquatic",
     "Rarity": "Divine",
@@ -1920,7 +2038,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Divine",
@@ -1940,7 +2059,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Divine",
@@ -1957,7 +2077,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Spooky",
     "Rarity": "Divine",
@@ -1972,7 +2093,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Divine",
@@ -1987,7 +2109,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Divine",
@@ -2002,7 +2125,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Humanoid",
     "Rarity": "Divine",
@@ -2022,7 +2146,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
@@ -2037,7 +2162,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
@@ -2052,7 +2178,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "? ? ? ?",
     "Rarity": "Divine",
@@ -2068,7 +2195,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Divine",
@@ -2083,7 +2211,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Divine",
@@ -2098,7 +2227,8 @@
     "Class": "Pet",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": "0xe0"
+      "Index": 224,
+      "Size": null
     },
     "Family": "Automaton",
     "Rarity": "Divine",

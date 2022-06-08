@@ -9,7 +9,8 @@
     "OccupySquare": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Blue_Dragon_Spawner}"
@@ -24,7 +25,8 @@
     "Z": "-0.30",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 938
+      "Index": 938,
+      "Size": null
     },
     "StasisImmune": true
   },
@@ -38,7 +40,8 @@
     "OccupySquare": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Red_Dragon_Spawner}"
@@ -53,7 +56,8 @@
     "Z": "-0.20",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 939
+      "Index": 939,
+      "Size": null
     },
     "StasisImmune": true
   },
@@ -67,7 +71,8 @@
     "Z": "-0.20",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 939
+      "Index": 939,
+      "Size": null
     },
     "StasisImmune": true
   },
@@ -81,7 +86,8 @@
     "OccupySquare": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Green_Dragon_Spawner}"
@@ -96,7 +102,8 @@
     "OccupySquare": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{lairOfDraconis.NM_Black_Dragon_Spawner}"
@@ -107,7 +114,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 297
+      "Index": 297,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -119,7 +127,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 315
+      "Index": 315,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -131,7 +140,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 314
+      "Index": 314,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -143,7 +153,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 313
+      "Index": 313,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -155,7 +166,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 312
+      "Index": 312,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -167,7 +179,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 311
+      "Index": 311,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -179,7 +192,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 310
+      "Index": 310,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -191,7 +205,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 309
+      "Index": 309,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -203,7 +218,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 308
+      "Index": 308,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -215,7 +231,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 307
+      "Index": 307,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -227,7 +244,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 306
+      "Index": 306,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -239,7 +257,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 305
+      "Index": 305,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -251,7 +270,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 304
+      "Index": 304,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -263,7 +283,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 294
+      "Index": 294,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -275,7 +296,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 295
+      "Index": 295,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -287,7 +309,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 296
+      "Index": 296,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -299,7 +322,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 298
+      "Index": 298,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -338,7 +362,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Static": true,
     "Size": "80",
@@ -351,7 +376,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 7
+      "Index": 7,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -376,7 +402,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 56
+      "Index": 56,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -391,7 +418,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -403,7 +431,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     },
     "DrawOnGround": true,
     "OccupySquare": true,
@@ -417,7 +446,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 107
+      "Index": 107,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -431,7 +461,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -443,7 +474,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Grass}"
@@ -454,7 +486,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Flower_Bright}"
@@ -465,7 +498,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 112
+      "Index": 112,
+      "Size": null
     },
     "Static": true,
     "DisplayId": "{forbiddenJungle.Jungle_Plant}"
@@ -476,7 +510,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 107
+      "Index": 107,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -494,7 +529,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 115
+      "Index": 115,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -508,7 +544,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 17
+      "Index": 17,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -523,7 +560,8 @@
     "Z": "-.2",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -538,7 +576,8 @@
     "Z": "-.2",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -555,11 +594,13 @@
     "DrawOnGround": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiObj3",
-      "Index": 516
+      "Index": 516,
+      "Size": null
     },
     "Projectile": {
       "$": {
@@ -582,11 +623,13 @@
     "DrawOnGround": true,
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiObj3",
-      "Index": 516
+      "Index": 516,
+      "Size": null
     },
     "Projectile": {
       "$": {
@@ -607,7 +650,8 @@
     "Z": "-.2",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 535
+      "Index": 535,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -762,11 +806,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 320
+      "Index": 320,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiObjBig",
-      "Index": 320
+      "Index": 320,
+      "Size": null
     },
     "MaxHitPoints": "5000",
     "Defense": "200",
@@ -804,11 +850,13 @@
     "DrawOnGround": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 30
+      "Index": 30,
+      "Size": null
     },
     "Projectile": {
       "$": {
@@ -841,11 +889,13 @@
     "DrawOnGround": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 30
+      "Index": 30,
+      "Size": null
     },
     "Projectile": {
       "$": {
@@ -873,7 +923,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "NoMiniMap": true,
     "ShadowSize": "0",
@@ -885,7 +936,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "NoMiniMap": true,
     "ShadowSize": "0",
@@ -911,7 +963,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "NoMiniMap": true,
     "ShadowSize": "0",
@@ -938,7 +991,8 @@
     "ShadowSize": "0",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 237
+      "Index": 237,
+      "Size": null
     },
     "Size": "80",
     "Z": "0.40",
@@ -952,7 +1006,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1011
+      "Index": 1011,
+      "Size": null
     },
     "DisplayId": "{epicpirateCave.Bottled_Evil_Water}"
   },
@@ -964,7 +1019,8 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 200
+      "Index": 200,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Green Blob",
@@ -982,7 +1038,8 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 200
+      "Index": 200,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Green Blob",
@@ -1000,7 +1057,8 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 200
+      "Index": 200,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Green Blob",
@@ -1018,7 +1076,8 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 200
+      "Index": 200,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Green Blob",
@@ -1034,7 +1093,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 20
+      "Index": 20,
+      "Size": null
     },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.Up_Arrow}"
@@ -1045,7 +1105,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 21
+      "Index": 21,
+      "Size": null
     },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.UpLeft_Arrow}"
@@ -1056,7 +1117,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 22
+      "Index": 22,
+      "Size": null
     },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.UpRight_Arrow}"
@@ -1067,7 +1129,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj2",
-      "Index": 23
+      "Index": 23,
+      "Size": null
     },
     "DrawOnGround": true,
     "DisplayId": "{tutorial_objects.Grey_Up_Arrow}"
@@ -1078,7 +1141,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 73
+      "Index": 73,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -1096,7 +1160,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 74
+      "Index": 74,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -1114,7 +1179,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 75
+      "Index": 75,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -1132,7 +1198,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 76
+      "Index": 76,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -1150,7 +1217,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 77
+      "Index": 77,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -1168,7 +1236,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 78
+      "Index": 78,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -1179,7 +1248,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 79
+      "Index": 79,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -1190,7 +1260,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 89
+      "Index": 89,
+      "Size": null
     },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
@@ -1203,7 +1274,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 90
+      "Index": 90,
+      "Size": null
     },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
@@ -1216,7 +1288,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 108
+      "Index": 108,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -1227,7 +1300,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 80
+      "Index": 80,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1238,7 +1312,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1249,7 +1324,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 82
+      "Index": 82,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1260,7 +1336,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 109
+      "Index": 109,
+      "Size": null
     },
     "Static": true
   },
@@ -1270,7 +1347,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -1281,7 +1359,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 111
+      "Index": 111,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -1292,7 +1371,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 126
+      "Index": 126,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -1303,7 +1383,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 127
+      "Index": 127,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -1314,7 +1395,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 16
+      "Index": 16,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -1327,7 +1409,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 32
+      "Index": 32,
+      "Size": null
     },
     "DrawOnGround": true
   },
@@ -1337,7 +1420,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 64
+      "Index": 64,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1354,7 +1438,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 65
+      "Index": 65,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1371,7 +1456,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 66
+      "Index": 66,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1388,7 +1474,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1405,7 +1492,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 68
+      "Index": 68,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1422,7 +1510,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 69
+      "Index": 69,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -1440,7 +1529,8 @@
     "Model": "Cube",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 48
+      "Index": 48,
+      "Size": null
     }
   },
   {
@@ -1450,7 +1540,8 @@
     "Model": "Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1463,7 +1554,8 @@
     "Model": "Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1476,7 +1568,8 @@
     "Model": "Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 45
+      "Index": 45,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1489,7 +1582,8 @@
     "Model": "Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 61
+      "Index": 61,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1502,7 +1596,8 @@
     "Model": "Broken Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1515,7 +1610,8 @@
     "Model": "Broken Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 29
+      "Index": 29,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1528,7 +1624,8 @@
     "Model": "Broken Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 45
+      "Index": 45,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1541,7 +1638,8 @@
     "Model": "Broken Pillar",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 61
+      "Index": 61,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -1553,7 +1651,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj",
-      "Index": 20
+      "Index": 20,
+      "Size": null
     },
     "Static": true
   },
@@ -1563,7 +1662,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1577,7 +1677,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 1
+      "Index": 1,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1591,7 +1692,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 2
+      "Index": 2,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1605,7 +1707,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 3
+      "Index": 3,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1620,7 +1723,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 4
+      "Index": 4,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1635,7 +1739,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 5
+      "Index": 5,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1649,7 +1754,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 6
+      "Index": 6,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1663,7 +1769,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 7
+      "Index": 7,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1677,7 +1784,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 8
+      "Index": 8,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1691,7 +1799,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj4",
-      "Index": 16
+      "Index": 16,
+      "Size": null
     },
     "MinSize": "140",
     "MaxSize": "160",
@@ -1705,7 +1814,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj4",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     },
     "Static": true,
     "MinSize": "120",
@@ -1719,7 +1829,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj4",
-      "Index": 22
+      "Index": 22,
+      "Size": null
     },
     "Static": true,
     "MinSize": "120",
@@ -1733,7 +1844,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 32
+      "Index": 32,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1748,7 +1860,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 33
+      "Index": 33,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1763,7 +1876,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 34
+      "Index": 34,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1778,7 +1892,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 35
+      "Index": 35,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1793,7 +1908,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 36
+      "Index": 36,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1808,7 +1924,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 37
+      "Index": 37,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1822,7 +1939,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 38
+      "Index": 38,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1836,7 +1954,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 39
+      "Index": 39,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1850,7 +1969,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 40
+      "Index": 40,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -1864,7 +1984,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 48
+      "Index": 48,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -1875,7 +1996,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 49
+      "Index": 49,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1886,7 +2008,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 50
+      "Index": 50,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1897,7 +2020,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 51
+      "Index": 51,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1908,7 +2032,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 52
+      "Index": 52,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1919,7 +2044,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 53
+      "Index": 53,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1930,7 +2056,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 54
+      "Index": 54,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1941,7 +2068,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 55
+      "Index": 55,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1952,7 +2080,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 56
+      "Index": 56,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1963,7 +2092,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 64
+      "Index": 64,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -1974,7 +2104,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 65
+      "Index": 65,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1985,7 +2116,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 66
+      "Index": 66,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -1996,7 +2128,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2007,7 +2140,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 68
+      "Index": 68,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2018,7 +2152,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 69
+      "Index": 69,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2029,7 +2164,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 70
+      "Index": 70,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2040,7 +2176,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 71
+      "Index": 71,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2051,7 +2188,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 72
+      "Index": 72,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2062,7 +2200,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 80
+      "Index": 80,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -2073,7 +2212,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 81
+      "Index": 81,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2084,7 +2224,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 82
+      "Index": 82,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2095,7 +2236,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2106,7 +2248,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 84
+      "Index": 84,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2117,7 +2260,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 85
+      "Index": 85,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2128,7 +2272,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 86
+      "Index": 86,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2139,7 +2284,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 87
+      "Index": 87,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2150,7 +2296,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 88
+      "Index": 88,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2161,7 +2308,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 96
+      "Index": 96,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -2172,7 +2320,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 97
+      "Index": 97,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2183,7 +2332,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 98
+      "Index": 98,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2194,7 +2344,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 99
+      "Index": 99,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2205,7 +2356,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 100
+      "Index": 100,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2216,7 +2368,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 101
+      "Index": 101,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2227,7 +2380,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 102
+      "Index": 102,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2238,7 +2392,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 103
+      "Index": 103,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2249,7 +2404,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj4",
-      "Index": 104
+      "Index": 104,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -2260,7 +2416,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 128
+      "Index": 128,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true
@@ -2271,7 +2428,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 44
+      "Index": 44,
+      "Size": null
     },
     "Static": true,
     "Size": "200",
@@ -2283,7 +2441,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 255
+      "Index": 255,
+      "Size": null
     },
     "Static": true,
     "Size": "100",
@@ -2297,7 +2456,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 73
+      "Index": 73,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -2313,7 +2473,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 86
+      "Index": 86,
+      "Size": null
     },
     "Size": "100",
     "HitSound": "monster/wooden_walls_hit",
@@ -2329,7 +2490,8 @@
     "Model": "Table",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 90
+      "Index": 90,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Static": true,
@@ -2344,7 +2506,8 @@
     "Model": "Sign",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 93
+      "Index": 93,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -2356,7 +2519,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 249
+      "Index": 249,
+      "Size": null
     },
     "DrawOnGround": true,
     "Size": "85",
@@ -2368,7 +2532,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": 250
+      "Index": 250,
+      "Size": null
     },
     "DrawOnGround": true,
     "Size": "85",
@@ -2380,7 +2545,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 44
+      "Index": 44,
+      "Size": null
     },
     "Size": "85",
     "Static": true
@@ -2391,7 +2557,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 57
+      "Index": 57,
+      "Size": null
     },
     "DrawOnGround": true,
     "Size": "75",
@@ -2403,7 +2570,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 62
+      "Index": 62,
+      "Size": null
     },
     "Size": "100",
     "ShadowSize": "60",
@@ -2415,7 +2583,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 77
+      "Index": 77,
+      "Size": null
     },
     "Size": "80",
     "Static": true
@@ -2426,7 +2595,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 80
+      "Index": 80,
+      "Size": null
     },
     "DrawOnGround": true,
     "Size": "85",
@@ -2441,7 +2611,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 84
+      "Index": 84,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -2451,15 +2622,18 @@
         "RandomTexture": [
           {
             "File": "lofiEnvironment3",
-            "Index": 84
+            "Index": 84,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 85
+            "Index": 85,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 86
+            "Index": 86,
+            "Size": null
           }
         ]
       }
@@ -2474,7 +2648,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 87
+      "Index": 87,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -2484,15 +2659,18 @@
         "RandomTexture": [
           {
             "File": "lofiEnvironment3",
-            "Index": 88
+            "Index": 88,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 87
+            "Index": 87,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 89
+            "Index": 89,
+            "Size": null
           }
         ]
       }
@@ -2504,7 +2682,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 90
+      "Index": 90,
+      "Size": null
     },
     "DrawOnGround": true,
     "Size": "100",
@@ -2516,7 +2695,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -2530,7 +2710,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -2544,7 +2725,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2559,7 +2741,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "HitSound": "monster/wooden_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -2574,7 +2757,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "Size": "0",
     "ShadowSize": "0",
@@ -2587,7 +2771,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "Size": "0",
     "ShadowSize": "0",
@@ -2600,7 +2785,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 160
+      "Index": 160,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -2610,27 +2796,33 @@
         "RandomTexture": [
           {
             "File": "lofiEnvironment3",
-            "Index": 160
+            "Index": 160,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 161
+            "Index": 161,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 162
+            "Index": 162,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 163
+            "Index": 163,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 164
+            "Index": 164,
+            "Size": null
           },
           {
             "File": "lofiEnvironment3",
-            "Index": 165
+            "Index": 165,
+            "Size": null
           }
         ]
       }
@@ -2646,7 +2838,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2669,7 +2862,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2692,7 +2886,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2715,7 +2910,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2738,7 +2934,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2761,7 +2958,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2784,7 +2982,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2807,7 +3006,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Animation": {
       "sync": "true",
@@ -2833,7 +3033,8 @@
     "Static": true,
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 183
+      "Index": 183,
+      "Size": null
     }
   },
   {
@@ -2845,7 +3046,8 @@
     "Static": true,
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 188
+      "Index": 188,
+      "Size": null
     }
   },
   {
@@ -2854,7 +3056,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 192
+      "Index": 192,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -2866,7 +3069,8 @@
     "Size": "120",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 21
+      "Index": 21,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -2881,7 +3085,8 @@
     "ShadowSize": "100",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 197
+      "Index": 197,
+      "Size": null
     },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
@@ -2901,7 +3106,8 @@
     "Static": true,
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 210
+      "Index": 210,
+      "Size": null
     }
   },
   {
@@ -2910,7 +3116,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 124
+      "Index": 124,
+      "Size": null
     },
     "DrawOnGround": true,
     "OccupySquare": true,
@@ -2923,7 +3130,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 135
+      "Index": 135,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -2944,7 +3152,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 137
+      "Index": 137,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -2954,15 +3163,18 @@
         "RandomTexture": [
           {
             "File": "lofiObj3",
-            "Index": 137
+            "Index": 137,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 138
+            "Index": 138,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 139
+            "Index": 139,
+            "Size": null
           }
         ]
       }
@@ -2975,7 +3187,8 @@
     "ShadowSize": "80",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 140
+      "Index": 140,
+      "Size": null
     },
     "Static": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -2987,7 +3200,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 142
+      "Index": 142,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -3000,7 +3214,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 143
+      "Index": 143,
+      "Size": null
     },
     "Static": true,
     "HitSound": "monster/wooden_walls_hit",
@@ -3014,7 +3229,8 @@
     "Model": "Table",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -3028,7 +3244,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 154
+      "Index": 154,
+      "Size": null
     },
     "HitSound": "monster/stone_walls_hit",
     "DeathSound": "monster/stone_walls_death",
@@ -3043,7 +3260,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 157
+      "Index": 157,
+      "Size": null
     },
     "Animation": {
       "prob": "1.0",
@@ -3053,23 +3271,28 @@
         "RandomTexture": [
           {
             "File": "lofiObj3",
-            "Index": 157
+            "Index": 157,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 158
+            "Index": 158,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 159
+            "Index": 159,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 166
+            "Index": 166,
+            "Size": null
           },
           {
             "File": "lofiObj3",
-            "Index": 167
+            "Index": 167,
+            "Size": null
           }
         ]
       }
@@ -3082,7 +3305,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 45
+      "Index": 45,
+      "Size": null
     },
     "MinSize": "130",
     "MaxSize": "160",
@@ -3098,7 +3322,8 @@
     "Model": "Crate",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 49
+      "Index": 49,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -3111,7 +3336,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 248
+      "Index": 248,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3122,7 +3348,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 252
+      "Index": 252,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3133,7 +3360,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 253
+      "Index": 253,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3144,7 +3372,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 254
+      "Index": 254,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3155,7 +3384,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 256
+      "Index": 256,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3166,7 +3396,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 257
+      "Index": 257,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3177,7 +3408,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 258
+      "Index": 258,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3188,7 +3420,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 259
+      "Index": 259,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3199,7 +3432,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 260
+      "Index": 260,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3210,7 +3444,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 261
+      "Index": 261,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3222,7 +3457,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 90
+      "Index": 90,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Rotation": "0",
@@ -3238,7 +3474,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 219
+      "Index": 219,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Rotation": "90",
@@ -3254,7 +3491,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 218
+      "Index": 218,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Rotation": "180",
@@ -3270,7 +3508,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 217
+      "Index": 217,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Rotation": "270",
@@ -3286,7 +3525,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "Color": "0x302048",
     "Rotation": "0",
@@ -3302,7 +3542,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 262
+      "Index": 262,
+      "Size": null
     },
     "Color": "0x302048",
     "Rotation": "90",
@@ -3318,7 +3559,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 264
+      "Index": 264,
+      "Size": null
     },
     "Color": "0x302048",
     "Rotation": "180",
@@ -3334,7 +3576,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 263
+      "Index": 263,
+      "Size": null
     },
     "Color": "0x302048",
     "Rotation": "270",
@@ -3350,7 +3593,8 @@
     "Model": "Tesla",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 50
+      "Index": 50,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3367,7 +3611,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 363
+      "Index": 363,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3385,7 +3630,8 @@
     "Model": "CloningVat",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 61
+      "Index": 61,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3404,7 +3650,8 @@
     "Model": "Monster Tank1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3418,7 +3665,8 @@
     "Model": "Monster Tank2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3432,7 +3680,8 @@
     "Model": "Monster Tank3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3446,7 +3695,8 @@
     "Model": "Monster Tank4",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 83
+      "Index": 83,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/trees_death",
@@ -3459,7 +3709,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 462
+      "Index": 462,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -3472,7 +3723,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 464
+      "Index": 464,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -3485,7 +3737,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 466
+      "Index": 466,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -3498,7 +3751,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 44
+      "Index": 44,
+      "Size": null
     },
     "Size": "85",
     "Static": true,
@@ -3511,7 +3765,8 @@
     "Model": "Cube",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 75
+      "Index": 75,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -3524,7 +3779,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 79
+      "Index": 79,
+      "Size": null
     },
     "OccupySquare": true,
     "Static": true,
@@ -3536,7 +3792,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "OccupySquare": true,
     "Static": true,
@@ -3549,7 +3806,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 95
+      "Index": 95,
+      "Size": null
     },
     "OccupySquare": true,
     "Static": true,
@@ -3563,7 +3821,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 471
+      "Index": 471,
+      "Size": null
     },
     "OccupySquare": true,
     "Static": true,
@@ -3577,7 +3836,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 475
+      "Index": 475,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3588,7 +3848,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 479
+      "Index": 479,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3599,7 +3860,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 480
+      "Index": 480,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3610,7 +3872,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 481
+      "Index": 481,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3621,7 +3884,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 482
+      "Index": 482,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3632,7 +3896,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 483
+      "Index": 483,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3643,7 +3908,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 484
+      "Index": 484,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3654,7 +3920,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 485
+      "Index": 485,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3665,7 +3932,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 486
+      "Index": 486,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3676,7 +3944,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 487
+      "Index": 487,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3687,7 +3956,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 489
+      "Index": 489,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3698,7 +3968,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 491
+      "Index": 491,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3709,7 +3980,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 492
+      "Index": 492,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3720,7 +3992,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 493
+      "Index": 493,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3731,7 +4004,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 494
+      "Index": 494,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3742,7 +4016,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 495
+      "Index": 495,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3753,7 +4028,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 496
+      "Index": 496,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3764,7 +4040,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 497
+      "Index": 497,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3775,7 +4052,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 498
+      "Index": 498,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -3787,7 +4065,8 @@
     "Model": "Table",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 151
+      "Index": 151,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -3801,7 +4080,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 499
+      "Index": 499,
+      "Size": null
     },
     "Z": "0.6",
     "Size": "40"
@@ -3811,8 +4091,12 @@
     "id": "Character Changer NonStatic",
     "Class": "GameObject",
     "Texture": {
-      "File": "lofiChar8x8",
-      "Index": 8
+      "File": "lofiChar",
+      "Index": 8,
+      "Size": {
+        "Width": 8,
+        "Height": 8
+      }
     }
   },
   {
@@ -3823,7 +4107,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 639
+      "Index": 639,
+      "Size": null
     }
   },
   {
@@ -3834,7 +4119,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 640
+      "Index": 640,
+      "Size": null
     }
   },
   {
@@ -3845,7 +4131,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 641
+      "Index": 641,
+      "Size": null
     }
   },
   {
@@ -3856,7 +4143,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 648
+      "Index": 648,
+      "Size": null
     }
   },
   {
@@ -3867,7 +4155,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 643
+      "Index": 643,
+      "Size": null
     }
   },
   {
@@ -3878,7 +4167,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 644
+      "Index": 644,
+      "Size": null
     }
   },
   {
@@ -3889,7 +4179,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 645
+      "Index": 645,
+      "Size": null
     }
   },
   {
@@ -3900,7 +4191,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 646
+      "Index": 646,
+      "Size": null
     }
   },
   {
@@ -3911,7 +4203,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 647
+      "Index": 647,
+      "Size": null
     }
   },
   {
@@ -3923,7 +4216,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 698
+      "Index": 698,
+      "Size": null
     },
     "Animation": {
       "prob": "1",
@@ -3946,7 +4240,8 @@
     "Static": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 702
+      "Index": 702,
+      "Size": null
     },
     "Animation": {
       "prob": "1",
@@ -3966,7 +4261,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 707
+      "Index": 707,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -3983,7 +4279,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 711
+      "Index": 711,
+      "Size": null
     },
     "HitSound": "monster/blobs_hit",
     "DeathSound": "monster/blobs_death",
@@ -3998,7 +4295,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 713
+      "Index": 713,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -4015,7 +4313,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 718
+      "Index": 718,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -4026,7 +4325,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 721
+      "Index": 721,
+      "Size": null
     },
     "HitSound": "monster/blobs_hit",
     "DeathSound": "monster/blobs_death",
@@ -4045,7 +4345,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 125
+      "Index": 125,
+      "Size": null
     },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
@@ -4064,7 +4365,8 @@
     "Model": "Candy Col Broken",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 112
+      "Index": 112,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4078,7 +4380,8 @@
     "Model": "Candy Col Whole",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 113
+      "Index": 113,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4092,7 +4395,8 @@
     "Model": "Candy Col Broken",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 114
+      "Index": 114,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4106,7 +4410,8 @@
     "Model": "Candy Col Whole",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 115
+      "Index": 115,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4120,7 +4425,8 @@
     "Model": "Candy Doughnut 1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 116
+      "Index": 116,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4133,7 +4439,8 @@
     "Model": "Candy Doughnut 1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 117
+      "Index": 117,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4146,7 +4453,8 @@
     "Model": "Candy Doughnut 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 116
+      "Index": 116,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true
@@ -4158,7 +4466,8 @@
     "Model": "Candy Doughnut 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 117
+      "Index": 117,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true
@@ -4170,7 +4479,8 @@
     "Model": "Candy Doughnut 3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 116
+      "Index": 116,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true
@@ -4182,7 +4492,8 @@
     "Model": "Candy Doughnut 3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 117
+      "Index": 117,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true
@@ -4193,7 +4504,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 127
+      "Index": 127,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -4211,7 +4523,8 @@
     "Model": "Gate",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 118
+      "Index": 118,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4225,7 +4538,8 @@
     "Model": "Gate Entry",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 119
+      "Index": 119,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4239,7 +4553,8 @@
     "Model": "Gate End 1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 120
+      "Index": 120,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4254,7 +4569,8 @@
     "Model": "Gate End 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 120
+      "Index": 120,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4269,7 +4585,8 @@
     "Model": "Monument 1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 121
+      "Index": 121,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4284,7 +4601,8 @@
     "Model": "Monument 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 122
+      "Index": 122,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4299,7 +4617,8 @@
     "Model": "Monument 3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 123
+      "Index": 123,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4314,7 +4633,8 @@
     "Model": "Gate",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 118
+      "Index": 118,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4329,7 +4649,8 @@
     "Model": "Jacko",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 137
+      "Index": 137,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4343,7 +4664,8 @@
     "Model": "Large Monument 1",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 121
+      "Index": 121,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4357,7 +4679,8 @@
     "Model": "Large Monument 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 122
+      "Index": 122,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4371,7 +4694,8 @@
     "Model": "Large Monument 3",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 123
+      "Index": 123,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4385,7 +4709,8 @@
     "Model": "Gate Entry 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4403,7 +4728,8 @@
     "Static": true,
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 139
+      "Index": 139,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -4418,7 +4744,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 741
+      "Index": 741,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -4429,7 +4756,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 742
+      "Index": 742,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -4440,7 +4768,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 745
+      "Index": 745,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -4455,7 +4784,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 746
+      "Index": 746,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -4470,7 +4800,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 141
+      "Index": 141,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -4486,7 +4817,8 @@
     "Model": "Gate Entry 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4501,7 +4833,8 @@
     "Model": "Gate Entry",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 119
+      "Index": 119,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4516,7 +4849,8 @@
     "Model": "Gate Entry",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 119
+      "Index": 119,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4531,7 +4865,8 @@
     "Model": "Gate Entry 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4546,7 +4881,8 @@
     "Model": "Gate Entry",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 119
+      "Index": 119,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4561,7 +4897,8 @@
     "Model": "Gate Entry 2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 138
+      "Index": 138,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4576,7 +4913,8 @@
     "Model": "Table",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 812
+      "Index": 812,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4591,7 +4929,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 812
+      "Index": 812,
+      "Size": null
     },
     "Color": "0x643011",
     "Rotation": "0",
@@ -4607,7 +4946,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 813
+      "Index": 813,
+      "Size": null
     },
     "Color": "0x643011",
     "Rotation": "90",
@@ -4623,7 +4963,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 815
+      "Index": 815,
+      "Size": null
     },
     "Color": "0x643011",
     "Rotation": "180",
@@ -4639,7 +4980,8 @@
     "Model": "Table Edge",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 814
+      "Index": 814,
+      "Size": null
     },
     "Color": "0x643011",
     "Rotation": "270",
@@ -4654,7 +4996,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 153
+      "Index": 153,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "110",
@@ -4668,7 +5011,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 627
+      "Index": 627,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "110",
@@ -4682,7 +5026,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 823
+      "Index": 823,
+      "Size": null
     },
     "MinSize": "100",
     "MaxSize": "120",
@@ -4698,7 +5043,8 @@
     "Size": "120",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 158
+      "Index": 158,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4712,7 +5058,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 826
+      "Index": 826,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "110",
@@ -4727,7 +5074,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 165
+      "Index": 165,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4739,7 +5087,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 828
+      "Index": 828,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4751,7 +5100,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiChar216x8",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4764,7 +5114,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 890
+      "Index": 890,
+      "Size": null
     },
     "ShadowSize": "0",
     "MinSize": "100",
@@ -4780,7 +5131,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 893
+      "Index": 893,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -4796,7 +5148,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 169
+      "Index": 169,
+      "Size": null
     },
     "OccupySquare": true,
     "EnemyOccupySquare": true,
@@ -4812,7 +5165,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObj3",
-      "Index": 898
+      "Index": 898,
+      "Size": null
     },
     "OccupySquare": true,
     "ShadowSize": "60",
@@ -4828,7 +5182,8 @@
     "Model": "Cube",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 169
+      "Index": 169,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4842,7 +5197,8 @@
     "Model": "Candy Col Whole",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 174
+      "Index": 174,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -4856,7 +5212,8 @@
     "Model": "ThreeSideCube",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 48
+      "Index": 48,
+      "Size": null
     }
   },
   {
@@ -4865,7 +5222,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 203
+      "Index": 203,
+      "Size": null
     },
     "ShadowSize": "50",
     "Animation": {
@@ -4876,19 +5234,23 @@
         "RandomTexture": [
           {
             "File": "lofiObjBig",
-            "Index": 203
+            "Index": 203,
+            "Size": null
           },
           {
             "File": "lofiObjBig",
-            "Index": 204
+            "Index": 204,
+            "Size": null
           },
           {
             "File": "lofiObjBig",
-            "Index": 205
+            "Index": 205,
+            "Size": null
           },
           {
             "File": "lofiObjBig",
-            "Index": 206
+            "Index": 206,
+            "Size": null
           }
         ]
       }
@@ -4905,7 +5267,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 214
+      "Index": 214,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4919,7 +5282,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 215
+      "Index": 215,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4933,7 +5297,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 216
+      "Index": 216,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4947,7 +5312,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 211
+      "Index": 211,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4961,7 +5327,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 212
+      "Index": 212,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4975,7 +5342,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 213
+      "Index": 213,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -4989,7 +5357,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 208
+      "Index": 208,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -5003,7 +5372,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 209
+      "Index": 209,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -5017,7 +5387,8 @@
     "Model": "Squatty3Side",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 210
+      "Index": 210,
+      "Size": null
     },
     "Static": true,
     "FullOccupy": true,
@@ -5031,7 +5402,8 @@
     "Model": "Pillar2",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 372
+      "Index": 372,
+      "Size": null
     },
     "Rotation": "0",
     "Static": true,
@@ -5046,7 +5418,8 @@
     "Model": "Platform",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 372
+      "Index": 372,
+      "Size": null
     },
     "Color": "0x9E5D21",
     "Rotation": "0",
@@ -5063,7 +5436,8 @@
     "Rotation": "180",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 207
+      "Index": 207,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5078,7 +5452,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -5093,7 +5468,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "Static": true,
     "EnemyOccupySquare": true,
@@ -5109,7 +5485,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 271
+      "Index": 271,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5120,7 +5497,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 267
+      "Index": 267,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5131,7 +5509,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 268
+      "Index": 268,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5142,7 +5521,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 269
+      "Index": 269,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5153,7 +5533,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 270
+      "Index": 270,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5164,7 +5545,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 296
+      "Index": 296,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5175,7 +5557,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 297
+      "Index": 297,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5186,7 +5569,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 298
+      "Index": 298,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5197,7 +5581,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 299
+      "Index": 299,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5208,7 +5593,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 300
+      "Index": 300,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5219,7 +5605,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 301
+      "Index": 301,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5230,7 +5617,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 302
+      "Index": 302,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5241,7 +5629,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 303
+      "Index": 303,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5253,7 +5642,8 @@
     "Model": "Candy Col Broken",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 225
+      "Index": 225,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5267,7 +5657,8 @@
     "Model": "Candy Col Whole",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 225
+      "Index": 225,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5280,7 +5671,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 309
+      "Index": 309,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5291,7 +5683,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 310
+      "Index": 310,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5302,7 +5695,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 311
+      "Index": 311,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5313,7 +5707,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 312
+      "Index": 312,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5324,7 +5719,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 313
+      "Index": 313,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5335,7 +5731,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 314
+      "Index": 314,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5346,7 +5743,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 315
+      "Index": 315,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5357,7 +5755,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 316
+      "Index": 316,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5368,7 +5767,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 317
+      "Index": 317,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5379,7 +5779,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 226
+      "Index": 226,
+      "Size": null
     },
     "ShadowSize": "75",
     "Static": true
@@ -5390,7 +5791,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 275
+      "Index": 275,
+      "Size": null
     },
     "ShadowSize": "50",
     "Static": true
@@ -5401,7 +5803,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 279
+      "Index": 279,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5412,7 +5815,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 280
+      "Index": 280,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5423,7 +5827,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 281
+      "Index": 281,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5434,7 +5839,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 282
+      "Index": 282,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5445,7 +5851,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 283
+      "Index": 283,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5456,7 +5863,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 284
+      "Index": 284,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5467,7 +5875,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 285
+      "Index": 285,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true
@@ -5478,7 +5887,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 288
+      "Index": 288,
+      "Size": null
     },
     "Size": "120",
     "ShadowSize": "100",
@@ -5491,7 +5901,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 322
+      "Index": 322,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "120",
@@ -5506,7 +5917,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 362
+      "Index": 362,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "120",
@@ -5521,7 +5933,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 229
+      "Index": 229,
+      "Size": null
     },
     "MinSize": "90",
     "MaxSize": "120",
@@ -5537,7 +5950,8 @@
     "Model": "Column One and a Half",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 228
+      "Index": 228,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5551,7 +5965,8 @@
     "Model": "Candy Col Broken",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 231
+      "Index": 231,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5564,7 +5979,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "Size": "80",
     "Static": true,
@@ -5576,7 +5992,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": 117
+      "Index": 117,
+      "Size": null
     },
     "Size": "80",
     "Static": true,
@@ -5588,7 +6005,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment2",
-      "Index": 119
+      "Index": 119,
+      "Size": null
     },
     "Size": "80",
     "Static": true,
@@ -5603,11 +6021,13 @@
     "Z": "-0.40",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 87
+      "Index": 87,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiObjBig",
-      "Index": 87
+      "Index": 87,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{madLab.Monster_Cage}"
@@ -5620,7 +6040,8 @@
     "Model": "Tower",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 426
+      "Index": 426,
+      "Size": null
     },
     "StasisImmune": true,
     "Projectile": {
@@ -5645,7 +6066,8 @@
     "Model": "Tower",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 426
+      "Index": 426,
+      "Size": null
     },
     "StasisImmune": true,
     "Projectile": {
@@ -5671,11 +6093,13 @@
     "HitSound": "monster/djinn_hit",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 84
+      "Index": 84,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiObjBig",
-      "Index": 85
+      "Index": 85,
+      "Size": null
     },
     "StasisImmune": true,
     "DisplayId": "{madLab.Dr_Terrible_Bubble}"
@@ -5687,7 +6111,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar28x8",
-      "Index": 108
+      "Index": 108,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_1}"
   },
@@ -5698,7 +6123,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar28x8",
-      "Index": 109
+      "Index": 109,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_2}"
   },
@@ -5709,7 +6135,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar28x8",
-      "Index": 110
+      "Index": 110,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_3}"
   },
@@ -5720,7 +6147,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar28x8",
-      "Index": 111
+      "Index": 111,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_4}"
   },
@@ -5731,7 +6159,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_5}"
   },
@@ -5742,7 +6171,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 20
+      "Index": 20,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_6}"
   },
@@ -5753,7 +6183,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 21
+      "Index": 21,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_7}"
   },
@@ -5764,7 +6195,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 22
+      "Index": 22,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_8}"
   },
@@ -5775,7 +6207,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 23
+      "Index": 23,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_9}"
   },
@@ -5786,7 +6219,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 39
+      "Index": 39,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_10}"
   },
@@ -5797,7 +6231,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiChar216x16",
-      "Index": 61
+      "Index": 61,
+      "Size": null
     },
     "DisplayId": "{objects.Gravestone_11}"
   },
@@ -5809,7 +6244,8 @@
     "Effect": "Fountain",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "DisplayId": "{objects.White_Fountain}"
   },
@@ -5821,7 +6257,8 @@
     "Effect": "Vent",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 38
+      "Index": 38,
+      "Size": null
     },
     "DisplayId": "{objects.Ocean_Vent}"
   },
@@ -5880,7 +6317,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "invisible",
-      "Index": 0
+      "Index": 0,
+      "Size": null
     },
     "ShadowSize": "0",
     "DisplayId": "{objects.G_Door_Opener}"
@@ -5892,7 +6330,8 @@
     "Model": "Tower",
     "Texture": {
       "File": "lofiEnvironment2",
-      "Index": 150
+      "Index": 150,
+      "Size": null
     },
     "ShadowSize": "0",
     "DisplayId": "{objects.Winter_Fountain_Frozen}"
@@ -5904,7 +6343,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1220
+      "Index": 1220,
+      "Size": null
     },
     "Size": "140",
     "DisplayId": "{objects.lod_Golden_Statue}"
@@ -5916,7 +6356,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiObj3",
-      "Index": 1221
+      "Index": 1221,
+      "Size": null
     },
     "DisplayId": "{objects.lod_Golden_Loot}"
   },
@@ -5927,7 +6368,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 370
+      "Index": 370,
+      "Size": null
     },
     "DisplayId": "{objects.lod_Large_Golden_Loot}"
   },
@@ -5938,7 +6380,8 @@
     "ShowName": true,
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 371
+      "Index": 371,
+      "Size": null
     },
     "DisplayId": "{objects.lod_Abnormal_Treasure_Pile}"
   },
@@ -5950,7 +6393,8 @@
     "Size": "100",
     "Texture": {
       "File": "lofiCharBig",
-      "Index": 368
+      "Index": 368,
+      "Size": null
     },
     "DisplayId": "{objects.ft_Vases_with_rug}"
   },
@@ -5962,7 +6406,8 @@
     "Size": "100",
     "Texture": {
       "File": "lofiCharBig",
-      "Index": 369
+      "Index": 369,
+      "Size": null
     },
     "DisplayId": "{objects.ft_Vases}"
   },
@@ -5972,7 +6417,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 299
+      "Index": 299,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5984,7 +6430,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 300
+      "Index": 300,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -5996,7 +6443,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 301
+      "Index": 301,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6008,7 +6456,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 302
+      "Index": 302,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6020,7 +6469,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 303
+      "Index": 303,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6032,7 +6482,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 304
+      "Index": 304,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6044,7 +6495,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 305
+      "Index": 305,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6056,7 +6508,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 306
+      "Index": 306,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6068,7 +6521,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 307
+      "Index": 307,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6080,7 +6534,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 308
+      "Index": 308,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6092,7 +6547,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 309
+      "Index": 309,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6104,7 +6560,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 310
+      "Index": 310,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6116,7 +6573,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 311
+      "Index": 311,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6128,7 +6586,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObjBig",
-      "Index": 312
+      "Index": 312,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6140,7 +6599,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 118
+      "Index": 118,
+      "Size": null
     },
     "Static": true,
     "OccupySquare": true,
@@ -6158,7 +6618,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiEnvironment3",
-      "Index": 121
+      "Index": 121,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6170,7 +6631,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 124
+      "Index": 124,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6182,7 +6644,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 125
+      "Index": 125,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6194,7 +6657,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 126
+      "Index": 126,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6206,7 +6670,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 127
+      "Index": 127,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6218,7 +6683,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 128
+      "Index": 128,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6230,7 +6696,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 129
+      "Index": 129,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6242,7 +6709,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 130
+      "Index": 130,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6254,7 +6722,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 131
+      "Index": 131,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6266,7 +6735,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 132
+      "Index": 132,
+      "Size": null
     },
     "DrawOnGround": true,
     "Static": true,
@@ -6278,7 +6748,8 @@
     "Class": "GameObject",
     "Texture": {
       "File": "lofiObj3",
-      "Index": 782
+      "Index": 782,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -6294,7 +6765,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 144
+      "Index": 144,
+      "Size": null
     },
     "HitSound": "monster/trees_hit",
     "DeathSound": "monster/tress_death",
@@ -6311,7 +6783,8 @@
     "Class": "GameObject",
     "RandomTexture": {
       "File": "lofiObjBig",
-      "Index": 148
+      "Index": 148,
+      "Size": null
     },
     "HitSound": "monster/rocks_hit",
     "DeathSound": "monster/rocks_death",
@@ -6330,11 +6803,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 64
+      "Index": 64,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 65
+      "Index": 65,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Hellfire",
@@ -6360,11 +6835,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 66
+      "Index": 66,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 67
+      "Index": 67,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Thunderbolt",
@@ -6391,11 +6868,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 68
+      "Index": 68,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 69
+      "Index": 69,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Ice Spinner",
@@ -6421,11 +6900,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 70
+      "Index": 70,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 71
+      "Index": 71,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Hellfire",
@@ -6451,11 +6932,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 72
+      "Index": 72,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 73
+      "Index": 73,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Thunderbolt",
@@ -6482,11 +6965,13 @@
     "Enemy": true,
     "Texture": {
       "File": "lofiEnvironment3",
-      "Index": 74
+      "Index": 74,
+      "Size": null
     },
     "AltTexture": {
       "File": "lofiEnvironment3",
-      "Index": 75
+      "Index": 75,
+      "Size": null
     },
     "Projectile": {
       "ObjectId": "Ice Spinner",

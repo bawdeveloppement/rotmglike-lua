@@ -21,6 +21,9 @@ function Projectile:initialize( world, data )
 
     self.projectileId = data.projectileId or nil
 
+    if data.projectileData ~= nil then
+        self.projectileId = data.projectileData.ObjectId
+    end
     self.damage = {
         minDamage = data.minDamage or 10,
         maxDamage = data.maxDamage or 30
@@ -37,10 +40,10 @@ function Projectile:initialize( world, data )
             if v.id == self.projectileId then
                 if v.Texture ~= nil then
                     self:getComponent("SpriteComponent"):setImage(_G.xle.ResourcesManager:getTexture(v["Texture"].File))
-                    self:getComponent("SpriteComponent"):setIndex(tonumber(v["Texture"].Index, 16))
+                    self:getComponent("SpriteComponent"):setIndex(v["Texture"].Index)
                 elseif v.RandomTexture ~= nil then
                     self:getComponent("SpriteComponent"):setImage(_G.xle.ResourcesManager:getTexture(v["RandomTexture"].File))
-                    self:getComponent("SpriteComponent"):setIndex(tonumber(v["RandomTexture"].Index, 16))
+                    self:getComponent("SpriteComponent"):setIndex(v["RandomTexture"].Index)
                 end
             end
         end
@@ -59,8 +62,8 @@ function Projectile:update(...)
     Entity.update(self, ...)
     local position = self.components["TransformComponent"].position
     local rect = self.components["CollisionComponent"].rect
-    position.x = position.x - self.dx * 10
-    position.y = position.y - self.dy * 10
+    position.x = position.x - self.dx * 1
+    position.y = position.y - self.dy * 1
 
     local searchPlayerResult = self.world:getEntitiesWithAtLeast({ "CollisionComponent", "CharacterComponent" })
     for i, v in ipairs(searchPlayerResult) do

@@ -1,5 +1,5 @@
 local Container = require(_G.libDir .. "middleclass")("Container")
-local CharacterComponent = require(_G.srcDir .. "components.character")
+local CharacterComponent = require(_G.srcDir .. "components.component-character")
 
 function Container:initialize(length, x, y, parent)
     self.rect = {
@@ -83,8 +83,26 @@ function Container:drawItem(x, y, index)
             if image ~= nil then
                 local imageW, imageH = image:getDimensions()
                 local quad = love.graphics.newQuad(
-                    8 * (tonumber(item.Texture.Index, 16) % (imageW / 8)),
-                    math.floor(tonumber(item.Texture.Index, 16) / (imageW / 8)) * 8,
+                    8 * (item.Texture.Index % (imageW / 8)),
+                    math.floor(item.Texture.Index / (imageW / 8)) * 8,
+                    8,
+                    8,
+                    imageW, imageH
+                )
+                love.graphics.draw(image, quad, x, y, 0, 4);
+            else
+                love.graphics.rectangle("fill", x, y, 32, 32)
+            end
+        elseif item.AnimatedTexture ~= nil then
+            if item.AnimatedTexture.File == "playersSkins" then
+                print(item.id)
+            end
+            local image = _G.xle.ResourcesManager:getTexture(item.AnimatedTexture.File);
+            if image ~= nil then
+                local imageW, imageH = image:getDimensions()
+                local quad = love.graphics.newQuad(
+                    8 * (item.AnimatedTexture.Index % (imageW / 8)),
+                    math.floor(item.AnimatedTexture.Index / (imageW / 8)) * 8,
                     8,
                     8,
                     imageW, imageH
@@ -96,12 +114,14 @@ function Container:drawItem(x, y, index)
         else
             love.graphics.rectangle("fill", x, y, 32, 32)
         end
+        
         if mx > x and mx < x + 32 and my > y and my < y + 32 then
             love.graphics.setColor(0,0,0,0.4)
             love.graphics.rectangle("fill", mx, my - 200, 300, 200)
             love.graphics.setColor(1,1,1,1)
             love.graphics.rectangle("line", mx, my - 200, 300, 200)
             local itemId = self.slots[index].item.id or (""..#self.slots..love.math.random(0, 100))
+            print(self.slots[index].item.id)
             if self.cacheText[itemId] ~= nil then
                 love.graphics.draw(self.cacheText[itemId], mx + 10, my - 200)
             else
@@ -109,28 +129,33 @@ function Container:drawItem(x, y, index)
                 local lastIndex = 1
                 local newHeight = 0
                 for k, v in pairs(self.slots[index].item) do
-                    if k ~= "$" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
-                        and k ~= "Item" and k ~= "Usable" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
-                        if k == "ActivateOnEquip" then
+                    if k ~= "$" and k ~= "id" and k ~= "Texture" and k ~= "Projectile" and k ~= "OldSound" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
+                        and k ~= "Item" and k ~= "Potion" and k ~= "Activate" and k ~= "Usable" and k ~=  "ExtraTooltipData" and k ~= "Description" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
+                        -- Handle Activate:key
+                        if k == "Consumable" then
                             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                            lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n"}, 200, "left",0, newHeight)
-                            for kact, vact in pairs(self.slots[index].item[k]) do
-                                if kact == "IncrementStat" then
-                                    if CharacterComponent.statOffToHere[vact.stat] ~= nil then
-                                        newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                                        lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left", 0, newHeight)
-                                    end
-                                end
-                            end
+                            lastIndex = self.cacheText[itemId]:addf(k, 300, "left", 0, newHeight + self.cacheText[itemId]:getHeight(lastIndex))
+                        elseif k == "ActivateOnEquip" then
+                            -- newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                            -- lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n"}, 200, "left",0, newHeight)
+                            -- for kact, vact in pairs(self.slots[index].item[k]) do
+                            --     if kact == "IncrementStat" then
+                            --         if CharacterComponent.statOffToHere[vact.stat] ~= nil then
+                            --             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                            --             lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left", 0, newHeight)
+                            --         end
+                            --     end
+                            -- end
                         else
                             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                            lastIndex = self.cacheText[itemId]:addf(k .. " : " .. tostring(v), 300, "left", 0, newHeight + self.cacheText[itemId]:getHeight(lastIndex))
                             print(k ..newHeight .. "index" .. lastIndex)
-                            lastIndex = self.cacheText[itemId]:addf(k .. " : " .. tostring(v), 200, "left", 0, self.cacheText[itemId]:getHeight(lastIndex))
                         end
                     end
                 end
             end
         end
+        
     end
 end
 

@@ -45,14 +45,17 @@ function CharacterComponent:initialize( parent, data )
     
     if data.isPlayer == true then
         soundPath = "player/"..self.class
+        self.audio = {
+            hit = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_hit.mp3"),
+            death = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_death.mp3")
+        }
     else
-        soundPath = "monster/"..self.entity.name.."s"
+        self.audio = {
+            hit = _G.xle.ResourcesManager:getOrAddSound(data.HitSound..".mp3"),
+            death = _G.xle.ResourcesManager:getOrAddSound(data.DeathSound..".mp3")
+        }
     end
     
-    self.audio = {
-        hit = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_hit.mp3"),
-        death = _G.xle.ResourcesManager:getOrAddSound(soundPath.."_death.mp3")
-    }
 
     self.attacksLog = {}
 

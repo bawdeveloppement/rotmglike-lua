@@ -9,7 +9,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj6",
-      "Index": 277
+      "Index": 277,
+      "Size": null
     },
     "Size": "100",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -24,7 +25,8 @@
     "Loot": true,
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 92
+      "Index": 92,
+      "Size": null
     },
     "Size": "95",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -39,7 +41,8 @@
     "Loot": true,
     "Texture": {
       "File": "d3LofiObj",
-      "Index": 91
+      "Index": 91,
+      "Size": null
     },
     "Size": "95",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -52,7 +55,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj",
-      "Index": 8
+      "Index": 8,
+      "Size": null
     },
     "Size": "75",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
@@ -67,7 +71,8 @@
     "CanPutNormalObjects": true,
     "Texture": {
       "File": "lofiObj",
-      "Index": 2
+      "Index": 2,
+      "Size": null
     },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Treasure_Chest}"
@@ -81,7 +86,8 @@
     "CanPutNormalObjects": true,
     "Texture": {
       "File": "lofiObj",
-      "Index": 19
+      "Index": 19,
+      "Size": null
     },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Gravestone}"
@@ -95,7 +101,8 @@
     "CanPutSoulboundObjects": true,
     "Texture": {
       "File": "lofiObj2",
-      "Index": 14
+      "Index": 14,
+      "Size": null
     },
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
     "DisplayId": "{objects.Vault_Chest}"
@@ -108,7 +115,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj2",
-      "Index": 118
+      "Index": 118,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
@@ -123,7 +131,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj",
-      "Index": 8
+      "Index": 8,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0",
@@ -139,7 +148,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 157
+      "Index": 157,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -154,7 +164,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 145
+      "Index": 145,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -170,7 +181,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 156
+      "Index": 156,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -185,7 +197,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 146
+      "Index": 146,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -200,7 +213,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 147
+      "Index": 147,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -215,7 +229,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 148
+      "Index": 148,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -230,7 +245,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 148
+      "Index": 148,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -245,7 +261,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 148
+      "Index": 148,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"
@@ -260,7 +277,8 @@
     "Loot": true,
     "Texture": {
       "File": "lofiObj4",
-      "Index": 149
+      "Index": 149,
+      "Size": null
     },
     "Size": "80",
     "SlotTypes": "0, 0, 0, 0, 0, 0, 0, 0"

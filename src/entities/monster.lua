@@ -1,22 +1,23 @@
 -- Components
-local Sprite = require(_G.engineDir.."components.sprite")
+local SpriteComponent = require(_G.engineDir.."components.sprite")
 local Transform = require(_G.engineDir.."components.transform")
 local CollisionComponent = require(_G.engineDir .. "components.collision")
 local Entity = require(_G.engineDir.."entity")
 
-local MonsterAIComponent = require(_G.srcDir .. "components.monster_ai")
-local CharacterComponent = require(_G.srcDir .. "components.character")
+local MonsterAIComponent = require(_G.srcDir .. "components.component-monster_ai")
+local CharacterComponent = require(_G.srcDir .. "components.component-character")
 local BagEntity = require(_G.srcDir .. "entities.bag")
 
 local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
 function Monster:initialize ( world, data)
+    local CharacterData = _G.dbObject.getCharacter(data.name)
     Entity.initialize(self, world, data.name.."#"..world:getEntitiesCount(), data.name, {
         { class = Transform, data = data },
-        { class = Sprite, data = { rect = { width = 16, height = 16 }, center = true }},
-        { class = CharacterComponent },
-        { class = CollisionComponent, data = { rect = { width = 16, height = 16 }}},
-        { class = MonsterAIComponent }
+        { class = SpriteComponent, data = { rect = { width = 32 , height= 32 }, tile = { width = CharacterData.Texture.Size.Width, height = CharacterData.Texture.Size.Height }, image = _G.xle.ResourcesManager:getTexture(CharacterData.Texture.File), spriteIndex = CharacterData.Texture.Index}},
+        { class = CharacterComponent, data = CharacterData },
+        { class = CollisionComponent, data = { rect = { width = 32, height = 32 }}},
+        { class = MonsterAIComponent, data = CharacterData }
     });
 
     self.zoneRadius = 200
@@ -61,7 +62,9 @@ end
 local timerToShowFoundTarget = 50
 
 function Monster:draw()
-    Entity.draw(self)local mx, my = love.mouse.getPosition()
+    Entity.draw(self)
+    
+    local mx, my = love.mouse.getPosition()
     local position = self:getComponent("TransformComponent").position
     local rect = self:getComponent("SpriteComponent").rect
     local character = self:getComponent("CharacterComponent")

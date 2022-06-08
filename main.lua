@@ -7,8 +7,8 @@ love.graphics.setDefaultFilter("nearest")
 
 local screens = {
     { name = "main_menu_screen", buildIndex = 1 },
-    { name = "option", buildIndex = 2 },
-    { name = "play", buildIndex = 3 },
+    { name = "option_screen", buildIndex = 2 },
+    { name = "play_screen", buildIndex = 3 },
 }
 
 local loveVersion = 11.3
@@ -46,6 +46,9 @@ local equipmentData = JSON:decode(equipment)
 local projectiles, projectilesErr = love.filesystem.read("src/assets/prefabs/Projectile.json")
 local projectilesData = JSON:decode(projectiles)
 
+local characters, charactersErr = love.filesystem.read("src/assets/prefabs/Character.json")
+local charactersData = JSON:decode(characters)
+
 local loadedTextures = {}
 local validData = {}
 
@@ -56,8 +59,19 @@ end
 _G.dbObject = {
     Containers = containerData,
     Equipments = equipmentData,
-    Projectiles = projectilesData
+    Projectiles = projectilesData,
+    Characters = charactersData,
+    
 }
+_G.dbObject.getCharacter = function (characterId)
+    local toReturn = nil;
+    for k, v in ipairs(_G.dbObject.Characters) do
+        if v.id == characterId then
+            toReturn = v;
+        end
+    end
+    return toReturn
+end
 
 for index, value in ipairs(require(_G.srcDir .. "assets.textures.textures")) do
     --#region LOADING TEXTURES / items

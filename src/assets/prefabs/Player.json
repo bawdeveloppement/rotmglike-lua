@@ -1,0 +1,1062 @@
+[
+  {
+    "type": "0x0300",
+    "id": "Rogue",
+    "Class": "Player",
+    "Description": "{players.The_rogue_relies_on_his_speed_to_deal_damage_at_medium_ra}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "0"
+    },
+    "HitSound": "player/rogue_hit",
+    "DeathSound": "player/rogue_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "2, 13, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa14, 0xa56, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "default": "100",
+      "max": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "default": "100",
+      "max": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "70"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "45"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "10",
+        "max": "10"
+      }
+    },
+    "UnlockLevel": {
+      "Archer": {
+        "level": "50",
+        "type": "0x0307"
+      }
+    },
+    "UnlockCost": "199",
+    "DisplayId": "{players.Rogue}"
+  },
+  {
+    "type": "0x0307",
+    "id": "Archer",
+    "Class": "Player",
+    "Description": "{players.The_archer_has_a_long-range_attack_and_can_acquire_very_p}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "1"
+    },
+    "HitSound": "player/archer_hit",
+    "DeathSound": "player/archer_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "3, 15, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa1a, 0xa61, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "140"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "80"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "55"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "125"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "80"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "8",
+        "max": "8"
+      }
+    },
+    "UnlockLevel": {
+      "Priest": {
+        "level": "50",
+        "type": "0x0310"
+      }
+    },
+    "UnlockCost": "199",
+    "DisplayId": "{players.Archer}"
+  },
+  {
+    "type": "0x030e",
+    "id": "Wizard",
+    "Class": "Player",
+    "Description": "{players.The_wizard_deals_damage_from_a_long_distance_and_blasts_e}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "2"
+    },
+    "HitSound": "player/wizard_hit",
+    "DeathSound": "player/wizard_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "17, 11, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa97, 0xa2e, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "160"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "5",
+        "max": "5"
+      }
+    },
+    "UnlockCost": "0",
+    "DisplayId": "{players.Wizard}"
+  },
+  {
+    "type": "0x0310",
+    "id": "Priest",
+    "Class": "Player",
+    "Description": "{players.The_priest_attacks_at_long_range_and_can_heal_himself_and}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "3"
+    },
+    "HitSound": "player/priest_hit",
+    "DeathSound": "player/priest_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "8, 4, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa04, 0xa31, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "95"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "100"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "40"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "130"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "110"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "5",
+        "max": "5"
+      }
+    },
+    "UnlockLevel": {
+      "Wizard": {
+        "level": "50",
+        "type": "0x030e"
+      }
+    },
+    "UnlockCost": "50",
+    "DisplayId": "{players.Priest}"
+  },
+  {
+    "type": "0x031d",
+    "id": "Warrior",
+    "Class": "Player",
+    "Description": "{players.The_warrior_wears_strong_armor_and_uses_his_magic_helmet_}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "4"
+    },
+    "HitSound": "player/warrior_hit",
+    "DeathSound": "player/warrior_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "1, 16, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa00, 0x0a66, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "160"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "15",
+        "max": "15"
+      }
+    },
+    "UnlockLevel": {
+      "Rogue": {
+        "level": "50",
+        "type": "0x0300"
+      }
+    },
+    "UnlockCost": "199",
+    "DisplayId": "{players.Warrior}"
+  },
+  {
+    "type": "0x031e",
+    "id": "Knight",
+    "Class": "Player",
+    "Description": "{players.The_knight_fights_at_close_range,_wears_very_heavy_armor,}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "5"
+    },
+    "HitSound": "player/knight_hit",
+    "DeathSound": "player/knight_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "1, 5, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa00, 0x0a08, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "125"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "25"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "15",
+        "max": "15"
+      }
+    },
+    "UnlockLevel": {
+      "Warrior": {
+        "level": "100",
+        "type": "0x031d"
+      }
+    },
+    "UnlockCost": "499",
+    "DisplayId": "{players.Knight}"
+  },
+  {
+    "type": "0x031f",
+    "id": "Paladin",
+    "Class": "Player",
+    "Description": "{players.The_paladin_can_deal_damage_at_close_range,_wear_armor_an}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "6"
+    },
+    "HitSound": "player/paladin_hit",
+    "DeathSound": "player/paladin_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "1, 12, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa00, 0xa52, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "25"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "160"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "15",
+        "max": "15"
+      }
+    },
+    "UnlockLevel": {
+      "Knight": {
+        "level": "100",
+        "type": "0x031e"
+      }
+    },
+    "UnlockCost": "499",
+    "DisplayId": "{players.Paladin}"
+  },
+  {
+    "type": "0x0320",
+    "id": "Assassin",
+    "Class": "Player",
+    "Description": "{players.The_assassin_fights_from_medium_range_and_uses_poison_to_}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "7"
+    },
+    "HitSound": "player/rogue_hit",
+    "DeathSound": "player/rogue_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "2, 18, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa14, 0xaa3, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "10",
+        "max": "10"
+      }
+    },
+    "UnlockLevel": {
+      "Rogue": {
+        "level": "100",
+        "type": "0x0300"
+      }
+    },
+    "UnlockCost": "499",
+    "DisplayId": "{players.Assassin}"
+  },
+  {
+    "type": "0x0321",
+    "id": "Necromancer",
+    "Class": "Player",
+    "Description": "{players.The_necromancer_drains_life_from_his_enemies_to_heal_hims}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "8"
+    },
+    "HitSound": "player/wizard_hit",
+    "DeathSound": "player/wizard_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "17, 19, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa97, 0xaaa, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "30"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "80"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "5",
+        "max": "5"
+      }
+    },
+    "UnlockLevel": {
+      "Wizard": {
+        "level": "100",
+        "type": "0x030e"
+      }
+    },
+    "UnlockCost": "499",
+    "DisplayId": "{players.Necromancer}"
+  },
+  {
+    "type": "0x0322",
+    "id": "Huntress",
+    "Class": "Player",
+    "Description": "{players.The_huntress_uses_arrows_and_traps_to_defeat_her_enemies.}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "9"
+    },
+    "HitSound": "player/archer_hit",
+    "DeathSound": "player/archer_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "3, 20, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa1a, 0xab1, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "130"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "55"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "125"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "80"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "8",
+        "max": "8"
+      }
+    },
+    "UnlockLevel": {
+      "Rogue": {
+        "level": "100",
+        "type": "0x0300"
+      }
+    },
+    "UnlockCost": "499",
+    "DisplayId": "{players.Huntress}"
+  },
+  {
+    "type": "0x0323",
+    "id": "Mystic",
+    "Class": "Player",
+    "Description": "{players.The_mystic_fights_with_a_staff_and_uses_her_crystal_orb_t}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "10"
+    },
+    "HitSound": "player/wizard_hit",
+    "DeathSound": "player/wizard_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "17, 21, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa97, 0xae4, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "150"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "25"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "5",
+        "max": "5"
+      }
+    },
+    "UnlockLevel": {
+      "Huntress": {
+        "level": "100",
+        "type": "0x0322"
+      }
+    },
+    "UnlockCost": "999",
+    "DisplayId": "{players.Mystic}"
+  },
+  {
+    "type": "0x0324",
+    "id": "Trickster",
+    "Class": "Player",
+    "Description": "{players.The_trickster_fights_with_a_dagger_while_using_her_magica}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "11"
+    },
+    "HitSound": "player/rogue_hit",
+    "DeathSound": "player/rogue_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "2, 22, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa14, 0xae3, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "125"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "10",
+        "max": "10"
+      }
+    },
+    "UnlockLevel": {
+      "Assassin": {
+        "level": "100",
+        "type": "0x0320"
+      }
+    },
+    "UnlockCost": "999",
+    "DisplayId": "{players.Trickster}"
+  },
+  {
+    "type": "0x0325",
+    "id": "Sorcerer",
+    "Class": "Player",
+    "Description": "{players.The_sorcerer_uses_his_scepter_to_fire_blasts_of_chain_lig}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "12"
+    },
+    "HitSound": "player/priest_hit",
+    "DeathSound": "player/priest_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "8, 23, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xa04, 0xae5, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "100"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "100"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "50"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "40"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "140"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "105"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "5",
+        "max": "5"
+      }
+    },
+    "UnlockLevel": {
+      "Necromancer": {
+        "level": "100",
+        "type": "0x0321"
+      }
+    },
+    "UnlockCost": "999",
+    "DisplayId": "{players.Sorcerer}"
+  },
+  {
+    "type": "0x0326",
+    "id": "Ninja",
+    "Class": "Player",
+    "Description": "{players.The_ninja_relies_on_speed_and_skill,_using_katanas_and_ni}",
+    "AnimatedTexture": {
+      "File": "players",
+      "Index": "13"
+    },
+    "HitSound": "player/rogue_hit",
+    "DeathSound": "player/rogue_death",
+    "Player": true,
+    "BloodProb": "1.0",
+    "SlotTypes": "24, 25, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0",
+    "Equipment": "0xc44, 0xc53, -1, -1, 0xa22, -1, -1, -1, -1, -1, -1, -1",
+    "MaxHitPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "MaxMagicPoints": {
+      "100": {
+        "max": "999999"
+      }
+    },
+    "Attack": {
+      "default": "0",
+      "max": {
+        "max": "75"
+      }
+    },
+    "Defense": {
+      "default": "0",
+      "max": {
+        "max": "120"
+      }
+    },
+    "Speed": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "Dexterity": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "HpRegen": {
+      "default": "0",
+      "max": {
+        "max": "65"
+      }
+    },
+    "MpRegen": {
+      "default": "0",
+      "max": {
+        "max": "60"
+      }
+    },
+    "LevelIncrease": {
+      "MaxHitPoints": {
+        "min": "8",
+        "max": "8"
+      }
+    },
+    "UnlockLevel": {
+      "Rogue": {
+        "level": "100",
+        "type": "0x0300"
+      }
+    },
+    "UnlockCost": "999",
+    "DisplayId": "{players.Ninja}"
+  }
+]

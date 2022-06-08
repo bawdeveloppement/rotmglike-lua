@@ -72,9 +72,9 @@ end
 function Portal:mousepressed(...)
     Entity.mousepressed(self, ...)
     local mx, my, button = ...
-    if self.playerInCollision then
-        self.goToPortalButton:mousepressed(...)
-    end
+    -- if self.playerInCollision then
+    --     self.goToPortalButton:mousepressed(...)
+    -- end
 end
 
 return Portal

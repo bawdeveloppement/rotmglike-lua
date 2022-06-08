@@ -7,7 +7,7 @@ local MonsterAIComponent = Class("MonsterAIComponent", Component);
 
 MonsterAIComponent.static.name = "MonsterAIComponent"
 
-function MonsterAIComponent:initialize( entity )
+function MonsterAIComponent:initialize( entity, data )
     Component.initialize(self, entity)
     self.name = "MonsterAIComponent";
 
@@ -21,6 +21,8 @@ function MonsterAIComponent:initialize( entity )
         hit =   _G.xle.ResourcesManager:getOrAddSound("monster/".. self.entity.name .."s_hit.mp3"),
         fire =  _G.xle.ResourcesManager:getOrAddSound("arrowShoot.mp3")
     }
+
+    self.projectileData = data.Projectile
 
     self.attack = {
         cooldown = love.math.random(80, 100) - ( self.entity:getComponent("CharacterComponent").stats.dexterity * 2 or 0 ),
@@ -57,7 +59,14 @@ function MonsterAIComponent:update(...)
 
     self.attack.cooldown = self.attack.cooldown - 1;
     if self.attack.cooldown <= 0 and target ~= nil then
-        self.entity.world:addEntity( Projectile:new(self.entity.world, { ownerId = self.entity.id, x = position.x, y = position.y, dx = self.velocity.x, dy = self.velocity.y}))
+        self.entity.world:addEntity( Projectile:new(self.entity.world, {
+            ownerId = self.entity.id,
+            x = position.x,
+            y = position.y,
+            dx = self.velocity.x,
+            dy = self.velocity.y,
+            projectileData = self.projectileData
+        }))
         self.sound.fire.play(self.sound.fire)
         self.attack.cooldown = love.math.random(80, 100)
     end

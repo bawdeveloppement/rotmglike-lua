@@ -9,7 +9,7 @@ const fileToParse = "/dat1"
 const hexToDec = ( entry ) => entry.includes("0x") ? parseInt(entry, 16) : parseInt(entry)
 
 function formatTexture ( obj ) { 
-    
+    let size = null
     let textureName = ""
     if (Array.isArray(obj.File)) {
         textureName = obj.File[0]
@@ -20,6 +20,27 @@ function formatTexture ( obj ) {
     if (textureName.lastIndexOf("Embed") > -1) {
         textureName = textureName.slice(0, textureName.lastIndexOf("Embed"))
     }
+    if (textureName.includes("lofiChar") && !textureName.includes("lofiChar2")) {
+        if (textureName.lastIndexOf("8x8") > -1) {
+            textureName = textureName.slice(0, textureName.lastIndexOf("8x8"))
+            size = {
+                Width: 8,
+                Height: 8
+            }
+        } else if (textureName.indexOf("16x16") > -1) {
+            textureName = textureName.slice(0, textureName.indexOf("16x16"))
+            size = {
+                Width: 16,
+                Height: 16
+            }
+        } else if (textureName.indexOf("16x8") > -1) {
+            textureName = textureName.slice(0, textureName.indexOf("16x8"))
+            size = {
+                Width: 16,
+                Height: 8
+            }
+        }
+    }
     let index = ""
     if (Array.isArray(obj.Index)) {
         index = obj.Index[0]
@@ -27,9 +48,17 @@ function formatTexture ( obj ) {
     else {
         index = obj.Index
     }
-    return {
-        File: textureName,
-        Index: hexToDec(index)
+    if (size != 0) {
+        return {
+            File: textureName,
+            Index: hexToDec(index),
+            Size: size 
+        }
+    } else {
+        return {
+            File: textureName,
+            Index: hexToDec(index)
+        }
     }
 }
 
@@ -102,6 +131,9 @@ function newData () {
                                 }
                             }
                             else if ( objKey === "Texture") {
+                                if (parsed[index]["Class"] == "Projectile") {
+                                    newObj[objKey] = formatTexture(parsed[index][objKey])
+                                }
                                 newObj[objKey] = formatTexture(parsed[index][objKey])
                             }
                             else if ( objKey === "RandomTexture") {

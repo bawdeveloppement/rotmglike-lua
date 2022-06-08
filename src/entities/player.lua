@@ -4,9 +4,9 @@ local TransformComponent = require(_G.engineDir.."components.transform")
 local SpriteComponent = require(_G.engineDir.."components.sprite")
 local CollisionComponent = require(_G.engineDir.."components.collision")
 
-local MoveComponent = require(_G.srcDir.."components.move")
-local CharacterComponent = require(_G.srcDir.."components.character")
-local CameraComponent = require(_G.srcDir.."components.camera")
+local MoveComponent = require(_G.srcDir.."components.component-move")
+local CharacterComponent = require(_G.srcDir.."components.component-character")
+local CameraComponent = require(_G.srcDir.."components.component-camera")
 
 local Projectile = require(_G.srcDir .. "entities.projectile");
 
@@ -21,7 +21,7 @@ local Player = require(_G.libDir .. "middleclass")("Player", Entity)
 function Player:initialize( world, data )
     Entity.initialize(self, world, "Player#1", "Player", {
         { class = TransformComponent, data = { position = { x = data.position.x or 50, y = data.position.y or 50 }} },
-        { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/playersSkins16.png"}},
+        { class = SpriteComponent, data = { rect={ width = 32 , height= 32 }, tile = { width = 16, height = 16 }, imageUri = "src/assets/textures/playerskins16.png"}},
         { class = CollisionComponent, data = { rect={ width = 32 , height= 32 }}},
         { class = CharacterComponent, data = { isPlayer = true } },
         { class = MoveComponent },
@@ -51,6 +51,13 @@ function Player:initialize( world, data )
         self.bag:addItemInFirstEmptySlot(_G.dbObject.Equipments[itemToLoot], 1)
     end
 
+    for k, v in ipairs(_G.dbObject.Equipments) do
+        if v.id == "Health Potion" then
+        print(k .. v.id)
+        print("TextureIndex" .. v.Texture.Index)
+        end
+    end
+
     self.audio = {
         fire = nil,
         level_up = love.audio.newSource("src/assets/sfx/level_up.mp3", "static")
@@ -71,10 +78,10 @@ end
 function Player:bindPlaySoundOnLevelUp()
     self:getComponent("CharacterComponent"):addOnLevelUp("playsound", function ( m )
         if self.audio.level_up:isPlaying() then
-            self.audio.level_up:stop()
-            self.audio.level_up:play()
+            self.audio.level_up:stop();
+            self.audio.level_up:play();
         else
-            self.audio.level_up:play()
+            self.audio.level_up:play();
         end
     end)
 end
@@ -82,10 +89,10 @@ end
 function Player:bindPlaySoundOnDeath()
     self:getComponent("CharacterComponent"):addOnDeath("ondeath", function ( m )
         if m.audio.death:isPlaying() then
-            m.audio.death:stop()
-            m.audio.death:play()
+            m.audio.death:stop();
+            m.audio.death:play();
         else
-            m.audio.death:play()
+            m.audio.death:play();
         end
     end)
 end
@@ -188,8 +195,8 @@ function Player:drawQuickSlots ()
                 if image ~= nil then
                     local imageW, imageH = image:getDimensions()
                     local quad = love.graphics.newQuad(
-                        8 * (tonumber(item.Texture.Index, 16) % (imageW / 8)),
-                        math.floor(tonumber(item.Texture.Index, 16) / (imageW / 8)) * 8,
+                        8 * (item.Texture.Index % (imageW / 8)),
+                        math.floor(item.Texture.Index / (imageW / 8)) * 8,
                         8,
                         8,
                         imageW, imageH
@@ -217,8 +224,8 @@ function Player:drawItemInMouse()
                 if image ~= nil then
                     local imageW, imageH = image:getDimensions()
                     local quad = love.graphics.newQuad(
-                        8 * (tonumber(self.itemInMouse.item.Texture.Index, 16) % (imageW / 8)),
-                        math.floor(tonumber(self.itemInMouse.item.Texture.Index, 16) / (imageW / 8)) * 8,
+                        8 * (self.itemInMouse.item.Texture.Index % (imageW / 8)),
+                        math.floor(self.itemInMouse.item.Texture.Index / (imageW / 8)) * 8,
                         8,
                         8,
                         imageW, imageH

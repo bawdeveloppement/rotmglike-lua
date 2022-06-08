@@ -7,7 +7,7 @@ function Sprite:initialize(parent, data)
     Component.initialize(self, parent)
     
     self.relativity = data.relativity or nil
-    self.image = nil;
+    self.image = data.image or nil;
     self.transform = self.entity:getComponent("TransformComponent");
 
     self.scale = data.scale or 1
@@ -35,8 +35,7 @@ function Sprite:initialize(parent, data)
     if data.scale ~= nil then self.scale = data.scale or 1 end
 
     if data.imageUri ~= nil then self:setImageUri(data.imageUri) end
-
-    self.spriteIndex = 0
+    self.spriteIndex = data.spriteIndex or 0
 end
 
 function Sprite:setRelativity(relativity)

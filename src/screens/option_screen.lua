@@ -86,7 +86,7 @@ end
 function GameOptionScreen:keypressed (...)
     local key = ...
     if key == "escape" then
-        _G.xle.Screen.goToScreen("main_menu");
+        _G.xle.Screen.goToScreen("main_menu_screen");
     end
     if key == "f" then
         love.window.setMode(1680, 1050, { fullscreen = true, fullscreentype = "desktop" })

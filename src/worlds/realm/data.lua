@@ -360,7 +360,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["entityId"] = "bat"
+            ["entityId"] = "Black Bat"
           }
         },
         {
