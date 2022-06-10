@@ -4,6 +4,8 @@ local Class = require(_G.libDir .. "middleclass")
 -- Create a class called "CharacterComponent" and inherit of Component
 local CharacterComponent = Class("CharacterComponent", Component);
 
+CharacterComponent.static.name = "CharacterComponent"
+
 CharacterComponent.static.statOffToHere = {
     ["21"] = "Defense",
     ["22"] = "Speed",

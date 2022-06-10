@@ -2583,6 +2583,10 @@
         "Height": 8
       }
     },
+    "Loots": [
+      { "id": "Arch-demon Blade", "probability": 0.10 },
+      { "id": "Minor Health Potion", "probability": 0.90 }
+    ],
     "HitSound": "monster/bats_hit",
     "DeathSound": "monster/bats_death",
     "MaxHitPoints": "50",

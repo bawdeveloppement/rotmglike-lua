@@ -61,11 +61,17 @@ function MonsterAIComponent:update(...)
     if self.attack.cooldown <= 0 and target ~= nil then
         self.entity.world:addEntity( Projectile:new(self.entity.world, {
             ownerId = self.entity.id,
+            projectileId = self.projectileData.ObjectId,
+            damage = {
+                minDamage = self.projectileData.MinDamage,
+                maxDamage = self.projectileData.MaxDamage
+            },
+            lifeTimeMs = self.projectileData.LifetimeMS,
+            speed = self.projectileData.Speed,
             x = position.x,
             y = position.y,
             dx = self.velocity.x,
             dy = self.velocity.y,
-            projectileData = self.projectileData
         }))
         self.sound.fire.play(self.sound.fire)
         self.attack.cooldown = love.math.random(80, 100)

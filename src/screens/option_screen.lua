@@ -2,8 +2,8 @@ local GameOptionScreen = require(_G.libDir .. "middleclass")("GameOptionScreen",
 
 local SelectElement = require(_G.engineDir .. "game_objects.interface_elements.main").SelectElement
 
-local VolumeControllerObject = require(_G.srcDir .. "go.volume_controller")
-local DimensionControllerObject = require(_G.srcDir .. "go.dimension_controller")
+local VolumeControllerObject = require(_G.srcDir .. "go.go-volume_controller")
+local DimensionControllerObject = require(_G.srcDir .. "go.go-dimension_controller")
 
 function GameOptionScreen:initialize (name, active)
     _G.xle.Screen.initialize(self, name, active)

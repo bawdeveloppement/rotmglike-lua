@@ -30,7 +30,7 @@ _G.string.split = function (self, sep)
     return fields
 end
 
-_G.isDebug = true
+_G.isDebug = false
 
 local JSON = require("lib.json")
 
@@ -67,6 +67,16 @@ _G.dbObject.getCharacter = function (characterId)
     local toReturn = nil;
     for k, v in ipairs(_G.dbObject.Characters) do
         if v.id == characterId then
+            toReturn = v;
+        end
+    end
+    return toReturn
+end
+
+_G.dbObject.createEquipementById = function (equipementId)
+    local toReturn = nil;
+    for k, v in ipairs(_G.dbObject.Equipments) do
+        if v.id == equipementId then
             toReturn = v;
         end
     end

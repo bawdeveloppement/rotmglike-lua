@@ -242,7 +242,7 @@ function World:getEntitiesWithAtLeast ( componentList )
     for ei, entity in ipairs(self.entities) do
         local componentMatchedCount = 0
         for ci, componentName in ipairs( componentList ) do
-            if entity:getComponent( componentName ) ~= nil and foundEntities[entity] == nil then
+            if entity:getComponent( componentName ) ~= nil then
                 componentMatchedCount = componentMatchedCount + 1
             end
         end
