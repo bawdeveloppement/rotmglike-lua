@@ -16,12 +16,16 @@ function World:initialize( screen, active,  world_name, world_data, world_worldS
 
     self:load()
 
-    self.onUpdate = {}
-    self.onDraw = {}
+    self.systems = {}
+
+    self.worldOrigin = {
+        x = 0,
+        y = 0
+    }
 end
 
-function World:addSystem( cbName, cbHandler )
-    table.insert(self[cbName], #self[cbName] + 1, cbHandler)
+function World:addSystem( system )
+    table.insert(self.systems, #self.systems + 1, system)
 end
 
 function World:load()
@@ -87,8 +91,11 @@ function World:update(...)
         end
     end
 
-    for i, v in ipairs(self.onUpdate) do
-        v( self,...)
+
+    for i, v in ipairs(self.systems) do
+        if v.update ~= nil then
+            v:update( ... )
+        end
     end
 end
 
@@ -116,8 +123,8 @@ function World:draw()
                         love.graphics.draw(
                             self.world_data.tilesets[targetTileset].image,
                             quad,
-                            xx,
-                            yy,
+                            xx - self.worldOrigin.x,
+                            yy - self.worldOrigin.y,
                             0,
                             self.world_scale,self.world_scale
                         )
@@ -154,8 +161,11 @@ function World:draw()
         entity:draw()
     end
 
-    for i, v in ipairs(self.onDraw) do
-        v()
+
+    for i, v in ipairs(self.systems) do
+        if v.draw ~= nil then
+            v:draw()
+        end
     end
 end
 
@@ -163,6 +173,12 @@ function World:keyreleased(...)
     for i, v in ipairs(self.entities) do
         if v.keyreleased ~= nil then
             v:keyreleased(...)
+        end
+    end
+
+    for i, v in ipairs(self.systems) do
+        if v.keyreleased ~= nil then
+            v:keyreleased( ... )
         end
     end
 end
@@ -173,6 +189,13 @@ function World:keypressed(...)
             v:keypressed(...)
         end
     end
+
+    
+    for i, v in ipairs(self.systems) do
+        if v.keypressed ~= nil then
+            v:keypressed( ... )
+        end
+    end
 end
 
 function World:mousereleased(...)
@@ -181,12 +204,24 @@ function World:mousereleased(...)
             v:mousereleased(...)
         end
     end
+
+    for i, v in ipairs(self.systems) do
+        if v.mousereleased ~= nil then
+            v:mousereleased( ... )
+        end
+    end
 end
 
 function World:mousepressed(...)
     for i, v in ipairs(self.entities) do
         if v.mousepressed ~= nil then
             v:mousepressed(...)
+        end
+    end
+
+    for i, v in ipairs(self.systems) do
+        if v.mousepressed ~= nil then
+            v:mousepressed( ... )
         end
     end
 end

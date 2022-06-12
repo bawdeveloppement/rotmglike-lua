@@ -28,8 +28,11 @@ function BagEntity:initialize( world, data )
             { class = CollisionComponent, data = { rect = { width = 16, height = 16 }}},
             { class = ContainerComponent, data = { items = data.items }}
         }
-    )
 
+        
+    )
+    
+    self.alreadySetItems = false
 
     self.items = data.items
     
