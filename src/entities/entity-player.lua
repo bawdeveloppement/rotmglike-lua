@@ -9,9 +9,9 @@ local CharacterComponent = require(_G.srcDir.."components.component-character")
 local CameraComponent = require(_G.srcDir.."components.component-camera")
 local PlayerComponent = require(_G.srcDir.."components.component-player")
 
-local Projectile = require(_G.srcDir .. "entities.projectile");
+local Projectile = require(_G.srcDir .. "entities.entity-projectile");
 
-local Container = require(_G.srcDir .. "go.container");
+local Container = require(_G.srcDir .. "go.go-container");
 
 local function pack(...)
     return { ... }, select("#", ...)
@@ -83,7 +83,27 @@ function Player:initialize( world, data )
     self.cacheText = {}
 
     self.inCollisionWithBagEntities = {}
+    self.showBagIndex = 1
 end
+
+local plus = {
+    { x = 25, y = 345, name = "max_life" },
+    { x = 25, y = 365, name = "max_mana" },
+    { x = 25, y = 385, name = "attack" },
+    { x = 25, y = 405, name = "defense" },
+    { x = 25, y = 425, name = "wisdom" },
+    { x = 25, y = 445, name = "dexterity" },
+    { x = 25, y = 465, name = "speed" },
+    { x = 25, y = 485, name = "vitality" },
+}
+
+local charInterface = {
+    show = false
+}
+
+local bagInterface = {
+    show = false
+}
 
 function Player:bindPlaySoundOnLevelUp()
     self:getComponent("CharacterComponent"):addOnLevelUp("playsound", function ( m )
@@ -156,26 +176,49 @@ function Player:update(...)
     else
         self.mouseIsHoverContainer = false
     end
+
+    
+    local selfPosition = self.components["TransformComponent"].position
+    local searchBagResult = self.world:getEntitiesByComponentName("ContainerComponent")
+    local inCollisionWithBagEntities = {}
+    for i, v in ipairs(searchBagResult) do
+        bagPos = v:getComponent("TransformComponent").position
+        bagRect = v:getComponent("CollisionComponent").rect
+        
+        if selfPosition.x > bagPos.x and selfPosition.x < bagPos.x + bagRect.width and selfPosition.y > bagPos.y and selfPosition.y < bagPos.y + bagRect.height then
+            table.insert(inCollisionWithBagEntities, #inCollisionWithBagEntities + 1, v)
+        end
+    end
+
+    self.inCollisionWithBagEntities = inCollisionWithBagEntities
+
+    if #self.inCollisionWithBagEntities > 0 then
+        if self.inCollisionWithBagEntities[self.showBagIndex].alreadySetItems == false then
+            self.groundBag:setItems(self.inCollisionWithBagEntities[self.showBagIndex].items)
+            self.inCollisionWithBagEntities[self.showBagIndex].alreadySetItems = true
+        end
+    end
+
+
+    local targetPosition = {
+        x = 10,
+        y = 0
+    }
+    if bagInterface.show then
+        targetPosition.y = h - 77 - self.bag.rect.height - self.groundBag.rect.height
+    else
+        targetPosition.y = h - 77 - self.groundBag.rect.height
+    end
+    
+    if self.bag.rect.y ~= h - 52 - self.bag.rect.height then
+        self.bag:setPosition(10, h - 52 - self.bag.rect.height)
+    end
+    if self.groundBag.rect.y ~= targetPosition.y then 
+        self.groundBag:setPosition(targetPosition.x, targetPosition.y)
+    end
+
 end
 
-local plus = {
-    { x = 25, y = 345, name = "max_life" },
-    { x = 25, y = 365, name = "max_mana" },
-    { x = 25, y = 385, name = "attack" },
-    { x = 25, y = 405, name = "defense" },
-    { x = 25, y = 425, name = "wisdom" },
-    { x = 25, y = 445, name = "dexterity" },
-    { x = 25, y = 465, name = "speed" },
-    { x = 25, y = 485, name = "vitality" },
-}
-
-local charInterface = {
-    show = false
-}
-
-local bagInterface = {
-    show = false
-}
 
 function Player:drawPlus ( index )
     local mx, my = love.mouse.getPosition()
@@ -407,7 +450,7 @@ function Player:draw()
     -- BAG
     if bagInterface.show then
         -- Bag Icon
-        self.bag:draw(10, h - 52 - self.bag.rect.height)
+        self.bag:draw()
         love.graphics.setColor(128/255, 0, 128/255, 255);
         love.graphics.rectangle("fill", 20 + 32, h - 32 - 10, 32, 32)
         love.graphics.setColor(1, 1, 1, 1);
@@ -421,22 +464,9 @@ function Player:draw()
         love.graphics.rectangle("line", 20 + 32, h - 32 - 10, 32, 32)
     end
 
-    local searchBagResult = self.world:getEntitiesByComponentName("ContainerComponent")
-    local inCollisionWithBagEntities = {}
-    for i, v in ipairs(searchBagResult) do
-        bagPos = v:getComponent("TransformComponent").position
-        bagRect = v:getComponent("CollisionComponent").rect
-        
-        if selfPosition.x > bagPos.x and selfPosition.x < bagPos.x + bagRect.width and selfPosition.y > bagPos.y and selfPosition.y < bagPos.y + bagRect.height then
-            table.insert(inCollisionWithBagEntities, #inCollisionWithBagEntities + 1, v)
-        end
-    end
-
-    self.inCollisionWithBagEntities = inCollisionWithBagEntities
-
-    love.graphics.print(#inCollisionWithBagEntities, 100, 100)
+    love.graphics.print(#self.inCollisionWithBagEntities, 100, 100)
     if #self.inCollisionWithBagEntities > 0 then
-        self.groundBag:draw(10, h - 77 - self.bag.rect.height - self.groundBag.rect.height)
+        self.groundBag:draw()
     end
     self:drawItemInMouse()
 end

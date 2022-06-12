@@ -7,7 +7,7 @@ local ContainerComponent = require(_G.srcDir .. "components.component-container"
 
 local BagEntity = require(_G.libDir .. "middleclass")("BagEntity", Entity)
 
-local SlotGameObject = require(_G.srcDir .. "go.slot")
+local SlotGameObject = require(_G.srcDir .. "go.go-slot")
 
 function string:split(sep)
     local sep, fields = sep or ":", {}
@@ -31,9 +31,11 @@ function BagEntity:initialize( world, data )
     )
 
 
+    self.items = data.items
+    
     self.slots = {}
     if #data.items > 0 then
-        for i, v in ipairs(data.items) do
+        for i, v in ipairs(self.items) do
             table.insert(self.slots, #self.slots + 1, SlotGameObject:new(data.position, v, 1))
         end
     end
@@ -61,6 +63,7 @@ end
 function BagEntity:draw()
     Entity.draw(self)
 
+    
     for i, v in ipairs(self.slots) do
         v:draw()
     end

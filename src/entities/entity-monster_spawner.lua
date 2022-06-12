@@ -3,7 +3,7 @@ local Sprite = require(_G.engineDir.."components.sprite")
 local Transform = require(_G.engineDir.."components.transform")
 local Entity = require(_G.engineDir.."entity")
 
-local Monster = require(_G.srcDir .. "entities.monster")
+local Monster = require(_G.srcDir .. "entities.entity-monster")
 local MonsterSpawner = require(_G.libDir .. "middleclass")("MonsterSpawner", Entity)
 
 function MonsterSpawner:initialize ( world, data )
@@ -12,6 +12,7 @@ function MonsterSpawner:initialize ( world, data )
         { class = Sprite, data = { width = 32, height = 32, center = true }},
     });
     self.entityToSpawn = data.name
+    print(self.entityToSpawn)
     self.spawnMonsterTimer = 100;
     self.monsterKilled = 0;
     self.active = false

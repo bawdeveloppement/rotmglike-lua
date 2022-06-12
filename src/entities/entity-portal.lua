@@ -6,7 +6,6 @@ local Collision = require(_G.engineDir.."components.collision")
 local Button = require(_G.engineDir.."game_objects.main").InterfaceElements.ButtonElement
 local Entity = require(_G.engineDir.."entity")
 
-local Monster = require(_G.srcDir .. "entities.monster")
 local Portal = require(_G.libDir .. "middleclass")("Portal", Entity)
 
 function Portal:initialize ( world, data )

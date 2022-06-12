@@ -1,7 +1,7 @@
 local Component = require(_G.engineDir .. "component")
 local Class = require(_G.libDir .. "middleclass")
 
-local Projectile = require(_G.srcDir .. "entities.projectile");
+local Projectile = require(_G.srcDir .. "entities.entity-projectile");
 -- Create a class called "MonsterAI" and inherit of Component
 local MonsterAIComponent = Class("MonsterAIComponent", Component);
 

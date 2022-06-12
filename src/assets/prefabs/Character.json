@@ -644,6 +644,19 @@
     "NoMiniMap": true,
     "MaxHitPoints": "10",
     "Size": "0",
+    "Brain": {
+      "Data": {
+        "defaultStage": "IDLE"
+      },
+      "Stages": {
+        "IDLE": {
+  
+        },
+        "FURY": [
+          { "Condition": "", "Action": ""}
+        ]
+      }
+    },
     "DisplayId": "{ghostShip.Captain_Summoner}"
   },
   {

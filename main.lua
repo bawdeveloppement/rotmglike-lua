@@ -65,6 +65,7 @@ _G.dbObject = {
 }
 _G.dbObject.getCharacter = function (characterId)
     local toReturn = nil;
+    print(characterId .. "dzadzad")
     for k, v in ipairs(_G.dbObject.Characters) do
         if v.id == characterId then
             toReturn = v;
@@ -92,3 +93,13 @@ end
 _G.errorAudio = _G.xle.ResourcesManager:getOrAddSound("error.mp3")
 
 _G.xleInstance = _G.xle.Init:new("astral_kingdom", screens)
+
+local foofoo = "d"
+
+function test(foo)
+    foo = "dzadzad"
+end
+
+test(foofoo)
+
+print(foofoo)

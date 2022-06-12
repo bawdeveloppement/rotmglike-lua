@@ -335,7 +335,7 @@ return {
         },
         {
           id = 13,
-          name = "player",
+          name = "entity-player",
           type = "spawner",
           shape = "rectangle",
           x = 51.25,
@@ -350,7 +350,7 @@ return {
         },
         {
           id = 15,
-          name = "monster_spawner",
+          name = "entity-monster_spawner",
           type = "spawner",
           shape = "rectangle",
           x = 92.5,
@@ -365,7 +365,7 @@ return {
         },
         {
           id = 18,
-          name = "portal",
+          name = "entity-portal",
           type = "",
           shape = "rectangle",
           x = 192,

@@ -6,12 +6,13 @@ local Entity = require(_G.engineDir.."entity")
 
 local MonsterAIComponent = require(_G.srcDir .. "components.component-monster_ai")
 local CharacterComponent = require(_G.srcDir .. "components.component-character")
-local BagEntity = require(_G.srcDir .. "entities.bag")
+local BagEntity = require(_G.srcDir .. "entities.entity-bag")
 
 local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
 function Monster:initialize ( world, data)
     local CharacterData = _G.dbObject.getCharacter(data.name)
+    print(CharacterData)
     Entity.initialize(self, world, data.name.."#"..world:getEntitiesCount(), data.name, {
         { class = Transform, data = data },
         { class = SpriteComponent, data = { rect = { width = 32 , height= 32 }, tile = { width = CharacterData.Texture.Size.Width, height = CharacterData.Texture.Size.Height }, image = _G.xle.ResourcesManager:getTexture(CharacterData.Texture.File), spriteIndex = CharacterData.Texture.Index}},

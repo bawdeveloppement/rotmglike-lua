@@ -15,6 +15,13 @@ function World:initialize( screen, active,  world_name, world_data, world_worldS
     self.entities = {}
 
     self:load()
+
+    self.onUpdate = {}
+    self.onDraw = {}
+end
+
+function World:addSystem( cbName, cbHandler )
+    table.insert(self[cbName], #self[cbName] + 1, cbHandler)
 end
 
 function World:load()
@@ -40,7 +47,7 @@ function World:load()
             for oi, obj in ipairs(layer.objects) do
                 for i, k in pairs(require(_G.srcDir .. "entities.entities")) do
                     if obj.name == k then
-                        if obj.name == "monster_spawner" then
+                        if obj.name == "entity-monster_spawner" then
                             local ent = require(_G.srcDir .. "entities.".. k):new(
                                 self,
                                 {
@@ -78,6 +85,10 @@ function World:update(...)
         else
             table.remove(self.entities, i);
         end
+    end
+
+    for i, v in ipairs(self.onUpdate) do
+        v( self,...)
     end
 end
 
@@ -141,6 +152,10 @@ function World:draw()
 
     for i, entity in ipairs(self.entities) do
         entity:draw()
+    end
+
+    for i, v in ipairs(self.onDraw) do
+        v()
     end
 end
 

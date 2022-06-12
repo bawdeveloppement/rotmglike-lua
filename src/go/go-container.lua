@@ -9,6 +9,7 @@ function Container:initialize(length, x, y, parent)
         height = 220
     }
 
+    self.relative = true
     self.parent = parent or nil
     self.length = length
 
@@ -21,6 +22,39 @@ function Container:initialize(length, x, y, parent)
     self.rect.height = 10 + (self.length / 5 * 32) + self.length / 5 * 10
 
     self.cacheText = {}
+
+end
+
+function Container:setPosition(x, y)
+    self.rect.x = x
+    self.rect.y = y
+end
+
+function Container:setItems(items)
+    -- TODO: Assemble pair items
+
+    -- Remove all items
+    for i, v in ipairs(self.slots) do
+        if self.slots[i].item ~= nil then
+            self.slots[i] = {
+                item = nil,
+                quantity = 0
+            }
+        end
+    end
+    -- 
+    local nextItemIndex = 1
+    -- Check in table if item is already added
+    for i, v in ipairs(items) do
+        if self.slots[i].item == nil then
+            self.slots[i] = {
+                item = v,
+                quantity = 1
+            }
+            nextItemIndex = nextItemIndex + 1 
+        end
+    end
+    self.alreadySetItems = true
 end
 
 function Container:addItemInFirstEmptySlot (item, quantity )
@@ -163,6 +197,14 @@ function Container:drawItem(x, y, index)
 end
 
 function Container:drawSlot(x, y, i)
+    local mx, my = love.mouse.getPosition()
+
+    if mx > x and mx < x + 32 and my > y and my < y + 32 then
+        love.graphics.setColor(0,1,0,1)
+    else
+        love.graphics.setColor(1,1,1,1)
+        
+    end
     love.graphics.rectangle("line", x, y, 32, 32)
     if self.slots[i].item ~= nil then
         self:drawItem(x, y, i)
@@ -180,22 +222,22 @@ function Container:getItemCount()
 end
 
 
-function Container:draw(x, y)
+function Container:draw()
     local w, h = love.window.getMode()
     -- Container Interface
     love.graphics.setColor(255, 255, 255, 255);
-    love.graphics.rectangle("line", x, y, self.rect.width, self.rect.height);
+    love.graphics.rectangle("line", self.rect.x, self.rect.y, self.rect.width, self.rect.height);
     love.graphics.setColor(0, 0, 0, 0.4);
-    love.graphics.rectangle("fill", x, y, self.rect.width, self.rect.height);
+    love.graphics.rectangle("fill", self.rect.x, self.rect.y, self.rect.width, self.rect.height);
     love.graphics.setColor(1, 1, 1, 1);
-    love.graphics.print("Container : "..self:getItemCount().." items.", 10, y - 20)
+    love.graphics.print("Container : "..self:getItemCount().." items.", 10, self.rect.y - 20)
 
     local i = 1
     for ypos = 1, self.length / 5, 1 do
         for x = 1, 5, 1 do
             self:drawSlot(
                 20 + (10 + 32) * (x - 1),
-                y + 10 + (42 * (ypos - 1)),
+                self.rect.y + 10 + (42 * (ypos - 1)),
                 i
             )
             i = i + 1
@@ -210,7 +252,7 @@ function Container:mousepressed( mx, my, button)
         local i = 1
         for y = 1, self.length / 5, 1 do
             for x = 1, 5, 1 do
-                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + 32 + (10 + 32) * (x - 1) and my > (h - 94 - 210 ) + 42 * y and my < (h - 94 - 210 ) + 32 + 42 * y then
+                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + 32 + (10 + 32) * (x - 1) and my > self.rect.y + 10 + (42 * (y - 1)) and my < (self.rect.y + 10 ) + 32 + (42 * (y - 1)) then
                     if self.parent.itemInMouse.item == nil and self.slots[i].item ~= nil then
                         self.parent.itemInMouse = {
                             item = self.slots[i].item,
@@ -238,7 +280,7 @@ function Container:mousereleased( mx, my, button)
         local i = 1
         for y = 1, self.length / 5, 1 do
             for x = 1, 5, 1 do
-                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > (h - 94 - 210 ) + 42 * y and my < (h - 94 - 210 ) + 32 + 42 * y then
+                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > self.rect.y + 10 + (42 * (y - 1)) and my < (self.rect.y + 10 ) + 32 + (42 * (y - 1)) then
                     if self.parent.itemInMouse.item ~= nil then
                         if self.slots[i].item == nil then
                             self.slots[i] = {
