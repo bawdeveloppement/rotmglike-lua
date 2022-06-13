@@ -100,6 +100,7 @@ function test(foo)
     foo = "dzadzad"
 end
 
+_G.camera = require(_G.libDir .. "camera")()
 test(foofoo)
 
 print(foofoo)

@@ -78,6 +78,11 @@ function WorldBossSystem:draw()
                         rect.y = currentBossPosition.y
                     end
                     love.graphics.rectangle("line", rect.x, rect.y, 100, 20)
+                    love.graphics.print(entity.name, rect.x + 10, rect.y)
+                    local sprite = entity:getComponent("SpriteComponent")
+                    love.graphics.draw(sprite.image, sprite:getSpriteIndex(sprite.spriteIndex), rect.x + 50 - 16, rect.y - 42, sprite.orientation, sprite.scale);
+                    love.graphics.rectangle("line", rect.x + 50 - 16, rect.y - 44, 36, 36)
+                    
                 end
             end
         end

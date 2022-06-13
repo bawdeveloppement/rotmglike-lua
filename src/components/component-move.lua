@@ -35,6 +35,8 @@ function MoveComponent:update(...)
     if s then
         transform.position.y = transform.position.y + (5 + character.stats.speed * 0.1)
     end
+
+    _G.camera:lookAt(transform.position.x, transform.position.y)
 end
 
 return MoveComponent

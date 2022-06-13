@@ -1,5 +1,4 @@
 local World = require(_G.libDir .. "middleclass")("World");
-
 World.static.worlds = {}
 
 function World:initialize( screen, active,  world_name, world_data, world_worldScale )
@@ -18,7 +17,7 @@ function World:initialize( screen, active,  world_name, world_data, world_worldS
 
     self.systems = {}
 
-    self.worldOrigin = {
+    self.origin = {
         x = 0,
         y = 0
     }
@@ -67,7 +66,10 @@ function World:load()
                                 {
                                     name = obj.name,
                                     scale = self.world_scale,
-                                    position = { x = obj.x * self.world_scale, y = obj.y * self.world_scale},
+                                    position = {
+                                        x = obj.x * self.world_scale,
+                                        y = obj.y * self.world_scale
+                                    },
                                     properties = obj.properties
                                 }
                             );
@@ -101,6 +103,7 @@ end
 
 
 function World:draw()
+    _G.camera:attach()
     for i, layer in ipairs(self.world_data.layers) do
         if layer.type == "tilelayer" then
             for y = 0, layer.height - 1 do
@@ -123,8 +126,8 @@ function World:draw()
                         love.graphics.draw(
                             self.world_data.tilesets[targetTileset].image,
                             quad,
-                            xx - self.worldOrigin.x,
-                            yy - self.worldOrigin.y,
+                            xx ,
+                            yy ,
                             0,
                             self.world_scale,self.world_scale
                         )
@@ -147,8 +150,8 @@ function World:draw()
                     love.graphics.draw(
                         self.world_data.tilesets[targetTileset].image,
                         quad,
-                        self.world_pos.x + obj.x * self.world_scale,
-                        self.world_pos.y + obj.y * self.world_scale,
+                        obj.x * self.world_scale,
+                        obj.y * self.world_scale,
                         0,
                         self.world_scale,self.world_scale
                     )
@@ -160,6 +163,7 @@ function World:draw()
     for i, entity in ipairs(self.entities) do
         entity:draw()
     end
+    _G.camera:detach()
 
 
     for i, v in ipairs(self.systems) do

@@ -12,7 +12,7 @@ local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
 function Monster:initialize ( world, data)
     local CharacterData = _G.dbObject.getCharacter(data.name)
-
+    self.CharacterData = CharacterData
     local spriteData = {}
     
     if CharacterData.Texture ~= nil then
