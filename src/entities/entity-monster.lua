@@ -12,10 +12,28 @@ local Monster = require(_G.libDir .. "middleclass")("Monster", Entity)
 
 function Monster:initialize ( world, data)
     local CharacterData = _G.dbObject.getCharacter(data.name)
-    print(CharacterData)
-    Entity.initialize(self, world, data.name.."#"..world:getEntitiesCount(), data.name, {
+
+    local spriteData = {}
+    
+    if CharacterData.Texture ~= nil then
+        spriteData = {
+            rect = { width = 32 , height= 32 },
+            tile = { width = CharacterData.Texture.Size.Width or 8, height = CharacterData.Texture.Size.Height or 8 },
+            image = _G.xle.ResourcesManager:getTexture(CharacterData.Texture.File),
+            spriteIndex = CharacterData.Texture.Index
+        }
+    else
+        spriteData = {
+            rect = { width = 32 , height= 32 },
+            tile = { width = 8, height = 8 },
+            image = _G.xle.ResourcesManager:getTexture(CharacterData.AnimatedTexture.File),
+            spriteIndex = CharacterData.AnimatedTexture.Index
+        }
+    end
+
+    Entity.initialize(self, world, data.id or data.name.."#"..world:getEntitiesCount(), data.name, {
         { class = Transform, data = data },
-        { class = SpriteComponent, data = { rect = { width = 32 , height= 32 }, tile = { width = CharacterData.Texture.Size.Width, height = CharacterData.Texture.Size.Height }, image = _G.xle.ResourcesManager:getTexture(CharacterData.Texture.File), spriteIndex = CharacterData.Texture.Index}},
+        { class = SpriteComponent, data = spriteData},
         { class = CharacterComponent, data = CharacterData },
         { class = CollisionComponent, data = { rect = { width = 32, height = 32 }}},
         { class = MonsterAIComponent, data = CharacterData }
@@ -23,8 +41,11 @@ function Monster:initialize ( world, data)
 
     self.zoneRadius = 200
     self:bindDropExp()
-    self:bindDropBag(CharacterData.Loots)
     
+    if CharacterData.Loots ~= nil then
+        self:bindDropBag(CharacterData.Loots)
+    end
+
     self.font = love.graphics.newFont("src/assets/fonts/yoster.ttf")
     self.dropBagSound = _G.xle.ResourcesManager:getOrAddSound("loot_appears.mp3")
 end

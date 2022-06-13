@@ -12,7 +12,6 @@ function MonsterSpawner:initialize ( world, data )
         { class = Sprite, data = { width = 32, height = 32, center = true }},
     });
     self.entityToSpawn = data.name
-    print(self.entityToSpawn)
     self.spawnMonsterTimer = 100;
     self.monsterKilled = 0;
     self.active = false
