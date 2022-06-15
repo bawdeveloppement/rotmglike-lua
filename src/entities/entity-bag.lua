@@ -7,7 +7,7 @@ local ContainerComponent = require(_G.srcDir .. "components.component-container"
 
 local BagEntity = require(_G.libDir .. "middleclass")("BagEntity", Entity)
 
-local SlotGameObject = require(_G.srcDir .. "go.go-slot")
+local SlotGameObject = require(_G.srcDir .. "prefabs.prefab-slot")
 
 function string:split(sep)
     local sep, fields = sep or ":", {}
