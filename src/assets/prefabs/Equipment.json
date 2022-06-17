@@ -9260,7 +9260,7 @@
     "DisplayId": "{equip.Agateclaw_Dagger}"
   },
   {
-    "_": "\n    \n    \n    \n    \n    mystical\n    \n    \n    \n    \n    \n    \n    \n    \n    \n  ",
+    "_": "mystical",
     "type": "0xaff",
     "id": "Dagger of Foul Malevolence",
     "Class": "Equipment",
@@ -16072,7 +16072,7 @@
     "DisplayId": "{equip.Green_Drake_Egg}"
   },
   {
-    "_": "\n    Bleeding\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  ",
+    "_": "Bleeding",
     "type": "0xaf3",
     "id": "Yellow Drake Egg",
     "Class": "Equipment",
@@ -24952,7 +24952,7 @@
     },
     "SlotType": "6",
     "Description": "Armor made from the ribcage of a skeleton",
-    "ExtraTooltipData": "\n          ",
+    "ExtraTooltipData": "",
     "ActivateOnEquip": {
       "IncrementStat": {
         "stat": "21",
