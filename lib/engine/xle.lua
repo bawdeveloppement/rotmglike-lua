@@ -1,6 +1,6 @@
 local XLE = require(_G.libDir .. "middleclass")("God")
 
-local Screen = require(_G.engineDir .. "screen")
+local Scene = require(_G.engineDir .. "scene")
 local Entity = require(_G.engineDir .. "entity")
 local World = require(_G.engineDir .. "world")
 local ResourcesManager = require(_G.engineDir .. "resources_manager")
@@ -50,25 +50,25 @@ local callbacks = {
 
 XLE.static.optionsCached = {}
 
-function XLE:initialize(gameName, screens )
+function XLE:initialize(gameName, scenes )
     self.game_name = gameName
     -- require and initialise
-    for i, v in ipairs(screens) do
-        require("src.screens."..v.name):new(v.name, v.buildIndex == 1 )
+    for i, v in ipairs(scenes) do
+        require("src.scenes."..v.path):new(v.name, v.index == 1 )
     end
 
     self:load()
 end
 
 function XLE:load()
-    for k, v in ipairs(Screen.screensInstances) do
+    for k, v in ipairs(Scene.scenesInstances) do
         if v.active then
             v:init()
         end
     end
     local w, h = love.window.getMode()
     self.old = {
-        screen = {
+        scene = {
             w = w,
             h = h
         }
@@ -84,9 +84,9 @@ function XLE:load()
                     table.insert(XLE.optionsCached, #XLE.optionsCached + 1, {id = mode.width.. "x".. mode.height, text =  mode.width.. "x".. mode.height, value = mode  })
                 end
             end
-            for _, screen in pairs(Screen.screensInstances) do
-                if screen[v] ~= nil and type(screen[v]) == "function" and screen.active then
-                    screen[v](screen, ...)
+            for _, scene in pairs(Scene.scenesInstances) do
+                if scene[v] ~= nil and type(scene[v]) == "function" and scene.active then
+                    scene[v](scene, ...)
                 end
             end
             if v == "draw" then
@@ -117,7 +117,7 @@ end
 return {
     Init = XLE,
     Entity = Entity,
-    Screen = Screen,
+    Scene = Scene,
     World = World,
     callbacks = callbacks,
     ResourcesManager = ResourcesManager:new(),

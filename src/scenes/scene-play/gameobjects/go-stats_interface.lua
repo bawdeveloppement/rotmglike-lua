@@ -42,7 +42,7 @@ function GOStatsInterface:mousereleased ( mx, my, button, characterComponent )
         for i, v in ipairs(plus) do
             if mx > plus[i].x - 8 and mx < plus[i].x + 8 and my > h - (600 - plus[i].y) - 8 and my < h - (600 - plus[i].y) + 8 then
                 if button == 1 then
-                    if lshift ~= false then
+                    if self.lshift ~= false then
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
                             characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + characterComponent.statPoints * 5;
                         else
@@ -68,9 +68,9 @@ end
 function GOStatsInterface:keyreleased (key)
     if key == "lshift" then
         if self.lshift then
-            self.lshift = true
-        else
             self.lshift = false
+        else
+            self.lshift = true
         end
     end
 end

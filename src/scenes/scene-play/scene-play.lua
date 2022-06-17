@@ -1,11 +1,13 @@
 local GamePlayScreen = require(_G.libDir .. "middleclass")("GamePlayScreen", _G.xle.Scene)
-
+local MouseUtil = require(_G.srcDir .. "utils.MouseUtil")
 
 local GOManaBar = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-mana_bar")
 local GOExperienceBar = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-experience_bar")
 local GOHealthBar = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-health_bar")
 local GOStatsInterface = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-stats_interface")
 local GOButtonStatInterface = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-button_stat_interface")
+local GOQuickSlots = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-quick_slots")
+local GOInventory = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-inventory")
 
 function GamePlayScreen:initialize (name, active)
     _G.xle.Scene.initialize(self, name, active)
@@ -18,7 +20,9 @@ function GamePlayScreen:initialize (name, active)
         GOExperienceBar = GOExperienceBar:new(),
         GOHealthBar = GOHealthBar:new(),
         GOStatsInterface = GOStatsInterface:new(),
-        GOButtonStatInterface = GOButtonStatInterface:new()
+        GOButtonStatInterface = GOButtonStatInterface:new(),
+        GOQuickSlots = GOQuickSlots:new(),
+        GOInventory = GOInventory:new()
     }
 
     self.showStatInterface = false
@@ -83,9 +87,16 @@ function GamePlayScreen:draw(...)
                     self.interface.GOStatsInterface:draw(self.showStatInterface, characterComponent)
                     self.interface.GOButtonStatInterface:draw(self.showStatInterface)
                 end
+                if playerResult[1].quickSlots ~= nil then
+                self.interface.GOQuickSlots:draw(playerResult[1].quickSlots)
+                end
+                if playerResult[1].inventory ~= nil then
+                    self.interface.GOInventory:draw(playerResult[1].inventory)
+                end
             end
             
         end
+        MouseUtil.drawItem()
     end
 
     
@@ -102,7 +113,7 @@ function GamePlayScreen:keyreleased(...)
 
     local key = ...
     self.interface.GOButtonStatInterface:keyreleased(key)
-
+    self.interface.GOStatsInterface:keyreleased(key)
     if key == "b" then
         if self.showBagInterface == false then
             self.showBagInterface = true

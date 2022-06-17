@@ -5,11 +5,7 @@ _G.srcDir    = _G.baseDir .. "src."
 
 love.graphics.setDefaultFilter("nearest")
 
-local screens = {
-    { name = "main_menu_screen", buildIndex = 1 },
-    { name = "option_screen", buildIndex = 2 },
-    { name = "play_screen", buildIndex = 3 },
-}
+local scenes = require(_G.srcDir .. "scenes.scenes")
 
 local loveVersion = 11.3
 
@@ -92,7 +88,7 @@ end
 
 _G.errorAudio = _G.xle.ResourcesManager:getOrAddSound("error.mp3")
 
-_G.xleInstance = _G.xle.Init:new("astral_kingdom", screens)
+_G.xleInstance = _G.xle.Init:new("astral_kingdom", scenes)
 
 local foofoo = "d"
 
@@ -101,6 +97,10 @@ function test(foo)
 end
 
 _G.camera = require(_G.libDir .. "camera")()
-test(foofoo)
 
-print(foofoo)
+
+_G.itemInMouse = {
+    item = nil,
+    quantity = 0,
+    lastIndex = nil
+}
