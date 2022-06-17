@@ -7,6 +7,27 @@ function GOQuickSlots:initialize()
     self.cacheText = {}
 end
 
+function GOQuickSlots:canPutInQuickSlot( slotId, item, quickSlots)
+    if quickSlots[slotId] ~= nil then
+        if type(quickSlots[slotId].slotTypes) == "table" then
+            local slotTypeEqual = false
+            for i, v in ipairs(quickSlots[slotId].slotTypes) do
+                if tostring(v) == item.SlotType then
+                    slotTypeEqual = true
+                end
+            end
+            return slotTypeEqual
+        else
+            if quickSlots[slotId].slotTypes == 0 then
+                return true
+            else
+                return false
+            end
+        end
+    else
+        return false
+    end
+end
 function GOQuickSlots:draw( quickSlots )
     local mx, my = love.mouse.getPosition()
     local w, h = love.window.getMode()
@@ -98,14 +119,37 @@ function GOQuickSlots:draw( quickSlots )
     end
 end
 
-function GOQuickSlots:mousereleased(mx, my, button, quickSlots)
+function GOQuickSlots:mousepressed(mx, my, button, quickSlots)
+    local w, h = love.window.getMode()
+    
+
+    if button == 1 then
+        for i, v in ipairs(quickSlots) do
+            if mx > w / 2 - 150 + (i - 1) * 42 and mx < w / 2 - 150 + (i - 1) * 42 + 32 and my > h - 110 and my < h - 110 + 32 then
+                if _G.itemInMouse.item == nil and quickSlots[i].item ~= nil then
+                    _G.itemInMouse.item = quickSlots[i].item
+                    _G.itemInMouse.quantity = quickSlots[i].quantity
+                    _G.itemInMouse.lastIndex = {
+                        origin = "quickslot",
+                        value = i
+                    }
+                    quickSlots[i].item = nil
+                    quickSlots[i].quantity = 0
+                end
+            end
+        end
+    end
+end
+
+function GOQuickSlots:mousereleased(mx, my, button, quickSlots, inventory)
     local w, h = love.window.getMode()
     if button == 1 then
         for i, v in ipairs(quickSlots) do
             if mx > w / 2 - 150 + (i - 1) * 42 and mx < w / 2 - 150 + (i - 1) * 42 + 32 and my > h - 110 and my < h - 110 + 32 then
                 if _G.itemInMouse.item ~= nil then
                     if quickSlots[i].item == nil then
-                        if self:canPutInQuickSlot(i, _G.itemInMouse.item) then
+                        print(self:canPutInQuickSlot(i, _G.itemInMouse.item, quickSlots))
+                        if self:canPutInQuickSlot(i, _G.itemInMouse.item, quickSlots) then
                             quickSlots[i].item = _G.itemInMouse.item
                             quickSlots[i].quantity = _G.itemInMouse.quantity
                             _G.itemInMouse = {
@@ -115,7 +159,7 @@ function GOQuickSlots:mousereleased(mx, my, button, quickSlots)
                             }
                         else
                             if _G.itemInMouse.lastIndex.origin == "bag" then
-                               self.bag:setItemInSlotId(_G.itemInMouse.lastIndex.value, _G.itemInMouse.item, _G.itemInMouse.quantity)
+                                inventory:setItemInSlotId(_G.itemInMouse.lastIndex.value, _G.itemInMouse.item, _G.itemInMouse.quantity)
                                _G.itemInMouse = {
                                    item = nil,
                                    quantity = 0,
@@ -134,7 +178,7 @@ function GOQuickSlots:mousereleased(mx, my, button, quickSlots)
                             if _G.itemInMouse.lastIndex.origin == "quickslot" then
                                 quickSlots[_G.itemInMouse.lastIndex.value] = old
                             else
-                                self.bag:setItemInSlotId(_G.itemInMouse.lastIndex.value, old.item, old.quantity)
+                                inventory:setItemInSlotId(_G.itemInMouse.lastIndex.value, old.item, old.quantity)
                             end
                         end
                         _G.itemInMouse = {
@@ -145,26 +189,26 @@ function GOQuickSlots:mousereleased(mx, my, button, quickSlots)
                     end
                 end
             else
-                if not self.mouseIsHoverContainer then
-                    if _G.itemInMouse.item ~= nil then
-                        if _G.itemInMouse.lastIndex.origin == "quickslot" then
-                            quickSlots[_G.itemInMouse.lastIndex.value] = {
-                                item = _G.itemInMouse.item,
-                                quantity = _G.itemInMouse.quantity
-                            }
-                            _G.itemInMouse.item = nil
-                            _G.itemInMouse.quantity = 0
-                            _G.itemInMouse.lastIndex = nil
-                            _G.errorAudio:play()
-                        elseif _G.itemInMouse.lastIndex.origin == "bag" then
-                            self.bag:setItemInSlotId(_G.itemInMouse.lastIndex.value, _G.itemInMouse.item, _G.itemInMouse.quantity)
-                            _G.itemInMouse.item = nil
-                            _G.itemInMouse.quantity = 0
-                            _G.itemInMouse.lastIndex = nil
-                            _G.errorAudio:play()
-                        end
-                    end
-                end
+                -- if not self.mouseIsHoverContainer then
+                --     if _G.itemInMouse.item ~= nil then
+                --         if _G.itemInMouse.lastIndex.origin == "quickslot" then
+                --             quickSlots[_G.itemInMouse.lastIndex.value] = {
+                --                 item = _G.itemInMouse.item,
+                --                 quantity = _G.itemInMouse.quantity
+                --             }
+                --             _G.itemInMouse.item = nil
+                --             _G.itemInMouse.quantity = 0
+                --             _G.itemInMouse.lastIndex = nil
+                --             _G.errorAudio:play()
+                --         elseif _G.itemInMouse.lastIndex.origin == "bag" then
+                --             self.bag:setItemInSlotId(_G.itemInMouse.lastIndex.value, _G.itemInMouse.item, _G.itemInMouse.quantity)
+                --             _G.itemInMouse.item = nil
+                --             _G.itemInMouse.quantity = 0
+                --             _G.itemInMouse.lastIndex = nil
+                --             _G.errorAudio:play()
+                --         end
+                --     end
+                -- end
             end
         end
     end

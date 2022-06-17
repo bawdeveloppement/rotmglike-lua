@@ -21,7 +21,6 @@ function WorldBossSystem:update(dt)
 
     if self.currentWorldBossTimer < 0 and self.currentWorldBoss == nil and #self.worldBossList > 0 then
         self.currentWorldBoss = self.worldBossList[1] .. "#event"
-        print(self.currentWorldBoss)
         self.world:addEntity(MonsterEntity:new(self.world, { id= self.worldBossList[1] .. "#event", name = self.worldBossList[1], position = { x= 400, y = 400} }) )
         table.remove(self.worldBossList, 1)
     end

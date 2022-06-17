@@ -4,7 +4,7 @@ GOInventory.static.name = "GOInventory"
 
 function GOInventory:initialize()
     self.rect = {
-        x = x or 0,
+        x = 10,
         y = y or 0,
         width = 220,
         height = 220
@@ -16,12 +16,6 @@ end
 function GOInventory:draw( inventory )
     local w, h = love.window.getMode()
     -- Container Interface
-    self.rect = {
-        x = 10,
-        y = y or 0,
-        width = 220,
-        height = 220
-    }
     
     self.rect.height = 10 + (inventory.length / 5 * 32) + inventory.length / 5 * 10
     self.rect.y = h - 52 - self.rect.height
@@ -48,23 +42,24 @@ function GOInventory:draw( inventory )
 end
 
 
-function GOInventory:mousepressed( mx, my, button)
+function GOInventory:mousepressed( mx, my, button, inventory)
     local w, h = love.window.getMode()
     if button == 1 then
         local i = 1
-        for y = 1, self.length / 5, 1 do
+
+        for y = 1, inventory.length / 5, 1 do
             for x = 1, 5, 1 do
-                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + 32 + (10 + 32) * (x - 1) and my > self.rect.y + 10 + (42 * (y - 1)) and my < (self.rect.y + 10 ) + 32 + (42 * (y - 1)) then
-                    if _G.itemInMouse.item == nil and self.slots[i].item ~= nil then
+                if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > self.rect.y + 10 + (42 * (y - 1)) and my < (self.rect.y + 10 ) + 32 + (42 * (y - 1)) then
+                    if _G.itemInMouse.item == nil and inventory.slots[i].item ~= nil then
                         _G.itemInMouse = {
-                            item = self.slots[i].item,
-                            quantity = self.slots[i].quantity,
+                            item = inventory.slots[i].item,
+                            quantity = inventory.slots[i].quantity,
                             lastIndex = {
                                 origin = "bag",
                                 value = i
                             }
                         }
-                        self.slots[i] = {
+                        inventory.slots[i] = {
                             item = nil,
                             quantity = 0
                         }
@@ -97,7 +92,7 @@ function GOInventory:drawItem(x, y, index, inventory)
             end
         elseif item.AnimatedTexture ~= nil then
             if item.AnimatedTexture.File == "playersSkins" then
-                print(item.id)
+                -- print(item.id)
             end
             local image = _G.xle.ResourcesManager:getTexture(item.AnimatedTexture.File);
             if image ~= nil then
@@ -123,7 +118,7 @@ function GOInventory:drawItem(x, y, index, inventory)
             love.graphics.setColor(1,1,1,1)
             love.graphics.rectangle("line", mx, my - 200, 300, 200)
             local itemId = inventory.slots[index].item.id or (""..#inventory.slots..love.math.random(0, 100))
-            print(inventory.slots[index].item.id)
+            -- print(inventory.slots[index].item.id)
             if self.cacheText[itemId] ~= nil then
                 love.graphics.draw(self.cacheText[itemId], mx + 10, my - 195)
             else
@@ -151,7 +146,6 @@ function GOInventory:drawItem(x, y, index, inventory)
                         else
                             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
                             lastIndex = self.cacheText[itemId]:addf(k .. " : " .. tostring(v), 300, "left", 0, newHeight + self.cacheText[itemId]:getHeight(lastIndex))
-                            print(k ..newHeight .. "index" .. lastIndex)
                         end
                     end
                 end
@@ -176,16 +170,16 @@ function GOInventory:drawSlot(x, y, i, inventory)
     end
 end
 
-function GOInventory:mousereleased( mx, my, button)
+function GOInventory:mousereleased( mx, my, button, inventory)
     local w, h = love.window.getMode()
     if button == 1 then
         local i = 1
-        for y = 1, self.length / 5, 1 do
+        for y = 1, inventory.length / 5, 1 do
             for x = 1, 5, 1 do
                 if mx > 20 + (10 + 32) * (x - 1) and mx < 20 + (32) + (10 + 32) * (x - 1) and my > self.rect.y + 10 + (42 * (y - 1)) and my < (self.rect.y + 10 ) + 32 + (42 * (y - 1)) then
                     if _G.itemInMouse.item ~= nil then
-                        if self.slots[i].item == nil then
-                            self.slots[i] = {
+                        if inventory.slots[i].item == nil then
+                            inventory.slots[i] = {
                                 item = _G.itemInMouse.item,
                                 quantity = _G.itemInMouse.quantity
                             }
@@ -195,14 +189,14 @@ function GOInventory:mousereleased( mx, my, button)
                                 lastIndex = nil
                             }
                         else
-                            local oldItem = self.slots[i]
-                            self.slots[i] = {
+                            local oldItem = inventory.slots[i]
+                            inventory.slots[i] = {
                                 item = _G.itemInMouse.item,
                                 quantity = _G.itemInMouse.quantity
                             }
                             if _G.itemInMouse.lastIndex ~= nil then
                                 if _G.itemInMouse.lastIndex.origin == "bag" then
-                                    self.slots[_G.itemInMouse.lastIndex.value] = oldItem
+                                    inventory.slots[_G.itemInMouse.lastIndex.value] = oldItem
                                 else
                                     self.parent.quickSlots[_G.itemInMouse.lastIndex.value] = oldItem
                                 end

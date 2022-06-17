@@ -56,7 +56,6 @@ function Slot:draw( ... )
     local mx, my = love.mouse.getPosition()
     love.graphics.rectangle("line", self.rect.x, self.rect.y, 32, 32)
     if self.item ~= nil then
-        print(self.item)
         if self.item.Texture ~= nil then
             local image = _G.xle.ResourcesManager:getTexture(self.item.Texture.File);
             if image ~= nil then

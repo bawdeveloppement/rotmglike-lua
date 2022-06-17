@@ -155,9 +155,15 @@ function GamePlayScreen:mousereleased(...)
             local playerResult = v:getEntitiesByComponentName("PlayerComponent")
             if #playerResult > 0 then
                 local characterComponent = playerResult[1]:getComponent("CharacterComponent")
+                local mx, my, button = ...
                 if characterComponent ~= nil then
-                    local mx, my, button = ...
                     self.interface.GOStatsInterface:mousereleased(mx, my, button, characterComponent)
+                end
+                if playerResult[1].quickSlots ~= nil then
+                    self.interface.GOQuickSlots:mousereleased(mx, my, button, playerResult[1].quickSlots, playerResult[1].inventory)
+                end
+                if playerResult[1].inventory ~= nil then
+                    self.interface.GOInventory:mousereleased(mx, my, button, playerResult[1].inventory)
                 end
             end
         end
@@ -170,6 +176,14 @@ function GamePlayScreen:mousepressed(...)
         if v.isActive then
             if v.mousepressed ~= nil then
                 v:mousepressed(...)
+            end
+            local playerResult = v:getEntitiesByComponentName("PlayerComponent")
+            if #playerResult > 0 then
+
+                if playerResult[1].inventory ~= nil then
+                    local mx, my, button = ...
+                    self.interface.GOInventory:mousepressed(mx, my, button, playerResult[1].inventory)
+                end
             end
         end
     end

@@ -1,7 +1,7 @@
 #!/bin/bash
 love2dPath="./debug/love"
 gameName="rotmg"
-gameVersion=0.0.4
+gameVersion=0.0.5
 shouldOverwrite=0
 
 if [ $1 != "" ]; then
