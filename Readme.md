@@ -1,9 +1,5 @@
-![Discord Shield](https://discordapp.com/api/guilds/923290712043307010/widget.png?style=shield)
 
 ![Discord Banner 1](https://discordapp.com/api/guilds/923290712043307010/widget.png?style=banner1)
-![Discord Banner 1](https://discord.com/api/guilds/923290712043307010/widget.json?style=banner1)
-
-![Discord Shield](https://discordapp.com/api/guilds/923290712043307010/widget.png?style=shield)
 
 # Forgotten Kingdom - [ExperienceStage]
 The objective of this project is to give you :
