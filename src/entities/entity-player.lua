@@ -105,7 +105,6 @@ function Player:update(...)
     local w, h = love.window.getMode()
 
     local position = self:getComponent("TransformComponent").position
-    
     -- SHOOT
     if love.mouse.isDown(1) or self.autoFire == true then
         local velx = math.cos(math.atan2(position.y - my, position.x - mx))

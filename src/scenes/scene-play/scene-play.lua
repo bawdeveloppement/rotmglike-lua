@@ -8,6 +8,7 @@ local GOStatsInterface = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-
 local GOButtonStatInterface = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-button_stat_interface")
 local GOQuickSlots = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-quick_slots")
 local GOInventory = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-inventory")
+local GOButtonInventory = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-button_inventory")
 
 function GamePlayScreen:initialize (name, active)
     _G.xle.Scene.initialize(self, name, active)
@@ -22,7 +23,8 @@ function GamePlayScreen:initialize (name, active)
         GOStatsInterface = GOStatsInterface:new(),
         GOButtonStatInterface = GOButtonStatInterface:new(),
         GOQuickSlots = GOQuickSlots:new(),
-        GOInventory = GOInventory:new()
+        GOInventory = GOInventory:new(),
+        GOButtonInventory = GOButtonInventory:new()
     }
 
     self.showStatInterface = false
@@ -86,17 +88,20 @@ function GamePlayScreen:draw(...)
                     self.interface.GOHealthBar:draw(characterComponent)
                     self.interface.GOStatsInterface:draw(self.showStatInterface, characterComponent)
                     self.interface.GOButtonStatInterface:draw(self.showStatInterface)
+                    self.interface.GOButtonInventory:draw(self.showBagInterface)
                 end
                 if playerResult[1].quickSlots ~= nil then
-                self.interface.GOQuickSlots:draw(playerResult[1].quickSlots)
+                    self.interface.GOQuickSlots:draw(playerResult[1].quickSlots)
                 end
                 if playerResult[1].inventory ~= nil then
-                    self.interface.GOInventory:draw(playerResult[1].inventory)
+                    if self.showBagInterface then 
+                        self.interface.GOInventory:draw(playerResult[1].inventory)
+                    end
                 end
             end
-            
+            -- v:getSystem("WorldBossSystem"):drawOnScreen()
+            MouseUtil.drawItem()
         end
-        MouseUtil.drawItem()
     end
 
     
@@ -157,13 +162,17 @@ function GamePlayScreen:mousereleased(...)
                 local characterComponent = playerResult[1]:getComponent("CharacterComponent")
                 local mx, my, button = ...
                 if characterComponent ~= nil then
-                    self.interface.GOStatsInterface:mousereleased(mx, my, button, characterComponent)
+                    if self.showStatInterface then
+                        self.interface.GOStatsInterface:mousereleased(mx, my, button, characterComponent)
+                    end
                 end
                 if playerResult[1].quickSlots ~= nil then
                     self.interface.GOQuickSlots:mousereleased(mx, my, button, playerResult[1].quickSlots, playerResult[1].inventory)
                 end
                 if playerResult[1].inventory ~= nil then
-                    self.interface.GOInventory:mousereleased(mx, my, button, playerResult[1].inventory)
+                    if self.showBagInterface then
+                        self.interface.GOInventory:mousereleased(mx, my, button, playerResult[1].inventory)
+                    end
                 end
             end
         end
@@ -182,7 +191,10 @@ function GamePlayScreen:mousepressed(...)
 
                 if playerResult[1].inventory ~= nil then
                     local mx, my, button = ...
-                    self.interface.GOInventory:mousepressed(mx, my, button, playerResult[1].inventory)
+                    if self.showBagInterface then
+                        self.interface.GOInventory:mousepressed(mx, my, button, playerResult[1].inventory)
+                    end
+                    self.interface.GOQuickSlots:mousepressed(mx, my, button, playerResult[1].quickSlots)
                 end
             end
         end

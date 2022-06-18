@@ -29,4 +29,4 @@ function GOButtonInventory:keyreleased (key)
 end
 
 
-return GOButtonStatsInterface
+return GOButtonInventory

@@ -2,6 +2,8 @@ local System = require(_G.engineDir .. "system");
 local WorldBossSystem = require(_G.libDir .. "middleclass")("WorldBossSystem")
 local MonsterEntity = require(_G.srcDir .. "entities.entity-monster")
 
+WorldBossSystem.static.name = WorldBossSystem
+
 function WorldBossSystem:initialize( world )
     System.initialize(self, world)
 
@@ -36,45 +38,46 @@ end
 
 function WorldBossSystem:draw()
     -- Get current pos of the current boss
-    
-
     local camera = {
-        x = 0,
-        y = 0,
         width = 800,
-        height = 600 
+        height = 600
     }
     
     if self.currentWorldBoss ~= nil then
         local entity = self.world:getEntityById(self.currentWorldBoss)
         if entity then
-            local currentBossPosition = entity:getComponent("TransformComponent").position;
+            local currentBossPositionWorld = entity:getComponent("TransformComponent").position;
         
             searchPlayer = self.world:getEntitiesByComponentName("PlayerComponent")
     
             if #searchPlayer > 0 then
-                local playerPosition = searchPlayer[1]:getComponent("TransformComponent").position
+                local playerPositions = searchPlayer[1]:getComponent("TransformComponent").position
+                
+                local bx, by = _G.camera:cameraCoords(currentBossPositionWorld.x, currentBossPositionWorld.y)
+                
+                local px, py = _G.camera:cameraCoords(playerPositions.x, playerPositions.y)
+                
                 local rect = {
                     x = 0,
                     y = 0
                 }
     
-                if not (currentBossPosition.x > playerPosition.x - camera.width / 2 and currentBossPosition.x < playerPosition.x + camera.width / 2 and currentBossPosition.y > playerPosition.y - camera.height / 2 and currentBossPosition.y < playerPosition.y + camera.height / 2) then
-                    -- rect.x = currentBossPosition.x
-                    if currentBossPosition.x > playerPosition.x + camera.width / 2 then
-                        rect.x = playerPosition.x + camera.width / 2
-                    elseif currentBossPosition.x < playerPosition.x - camera.width / 2 then
-                        rect.x = playerPosition.x - camera.width / 2
+                if not (bx > px - camera.width / 2 and bx < px + camera.width / 2 and by > py - camera.height / 2 and by < py + camera.height / 2) then
+                    -- rect.x = bx
+                    if bx > px + camera.width / 2 then
+                        rect.x = px + camera.width / 2 - 100
+                    elseif bx < px - camera.width / 2 then
+                        rect.x = px - camera.width / 2
                     else
-                        rect.x = currentBossPosition.x
+                        rect.x = bx
                     end
     
-                    if currentBossPosition.y > playerPosition.y + camera.height / 2 then
-                        rect.y = playerPosition.y + camera.height / 2
-                    elseif currentBossPosition.y < playerPosition.y - camera.height / 2 then
-                        rect.y = playerPosition.y - camera.height / 2
+                    if by > py + camera.height / 2 then
+                        rect.y = py + camera.height / 2 - 50
+                    elseif by < py - camera.height / 2 then
+                        rect.y = py - camera.height / 2 + 60
                     else
-                        rect.y = currentBossPosition.y
+                        rect.y = by
                     end
                     love.graphics.rectangle("line", rect.x, rect.y, 100, 20)
                     love.graphics.print(entity.name, rect.x + 10, rect.y)
