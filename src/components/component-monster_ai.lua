@@ -25,9 +25,9 @@ function MonsterAIComponent:initialize( entity, data )
     self.projectileData = data.Projectile
 
     self.attack = {
-        cooldown = love.math.random(80, 100) - ( self.entity:getComponent("CharacterComponent").stats.dexterity * 2 or 0 ),
+        cooldown = love.math.random(80, 100) - ( self.entity:getComponent("CharacterComponent").stats.dexterity.base * 2 or 0 ),
         distance = 100,
-        damage = love.math.random(10, 30) + ( self.entity:getComponent("CharacterComponent").stats.attack or 0 )
+        damage = love.math.random(10, 30) + ( self.entity:getComponent("CharacterComponent").stats.attack.base or 0 )
     }
 end
 

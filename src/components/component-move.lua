@@ -21,19 +21,19 @@ function MoveComponent:update(...)
     local s = love.keyboard.isDown("s");
 
     if z or w then
-        transform.position.y = transform.position.y - (5 + character.stats.speed * 0.1)
+        transform.position.y = transform.position.y - (5 + (character.stats.speed.base + character.stats.speed.equipment) * 0.1)
     end
 
     if q or a then
-        transform.position.x = transform.position.x - (5 + character.stats.speed * 0.1)
+        transform.position.x = transform.position.x - (5 + (character.stats.speed.base + character.stats.speed.equipment) * 0.1)
     end
 
     if d then
-        transform.position.x = transform.position.x + (5 + character.stats.speed * 0.1)
+        transform.position.x = transform.position.x + (5 + (character.stats.speed.base + character.stats.speed.equipment) * 0.1)
     end
 
     if s then
-        transform.position.y = transform.position.y + (5 + character.stats.speed * 0.1)
+        transform.position.y = transform.position.y + (5 + (character.stats.speed.base + character.stats.speed.equipment) * 0.1)
     end
 
     _G.camera:lookAt(transform.position.x, transform.position.y)

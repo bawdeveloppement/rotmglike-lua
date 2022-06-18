@@ -8,7 +8,7 @@ end
 
 function GOManaBar:draw( stats )
     local w, h = love.window:getMode()
-    self.manaText:set(""..stats.mana .. "\n / \n" .. stats.max_mana)
+    self.manaText:set(""..stats.mana .. "\n / \n" .. stats.max_mana.base + stats.max_mana.equipment )
     love.graphics.setColor(0,255,200,255);
     love.graphics.rectangle("fill", w / 2 + 164, h - 74, 64, 64)
     love.graphics.setColor(255, 255, 255, 255);

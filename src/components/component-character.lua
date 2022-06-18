@@ -7,12 +7,14 @@ local CharacterComponent = Class("CharacterComponent", Component);
 CharacterComponent.static.name = "CharacterComponent"
 
 CharacterComponent.static.statOffToHere = {
-    ["21"] = "Defense",
-    ["22"] = "Speed",
-    ["20"] = "Attack",
-    ["26"] = "Vitality",
-    ["27"] = "Wisdom",
-    ["28"] = "Dexterity"
+    ["0"]  = "max_life",
+    ["3"]  = "max_mana",
+    ["21"] = "defense",
+    ["22"] = "speed",
+    ["20"] = "attack",
+    ["26"] = "vitality",
+    ["27"] = "wisdom",
+    ["28"] = "dexterity"
 }
 
 function CharacterComponent:initialize( parent, data )
@@ -25,14 +27,38 @@ function CharacterComponent:initialize( parent, data )
     self.stats = {
         life = 100,
         mana = 100,
-        max_life = 100,
-        max_mana = 100,
-        attack = 1,
-        wisdom = 1,
-        dexterity = 1,
-        speed = 1,
-        defense = 1,
-        vitality = 1
+        max_life = {
+            base = 100,
+            equipment = 0,
+        },
+        max_mana = {
+            base = 100,
+            equipment = 0,
+        },
+        attack = {
+            base = 1,
+            equipment = 0,
+        },
+        wisdom = {
+            base = 1,
+            equipment = 0,
+        },
+        dexterity = {
+            base = 1,
+            equipment = 0,
+        },
+        speed = {
+            base = 1,
+            equipment = 0,
+        },
+        defense = {
+            base = 1,
+            equipment = 0,
+        },
+        vitality = {
+            base = 1,
+            equipment = 0,
+        }
     }
 
     self.statPoints = 10
@@ -103,7 +129,7 @@ function CharacterComponent:update(...)
         self.exp = restExp
         self.level = self.level + 1;
         self.max_exp = self.max_exp * 2
-        self.stats.life = self.stats.max_life;
+        self.stats.life = self.stats.max_life.base + self.stats.max_life.equipment;
         self.statPoints = self.statPoints + 1;
         for _, v in pairs(self.onLevelUp) do
             v.func(self)
@@ -117,8 +143,24 @@ function CharacterComponent:update(...)
         self.entity.markDestroy = true
     end
 
-    if self.stats.life < self.stats.max_life then
-        self.stats.life = self.stats.life + (self.stats.vitality / 300)
+    if self.stats.life < self.stats.max_life.base + self.stats.max_life.equipment then
+        self.stats.life = self.stats.life + (self.stats.vitality.base + self.stats.vitality.equipment / 300)
+    end
+
+
+    if self.isPlayer then
+        for i, v in ipairs(self.entity.quickSlots) do
+            if i > 3 and i < 8 then
+                if v.item ~= nil then
+                    if v.item.ActivateOnEquip ~= nil then
+                        if v.item.ActivateOnEquip.IncrementStat ~= nil then
+                            local currentStatName = CharacterComponent.statOffToHere[v.item.ActivateOnEquip.IncrementStat.stat]
+                            self.stats[currentStatName].equipment = v.item.ActivateOnEquip.IncrementStat.amount
+                        end
+                    end
+                end
+            end
+        end
     end
 end
 

@@ -84,21 +84,33 @@ function GOStatsInterface:draw( show, characterComponent )
         love.graphics.rectangle("fill", 10, h - 272, 220, 220);
         love.graphics.setColor(1, 1, 1, 1);
         love.graphics.print("Player stats", 10, h - 308)
-        love.graphics.print("Max life : "..characterComponent.stats.max_life, 40, h - 262) 
+        
+        local i = 0
+        for k, v in pairs(characterComponent.stats) do
+            if k ~= "life" and k ~= "mana" then
+                local maxLife = love.graphics.newText(_G.font1, {
+                    {1,1,1,1}, k .. v.base,
+                    {0,1,0,1}," + " .. v.equipment
+                })
+                love.graphics.draw(maxLife, 40, h - 262 + 20 * i)
+                i = i + 1
+            end
+        end
+        -- love.graphics.print("Max life : "..characterComponent.stats.max_life.base, 40, h - 262) 
         self:drawPlus(1, characterComponent)
-        love.graphics.print("Max mana : "..characterComponent.stats.max_mana, 40, h - 242)
+        -- love.graphics.print("Max mana : "..characterComponent.stats.max_mana.base, 40, h - 242)
         self:drawPlus(2, characterComponent)
-        love.graphics.print("Attack : "..characterComponent.stats.attack, 40, h - 222)
+        -- love.graphics.print("Attack : "..characterComponent.stats.attack.base, 40, h - 222)
         self:drawPlus(3, characterComponent)
-        love.graphics.print("Defense : "..characterComponent.stats.defense, 40, h - 202)
+        -- love.graphics.print("Defense : "..characterComponent.stats.defense.base, 40, h - 202)
         self:drawPlus(4, characterComponent)
-        love.graphics.print("Wisdom : "..characterComponent.stats.wisdom, 40, h - 182)
+        -- love.graphics.print("Wisdom : "..characterComponent.stats.wisdom.base, 40, h - 182)
         self:drawPlus(5, characterComponent)
-        love.graphics.print("Dexterity : "..characterComponent.stats.dexterity, 40, h - 162)
+        -- love.graphics.print("Dexterity : "..characterComponent.stats.dexterity.base, 40, h - 162)
         self:drawPlus(6, characterComponent)
-        love.graphics.print("Speed : "..characterComponent.stats.speed, 40, h - 142)
+        -- love.graphics.print("Speed : "..characterComponent.stats.speed.base, 40, h - 142)
         self:drawPlus(7, characterComponent)
-        love.graphics.print("Vitality : "..characterComponent.stats.vitality, 40, h - 122)
+        -- love.graphics.print("Vitality : "..characterComponent.stats.vitality.base, 40, h - 122)
         self:drawPlus(8, characterComponent)
     end
 end
