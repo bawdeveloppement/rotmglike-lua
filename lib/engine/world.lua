@@ -27,6 +27,20 @@ function World:addSystem( system )
     table.insert(self.systems, #self.systems + 1, system)
 end
 
+function World:getSystem( systemName )
+    if #self.systems > 0 then
+        local idx = 0
+        for i, v in ipairs(self.systems) do
+            if v.class.name == systemName then
+                idx = i
+            end
+        end
+        return self.systems[idx]
+    else
+        return nil
+    end
+end
+
 function World:load()
     for i, v in pairs(self.world_data.tilesets) do
         self.world_data.tilesets[i].image = _G.xle.ResourcesManager:getTexture(v.name)
