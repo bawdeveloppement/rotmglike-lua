@@ -1,3 +1,6 @@
+
+![Discord Banner 1](https://discordapp.com/api/guilds/923290712043307010/widget.png?style=banner1)
+
 # Forgotten Kingdom - [ExperienceStage]
 The objective of this project is to give you :
 - a flexible game where you can create your own world with your own story
