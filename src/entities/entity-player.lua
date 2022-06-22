@@ -277,10 +277,11 @@ function Player:keypressed(key)
     end
     if key == "k" then
         local itemToLoot = love.math.random(1, #_G.dbObject.Equipments)
-        self.bag:addItemInFirstEmptySlot(_G.dbObject.Equipments[itemToLoot])
+        self.inventory:addItemInFirstEmptySlot(_G.dbObject.Equipments[itemToLoot], 1)
     end
     if key == "j" then
-        self.bag:removeFirstItem()
+        local newItem = _G.dbObject.createEquipementById("Parchment of Vitality")
+        self.inventory:addItemInFirstEmptySlot(newItem, 1)
     end
 end
 

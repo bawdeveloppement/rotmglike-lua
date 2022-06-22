@@ -128,6 +128,7 @@ function newData () {
                                     newObj[objKey][
                                         parsed[index][objKey]["_"]
                                     ] = parsed[index][objKey]["$"]
+                                    console.log(newObj[objKey])
                                 }
                             }
                             else if ( objKey === "Texture") {
@@ -206,7 +207,13 @@ function newData () {
                                     }
                                 } else {
                                     newObj[objKey] = {}
-                                    newObj[objKey][parsed[index][objKey]["_"]] = parsed[index][objKey]["$"]
+                                    if (parsed[index][objKey]["_"] == "IncrementStat") {
+                                        newObj[objKey][parsed[index][objKey]["_"]] = {}
+                                        newObj[objKey][parsed[index][objKey]["_"]][parsed[index][objKey]["$"]["stat"]] = parsed[index][objKey]["$"]["amount"]
+                                        console.log(newObj[objKey][parsed[index][objKey]["_"]])
+                                    } else {
+                                        newObj[objKey][parsed[index][objKey]["_"]] = parsed[index][objKey]["$"]
+                                    }
                                 }
                             }
                             else if ( objKey === "Texture") {

@@ -3,17 +3,17 @@ local CharacterComponent = require(_G.srcDir .. "components.component-character"
 
 Slot.static.cacheText = {}
 
-function Slot:initialize(rect, item, quantity)
+function Slot:initialize(rect, restrictSlot)
     self.rect = {
         x = rect.x or 0,
         y = rect.y or 0,
-        width = rect.width or 32,
-        height = rect.height or 32
+        width = 32,
+        height = 32
     }
 
     self.item = item or nil
     self.quantity = quantity or nil
-
+    self.restrictSlot = restrictSlot or 0
     self.cacheText = {}
 end
 
@@ -52,9 +52,14 @@ function Slot:getQuantity()
     return self.quantity
 end
 
-function Slot:draw( ... )
+function Slot:draw( rect )
     local mx, my = love.mouse.getPosition()
     love.graphics.rectangle("line", self.rect.x, self.rect.y, 32, 32)
+    if mx > self.rect.x and mx < self.rect.x + self.rect.width and my > self.rect.y and my < self.rect.y + self.rect.height then
+        love.graphics.setColor(0,0,0,0.4)
+        love.graphics.rectangle("fill", self.rect.x, self.rect.y, 32, 32)
+        love.graphics.setColor(1,1,1,1)
+    end
     if self.item ~= nil then
         if self.item.Texture ~= nil then
             local image = _G.xle.ResourcesManager:getTexture(self.item.Texture.File);
@@ -110,6 +115,26 @@ function Slot:draw( ... )
                     end
                 end
             end
+        end
+    end
+end
+
+function Slot:mousereleased(mx, my, button)
+    if mx > self.rect.x and mx < self.rect.x + self.rect.width and my > self.rect.y and my < self.rect.y + self.rect.height then
+        if _G.itemInMouse.item ~= nil then
+            self.item = _G.itemInMouse.item;
+            _G.itemInMouse.item = nil;
+        end
+    end
+end
+
+
+function Slot:mousepressed(mx, my, button)
+    if mx > self.rect.x and mx < self.rect.x + self.rect.width and my > self.rect.y and my < self.rect.y + self.rect.height then
+        if self.item ~= nil then
+            _G.itemInMouse.item = self.item;
+            self.item = nil;
+            
         end
     end
 end

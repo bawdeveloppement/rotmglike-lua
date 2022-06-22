@@ -1,5 +1,5 @@
 local GOInventory = require(_G.libDir .. "middleclass")("GOInventory");
-
+local CharacterComponent = require(_G.srcDir .. "components.component-character")
 GOInventory.static.name = "GOInventory"
 
 function GOInventory:initialize()
@@ -91,9 +91,6 @@ function GOInventory:drawItem(x, y, index, inventory)
                 love.graphics.rectangle("fill", x, y, 32, 32)
             end
         elseif item.AnimatedTexture ~= nil then
-            if item.AnimatedTexture.File == "playersSkins" then
-                -- print(item.id)
-            end
             local image = _G.xle.ResourcesManager:getTexture(item.AnimatedTexture.File);
             if image ~= nil then
                 local imageW, imageH = image:getDimensions()
@@ -119,37 +116,44 @@ function GOInventory:drawItem(x, y, index, inventory)
             love.graphics.rectangle("line", mx, my - 200, 300, 200)
             local itemId = inventory.slots[index].item.id or (""..#inventory.slots..love.math.random(0, 100))
             -- print(inventory.slots[index].item.id)
-            if self.cacheText[itemId] ~= nil then
-                love.graphics.draw(self.cacheText[itemId], mx + 10, my - 195)
-            else
-                self.cacheText[itemId] = love.graphics.newText(_G.font1, itemId)
-                local lastIndex = 1
-                local newHeight = 0
-                for k, v in pairs(inventory.slots[index].item) do
-                    if k ~= "$" and k ~= "id" and k ~= "Texture" and k ~= "Projectile" and k ~= "OldSound" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
-                        and k ~= "Item" and k ~= "Potion" and k ~= "Activate" and k ~= "Usable" and k ~=  "ExtraTooltipData" and k ~= "Description" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
-                        -- Handle Activate:key
-                        if k == "Consumable" then
-                            newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                            lastIndex = self.cacheText[itemId]:addf(k, 300, "left", 0, newHeight + self.cacheText[itemId]:getHeight(lastIndex))
-                        elseif k == "ActivateOnEquip" then
-                            -- newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                            -- lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n"}, 200, "left",0, newHeight)
-                            -- for kact, vact in pairs(self.slots[index].item[k]) do
-                            --     if kact == "IncrementStat" then
-                            --         if CharacterComponent.statOffToHere[vact.stat] ~= nil then
-                            --             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                            --             lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left", 0, newHeight)
-                            --         end
-                            --     end
-                            -- end
-                        else
-                            newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
-                            lastIndex = self.cacheText[itemId]:addf(k .. " : " .. tostring(v), 300, "left", 0, newHeight + self.cacheText[itemId]:getHeight(lastIndex))
+            local newText = love.graphics.newText(_G.font1, itemId)
+            local lastIndex = 1
+            local newHeight = 0
+            for k, v in pairs(inventory.slots[index].item) do
+                if k ~= "$" and k ~= "id" and k ~= "Texture" and k ~= "Projectile" and k ~= "OldSound" and k ~= "blackBag" and k ~= "type" and k ~= "DisplayId" and k ~= "Sound"
+                    and k ~= "Item" and k ~= "Potion" and k ~= "AnimatedTexturecvb" and k ~= "Activate" and k ~= "Usable" and k ~=  "ExtraTooltipData" and k ~= "Description" and k ~= "NumProjectiles" and k ~= "BagType" and k ~= "Class" then
+                    -- Handle Activate:key
+                    if k == "Consumable" then
+                        newHeight = newHeight + newText:getHeight(lastIndex)
+                        lastIndex = newText:addf(k, 300, "left", 0, newHeight + newText:getHeight(lastIndex))
+                    elseif k == "ActivateOnEquip" then
+                        local vt = inventory.slots[index].item[k]["IncrementStat"]
+
+                        newHeight = newHeight + newText:getHeight(lastIndex)
+                        lastIndex = newText:addf({{0, 1, 0, 1}, "Stat: "}, 300, "left", 0, newHeight + newText:getHeight(lastIndex))
+                        for ks, vs in pairs(vt) do
+                            newHeight = newHeight + newText:getHeight(lastIndex)
+                            lastIndex = newText:addf(" - " .. CharacterComponent.statOffToHere[ks] .. " : " .. vs, 300, "left", 0, newHeight + newText:getHeight(lastIndex))
                         end
+                    
+                        -- newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                        -- lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n"}, 200, "left",0, newHeight)
+                        -- for kact, vact in pairs(self.slots[index].item[k]) do
+                        --     if kact == "IncrementStat" then
+                        --         if CharacterComponent.statOffToHere[vact.stat] ~= nil then
+                        --             newHeight = newHeight + self.cacheText[itemId]:getHeight(lastIndex)
+                        --             lastIndex = self.cacheText[itemId]:addf({{128/255, 128/255, 128/255, 1}, "Stats : \n",  {1,1,1,1}, CharacterComponent.statOffToHere[vact.stat] ..  " : " ..  vact.amount }, 200, "left", 0, newHeight)
+                        --         end
+                        --     end
+                        -- end
+                    else
+                        newHeight = newHeight + newText:getHeight(lastIndex)
+                        lastIndex = newText:addf(k .. " : " .. tostring(v), 300, "left", 0, newHeight + newText:getHeight(lastIndex))
                     end
                 end
             end
+            love.graphics.draw(newText, mx + 10, my - 195)
+            
         end
         
     end

@@ -44,17 +44,17 @@ function GOStatsInterface:mousereleased ( mx, my, button, characterComponent )
                 if button == 1 then
                     if self.lshift ~= false then
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + characterComponent.statPoints * 5;
+                            characterComponent.stats[plus[i].name].base = characterComponent.stats[plus[i].name].base + characterComponent.statPoints * 5;
                         else
-                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + characterComponent.statPoints;
+                            characterComponent.stats[plus[i].name].base = characterComponent.stats[plus[i].name].base + characterComponent.statPoints;
                         end
                         characterComponent.statPoints = 0;
                         self.buttonSound.play(self.buttonSound)
                     else
                         if plus[i].name == "max_life" or plus[i].name == "max_mana" then
-                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + 5;
+                            characterComponent.stats[plus[i].name].base = characterComponent.stats[plus[i].name].base + 5;
                         else
-                            characterComponent.stats[plus[i].name] = characterComponent.stats[plus[i].name] + 1;
+                            characterComponent.stats[plus[i].name].base = characterComponent.stats[plus[i].name].base + 1;
                         end
                         characterComponent.statPoints = characterComponent.statPoints - 1;
                         self.buttonSound.play(self.buttonSound)
@@ -89,7 +89,7 @@ function GOStatsInterface:draw( show, characterComponent )
         for k, v in pairs(characterComponent.stats) do
             if k ~= "life" and k ~= "mana" then
                 local maxLife = love.graphics.newText(_G.font1, {
-                    {1,1,1,1}, k .. v.base,
+                    {1,1,1,1}, k .. " : " .. v.base,
                     {0,1,0,1}," + " .. v.equipment
                 })
                 love.graphics.draw(maxLife, 40, h - 262 + 20 * i)

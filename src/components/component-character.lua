@@ -149,17 +149,32 @@ function CharacterComponent:update(...)
 
 
     if self.isPlayer then
+        local newStats = {
+            ["max_life"] = 0,
+            ["max_mana"] = 0,
+            ["defense"] = 0,
+            ["speed"] = 0,
+            ["attack"] = 0,
+            ["vitality"] = 0,
+            ["wisdom"] = 0,
+            ["dexterity"] = 0
+        }
         for i, v in ipairs(self.entity.quickSlots) do
             if i > 3 and i < 8 then
                 if v.item ~= nil then
                     if v.item.ActivateOnEquip ~= nil then
                         if v.item.ActivateOnEquip.IncrementStat ~= nil then
-                            local currentStatName = CharacterComponent.statOffToHere[v.item.ActivateOnEquip.IncrementStat.stat]
-                            self.stats[currentStatName].equipment = v.item.ActivateOnEquip.IncrementStat.amount
+                            for k, v in pairs (v.item.ActivateOnEquip.IncrementStat) do
+                                local currentStatName = CharacterComponent.statOffToHere[k]
+                                newStats[currentStatName] = newStats[currentStatName] + v
+                            end
                         end
                     end
                 end
             end
+        end
+        for k, v in pairs(newStats) do
+            self.stats[k].equipment = v
         end
     end
 end

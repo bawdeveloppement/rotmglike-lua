@@ -9,6 +9,7 @@ local GOButtonStatInterface = require(_G.srcDir .. "scenes.scene-play.gameobject
 local GOQuickSlots = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-quick_slots")
 local GOInventory = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-inventory")
 local GOButtonInventory = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-button_inventory")
+local GOBlacksmithInterface = require(_G.srcDir .. "scenes.scene-play.gameobjects.go-blacksmith_interface")
 
 function GamePlayScreen:initialize (name, active)
     _G.xle.Scene.initialize(self, name, active)
@@ -24,7 +25,8 @@ function GamePlayScreen:initialize (name, active)
         GOButtonStatInterface = GOButtonStatInterface:new(),
         GOQuickSlots = GOQuickSlots:new(),
         GOInventory = GOInventory:new(),
-        GOButtonInventory = GOButtonInventory:new()
+        GOButtonInventory = GOButtonInventory:new(),
+        GOBlacksmithInterface = GOBlacksmithInterface:new()
     }
 
     self.showStatInterface = false
@@ -99,6 +101,7 @@ function GamePlayScreen:draw(...)
                     end
                 end
             end
+            self.interface.GOBlacksmithInterface:draw(true)
             -- v:getSystem("WorldBossSystem"):drawOnScreen()
             MouseUtil.drawItem()
         end
@@ -175,6 +178,7 @@ function GamePlayScreen:mousereleased(...)
                     end
                 end
             end
+            self.interface.GOBlacksmithInterface:mousereleased(...)
         end
     end
     
@@ -197,6 +201,7 @@ function GamePlayScreen:mousepressed(...)
                     self.interface.GOQuickSlots:mousepressed(mx, my, button, playerResult[1].quickSlots)
                 end
             end
+            self.interface.GOBlacksmithInterface:mousepressed(...)
         end
     end
 

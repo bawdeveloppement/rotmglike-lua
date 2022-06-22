@@ -39,6 +39,7 @@ function GOQuickSlots:draw( quickSlots )
         love.graphics.setColor(0,0,0, 0.4)
         love.graphics.rectangle("fill", slotx, sloty, 32, 32)
         love.graphics.setColor(1,1,1,1)
+
         if quickSlots[i].item ~= nil then
             local item = quickSlots[i].item;
             if item.Texture ~= nil then
@@ -115,6 +116,64 @@ function GOQuickSlots:draw( quickSlots )
                     end
                 end
             end
+        else
+            love.graphics.setColor(0.1,0.1,0.1,1)
+            if i == 4 then
+                local item = _G.dbObject.createEquipementById("Broad Sword")
+                if item ~= nil then
+                    local image = _G.xle.ResourcesManager:getTexture(item.Texture.File);
+                    if image ~= nil then
+                        local imageW, imageH = image:getDimensions()
+                        local quad = love.graphics.newQuad(
+                            8 * (item.Texture.Index % (imageW / 8)),
+                            math.floor(item.Texture.Index / (imageW / 8)) * 8,
+                            8,
+                            8,
+                            imageW, imageH
+                        )
+                        love.graphics.draw(image, quad, slotx,  sloty, 0, 4);
+                    else
+                        love.graphics.rectangle("fill",slotx,  sloty, 32, 32)
+                    end
+                end
+            elseif i == 6 then
+                local item = _G.dbObject.createEquipementById("Leather Armor")
+                if item ~= nil then
+                    local image = _G.xle.ResourcesManager:getTexture(item.Texture.File);
+                    if image ~= nil then
+                        local imageW, imageH = image:getDimensions()
+                        local quad = love.graphics.newQuad(
+                            8 * (item.Texture.Index % (imageW / 8)),
+                            math.floor(item.Texture.Index / (imageW / 8)) * 8,
+                            8,
+                            8,
+                            imageW, imageH
+                        )
+                        love.graphics.draw(image, quad, slotx,  sloty, 0, 4);
+                    else
+                        love.graphics.rectangle("fill",slotx,  sloty, 32, 32)
+                    end
+                end
+            elseif i == 7 then
+                local item = _G.dbObject.createEquipementById("Ring of Magic")
+                if item ~= nil then
+                    local image = _G.xle.ResourcesManager:getTexture(item.Texture.File);
+                    if image ~= nil then
+                        local imageW, imageH = image:getDimensions()
+                        local quad = love.graphics.newQuad(
+                            8 * (item.Texture.Index % (imageW / 8)),
+                            math.floor(item.Texture.Index / (imageW / 8)) * 8,
+                            8,
+                            8,
+                            imageW, imageH
+                        )
+                        love.graphics.draw(image, quad, slotx,  sloty, 0, 4);
+                    else
+                        love.graphics.rectangle("fill",slotx,  sloty, 32, 32)
+                    end
+                end
+            end
+            love.graphics.setColor(1,1,1,1)
         end
     end
 end

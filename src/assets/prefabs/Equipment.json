@@ -175,8 +175,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "15"
+        "21": "15"
       }
     },
     "Usable": true,
@@ -219,8 +218,7 @@
     "Sound": "spell/major_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "6"
+        "26": "6"
       }
     },
     "Usable": true,
@@ -269,8 +267,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "6"
+        "27": "6"
       }
     },
     "BagType": "11",
@@ -341,8 +338,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "Usable": true,
@@ -383,8 +379,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "24"
+        "21": "24"
       }
     },
     "BagType": "11",
@@ -415,8 +410,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "8"
+        "27": "8"
       }
     },
     "BagType": "11",
@@ -447,8 +441,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "9"
+        "21": "9"
       }
     },
     "BagType": "11",
@@ -479,8 +472,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "9"
+        "22": "9"
       }
     },
     "BagType": "11",
@@ -511,8 +503,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "9"
+        "28": "9"
       }
     },
     "BagType": "11",
@@ -786,8 +777,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "21"
+        "21": "21"
       }
     },
     "ConditionEffect": {
@@ -864,8 +854,7 @@
     "Sound": "spell/light_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "6"
+        "22": "6"
       }
     },
     "Usable": true,
@@ -918,8 +907,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "8"
+        "20": "8"
       }
     },
     "Usable": true,
@@ -1074,8 +1062,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "31"
+        "0": "31"
       }
     },
     "BagType": "11",
@@ -1106,8 +1093,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "44"
+        "0": "44"
       }
     },
     "BagType": "15",
@@ -1189,8 +1175,7 @@
     "ArcGap": "10",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "11",
@@ -1261,8 +1246,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "60"
+        "0": "60"
       }
     },
     "BagType": "11",
@@ -1293,8 +1277,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "70"
+        "0": "70"
       }
     },
     "BagType": "15",
@@ -1325,8 +1308,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "36"
+        "21": "36"
       }
     },
     "BagType": "11",
@@ -1357,8 +1339,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "42"
+        "21": "42"
       }
     },
     "BagType": "15",
@@ -1381,8 +1362,7 @@
     "Description": "Cut from a fallen star, a deep purple emanating an unearthly glow, hinting at the power fused within.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "190"
+        "0": "190"
       }
     },
     "BagType": "4",
@@ -1413,8 +1393,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "285"
+        "0": "285"
       }
     },
     "BagType": "11",
@@ -1445,8 +1424,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "210"
+        "0": "210"
       }
     },
     "BagType": "11",
@@ -1477,8 +1455,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "245"
+        "0": "245"
       }
     },
     "BagType": "15",
@@ -1509,8 +1486,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "6"
+        "28": "6"
       }
     },
     "BagType": "11",
@@ -1541,8 +1517,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "7"
+        "28": "7"
       }
     },
     "BagType": "15",
@@ -1719,8 +1694,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "ConditionEffect": {
@@ -1779,8 +1753,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "18"
+        "21": "18"
       }
     },
     "ConditionEffect": {
@@ -1812,8 +1785,7 @@
     "Description": "Neither the mad god's sword is able to pierce that armor! Guarded the gates of the depths of the Ice Cave, human returned from there with even more mystery about this legendary artifact. Thanks to: Solceon.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "24"
+        "21": "24"
       }
     },
     "BagType": "4",
@@ -1843,8 +1815,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "36"
+        "21": "36"
       }
     },
     "BagType": "11",
@@ -1866,8 +1837,7 @@
     "Description": "Not even the most wise kings are able to use this ring. Only the most courageous and fearless warriors can use it! Thanks to: Solceon.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "60"
+        "0": "60"
       }
     },
     "BagType": "4",
@@ -1897,8 +1867,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "90"
+        "0": "90"
       }
     },
     "BagType": "11",
@@ -2392,8 +2361,7 @@
     "Description": "This skull contains the purest of life and the darkest of evil, when used, this is unleashed in a massive blast.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -2425,8 +2393,7 @@
     "Description": "The most coveted and valuable robe found in all the kingdom of Oryx, only the bravest may have the merit of using it.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "4",
@@ -2450,8 +2417,7 @@
     "Description": "There are no words to define the power and hauntings that are around this ring. Even the great kings fell into the temptation to get it, but without success.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "180"
+        "0": "180"
       }
     },
     "BagType": "4",
@@ -2482,8 +2448,7 @@
     "Description": "The malachite stone makes you feel at peace with the land.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "6"
+        "27": "6"
       }
     },
     "BagType": "11",
@@ -2514,8 +2479,7 @@
     "Description": "The azure stone makes you feel ready for any situation.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "6"
+        "22": "6"
       }
     },
     "BagType": "11",
@@ -2546,8 +2510,7 @@
     "Description": "The dolomite stone makes you feel able to stand against anything.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "6"
+        "20": "6"
       }
     },
     "BagType": "11",
@@ -2619,8 +2582,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "ConditionEffect": {
@@ -2652,8 +2614,7 @@
     "Description": "Powerful, and quite uplifting ironically. This armor was meant for true knights.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "26"
+        "21": "26"
       }
     },
     "BagType": "4",
@@ -2675,8 +2636,7 @@
     "Description": "Once worn it can't be contained. Instead the user will be consumed and be controlled by the dark evil that is held within.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "60"
+        "0": "60"
       }
     },
     "BagType": "4",
@@ -2720,8 +2680,7 @@
     "ArcGap": "20",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "2"
+        "22": "2"
       }
     },
     "BagType": "4",
@@ -2747,8 +2706,7 @@
     "Description": "The souls of woodland creatures are channeled through this scepter. It occasionally flaps its wings wildly.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "20"
+        "0": "20"
       }
     },
     "Sound": "spell/fire_spray",
@@ -2781,8 +2739,7 @@
     "Description": "Woven from living plants, these robes hold the knowledge of life itself.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "BagType": "4",
@@ -2806,8 +2763,7 @@
     "Description": "Warm to the touch, this trinket fills its wearer with the bulwark of nature.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "25"
+        "0": "25"
       }
     },
     "BagType": "4",
@@ -2860,8 +2816,7 @@
     "Description": "This helmet was used in the Battle of the Titans, centuries before Oryx's Reign.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "Usable": true,
@@ -2911,8 +2866,7 @@
     "Description": "This armor was forged in the Eternal Crucible for the allied giant nations nearby.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "-5"
+        "22": "-5"
       }
     },
     "BagType": "4",
@@ -2936,8 +2890,7 @@
     "Description": "Although lacking the ability to make one immortal, this amulet will make you be able to stand up to most foes.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "BagType": "4",
@@ -3008,8 +2961,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "2"
+        "21": "2"
       }
     },
     "Usable": true,
@@ -3043,8 +2995,7 @@
     "Description": "A hide armor that got infested with spiders. Egg sacs are still present, but the spiderlings never harm the wearer.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "18"
+        "21": "18"
       }
     },
     "BagType": "4",
@@ -3068,8 +3019,7 @@
     "Description": "A large fang taken from an enormous spider. This token fills its wearer with a dark, mysterious power.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "4",
@@ -3093,8 +3043,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "6"
+        "22": "6"
       }
     },
     "Usable": true,
@@ -3143,8 +3092,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "ConditionEffect": {
@@ -3183,8 +3131,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3212,8 +3159,7 @@
     "Sound": "spell/major_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3243,8 +3189,7 @@
     "Description": "A tough, reinforced helm only gifted to warriors who fight in self-defense.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "Usable": true,
@@ -3294,8 +3239,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "16"
+        "21": "16"
       }
     },
     "ConditionEffect": {
@@ -3328,8 +3272,7 @@
     "Description": "A devilish orb that traps your foes in the 1940s for 9 seconds!",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3359,8 +3302,7 @@
     "Description": "Instead of using it to toughen up your immune system, you decide to give your foes a taste of it. It's even worse than rotten milk.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3393,8 +3335,7 @@
     "Sound": "spell/light_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3426,8 +3367,7 @@
     "Description": "A prism once used to take control of his enemies souls, causing them to forever wander in search of the illusion they saw.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3458,8 +3398,7 @@
     "Sound": "spell/magic_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -3505,8 +3444,7 @@
     "Description": "An enormous, flawless spinel set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "10"
+        "20": "10"
       }
     },
     "BagType": "2",
@@ -3528,8 +3466,7 @@
     "Description": "An enormous, flawless topaz set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "200"
+        "0": "200"
       }
     },
     "BagType": "2",
@@ -3551,8 +3488,7 @@
     "Description": "An enormous, flawless emerald set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "10"
+        "22": "10"
       }
     },
     "BagType": "2",
@@ -3574,8 +3510,7 @@
     "Description": "An enormous, flawless ruby set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "10"
+        "26": "10"
       }
     },
     "BagType": "2",
@@ -3597,8 +3532,7 @@
     "Description": "An enormous, flawless sapphire set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "10"
+        "27": "10"
       }
     },
     "BagType": "2",
@@ -3620,8 +3554,7 @@
     "Description": "An enormous, flawless onyx set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "BagType": "2",
@@ -3643,8 +3576,7 @@
     "Description": "An enormous, flawless citrine set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "10"
+        "28": "10"
       }
     },
     "BagType": "2",
@@ -3666,8 +3598,7 @@
     "Description": "An enormous, flawless amethyst set in a stunningly beautiful gold ring.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "200"
+        "3": "200"
       }
     },
     "BagType": "2",
@@ -7736,8 +7667,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "2"
+        "21": "2"
       }
     },
     "ConditionEffect": {
@@ -7788,8 +7718,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "4"
+        "21": "4"
       }
     },
     "ConditionEffect": {
@@ -7839,8 +7768,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "ConditionEffect": {
@@ -7890,8 +7818,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "ConditionEffect": {
@@ -7942,8 +7869,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "ConditionEffect": {
@@ -7994,8 +7920,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "ConditionEffect": {
@@ -8046,8 +7971,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "ConditionEffect": {
@@ -8097,8 +8021,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "ConditionEffect": {
@@ -8147,8 +8070,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "ConditionEffect": {
@@ -8180,8 +8102,7 @@
     "Description": "{equip.Leather_armor_fashioned_from_wolf_pelts.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "5"
+        "21": "5"
       }
     },
     "BagType": "1",
@@ -8203,8 +8124,7 @@
     "Description": "{equip.Armor_made_of_hardened_leather.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "BagType": "1",
@@ -8226,8 +8146,7 @@
     "Description": "{equip.Leather_armor_made_from_the_skin_of_a_magical_lizard.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "BagType": "1",
@@ -8249,8 +8168,7 @@
     "Description": "{equip.Leather_armor_made_from_the_tough_hide_of_a_minotaur.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "BagType": "1",
@@ -8272,8 +8190,7 @@
     "Description": "{equip.Armor_made_from_the_thick_leather_of_a_dire_bear.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "9"
+        "21": "9"
       }
     },
     "BagType": "1",
@@ -8295,8 +8212,7 @@
     "Description": "{equip.Magically_protective_leather_armor_made_from_chimera_hides.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "BagType": "1",
@@ -8318,8 +8234,7 @@
     "Description": "{equip.Tough,_durable_armor_made_from_wyvern_leather.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "BagType": "2",
@@ -8341,8 +8256,7 @@
     "Description": "{equip.Leather_armor_studded_with_metal_rivets_that_provide_extra_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "13"
+        "21": "13"
       }
     },
     "BagType": "2",
@@ -8363,8 +8277,7 @@
     "Description": "{equip.A_tight_fitting_garment_of_snake_skin_that_is_both_function}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "11"
+        "21": "11"
       }
     },
     "BagType": "4",
@@ -8387,8 +8300,7 @@
     "Description": "{equip.Leather_armor_fashioned_from_the_scaly_skin_of_a_fire_breat}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "BagType": "2",
@@ -8411,8 +8323,7 @@
     "Description": "{equip.Leather_armor_made_from_the_durable_hide_of_a_roc.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "15"
+        "21": "15"
       }
     },
     "BagType": "4",
@@ -8435,8 +8346,7 @@
     "Description": "{equip.Leather_armor_made_from_the_protective_skin_of_hippogriffs.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "16"
+        "21": "16"
       }
     },
     "BagType": "4",
@@ -8459,8 +8369,7 @@
     "Description": "{equip.Superior_leather_armor_made_from_the_magical_hide_of_a_grif}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "17"
+        "21": "17"
       }
     },
     "BagType": "4",
@@ -8483,8 +8392,7 @@
     "Description": "{equip.Superlative_leather_armor_fashioned_from_the_skin_of_a_twel}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "17"
+        "21": "17"
       }
     },
     "BagType": "4",
@@ -8515,8 +8423,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "18"
+        "21": "18"
       }
     },
     "BagType": "4",
@@ -8537,8 +8444,7 @@
     "Description": "{equip.Magnificent_leather_armor_made_from_the_hide_of_the_great_l}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "19"
+        "21": "19"
       }
     },
     "BagType": "4",
@@ -8561,8 +8467,7 @@
     "Description": "{equip.Armor_made_from_interlocking_iron_links.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "5"
+        "21": "5"
       }
     },
     "BagType": "1",
@@ -8584,8 +8489,7 @@
     "Description": "{equip.Armor_made_from_interlocking_links_of_metal.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "BagType": "1",
@@ -8607,8 +8511,7 @@
     "Description": "{equip.Mail_made_from_blued_steel.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "BagType": "1",
@@ -8630,8 +8533,7 @@
     "Description": "{equip.Well-made_chainmail_plated_with_silver.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "BagType": "1",
@@ -8653,8 +8555,7 @@
     "Description": "{equip.Well-made_chainmail_plated_with_gold,_clearly_intended_for_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "BagType": "1",
@@ -8676,8 +8577,7 @@
     "Description": "{equip.Armor_made_from_overlapping_plates_of_metal.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "BagType": "1",
@@ -8699,8 +8599,7 @@
     "Description": "{equip.Chainmail_made_with_reinforcing_mithril_ribs.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "13"
+        "21": "13"
       }
     },
     "BagType": "2",
@@ -8722,8 +8621,7 @@
     "Description": "{equip.Armor_made_from_the_strongest_and_most_desirable_of_all_met}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "15"
+        "21": "15"
       }
     },
     "BagType": "2",
@@ -8746,8 +8644,7 @@
     "Description": "{equip.Armor_made_from_the_scales_of_a_full_grown_dragon.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "20"
+        "21": "20"
       }
     },
     "BagType": "2",
@@ -8770,8 +8667,7 @@
     "Description": "{equip.Magical_cold_plate_armor_inscribed_with_tales_of_destructio}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "21"
+        "21": "21"
       }
     },
     "BagType": "4",
@@ -8794,8 +8690,7 @@
     "Description": "{equip.Tremendously_strong_plate_armor_shrouded_by_an_aura_of_demo}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "22"
+        "21": "22"
       }
     },
     "BagType": "4",
@@ -8818,8 +8713,7 @@
     "Description": "{equip.Mighty_felplate_armor_designed_for_the_most_powerful_of_dem}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "23"
+        "21": "23"
       }
     },
     "BagType": "4",
@@ -8842,8 +8736,7 @@
     "Description": "{equip.Indestructible_magical_armor_made_for_the_elite_stoneborn_c}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "24"
+        "21": "24"
       }
     },
     "BagType": "4",
@@ -8874,8 +8767,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "25"
+        "21": "25"
       }
     },
     "BagType": "4",
@@ -8896,8 +8788,7 @@
     "Description": "{equip.Impenetrable_forceplate_armor_worn_by_the_blackguard_conque}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "26"
+        "21": "26"
       }
     },
     "BagType": "4",
@@ -9260,7 +9151,7 @@
     "DisplayId": "{equip.Agateclaw_Dagger}"
   },
   {
-    "_": "mystical",
+    "_": "\n    \n    \n    \n    \n    mystical\n    \n    \n    \n    \n    \n    \n    \n    \n    \n  ",
     "type": "0xaff",
     "id": "Dagger of Foul Malevolence",
     "Class": "Equipment",
@@ -9373,8 +9264,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "4"
+        "27": "4"
       }
     },
     "BagType": "6",
@@ -11181,8 +11071,7 @@
     "Description": "{equip.A_ring_made_from_the_eye_of_the_Snake_Queen.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "4",
@@ -11203,8 +11092,7 @@
     "Description": "{equip.A_ring_crafted_from_the_faceted_eye_of_an_enormous_spider.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "BagType": "4",
@@ -11226,8 +11114,7 @@
     "Description": "{equip.A_silver_ring_that_buzzes_with_a_faint_magical_hum.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "1"
+        "21": "1"
       }
     },
     "BagType": "1",
@@ -11249,8 +11136,7 @@
     "Description": "{equip.A_spinel_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "1",
@@ -11272,8 +11158,7 @@
     "Description": "{equip.An_onyx_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "3"
+        "21": "3"
       }
     },
     "BagType": "1",
@@ -11295,8 +11180,7 @@
     "Description": "{equip.An_emerald_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "3"
+        "22": "3"
       }
     },
     "BagType": "1",
@@ -11318,8 +11202,7 @@
     "Description": "{equip.A_ruby_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "BagType": "1",
@@ -11341,8 +11224,7 @@
     "Description": "{equip.A_sapphire_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "3"
+        "27": "3"
       }
     },
     "BagType": "1",
@@ -11364,8 +11246,7 @@
     "Description": "{equip.A_citrine_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "BagType": "1",
@@ -11387,8 +11268,7 @@
     "Description": "{equip.A_topaz_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "40"
+        "0": "40"
       }
     },
     "BagType": "1",
@@ -11410,8 +11290,7 @@
     "Description": "{equip.An_amethyst_set_in_a_silver_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "40"
+        "3": "40"
       }
     },
     "BagType": "1",
@@ -11433,8 +11312,7 @@
     "Description": "{equip.A_spinel_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "5"
+        "20": "5"
       }
     },
     "BagType": "2",
@@ -11457,8 +11335,7 @@
     "Description": "{equip.An_onyx_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "5"
+        "21": "5"
       }
     },
     "BagType": "2",
@@ -11481,8 +11358,7 @@
     "Description": "{equip.An_emerald_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "BagType": "2",
@@ -11505,8 +11381,7 @@
     "Description": "{equip.A_ruby_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "5"
+        "26": "5"
       }
     },
     "BagType": "2",
@@ -11529,8 +11404,7 @@
     "Description": "{equip.A_sapphire_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "5"
+        "27": "5"
       }
     },
     "BagType": "2",
@@ -11553,8 +11427,7 @@
     "Description": "{equip.A_citrine_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "5"
+        "28": "5"
       }
     },
     "BagType": "2",
@@ -11577,8 +11450,7 @@
     "Description": "{equip.A_topaz_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "80"
+        "0": "80"
       }
     },
     "BagType": "2",
@@ -11601,8 +11473,7 @@
     "Description": "{equip.An_amethyst_set_in_a_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "80"
+        "3": "80"
       }
     },
     "BagType": "2",
@@ -11625,8 +11496,7 @@
     "Description": "{equip.A_large_spinel_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "6"
+        "20": "6"
       }
     },
     "BagType": "2",
@@ -11649,8 +11519,7 @@
     "Description": "{equip.A_large_onyx_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "BagType": "2",
@@ -11673,8 +11542,7 @@
     "Description": "{equip.A_large_emerald_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "6"
+        "22": "6"
       }
     },
     "BagType": "2",
@@ -11697,8 +11565,7 @@
     "Description": "{equip.A_large_ruby_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "6"
+        "26": "6"
       }
     },
     "BagType": "2",
@@ -11721,8 +11588,7 @@
     "Description": "{equip.A_large_sapphire_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "6"
+        "27": "6"
       }
     },
     "BagType": "2",
@@ -11745,8 +11611,7 @@
     "Description": "{equip.A_large_citrine_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "6"
+        "28": "6"
       }
     },
     "BagType": "2",
@@ -11769,8 +11634,7 @@
     "Description": "{equip.A_large_topaz_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "100"
+        "0": "100"
       }
     },
     "BagType": "2",
@@ -11793,8 +11657,7 @@
     "Description": "{equip.A_large_amethyst_set_in_a_glittering_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "100"
+        "3": "100"
       }
     },
     "BagType": "2",
@@ -11817,8 +11680,7 @@
     "Description": "{equip.A_very_large_spinel_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "7"
+        "20": "7"
       }
     },
     "BagType": "2",
@@ -11841,8 +11703,7 @@
     "Description": "{equip.A_very_large_onyx_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "BagType": "2",
@@ -11865,8 +11726,7 @@
     "Description": "{equip.A_very_large_emerald_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "7"
+        "22": "7"
       }
     },
     "BagType": "2",
@@ -11889,8 +11749,7 @@
     "Description": "{equip.A_very_large_ruby_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "7"
+        "26": "7"
       }
     },
     "BagType": "2",
@@ -11913,8 +11772,7 @@
     "Description": "{equip.A_very_large_sapphire_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "7"
+        "27": "7"
       }
     },
     "BagType": "2",
@@ -11937,8 +11795,7 @@
     "Description": "{equip.A_very_large_citrine_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "7"
+        "28": "7"
       }
     },
     "BagType": "2",
@@ -11961,8 +11818,7 @@
     "Description": "{equip.A_very_large_topaz_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "120"
+        "0": "120"
       }
     },
     "BagType": "2",
@@ -11985,8 +11841,7 @@
     "Description": "{equip.A_very_large_amethyst_set_in_a_dazzling_gold_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "120"
+        "3": "120"
       }
     },
     "BagType": "2",
@@ -12009,8 +11864,7 @@
     "Description": "{equip.A_huge,_flawless_spinel_set_in_a_stunningly_beautiful_gold_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "8"
+        "20": "8"
       }
     },
     "BagType": "4",
@@ -12033,8 +11887,7 @@
     "Description": "{equip.A_huge,_flawless_onyx_set_in_a_stunningly_beautiful_gold_ri}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "BagType": "4",
@@ -12057,8 +11910,7 @@
     "Description": "{equip.A_huge,_flawless_emerald_set_in_a_stunningly_beautiful_gold}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "8"
+        "22": "8"
       }
     },
     "BagType": "4",
@@ -12081,8 +11933,7 @@
     "Description": "{equip.A_huge,_flawless_ruby_set_in_a_stunningly_beautiful_gold_ri}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "8"
+        "26": "8"
       }
     },
     "BagType": "4",
@@ -12105,8 +11956,7 @@
     "Description": "{equip.A_huge,_flawless_sapphire_set_in_a_stunningly_beautiful_gol}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "8"
+        "27": "8"
       }
     },
     "BagType": "4",
@@ -12129,8 +11979,7 @@
     "Description": "{equip.A_huge,_flawless_citrine_set_in_a_stunningly_beautiful_gold}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "8"
+        "28": "8"
       }
     },
     "BagType": "4",
@@ -12153,8 +12002,7 @@
     "Description": "{equip.A_huge,_flawless_topaz_set_in_a_stunningly_beautiful_gold_r}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "140"
+        "0": "140"
       }
     },
     "BagType": "4",
@@ -12177,8 +12025,7 @@
     "Description": "{equip.A_huge,_flawless_amethyst_set_in_a_stunningly_beautiful_gol}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "140"
+        "3": "140"
       }
     },
     "BagType": "4",
@@ -12201,8 +12048,7 @@
     "Description": "{equip.A_huge,_flawless_spinel_set_in_a_stunningly_beautiful_gold_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "9"
+        "20": "9"
       }
     },
     "BagType": "4",
@@ -12225,8 +12071,7 @@
     "Description": "{equip.A_huge,_flawless_onyx_set_in_a_stunningly_beautiful_gold_ri}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "9"
+        "21": "9"
       }
     },
     "BagType": "4",
@@ -12249,8 +12094,7 @@
     "Description": "{equip.A_huge,_flawless_emerald_set_in_a_stunningly_beautiful_gold}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "9"
+        "22": "9"
       }
     },
     "BagType": "4",
@@ -12273,8 +12117,7 @@
     "Description": "{equip.A_huge,_flawless_ruby_set_in_a_stunningly_beautiful_gold_ri}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "9"
+        "26": "9"
       }
     },
     "BagType": "4",
@@ -12297,8 +12140,7 @@
     "Description": "{equip.A_huge,_flawless_sapphire_set_in_a_stunningly_beautiful_gol}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "9"
+        "27": "9"
       }
     },
     "BagType": "4",
@@ -12321,8 +12163,7 @@
     "Description": "{equip.A_huge,_flawless_citrine_set_in_a_stunningly_beautiful_gold}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "9"
+        "28": "9"
       }
     },
     "BagType": "4",
@@ -12345,8 +12186,7 @@
     "Description": "{equip.A_huge,_flawless_topaz_set_in_a_stunningly_beautiful_gold_r}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "180"
+        "0": "180"
       }
     },
     "BagType": "4",
@@ -12369,8 +12209,7 @@
     "Description": "{equip.A_huge,_flawless_amethyst_set_in_a_stunningly_beautiful_gol}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "180"
+        "3": "180"
       }
     },
     "BagType": "4",
@@ -12392,8 +12231,7 @@
     "Description": "{equip.An_eerie_reminder_of_what_lays_in_the_depths_of_the_Shatter}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "6"
+        "28": "6"
       }
     },
     "BagType": "6",
@@ -12415,8 +12253,7 @@
     "Description": "{equip.An_odd_stone,_eminating_a_dark_and_mysterious_energy.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "6"
+        "22": "6"
       }
     },
     "BagType": "6",
@@ -12440,8 +12277,7 @@
     "Description": "{equip.Wearing_it_makes_you_feel_particularly_strong.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "BagType": "6",
@@ -12463,8 +12299,7 @@
     "Description": "{equip.The_malachite_stone_makes_you_feel_at_peace_with_the_land.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "4"
+        "27": "4"
       }
     },
     "BagType": "6",
@@ -12486,8 +12321,7 @@
     "Description": "{equip.The_azule_stone_makes_you_feel_ready_for_any_situation.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "4"
+        "22": "4"
       }
     },
     "BagType": "6",
@@ -12509,8 +12343,7 @@
     "Description": "{equip.The_dolomite_stone_makes_you_feel_able_to_stand_against_any}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "6",
@@ -12718,8 +12551,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -12754,8 +12586,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "Usable": true,
@@ -13270,8 +13101,7 @@
     "Sound": "spell/light_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "4"
+        "22": "4"
       }
     },
     "Usable": true,
@@ -13360,8 +13190,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "3"
+        "22": "3"
       }
     },
     "Usable": true,
@@ -13393,8 +13222,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "Usable": true,
@@ -13427,8 +13255,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "Usable": true,
@@ -13461,8 +13288,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "Usable": true,
@@ -13495,8 +13321,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "Usable": true,
@@ -13528,8 +13353,7 @@
     "Sound": "spell/fire_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "5"
+        "22": "5"
       }
     },
     "Usable": true,
@@ -13561,8 +13385,7 @@
     "Description": "{equip.A_long_woolen_robe_favored_by_students_of_magic.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "2"
+        "21": "2"
       }
     },
     "BagType": "1",
@@ -13584,8 +13407,7 @@
     "Description": "{equip.A_robe_woven_of_rare_yellow_silk.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "3"
+        "21": "3"
       }
     },
     "BagType": "1",
@@ -13607,8 +13429,7 @@
     "Description": "{equip.A_well-made_robe_of_enchanted_blue_silk.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "4"
+        "21": "4"
       }
     },
     "BagType": "1",
@@ -13630,8 +13451,7 @@
     "Description": "{equip.A_magical_robe_of_faintly_glowing_wizardcloth.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "4"
+        "21": "4"
       }
     },
     "BagType": "1",
@@ -13653,8 +13473,7 @@
     "Description": "{equip.A_magical_robe_of_grey_moonsilk.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "BagType": "1",
@@ -13676,8 +13495,7 @@
     "Description": "{equip.An_enchanted_robe_of_dark_moonweave.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "7"
+        "21": "7"
       }
     },
     "BagType": "1",
@@ -13699,8 +13517,7 @@
     "Description": "{equip.A_powerful_robe_of_delicately_embroidered_red_feythread.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "BagType": "2",
@@ -13722,8 +13539,7 @@
     "Description": "{equip.A_silversilk_robe_masterfully_sewn_with_morningdew_spider_t}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "2",
@@ -13746,8 +13562,7 @@
     "Description": "{equip.A_beautiful_and_versatile_robe_of_the_lightest_magethread.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "2",
@@ -13770,8 +13585,7 @@
     "Description": "{equip.A_highly_decorated_robe_of_purple_wizardcloth,_imbued_with_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "4",
@@ -13794,8 +13608,7 @@
     "Description": "{equip.A_robe_of_rarest_moonsilk,_enhanced_long_ago_with_deep_noct}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "4",
@@ -13818,8 +13631,7 @@
     "Description": "{equip.A_brightly_colored_robe_of_metallic_threads,_woven_in_the_a}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "4",
@@ -13842,8 +13654,7 @@
     "Description": "{equip.A_bloodweft_robe_adorned_with_rubies_and_firegarnets,_worn_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "4",
@@ -13874,8 +13685,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "4",
@@ -13896,8 +13706,7 @@
     "Description": "{equip.A_phenomenal_robe_magically_woven_from_fibers_of_sapphire,_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "4",
@@ -13982,8 +13791,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "1"
+        "28": "1"
       }
     },
     "ConditionEffect": {
@@ -14032,8 +13840,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "2"
+        "28": "2"
       }
     },
     "ConditionEffect": {
@@ -14082,8 +13889,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "ConditionEffect": {
@@ -14133,8 +13939,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "4"
+        "28": "4"
       }
     },
     "ConditionEffect": {
@@ -14184,8 +13989,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "5"
+        "28": "5"
       }
     },
     "ConditionEffect": {
@@ -14235,8 +14039,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "ConditionEffect": {
@@ -14283,8 +14086,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "5"
+        "20": "5"
       }
     },
     "ConditionEffect": {
@@ -14316,8 +14118,7 @@
     "Description": "{equip.A_sturdy_helm_used_by_battlefield_sergeants_to_improve_mora}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "2"
+        "21": "2"
       }
     },
     "Usable": true,
@@ -14349,8 +14150,7 @@
     "Description": "{equip.A_bronze-plated_lieutenantAPOSs_helm,_effective_for_invigor}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "3"
+        "21": "3"
       }
     },
     "Usable": true,
@@ -14382,8 +14182,7 @@
     "Description": "{equip.A_captainAPOSs_helm_of_distinctive_black_iron,_capable_of_i}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "5"
+        "21": "5"
       }
     },
     "Usable": true,
@@ -14415,8 +14214,7 @@
     "Description": "{equip.A_majorAPOSs_helm_of_ornate_red_iron,_made_to_arouse_fearle}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "6"
+        "21": "6"
       }
     },
     "Usable": true,
@@ -14449,8 +14247,7 @@
     "Description": "{equip.A_well-made_commanderAPOSs_helm_of_steel_with_silver_filigr}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "Usable": true,
@@ -14483,8 +14280,7 @@
     "Description": "{equip.A_golden_field_marshalAPOSs_helm_with_platinum_detailing_an}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "Usable": true,
@@ -14517,8 +14313,7 @@
     "Description": "{equip.A_steel_and_platinum_helm_of_ancient_design,_worn_by_earthr}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "Usable": true,
@@ -14550,8 +14345,7 @@
     "Description": "{equip.This_helm_was_forged_of_metal_that_fell_from_the_sky.__It_i}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "Usable": true,
@@ -15259,8 +15053,7 @@
     "Description": "{equip.Concentrated,_lethal_venom_of_the_winged_ethereal_baneserpe}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -15452,8 +15245,7 @@
     "Description": "{equip.The_skull_of_a_vampire_lord,_further_desecrated_with_the_de}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -15484,8 +15276,7 @@
     "Description": "{equip.This_skull_glows_with_the_stolen_life_force_of_Shaitan.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "3"
+        "21": "3"
       }
     },
     "Usable": true,
@@ -15682,8 +15473,7 @@
     "Description": "{equip.A_most_effective_magical_trap_used_in_the_titan_wars_to_hob}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -15925,8 +15715,7 @@
     "Description": "{equip.This_orb_of_ancient_bloodstone_has_a_dark_reputation_of_twi}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "Usable": true,
@@ -16072,7 +15861,7 @@
     "DisplayId": "{equip.Green_Drake_Egg}"
   },
   {
-    "_": "Bleeding",
+    "_": "\n    Bleeding\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  ",
     "type": "0xaf3",
     "id": "Yellow Drake Egg",
     "Class": "Equipment",
@@ -16268,8 +16057,7 @@
     "Description": "{equip.A_deep_blue_prism_of_sun_cut_topaz,_used_by_doppelganger_sp}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -16299,8 +16087,7 @@
     "Description": "{equip.This_prism_has_a_deep_flaw_that_causes_it_to_scatter_light_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "Usable": true,
@@ -16525,8 +16312,7 @@
     "Sound": "spell/magic_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -16558,8 +16344,7 @@
     "Resurrects": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -16853,8 +16638,7 @@
     "Description": "{equip.A_ring_crafted_from_the_dangerous_Fire_Coral.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "5"
+        "27": "5"
       }
     },
     "BagType": "4",
@@ -16876,8 +16660,7 @@
     "Description": "{equip.An_ancient_ceremonial_robe_once_worn_by_the_Tlatoani.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "8"
+        "27": "8"
       }
     },
     "BagType": "4",
@@ -16956,8 +16739,7 @@
     "Description": "{equip.A_ring_made_from_a_splinter_of_crystallized_sacrificial_bon}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "BagType": "4",
@@ -16980,8 +16762,7 @@
     "Description": "{equip.Mermaid-made_armor_woven_from_unbreakable_coral_threads.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "16"
+        "21": "16"
       }
     },
     "BagType": "4",
@@ -17082,8 +16863,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "-5"
+        "22": "-5"
       }
     },
     "BagType": "6",
@@ -17110,8 +16890,7 @@
     "Description": "{equip.A_trap_imbued_with_deadly_venom_from_the_coral_of_the_Ocean}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "2"
+        "28": "2"
       }
     },
     "Usable": true,
@@ -17143,8 +16922,7 @@
     "Description": "{equip.A_wand_made_from_a_brilliant_white_cross_designed_to_ward_o}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "4"
+        "26": "4"
       }
     },
     "RateOfFire": "1",
@@ -17178,8 +16956,7 @@
     "Sound": "spell/major_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "4"
+        "26": "4"
       }
     },
     "Usable": true,
@@ -17212,8 +16989,7 @@
     "Sound": "spell/major_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "7"
+        "26": "7"
       }
     },
     "Usable": true,
@@ -17244,8 +17020,7 @@
     "Description": "{equip.An_ornate_robe_worn_by_servants_of_the_faith.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "BagType": "4",
@@ -17267,8 +17042,7 @@
     "Description": "{equip.A_ring_that_symbolizes_divine_might.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "5"
+        "26": "5"
       }
     },
     "FameBonus": "2",
@@ -17421,8 +17195,7 @@
     "Description": "{equip.Super_regalBANG}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "60"
+        "26": "60"
       }
     },
     "BagType": "6",
@@ -17443,8 +17216,7 @@
     "Description": "{equip.Captain_Davy_JonesAPOS_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "4",
@@ -17466,8 +17238,7 @@
     "Description": "{equip.A_ghostly_fabric_from_the_other_side.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "BagType": "4",
@@ -17591,8 +17362,7 @@
     "Description": "{equip.An_American_heroAPOSs_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "1"
+        "21": "1"
       }
     },
     "BagType": "6",
@@ -17638,8 +17408,7 @@
     "Sound": "spell/magic_nova",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "Usable": true,
@@ -17672,8 +17441,7 @@
     "Description": "{equip.An_early_prototype_ring.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "60"
+        "0": "60"
       }
     },
     "BagType": "4",
@@ -17695,8 +17463,7 @@
     "Description": "{equip.A_well-worn_robe_used_for_ScienceBANG}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "6",
@@ -17728,8 +17495,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "4"
+        "28": "4"
       }
     },
     "BagType": "6",
@@ -18006,8 +17772,7 @@
     "Description": "{equip.An_Olympic_gold_medal_in_synchronised_swimming.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "3"
+        "28": "3"
       }
     },
     "FameBonus": "3",
@@ -18029,8 +17794,7 @@
     "Description": "{equip.An_Olympic_silver_medal_in_synchronised_swimming.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "2"
+        "28": "2"
       }
     },
     "FameBonus": "2",
@@ -18052,8 +17816,7 @@
     "Description": "{equip.An_Olympic_bronze_medal_in_synchronised_swimming.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "1"
+        "28": "1"
       }
     },
     "FameBonus": "1",
@@ -19026,8 +18789,7 @@
     "Description": "{equip.A_high-fructose_ring_that_will_give_you_pep,_but_hurt_your_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "10"
+        "22": "10"
       }
     },
     "BagType": "4",
@@ -19072,8 +18834,7 @@
     "Description": "{equip.Reinforced_with_magical_hard_candy_from_the_candy_forest._S}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "30"
+        "21": "30"
       }
     },
     "BagType": "6",
@@ -19395,8 +19156,7 @@
     "MpCost": "5",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "5"
+        "26": "5"
       }
     },
     "Activate": {
@@ -19424,8 +19184,7 @@
     "Description": "{equip.A_foul_poison_harvested_from_the_corpses_of_plague_victims.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "Usable": true,
@@ -19477,8 +19236,7 @@
     "Description": "{equip.A_worn_and_battered_suit_of_armor_embedded_with_a_mystic_ge}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "17"
+        "21": "17"
       }
     },
     "BagType": "6",
@@ -20082,8 +19840,7 @@
     "Description": "{equip.Only_cheaters_wear_this_armor.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "-100"
+        "0": "-100"
       }
     },
     "BagType": "0",
@@ -20104,8 +19861,7 @@
     "Description": "{equip.Only_cheaters_wear_this_robe.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "-100"
+        "0": "-100"
       }
     },
     "BagType": "0",
@@ -20126,8 +19882,7 @@
     "Description": "{equip.Only_cheaters_wear_this_armor.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "-100"
+        "0": "-100"
       }
     },
     "BagType": "0",
@@ -20256,8 +20011,7 @@
     "Description": "{equip.Light_armor_crafted_from_the_hard-as-steel_leafy_scales_of_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "50"
+        "0": "50"
       }
     },
     "BagType": "6",
@@ -20279,8 +20033,7 @@
     "Description": "{equip.A_magic_robe_woven_from_enchanted_threads_of_water_harveste}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "6",
@@ -20302,8 +20055,7 @@
     "Description": "{equip.Battle_armor_made_from_Fire_Dragon_scales,_one_of_the_stron}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "6",
@@ -20878,8 +20630,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "27",
-        "amount": "4"
+        "27": "4"
       }
     },
     "Usable": true,
@@ -21718,8 +21469,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "Usable": true,
@@ -21745,8 +21495,7 @@
     "Description": "{equip.A_ceremonial_robe_worn_by_ritual_leaders_during_the_celebra}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "4"
+        "20": "4"
       }
     },
     "BagType": "4",
@@ -21768,8 +21517,7 @@
     "Description": "{equip.A_ring_forged_by_the_mad_god_in_the_flames_of_the_suns_surf}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "8"
+        "21": "8"
       }
     },
     "BagType": "4",
@@ -22788,8 +22536,7 @@
     "Description": "{equip.A_festive_piece_of_armor,_complete_with_bells._Try_not_to_g}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "FameBonus": "5",
@@ -22853,8 +22600,7 @@
     "Description": "{equip.A_piece_of_heavy_plate_mail_forged_in_the_dungeons_of_OryxA}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "24"
+        "21": "24"
       }
     },
     "BagType": "4",
@@ -22878,8 +22624,7 @@
     "Description": "{equip.Set_with_stones_as_red_as_OryxAPOSs_favorite_Cabernet_Sauvi}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "140"
+        "0": "140"
       }
     },
     "BagType": "4",
@@ -22922,8 +22667,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "12"
+        "21": "12"
       }
     },
     "ConditionEffect": {
@@ -23764,8 +23508,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "6",
@@ -23791,8 +23534,7 @@
     "Description": "{equip.The_skull_still_seems_to_contain_some_of_the_Dark_SpiritAPO}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "22",
-        "amount": "-3"
+        "22": "-3"
       }
     },
     "Usable": true,
@@ -23824,8 +23566,7 @@
     "Description": "{equip.A_ceremonial_garment_worn_by_those_who_whorship_the_god_Geb}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "25"
+        "0": "25"
       }
     },
     "BagType": "4",
@@ -23849,8 +23590,7 @@
     "Description": "{equip.It_is_said_that_the_ring_attunes_itAPOSs_wearer_to_the_eart}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "25"
+        "0": "25"
       }
     },
     "BagType": "4",
@@ -23876,8 +23616,7 @@
     "Sound": "spell/light_heal",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "3"
+        "26": "3"
       }
     },
     "Usable": true,
@@ -23924,8 +23663,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "4",
@@ -23950,8 +23688,7 @@
     "Description": "...finally, I cornered and killed the beast. When I awoke in a cold sweat... I felt youthful, powerful. Thanks to: Norga.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "60"
+        "0": "60"
       }
     },
     "BagType": "4",
@@ -23975,8 +23712,33 @@
     "Description": "As I lifted the stone from its resting place it became readily apparent there was more to it than met the eye...",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "3",
-        "amount": "15"
+        "3": "15"
+      }
+    },
+    "BagType": "4",
+    "FameBonus": "5",
+    "feedPower": "500",
+    "DisplayId": "{equip.Ring_of_the_Covetous_Heart}"
+  },
+  {
+    "type": "0x2361",
+    "id": "Parchment of Vitality",
+    "setType": "0x0004",
+    "setName": "Phylactery Mystic Set",
+    "Class": "Equipment",
+    "Item": true,
+    "Texture": {
+      "File": "lofiObj3",
+      "Index": 1302,
+      "Size": null
+    },
+    "SlotType": "9",
+    "Description": "As I lifted the stone from its resting place it became readily apparent there was more to it than met the eye...",
+    "ActivateOnEquip": {
+      "IncrementStat": {
+        "3": "15",
+        "20": "18",
+        "22": "6"
       }
     },
     "BagType": "4",
@@ -24002,8 +23764,7 @@
     "Sound": "spell/fire_spray",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "Activate": {
@@ -24044,8 +23805,7 @@
     },
     "Activate": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "2"
+        "26": "2"
       }
     },
     "BagType": "4",
@@ -24070,8 +23830,7 @@
     "Description": "{equip.This_colorful_platemail_is_enchanted_with_special_protectio}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "40"
+        "0": "40"
       }
     },
     "BagType": "4",
@@ -24095,8 +23854,7 @@
     "Description": "{equip.Many_do_not_realize_how_powerful_a_kind_wish_is.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "10"
+        "0": "10"
       }
     },
     "BagType": "4",
@@ -24122,8 +23880,7 @@
     "Sound": "spell/fire_spray",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "Activate": {
@@ -24173,8 +23930,7 @@
     "ArcGap": "10",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -24210,8 +23966,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "26",
-        "amount": "4"
+        "26": "4"
       }
     },
     "BagType": "4",
@@ -24236,8 +23991,7 @@
     "Description": "{equip.He_does_not_kill_his_victims._He_becomes_them.}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "25"
+        "0": "25"
       }
     },
     "BagType": "4",
@@ -24290,8 +24044,7 @@
     "Description": "{equip.Though_the_whispers_can_be_heard_in_your_head,_theyAPOSre_n}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "4"
+        "28": "4"
       }
     },
     "BagType": "4",
@@ -24326,8 +24079,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "10"
+        "0": "10"
       }
     },
     "BagType": "4",
@@ -24354,8 +24106,7 @@
     "Description": "{equip.On_simple_observation_this_robe_has_known_many_owners._All_}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "10"
+        "0": "10"
       }
     },
     "BagType": "4",
@@ -24388,8 +24139,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "10"
+        "0": "10"
       }
     },
     "Usable": true,
@@ -24417,8 +24167,7 @@
     "Description": "{equip.The_dolomite_stone_makes_you_feel_able_to_stand_against_any}",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "10"
+        "0": "10"
       }
     },
     "BagType": "4",
@@ -24808,8 +24557,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "20"
+        "0": "20"
       }
     },
     "Usable": true,
@@ -24837,8 +24585,7 @@
     "Description": "To handle the dark powers that surround this equipment you must have a lot of wisdom.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "15",
@@ -24862,8 +24609,7 @@
     "Description": "Be very careful when using this magical ring, because you can feel able to do many things that previously did not.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "0",
-        "amount": "135"
+        "0": "135"
       }
     },
     "BagType": "15",
@@ -24926,8 +24672,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "4"
+        "21": "4"
       }
     },
     "Usable": true,
@@ -24952,11 +24697,10 @@
     },
     "SlotType": "6",
     "Description": "Armor made from the ribcage of a skeleton",
-    "ExtraTooltipData": "",
+    "ExtraTooltipData": "\n          ",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "13"
+        "21": "13"
       }
     },
     "BagType": "12",
@@ -24978,8 +24722,7 @@
     "Description": "An amulet cursed by all who haunt the ether.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "5"
+        "28": "5"
       }
     },
     "BagType": "12",
@@ -25052,8 +24795,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25104,8 +24846,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25153,8 +24894,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25203,8 +24943,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25253,8 +24992,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25303,8 +25041,7 @@
     "Umbral": true,
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "1"
+        "20": "1"
       }
     },
     "BagType": "4",
@@ -25334,8 +25071,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "28",
-        "amount": "6"
+        "28": "6"
       }
     },
     "BagType": "6",
@@ -25366,8 +25102,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "FameBonus": "5",
@@ -25434,8 +25169,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "3"
+        "20": "3"
       }
     },
     "BagType": "6",
@@ -25484,8 +25218,7 @@
     },
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "14"
+        "21": "14"
       }
     },
     "ConditionEffect": {
@@ -25560,8 +25293,7 @@
     "Description": "Wake armor of the forgotten kingdom.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "20",
-        "amount": "2"
+        "20": "2"
       }
     },
     "BagType": "6",
@@ -25617,8 +25349,7 @@
     "Description": "Helmet wake of the forgotten kingdom.",
     "ActivateOnEquip": {
       "IncrementStat": {
-        "stat": "21",
-        "amount": "10"
+        "21": "10"
       }
     },
     "Usable": true,
